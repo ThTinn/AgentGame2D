@@ -1,0 +1,19 @@
+.hud {
+    flex-grow: 1;
+    padding: 24px;
+    align-items: center;
+}
+
+.hud__coins {
+    align-self: flex-start;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+.hud__win {
+    margin-top: 120px;
+    font-size: 40px;
+    color: rgb(255, 215, 64);
+    -unity-font-style: bold;
+}
