@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2160787d7aa08742bf3c6887cc6c5bb, type: 3}
+  m_Name: HeadHumanMaleLight
+  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcPart
+  _slot: 1
+  _sortingOrder: 100
+  _displayName: Human Male (light)
+  _sheets:
+  - Name: idle
+    Frames:
+    - {fileID: 1482026076, guid: 9fa2cc6874f6618458d07d8ceb24cfa0, type: 3}
+    - {fileID: -414087106, guid: 9fa2cc6874f6618458d07d8ceb24cfa0, type: 3}
+  - Name: jump
+    Frames:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1250470681, guid: dac76583ada46c444b045ab8e2ff3bdb, type: 3}
+    - {fileID: -899138603, guid: dac76583ada46c444b045ab8e2ff3bdb, type: 3}
+  - Name: run
+    Frames:
+    - {fileID: 562549984, guid: ff992c3ef7015a5468db2e5a209ab4f9, type: 3}
+    - {fileID: 1749204128, guid: ff992c3ef7015a5468db2e5a209ab4f9, type: 3}
+    - {fileID: -306332793, guid: ff992c3ef7015a5468db2e5a209ab4f9, type: 3}
+    - {fileID: 1889571219, guid: ff992c3ef7015a5468db2e5a209ab4f9, type: 3}
+    - {fileID: -344521717, guid: ff992c3ef7015a5468db2e5a209ab4f9, type: 3}
+    - {fileID: 2092885092, guid: ff992c3ef7015a5468db2e5a209ab4f9, type: 3}
+    - {fileID: -1496023221, guid: ff992c3ef7015a5468db2e5a209ab4f9, type: 3}
+    - {fileID: 1403250569, guid: ff992c3ef7015a5468db2e5a209ab4f9, type: 3}
+  - Name: walk
+    Frames:
+    - {fileID: 0}
+    - {fileID: 1852342558, guid: 4f667bf12761099429a61210fd4fe30f, type: 3}
+    - {fileID: 697663959, guid: 4f667bf12761099429a61210fd4fe30f, type: 3}
+    - {fileID: 726626726, guid: 4f667bf12761099429a61210fd4fe30f, type: 3}
+    - {fileID: -566666656, guid: 4f667bf12761099429a61210fd4fe30f, type: 3}
+    - {fileID: 27448147, guid: 4f667bf12761099429a61210fd4fe30f, type: 3}
+    - {fileID: 2490785, guid: 4f667bf12761099429a61210fd4fe30f, type: 3}
+    - {fileID: 1250630556, guid: 4f667bf12761099429a61210fd4fe30f, type: 3}
+    - {fileID: 1846510442, guid: 4f667bf12761099429a61210fd4fe30f, type: 3}

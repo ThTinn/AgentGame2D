@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2160787d7aa08742bf3c6887cc6c5bb, type: 3}
+  m_Name: HairBuzzcutBlack
+  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcPart
+  _slot: 3
+  _sortingOrder: 120
+  _displayName: Buzzcut (black)
+  _sheets:
+  - Name: idle
+    Frames:
+    - {fileID: -604756111, guid: 4b95df9b9e4bd8b4eb3797379cd0f4f2, type: 3}
+    - {fileID: 52643938, guid: 4b95df9b9e4bd8b4eb3797379cd0f4f2, type: 3}
+  - Name: jump
+    Frames:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: -600424174, guid: 1c41eb356ca848a4c82845af3fbc701d, type: 3}
+    - {fileID: -1460756427, guid: 1c41eb356ca848a4c82845af3fbc701d, type: 3}
+  - Name: run
+    Frames:
+    - {fileID: 754919706, guid: f729b90f6b6c60e478c22f120c183d8a, type: 3}
+    - {fileID: -1912855147, guid: f729b90f6b6c60e478c22f120c183d8a, type: 3}
+    - {fileID: 1543430601, guid: f729b90f6b6c60e478c22f120c183d8a, type: 3}
+    - {fileID: -1043784666, guid: f729b90f6b6c60e478c22f120c183d8a, type: 3}
+    - {fileID: 1034717170, guid: f729b90f6b6c60e478c22f120c183d8a, type: 3}
+    - {fileID: 1348988988, guid: f729b90f6b6c60e478c22f120c183d8a, type: 3}
+    - {fileID: 1166211582, guid: f729b90f6b6c60e478c22f120c183d8a, type: 3}
+    - {fileID: -1282407075, guid: f729b90f6b6c60e478c22f120c183d8a, type: 3}
+  - Name: walk
+    Frames:
+    - {fileID: 0}
+    - {fileID: 1790424429, guid: 09cf8257ae0f46f4582e2d4c1563e2bf, type: 3}
+    - {fileID: -1326741914, guid: 09cf8257ae0f46f4582e2d4c1563e2bf, type: 3}
+    - {fileID: -1203784450, guid: 09cf8257ae0f46f4582e2d4c1563e2bf, type: 3}
+    - {fileID: -461864515, guid: 09cf8257ae0f46f4582e2d4c1563e2bf, type: 3}
+    - {fileID: 259593249, guid: 09cf8257ae0f46f4582e2d4c1563e2bf, type: 3}
+    - {fileID: -677353497, guid: 09cf8257ae0f46f4582e2d4c1563e2bf, type: 3}
+    - {fileID: -364397491, guid: 09cf8257ae0f46f4582e2d4c1563e2bf, type: 3}
+    - {fileID: 427429052, guid: 09cf8257ae0f46f4582e2d4c1563e2bf, type: 3}

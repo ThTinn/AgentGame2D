@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="Wardrobe.uss" />
+    <ui:VisualElement name="wardrobe" class="wardrobe" picking-mode="Ignore">
+        <ui:Button name="wardrobe-toggle" class="wardrobe__toggle" text="Outfit ▾" focusable="false" />
+        <ui:VisualElement name="wardrobe-rows" class="wardrobe__rows" />
+    </ui:VisualElement>
+</ui:UXML>

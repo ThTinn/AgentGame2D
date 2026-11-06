@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2160787d7aa08742bf3c6887cc6c5bb, type: 3}
+  m_Name: PantsNavy
+  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcPart
+  _slot: 5
+  _sortingOrder: 20
+  _displayName: Pants (navy)
+  _sheets:
+  - Name: idle
+    Frames:
+    - {fileID: 1749108440, guid: e81c0b42e4161e347a7e8bbc58c6ce93, type: 3}
+    - {fileID: 1951501065, guid: e81c0b42e4161e347a7e8bbc58c6ce93, type: 3}
+  - Name: jump
+    Frames:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1113883776, guid: 05e1c463e9edabf47b571d6fbb37cb4c, type: 3}
+    - {fileID: -537245341, guid: 05e1c463e9edabf47b571d6fbb37cb4c, type: 3}
+  - Name: run
+    Frames:
+    - {fileID: 439978313, guid: 4a328e2c686cbff458fc58f5c13ca7ff, type: 3}
+    - {fileID: 44588341, guid: 4a328e2c686cbff458fc58f5c13ca7ff, type: 3}
+    - {fileID: 454191082, guid: 4a328e2c686cbff458fc58f5c13ca7ff, type: 3}
+    - {fileID: 230740740, guid: 4a328e2c686cbff458fc58f5c13ca7ff, type: 3}
+    - {fileID: 223936012, guid: 4a328e2c686cbff458fc58f5c13ca7ff, type: 3}
+    - {fileID: -385229554, guid: 4a328e2c686cbff458fc58f5c13ca7ff, type: 3}
+    - {fileID: 1330855452, guid: 4a328e2c686cbff458fc58f5c13ca7ff, type: 3}
+    - {fileID: -1517639012, guid: 4a328e2c686cbff458fc58f5c13ca7ff, type: 3}
+  - Name: walk
+    Frames:
+    - {fileID: 0}
+    - {fileID: -1974779481, guid: 03ac6677f27e6694eb49cd78804e9fd2, type: 3}
+    - {fileID: -915979639, guid: 03ac6677f27e6694eb49cd78804e9fd2, type: 3}
+    - {fileID: 551610621, guid: 03ac6677f27e6694eb49cd78804e9fd2, type: 3}
+    - {fileID: 119402317, guid: 03ac6677f27e6694eb49cd78804e9fd2, type: 3}
+    - {fileID: -692681591, guid: 03ac6677f27e6694eb49cd78804e9fd2, type: 3}
+    - {fileID: 1727861829, guid: 03ac6677f27e6694eb49cd78804e9fd2, type: 3}
+    - {fileID: -1366318539, guid: 03ac6677f27e6694eb49cd78804e9fd2, type: 3}
+    - {fileID: 945019464, guid: 03ac6677f27e6694eb49cd78804e9fd2, type: 3}

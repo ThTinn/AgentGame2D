@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2160787d7aa08742bf3c6887cc6c5bb, type: 3}
+  m_Name: HatLeatherCapBrown
+  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcPart
+  _slot: 7
+  _sortingOrder: 130
+  _displayName: Leather Cap (brown)
+  _sheets:
+  - Name: idle
+    Frames:
+    - {fileID: 207537643, guid: b8b840074ee474e4da24410ab671944b, type: 3}
+    - {fileID: 864748975, guid: b8b840074ee474e4da24410ab671944b, type: 3}
+  - Name: jump
+    Frames:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: -1621634371, guid: 368d113b5c813314ea0fa1e15e7f707c, type: 3}
+    - {fileID: 1356604074, guid: 368d113b5c813314ea0fa1e15e7f707c, type: 3}
+  - Name: run
+    Frames:
+    - {fileID: -1172402976, guid: 059e7044beaa2fc4398e038596cbd71e, type: 3}
+    - {fileID: -1302871886, guid: 059e7044beaa2fc4398e038596cbd71e, type: 3}
+    - {fileID: 146544103, guid: 059e7044beaa2fc4398e038596cbd71e, type: 3}
+    - {fileID: -1949755329, guid: 059e7044beaa2fc4398e038596cbd71e, type: 3}
+    - {fileID: 1352087235, guid: 059e7044beaa2fc4398e038596cbd71e, type: 3}
+    - {fileID: 1837256386, guid: 059e7044beaa2fc4398e038596cbd71e, type: 3}
+    - {fileID: 1472842218, guid: 059e7044beaa2fc4398e038596cbd71e, type: 3}
+    - {fileID: 680462852, guid: 059e7044beaa2fc4398e038596cbd71e, type: 3}
+  - Name: walk
+    Frames:
+    - {fileID: 0}
+    - {fileID: 2010990090, guid: eb17fad7cd9c7d348a6aa3a89d325c51, type: 3}
+    - {fileID: 1698993766, guid: eb17fad7cd9c7d348a6aa3a89d325c51, type: 3}
+    - {fileID: -1746643153, guid: eb17fad7cd9c7d348a6aa3a89d325c51, type: 3}
+    - {fileID: -1944369898, guid: eb17fad7cd9c7d348a6aa3a89d325c51, type: 3}
+    - {fileID: -1831187625, guid: eb17fad7cd9c7d348a6aa3a89d325c51, type: 3}
+    - {fileID: -428809884, guid: eb17fad7cd9c7d348a6aa3a89d325c51, type: 3}
+    - {fileID: 1126691718, guid: eb17fad7cd9c7d348a6aa3a89d325c51, type: 3}
+    - {fileID: -249490991, guid: eb17fad7cd9c7d348a6aa3a89d325c51, type: 3}

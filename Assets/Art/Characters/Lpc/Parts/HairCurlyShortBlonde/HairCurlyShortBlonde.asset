@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2160787d7aa08742bf3c6887cc6c5bb, type: 3}
+  m_Name: HairCurlyShortBlonde
+  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcPart
+  _slot: 3
+  _sortingOrder: 120
+  _displayName: Curly short (blonde)
+  _sheets:
+  - Name: idle
+    Frames:
+    - {fileID: -1337839709, guid: 650870b34fd4ab64093f3eb25c6e4c3f, type: 3}
+    - {fileID: 1996930761, guid: 650870b34fd4ab64093f3eb25c6e4c3f, type: 3}
+  - Name: jump
+    Frames:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: -165242388, guid: 90640446d45347e4eb71932e7ccb5402, type: 3}
+    - {fileID: -1141726333, guid: 90640446d45347e4eb71932e7ccb5402, type: 3}
+  - Name: run
+    Frames:
+    - {fileID: 1447437825, guid: feaf9c61ebca54a4881b3ba95d637db9, type: 3}
+    - {fileID: 1673873590, guid: feaf9c61ebca54a4881b3ba95d637db9, type: 3}
+    - {fileID: -762835317, guid: feaf9c61ebca54a4881b3ba95d637db9, type: 3}
+    - {fileID: 946129497, guid: feaf9c61ebca54a4881b3ba95d637db9, type: 3}
+    - {fileID: 1765393343, guid: feaf9c61ebca54a4881b3ba95d637db9, type: 3}
+    - {fileID: -1810033118, guid: feaf9c61ebca54a4881b3ba95d637db9, type: 3}
+    - {fileID: 1259114308, guid: feaf9c61ebca54a4881b3ba95d637db9, type: 3}
+    - {fileID: 1232085493, guid: feaf9c61ebca54a4881b3ba95d637db9, type: 3}
+  - Name: walk
+    Frames:
+    - {fileID: 0}
+    - {fileID: 689483347, guid: 6baa8a8a9e482c747861afb8cbf439b9, type: 3}
+    - {fileID: -458018847, guid: 6baa8a8a9e482c747861afb8cbf439b9, type: 3}
+    - {fileID: -2046752292, guid: 6baa8a8a9e482c747861afb8cbf439b9, type: 3}
+    - {fileID: 1805945226, guid: 6baa8a8a9e482c747861afb8cbf439b9, type: 3}
+    - {fileID: -1623123765, guid: 6baa8a8a9e482c747861afb8cbf439b9, type: 3}
+    - {fileID: 1475032824, guid: 6baa8a8a9e482c747861afb8cbf439b9, type: 3}
+    - {fileID: -105957402, guid: 6baa8a8a9e482c747861afb8cbf439b9, type: 3}
+    - {fileID: 782899108, guid: 6baa8a8a9e482c747861afb8cbf439b9, type: 3}

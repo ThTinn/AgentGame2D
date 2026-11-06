@@ -1,0 +1,3770 @@
+fileFormatVersion: 2
+guid: 92fb3fc60289c504899ebf1bc81fb56c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8730153315651732741
+    second: plasma-explosion-gold_0
+  - first:
+      213: -7487820051907102709
+    second: plasma-explosion-gold_1
+  - first:
+      213: 2460273452858242126
+    second: plasma-explosion-gold_2
+  - first:
+      213: -1038095177121310674
+    second: plasma-explosion-gold_3
+  - first:
+      213: 8931420019866880654
+    second: plasma-explosion-gold_4
+  - first:
+      213: 6070131128929876151
+    second: plasma-explosion-gold_5
+  - first:
+      213: 5427698465583919617
+    second: plasma-explosion-gold_6
+  - first:
+      213: -988415505663697230
+    second: plasma-explosion-gold_7
+  - first:
+      213: 3040994675498750138
+    second: plasma-explosion-gold_8
+  - first:
+      213: -8662955896488494343
+    second: plasma-explosion-gold_9
+  - first:
+      213: -8008473529474872509
+    second: plasma-explosion-gold_10
+  - first:
+      213: -3340698241909005237
+    second: plasma-explosion-gold_11
+  - first:
+      213: 2267832415164487773
+    second: plasma-explosion-gold_12
+  - first:
+      213: -6221043094248665049
+    second: plasma-explosion-gold_13
+  - first:
+      213: -7433530457802076137
+    second: plasma-explosion-gold_14
+  - first:
+      213: -4822248129736226170
+    second: plasma-explosion-gold_15
+  - first:
+      213: -4586882569518554700
+    second: plasma-explosion-gold_16
+  - first:
+      213: 575175502307761397
+    second: plasma-explosion-gold_17
+  - first:
+      213: -5403807597378819082
+    second: plasma-explosion-gold_18
+  - first:
+      213: -4025620500587496894
+    second: plasma-explosion-gold_19
+  - first:
+      213: 5431181619150619708
+    second: plasma-explosion-gold_20
+  - first:
+      213: 6685518658114223586
+    second: plasma-explosion-gold_21
+  - first:
+      213: -8876296424594543201
+    second: plasma-explosion-gold_22
+  - first:
+      213: 1479681502461698926
+    second: plasma-explosion-gold_23
+  - first:
+      213: 3477685452668049104
+    second: plasma-explosion-gold_24
+  - first:
+      213: -7538343691791707300
+    second: plasma-explosion-gold_25
+  - first:
+      213: 3228321192847784465
+    second: plasma-explosion-gold_26
+  - first:
+      213: -9009138391572919505
+    second: plasma-explosion-gold_27
+  - first:
+      213: 8345374361586735772
+    second: plasma-explosion-gold_28
+  - first:
+      213: 4056025816271540545
+    second: plasma-explosion-gold_29
+  - first:
+      213: 2237505624211664779
+    second: plasma-explosion-gold_30
+  - first:
+      213: 4754208941161877968
+    second: plasma-explosion-gold_31
+  - first:
+      213: 2816590395746989041
+    second: plasma-explosion-gold_32
+  - first:
+      213: 6000369177194849517
+    second: plasma-explosion-gold_33
+  - first:
+      213: -6514279999866443335
+    second: plasma-explosion-gold_34
+  - first:
+      213: -3139933041127102054
+    second: plasma-explosion-gold_35
+  - first:
+      213: 439968266770585060
+    second: plasma-explosion-gold_36
+  - first:
+      213: 5326872355445435888
+    second: plasma-explosion-gold_37
+  - first:
+      213: -4647665061422297194
+    second: plasma-explosion-gold_38
+  - first:
+      213: 1232839770191629386
+    second: plasma-explosion-gold_39
+  - first:
+      213: 269564046173733228
+    second: plasma-explosion-gold_40
+  - first:
+      213: -8445441544912185783
+    second: plasma-explosion-gold_41
+  - first:
+      213: 7085450062147018571
+    second: plasma-explosion-gold_42
+  - first:
+      213: -3097027135847995081
+    second: plasma-explosion-gold_43
+  - first:
+      213: -2884167226725868936
+    second: plasma-explosion-gold_44
+  - first:
+      213: -1367560240106135984
+    second: plasma-explosion-gold_45
+  - first:
+      213: 4171292747009160720
+    second: plasma-explosion-gold_46
+  - first:
+      213: 6388801335494718603
+    second: plasma-explosion-gold_47
+  - first:
+      213: -5049381965642701959
+    second: plasma-explosion-gold_48
+  - first:
+      213: 8340577170797751778
+    second: plasma-explosion-gold_49
+  - first:
+      213: 8056305606879821636
+    second: plasma-explosion-gold_50
+  - first:
+      213: 1343763971038552674
+    second: plasma-explosion-gold_51
+  - first:
+      213: -3388632130891024735
+    second: plasma-explosion-gold_52
+  - first:
+      213: 749743803954783298
+    second: plasma-explosion-gold_53
+  - first:
+      213: 2184974743259101537
+    second: plasma-explosion-gold_54
+  - first:
+      213: -7021994426699016503
+    second: plasma-explosion-gold_55
+  - first:
+      213: -394055374372986591
+    second: plasma-explosion-gold_56
+  - first:
+      213: -5992386815312484384
+    second: plasma-explosion-gold_57
+  - first:
+      213: 4388147414832470137
+    second: plasma-explosion-gold_58
+  - first:
+      213: -3776848487912031425
+    second: plasma-explosion-gold_59
+  - first:
+      213: -3073369897887132168
+    second: plasma-explosion-gold_60
+  - first:
+      213: 2230223460703579384
+    second: plasma-explosion-gold_61
+  - first:
+      213: 235233338604912277
+    second: plasma-explosion-gold_62
+  - first:
+      213: 8292980321925501644
+    second: plasma-explosion-gold_63
+  - first:
+      213: -7135256268242407479
+    second: plasma-explosion-gold_64
+  - first:
+      213: -7354748552590456360
+    second: plasma-explosion-gold_65
+  - first:
+      213: 2322812228478736414
+    second: plasma-explosion-gold_66
+  - first:
+      213: 5274192457732009720
+    second: plasma-explosion-gold_67
+  - first:
+      213: 130868629062838922
+    second: plasma-explosion-gold_68
+  - first:
+      213: -5719460388835365531
+    second: plasma-explosion-gold_69
+  - first:
+      213: 5500279226896827315
+    second: plasma-explosion-gold_70
+  - first:
+      213: 5151646163146411266
+    second: plasma-explosion-gold_71
+  - first:
+      213: -595288812029609081
+    second: plasma-explosion-gold_72
+  - first:
+      213: -8501188507677820627
+    second: plasma-explosion-gold_73
+  - first:
+      213: -2259722365688908787
+    second: plasma-explosion-gold_74
+  - first:
+      213: 1118618132754251937
+    second: plasma-explosion-gold_75
+  - first:
+      213: 5101819241914162969
+    second: plasma-explosion-gold_76
+  - first:
+      213: 3302043804383474416
+    second: plasma-explosion-gold_77
+  - first:
+      213: -4922803796149571310
+    second: plasma-explosion-gold_78
+  - first:
+      213: 5235694591774143729
+    second: plasma-explosion-gold_79
+  - first:
+      213: 2151739049441738004
+    second: plasma-explosion-gold_80
+  - first:
+      213: 7262283573212709229
+    second: plasma-explosion-gold_81
+  - first:
+      213: 116239829163873489
+    second: plasma-explosion-gold_82
+  - first:
+      213: -6172736975596632876
+    second: plasma-explosion-gold_83
+  - first:
+      213: 4460551015662281085
+    second: plasma-explosion-gold_84
+  - first:
+      213: -3170386000340676668
+    second: plasma-explosion-gold_85
+  - first:
+      213: 2161644287365604026
+    second: plasma-explosion-gold_86
+  - first:
+      213: -19244815398585866
+    second: plasma-explosion-gold_87
+  - first:
+      213: 749511014368297863
+    second: plasma-explosion-gold_88
+  - first:
+      213: -5608631593520659195
+    second: plasma-explosion-gold_89
+  - first:
+      213: -8872279585550129540
+    second: plasma-explosion-gold_90
+  - first:
+      213: 4981076600905460597
+    second: plasma-explosion-gold_91
+  - first:
+      213: -3365598115611049898
+    second: plasma-explosion-gold_92
+  - first:
+      213: 1391906899231377434
+    second: plasma-explosion-gold_93
+  - first:
+      213: -8522951535120947912
+    second: plasma-explosion-gold_94
+  - first:
+      213: 197093760322356556
+    second: plasma-explosion-gold_95
+  - first:
+      213: -2274140791858737014
+    second: plasma-explosion-gold_96
+  - first:
+      213: 6275543587767717656
+    second: plasma-explosion-gold_97
+  - first:
+      213: -2954500099741504733
+    second: plasma-explosion-gold_98
+  - first:
+      213: 3422786712487155932
+    second: plasma-explosion-gold_99
+  - first:
+      213: -6590920268216623149
+    second: plasma-explosion-gold_100
+  - first:
+      213: 6850720405537142510
+    second: plasma-explosion-gold_101
+  - first:
+      213: 8823408323234996588
+    second: plasma-explosion-gold_102
+  - first:
+      213: 4914207539432476245
+    second: plasma-explosion-gold_103
+  - first:
+      213: -3950410745388921474
+    second: plasma-explosion-gold_104
+  - first:
+      213: 4115301816763224872
+    second: plasma-explosion-gold_105
+  - first:
+      213: 8465511899894804866
+    second: plasma-explosion-gold_106
+  - first:
+      213: 8048267951372213126
+    second: plasma-explosion-gold_107
+  - first:
+      213: -8734644651968566165
+    second: plasma-explosion-gold_108
+  - first:
+      213: 8170284066125559058
+    second: plasma-explosion-gold_109
+  - first:
+      213: 6367025478342086646
+    second: plasma-explosion-gold_110
+  - first:
+      213: 302257089814840797
+    second: plasma-explosion-gold_111
+  - first:
+      213: -5738702725179671886
+    second: plasma-explosion-gold_112
+  - first:
+      213: 7933993403714860741
+    second: plasma-explosion-gold_113
+  - first:
+      213: -2562286496098547686
+    second: plasma-explosion-gold_114
+  - first:
+      213: -9154499483089054075
+    second: plasma-explosion-gold_115
+  - first:
+      213: 5177266555420987073
+    second: plasma-explosion-gold_116
+  - first:
+      213: -2159242391715514933
+    second: plasma-explosion-gold_117
+  - first:
+      213: 3058296953788021646
+    second: plasma-explosion-gold_118
+  - first:
+      213: 1909527715308477849
+    second: plasma-explosion-gold_119
+  - first:
+      213: -916465174266971333
+    second: plasma-explosion-gold_120
+  - first:
+      213: -8788101846573775114
+    second: plasma-explosion-gold_121
+  - first:
+      213: -3786291364298698924
+    second: plasma-explosion-gold_122
+  - first:
+      213: -8996486539040630622
+    second: plasma-explosion-gold_123
+  - first:
+      213: -7955574604308343476
+    second: plasma-explosion-gold_124
+  - first:
+      213: -9063668306271895828
+    second: plasma-explosion-gold_125
+  - first:
+      213: 7169875011750136256
+    second: plasma-explosion-gold_126
+  - first:
+      213: 3483555713732482790
+    second: plasma-explosion-gold_127
+  - first:
+      213: 2701281066844047607
+    second: plasma-explosion-gold_128
+  - first:
+      213: 5975769110110519642
+    second: plasma-explosion-gold_129
+  - first:
+      213: -7736099670153970365
+    second: plasma-explosion-gold_130
+  - first:
+      213: -1354041941749612312
+    second: plasma-explosion-gold_131
+  - first:
+      213: 8149990267717653417
+    second: plasma-explosion-gold_132
+  - first:
+      213: 8250959939938151414
+    second: plasma-explosion-gold_133
+  - first:
+      213: 7883912849413633868
+    second: plasma-explosion-gold_134
+  - first:
+      213: -7580020293697734107
+    second: plasma-explosion-gold_135
+  - first:
+      213: 1710689008293045726
+    second: plasma-explosion-gold_136
+  - first:
+      213: -2753826228753607638
+    second: plasma-explosion-gold_137
+  - first:
+      213: -5561924638485183285
+    second: plasma-explosion-gold_138
+  - first:
+      213: -2089174001472781934
+    second: plasma-explosion-gold_139
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plasma-explosion-gold_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1409
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505ce1eaf2cb72970800000000000000
+      internalID: 8730153315651732741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1412
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08b700c55be51890800000000000000
+      internalID: -7487820051907102709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1414
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4470f79ba5a42220800000000000000
+      internalID: 2460273452858242126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_3
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1417
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2853acbfe1f791f0800000000000000
+      internalID: -1038095177121310674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_4
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1420
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a4af7ff27c2fb70800000000000000
+      internalID: 8931420019866880654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_5
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1421
+        width: 158
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8f7efc9107d3450800000000000000
+      internalID: 6070131128929876151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_6
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1415
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102ff0d4ffe035b40800000000000000
+      internalID: 5427698465583919617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1210
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be5d6e95517842f0800000000000000
+      internalID: -988415505663697230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_8
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1206
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab015f4ab88c33a20800000000000000
+      internalID: 3040994675498750138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_9
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1205
+        width: 190
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa7deca28ff6c780800000000000000
+      internalID: -8662955896488494343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1345
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b088271cf2cd090800000000000000
+      internalID: -8008473529474872509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1204
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44ed3516a473a1d0800000000000000
+      internalID: -3340698241909005237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_12
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1350
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58defbe095f87f10800000000000000
+      internalID: 2267832415164487773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_13
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1204
+        width: 194
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72059ea244a6aa9a0800000000000000
+      internalID: -6221043094248665049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_14
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1204
+        width: 207
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71019a3ee6bc6d890800000000000000
+      internalID: -7433530457802076137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_15
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1236
+        width: 175
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ac74810eee31db0800000000000000
+      internalID: -4822248129736226170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_16
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1346
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b16a69fa9e1850c0800000000000000
+      internalID: -4586882569518554700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_17
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1334
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc9f8a621f6bf700800000000000000
+      internalID: 575175502307761397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_18
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1288
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbadabee91d105b0800000000000000
+      internalID: -5403807597378819082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_19
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1304
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ab3fdbb7f1228c0800000000000000
+      internalID: -4025620500587496894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_20
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 1288
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c348a1038ee6f5b40800000000000000
+      internalID: 5431181619150619708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_21
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1282
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edf4245ccbb7cc50800000000000000
+      internalID: 6685518658114223586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_22
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1280
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9de8f23e6f01d480800000000000000
+      internalID: -8876296424594543201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_23
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1259
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6322fe9c72e88410800000000000000
+      internalID: 1479681502461698926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_24
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1247
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d692de5e78334030800000000000000
+      internalID: 3477685452668049104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1035
+        width: 105
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53d2f72a5c626790800000000000000
+      internalID: -7538343691791707300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_26
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1145
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11abe80450d4dcc20800000000000000
+      internalID: 3228321192847784465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b46f58d5c19f280800000000000000
+      internalID: -9009138391572919505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_28
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1034
+        width: 157
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a970424c9b0d370800000000000000
+      internalID: 8345374361586735772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_29
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141ddaa7df5e94830800000000000000
+      internalID: 4056025816271540545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_30
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1034
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f231aa2873d0f10800000000000000
+      internalID: 2237505624211664779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_31
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1034
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d190f5d7d75af140800000000000000
+      internalID: 4754208941161877968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_32
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 1034
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3b640ca0a861720800000000000000
+      internalID: 2816590395746989041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_33
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1034
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4e6efa9f7954350800000000000000
+      internalID: 6000369177194849517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_34
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1072
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b96780bad0a895a0800000000000000
+      internalID: -6514279999866443335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_35
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1062
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a996b110987bc64d0800000000000000
+      internalID: -3139933041127102054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_36
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1065
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e51e4dbec41b1600800000000000000
+      internalID: 439968266770585060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_37
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1074
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd6c2e2f2adce940800000000000000
+      internalID: 5326872355445435888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_38
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1040
+        width: 92
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f0ee2404d208fb0800000000000000
+      internalID: -4647665061422297194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_39
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1044
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c0f373d3deb1110800000000000000
+      internalID: 1232839770191629386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_40
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1048
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c610760621fadb300800000000000000
+      internalID: 269564046173733228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_41
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 838
+        width: 94
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946de2829a3cbca80800000000000000
+      internalID: -8445441544912185783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 837
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fda0c8a43945260800000000000000
+      internalID: 7085450062147018571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_43
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 836
+        width: 96
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739e80c8a362505d0800000000000000
+      internalID: -3097027135847995081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_44
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 860
+        width: 99
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a5e22303169f7d0800000000000000
+      internalID: -2884167226725868936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_45
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 925
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e968f0533750de0800000000000000
+      internalID: -1367560240106135984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_46
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 929
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016f4a727a863e930800000000000000
+      internalID: 4171292747009160720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_47
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 916
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8434be17f499a850800000000000000
+      internalID: 6388801335494718603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_48
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 926
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9736a92eaddfce9b0800000000000000
+      internalID: -5049381965642701959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_49
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 916
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ede12f1fbeafb370800000000000000
+      internalID: 8340577170797751778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_50
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 927
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f3f0ce34fbdcf60800000000000000
+      internalID: 8056305606879821636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_51
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 915
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262a8bb463206a210800000000000000
+      internalID: 1343763971038552674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_52
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 928
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6f3cbd70929f0d0800000000000000
+      internalID: -3388632130891024735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_53
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 912
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24466437400a76a00800000000000000
+      internalID: 749743803954783298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_54
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 912
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169b827d3f6925e10800000000000000
+      internalID: 2184974743259101537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_55
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 834
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c615d5e54ddc8e90800000000000000
+      internalID: -7021994426699016503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_56
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 877
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1212aac89b8088af0800000000000000
+      internalID: -394055374372986591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_57
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 881
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7a094c0f3c6dca0800000000000000
+      internalID: -5992386815312484384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_58
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 889
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978532b03d4d5ec30800000000000000
+      internalID: 4388147414832470137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_59
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 891
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b38839f40f59bc0800000000000000
+      internalID: -3776848487912031425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_60
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 864
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f51f0d7c523955d0800000000000000
+      internalID: -3073369897887132168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_61
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 836
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcaaf8db6853fe10800000000000000
+      internalID: 2230223460703579384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_62
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 867
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59effd2a977b34300800000000000000
+      internalID: 235233338604912277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_63
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 864
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc29ca92aa5961370800000000000000
+      internalID: 8292980321925501644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_64
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 860
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf280e6a3a7afc90800000000000000
+      internalID: -7135256268242407479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_65
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 866
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d90786982faee990800000000000000
+      internalID: -7354748552590456360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_66
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 861
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18986e3a694c3020800000000000000
+      internalID: 2322812228478736414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_67
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 833
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe2920b812b13940800000000000000
+      internalID: 5274192457732009720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_68
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 858
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a68832350f0d100800000000000000
+      internalID: 130868629062838922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_69
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 860
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dec80541560a0b0800000000000000
+      internalID: -5719460388835365531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_70
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 832
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b345aca0dae45c40800000000000000
+      internalID: 5500279226896827315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_71
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 857
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d88da04e25e7740800000000000000
+      internalID: 5151646163146411266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_72
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 715
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bf53cbafb1db7f0800000000000000
+      internalID: -595288812029609081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_73
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 721
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29fa3fe716b50a80800000000000000
+      internalID: -8501188507677820627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_74
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 715
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d047b1e1b7ad3a0e0800000000000000
+      internalID: -2259722365688908787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_75
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 721
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0c02ad341268f00800000000000000
+      internalID: 1118618132754251937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_76
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 719
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fdb86e19d4dc640800000000000000
+      internalID: 5101819241914162969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_77
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 721
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f27e09585733dd20800000000000000
+      internalID: 3302043804383474416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_78
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 691
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2117f8f8700beabb0800000000000000
+      internalID: -4922803796149571310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_79
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 693
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4b127cd7ce8a840800000000000000
+      internalID: 5235694591774143729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_80
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 691
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dbf4bd3438cdd10800000000000000
+      internalID: 2151739049441738004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_81
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 703
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d618f7fbe60d8c460800000000000000
+      internalID: 7262283573212709229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_82
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 691
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4901e3287fc9100800000000000000
+      internalID: 116239829163873489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_83
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 692
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4c4addc68065aa0800000000000000
+      internalID: -6172736975596632876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_84
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 691
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71ee07048f07ed30800000000000000
+      internalID: 4460551015662281085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_85
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 720
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf82d8eab68004d0800000000000000
+      internalID: -3170386000340676668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_86
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 691
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2ed27c604bffd10800000000000000
+      internalID: 2161644287365604026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_87
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 687
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9366e31f0abbff0800000000000000
+      internalID: -19244815398585866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_88
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 688
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7834aa6eb4cc66a00800000000000000
+      internalID: 749511014368297863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_89
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 691
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5050b2018432a22b0800000000000000
+      internalID: -5608631593520659195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_90
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 695
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76a55b69b45fd480800000000000000
+      internalID: -8872279585550129540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_91
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 694
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57beaf317c6502540800000000000000
+      internalID: 4981076600905460597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_92
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 691
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6508746785efa41d0800000000000000
+      internalID: -3365598115611049898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_93
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 687
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a180a1143fb015310800000000000000
+      internalID: 1391906899231377434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_94
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 654
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835ee3f3cb468b980800000000000000
+      internalID: -8522951535120947912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_95
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 654
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45c5731bb73cb200800000000000000
+      internalID: 197093760322356556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_96
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 659
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80d80caff0a070e0800000000000000
+      internalID: -2274140791858737014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_97
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 657
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f0061d4a5371750800000000000000
+      internalID: 6275543587767717656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_98
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 670
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b2d0a10d18ff6d0800000000000000
+      internalID: -2954500099741504733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_99
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 654
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd859bb516e208f20800000000000000
+      internalID: 3422786712487155932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_100
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 656
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df960eafe85884a0800000000000000
+      internalID: -6590920268216623149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_101
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 669
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6bf8389e5a21f50800000000000000
+      internalID: 6850720405537142510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_102
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 629
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61a5ae1f1b037a70800000000000000
+      internalID: 8823408323234996588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_103
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 655
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e4b6478b5c23440800000000000000
+      internalID: 4914207539432476245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_104
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 628
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d05347b525d29c0800000000000000
+      internalID: -3950410745388921474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_105
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 654
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82311b3d23d7c1930800000000000000
+      internalID: 4115301816763224872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_106
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 668
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2817213883a8b7570800000000000000
+      internalID: 8465511899894804866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_107
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 632
+        width: 60
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b93ba6f0131bf60800000000000000
+      internalID: 8048267951372213126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_108
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 630
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ce52897fe48c680800000000000000
+      internalID: -8734644651968566165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_109
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 658
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215b273f11ea26170800000000000000
+      internalID: 8170284066125559058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_110
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 657
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff017840f73c5850800000000000000
+      internalID: 6367025478342086646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_111
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 654
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5c145c835d13400800000000000000
+      internalID: 302257089814840797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_112
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 657
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba7912c6480c50b0800000000000000
+      internalID: -5738702725179671886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_113
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 627
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c677bee6f43b1e60800000000000000
+      internalID: 7933993403714860741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_114
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 656
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a180443e10ee07cd0800000000000000
+      internalID: -2562286496098547686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_115
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 422
+        width: 30
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586daf5093fa4f080800000000000000
+      internalID: -9154499483089054075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_116
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 659
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cec067708859d740800000000000000
+      internalID: 5177266555420987073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_117
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 625
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5f4d12c74d802e0800000000000000
+      internalID: -2159242391715514933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_118
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 535
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bb13c30e0417a20800000000000000
+      internalID: 3058296953788021646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_119
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 536
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d99b70751008a10800000000000000
+      internalID: 1909527715308477849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_120
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 536
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bfcc697cf0843f0800000000000000
+      internalID: -916465174266971333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_121
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 491
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f604019ee36a0680800000000000000
+      internalID: -8788101846573775114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_122
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 491
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fc8d69014647bc0800000000000000
+      internalID: -3786291364298698924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_123
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 491
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a856ed782f062380800000000000000
+      internalID: -8996486539040630622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_124
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 502
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45151e3c0f189190800000000000000
+      internalID: -7955574604308343476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_125
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 491
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee72b262b1673280800000000000000
+      internalID: -9063668306271895828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_126
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 508
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c90157e553808360800000000000000
+      internalID: 7169875011750136256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_127
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 491
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e69e480773185030800000000000000
+      internalID: 3483555713732482790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_128
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 422
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f84abb71d0ec7520800000000000000
+      internalID: 2701281066844047607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_129
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 468
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51c3eb38523ee250800000000000000
+      internalID: 5975769110110519642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_130
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 467
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34db47d665ad3a490800000000000000
+      internalID: -7736099670153970365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_131
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 467
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0c80b270a753de0800000000000000
+      internalID: -1354041941749612312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_132
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 422
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3933ec7f49a1170800000000000000
+      internalID: 8149990267717653417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_133
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 458
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbedf3995c418270800000000000000
+      internalID: 8250959939938151414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_134
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 220
+        width: 26
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47ff6d37f8496d60800000000000000
+      internalID: 7883912849413633868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_135
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 454
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52af4eb14bb5ec690800000000000000
+      internalID: -7580020293697734107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_136
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 220
+        width: 18
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5e874e6969db710800000000000000
+      internalID: 1710689008293045726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_137
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 458
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24dcf5a2a178c9d0800000000000000
+      internalID: -2753826228753607638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_138
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 424
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc40997720310d2b0800000000000000
+      internalID: -5561924638485183285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plasma-explosion-gold_139
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 457
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291cb388053c103e0800000000000000
+      internalID: -2089174001472781934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      plasma-explosion-gold_0: 8730153315651732741
+      plasma-explosion-gold_1: -7487820051907102709
+      plasma-explosion-gold_10: -8008473529474872509
+      plasma-explosion-gold_100: -6590920268216623149
+      plasma-explosion-gold_101: 6850720405537142510
+      plasma-explosion-gold_102: 8823408323234996588
+      plasma-explosion-gold_103: 4914207539432476245
+      plasma-explosion-gold_104: -3950410745388921474
+      plasma-explosion-gold_105: 4115301816763224872
+      plasma-explosion-gold_106: 8465511899894804866
+      plasma-explosion-gold_107: 8048267951372213126
+      plasma-explosion-gold_108: -8734644651968566165
+      plasma-explosion-gold_109: 8170284066125559058
+      plasma-explosion-gold_11: -3340698241909005237
+      plasma-explosion-gold_110: 6367025478342086646
+      plasma-explosion-gold_111: 302257089814840797
+      plasma-explosion-gold_112: -5738702725179671886
+      plasma-explosion-gold_113: 7933993403714860741
+      plasma-explosion-gold_114: -2562286496098547686
+      plasma-explosion-gold_115: -9154499483089054075
+      plasma-explosion-gold_116: 5177266555420987073
+      plasma-explosion-gold_117: -2159242391715514933
+      plasma-explosion-gold_118: 3058296953788021646
+      plasma-explosion-gold_119: 1909527715308477849
+      plasma-explosion-gold_12: 2267832415164487773
+      plasma-explosion-gold_120: -916465174266971333
+      plasma-explosion-gold_121: -8788101846573775114
+      plasma-explosion-gold_122: -3786291364298698924
+      plasma-explosion-gold_123: -8996486539040630622
+      plasma-explosion-gold_124: -7955574604308343476
+      plasma-explosion-gold_125: -9063668306271895828
+      plasma-explosion-gold_126: 7169875011750136256
+      plasma-explosion-gold_127: 3483555713732482790
+      plasma-explosion-gold_128: 2701281066844047607
+      plasma-explosion-gold_129: 5975769110110519642
+      plasma-explosion-gold_13: -6221043094248665049
+      plasma-explosion-gold_130: -7736099670153970365
+      plasma-explosion-gold_131: -1354041941749612312
+      plasma-explosion-gold_132: 8149990267717653417
+      plasma-explosion-gold_133: 8250959939938151414
+      plasma-explosion-gold_134: 7883912849413633868
+      plasma-explosion-gold_135: -7580020293697734107
+      plasma-explosion-gold_136: 1710689008293045726
+      plasma-explosion-gold_137: -2753826228753607638
+      plasma-explosion-gold_138: -5561924638485183285
+      plasma-explosion-gold_139: -2089174001472781934
+      plasma-explosion-gold_14: -7433530457802076137
+      plasma-explosion-gold_15: -4822248129736226170
+      plasma-explosion-gold_16: -4586882569518554700
+      plasma-explosion-gold_17: 575175502307761397
+      plasma-explosion-gold_18: -5403807597378819082
+      plasma-explosion-gold_19: -4025620500587496894
+      plasma-explosion-gold_2: 2460273452858242126
+      plasma-explosion-gold_20: 5431181619150619708
+      plasma-explosion-gold_21: 6685518658114223586
+      plasma-explosion-gold_22: -8876296424594543201
+      plasma-explosion-gold_23: 1479681502461698926
+      plasma-explosion-gold_24: 3477685452668049104
+      plasma-explosion-gold_25: -7538343691791707300
+      plasma-explosion-gold_26: 3228321192847784465
+      plasma-explosion-gold_27: -9009138391572919505
+      plasma-explosion-gold_28: 8345374361586735772
+      plasma-explosion-gold_29: 4056025816271540545
+      plasma-explosion-gold_3: -1038095177121310674
+      plasma-explosion-gold_30: 2237505624211664779
+      plasma-explosion-gold_31: 4754208941161877968
+      plasma-explosion-gold_32: 2816590395746989041
+      plasma-explosion-gold_33: 6000369177194849517
+      plasma-explosion-gold_34: -6514279999866443335
+      plasma-explosion-gold_35: -3139933041127102054
+      plasma-explosion-gold_36: 439968266770585060
+      plasma-explosion-gold_37: 5326872355445435888
+      plasma-explosion-gold_38: -4647665061422297194
+      plasma-explosion-gold_39: 1232839770191629386
+      plasma-explosion-gold_4: 8931420019866880654
+      plasma-explosion-gold_40: 269564046173733228
+      plasma-explosion-gold_41: -8445441544912185783
+      plasma-explosion-gold_42: 7085450062147018571
+      plasma-explosion-gold_43: -3097027135847995081
+      plasma-explosion-gold_44: -2884167226725868936
+      plasma-explosion-gold_45: -1367560240106135984
+      plasma-explosion-gold_46: 4171292747009160720
+      plasma-explosion-gold_47: 6388801335494718603
+      plasma-explosion-gold_48: -5049381965642701959
+      plasma-explosion-gold_49: 8340577170797751778
+      plasma-explosion-gold_5: 6070131128929876151
+      plasma-explosion-gold_50: 8056305606879821636
+      plasma-explosion-gold_51: 1343763971038552674
+      plasma-explosion-gold_52: -3388632130891024735
+      plasma-explosion-gold_53: 749743803954783298
+      plasma-explosion-gold_54: 2184974743259101537
+      plasma-explosion-gold_55: -7021994426699016503
+      plasma-explosion-gold_56: -394055374372986591
+      plasma-explosion-gold_57: -5992386815312484384
+      plasma-explosion-gold_58: 4388147414832470137
+      plasma-explosion-gold_59: -3776848487912031425
+      plasma-explosion-gold_6: 5427698465583919617
+      plasma-explosion-gold_60: -3073369897887132168
+      plasma-explosion-gold_61: 2230223460703579384
+      plasma-explosion-gold_62: 235233338604912277
+      plasma-explosion-gold_63: 8292980321925501644
+      plasma-explosion-gold_64: -7135256268242407479
+      plasma-explosion-gold_65: -7354748552590456360
+      plasma-explosion-gold_66: 2322812228478736414
+      plasma-explosion-gold_67: 5274192457732009720
+      plasma-explosion-gold_68: 130868629062838922
+      plasma-explosion-gold_69: -5719460388835365531
+      plasma-explosion-gold_7: -988415505663697230
+      plasma-explosion-gold_70: 5500279226896827315
+      plasma-explosion-gold_71: 5151646163146411266
+      plasma-explosion-gold_72: -595288812029609081
+      plasma-explosion-gold_73: -8501188507677820627
+      plasma-explosion-gold_74: -2259722365688908787
+      plasma-explosion-gold_75: 1118618132754251937
+      plasma-explosion-gold_76: 5101819241914162969
+      plasma-explosion-gold_77: 3302043804383474416
+      plasma-explosion-gold_78: -4922803796149571310
+      plasma-explosion-gold_79: 5235694591774143729
+      plasma-explosion-gold_8: 3040994675498750138
+      plasma-explosion-gold_80: 2151739049441738004
+      plasma-explosion-gold_81: 7262283573212709229
+      plasma-explosion-gold_82: 116239829163873489
+      plasma-explosion-gold_83: -6172736975596632876
+      plasma-explosion-gold_84: 4460551015662281085
+      plasma-explosion-gold_85: -3170386000340676668
+      plasma-explosion-gold_86: 2161644287365604026
+      plasma-explosion-gold_87: -19244815398585866
+      plasma-explosion-gold_88: 749511014368297863
+      plasma-explosion-gold_89: -5608631593520659195
+      plasma-explosion-gold_9: -8662955896488494343
+      plasma-explosion-gold_90: -8872279585550129540
+      plasma-explosion-gold_91: 4981076600905460597
+      plasma-explosion-gold_92: -3365598115611049898
+      plasma-explosion-gold_93: 1391906899231377434
+      plasma-explosion-gold_94: -8522951535120947912
+      plasma-explosion-gold_95: 197093760322356556
+      plasma-explosion-gold_96: -2274140791858737014
+      plasma-explosion-gold_97: 6275543587767717656
+      plasma-explosion-gold_98: -2954500099741504733
+      plasma-explosion-gold_99: 3422786712487155932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

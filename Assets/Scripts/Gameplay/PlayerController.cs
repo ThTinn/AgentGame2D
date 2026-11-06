@@ -23,6 +23,9 @@ namespace CoinHop.Gameplay
         private float _moveInput;
         private bool _jumpQueued;
 
+        /// <summary>Whether the player stood on ground at the last physics step.</summary>
+        public bool IsGrounded { get; private set; }
+
         private void Awake()
         {
             _body = GetComponent<Rigidbody2D>();
@@ -53,9 +56,10 @@ namespace CoinHop.Gameplay
                 return;
             }
 
+            IsGrounded = CheckGrounded();
             var velocity = _body.linearVelocity;
             velocity.x = _moveInput * _config.MoveSpeed;
-            if (_jumpQueued && IsGrounded()) velocity.y = _config.JumpVelocity;
+            if (_jumpQueued && IsGrounded) velocity.y = _config.JumpVelocity;
             _jumpQueued = false;
             _body.linearVelocity = velocity;
         }
@@ -68,7 +72,7 @@ namespace CoinHop.Gameplay
             _body.simulated = false;
         }
 
-        private bool IsGrounded()
+        private bool CheckGrounded()
         {
             return _collider.Cast(Vector2.down, _groundFilter, _groundHits, _config.GroundCheckDistance) > 0;
         }

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2160787d7aa08742bf3c6887cc6c5bb, type: 3}
+  m_Name: TShirtRed
+  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcPart
+  _slot: 4
+  _sortingOrder: 35
+  _displayName: TShirt (red)
+  _sheets:
+  - Name: idle
+    Frames:
+    - {fileID: 1190267894, guid: ad1842333b29aa943b6453326883b60a, type: 3}
+    - {fileID: -421572068, guid: ad1842333b29aa943b6453326883b60a, type: 3}
+  - Name: jump
+    Frames:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: -1949273686, guid: 4f29b8b046654ea4ea09e986362a0fe8, type: 3}
+    - {fileID: 621004661, guid: 4f29b8b046654ea4ea09e986362a0fe8, type: 3}
+  - Name: run
+    Frames:
+    - {fileID: -869296125, guid: 9f2dd67c223caa041934fd8a05367d02, type: 3}
+    - {fileID: -1644702979, guid: 9f2dd67c223caa041934fd8a05367d02, type: 3}
+    - {fileID: 1106958433, guid: 9f2dd67c223caa041934fd8a05367d02, type: 3}
+    - {fileID: -2073840759, guid: 9f2dd67c223caa041934fd8a05367d02, type: 3}
+    - {fileID: 786956172, guid: 9f2dd67c223caa041934fd8a05367d02, type: 3}
+    - {fileID: 1574768818, guid: 9f2dd67c223caa041934fd8a05367d02, type: 3}
+    - {fileID: 537916925, guid: 9f2dd67c223caa041934fd8a05367d02, type: 3}
+    - {fileID: 1140506294, guid: 9f2dd67c223caa041934fd8a05367d02, type: 3}
+  - Name: walk
+    Frames:
+    - {fileID: 0}
+    - {fileID: -1763433372, guid: 41f1597667cb45548a69cf1f23e4fa0f, type: 3}
+    - {fileID: 99232088, guid: 41f1597667cb45548a69cf1f23e4fa0f, type: 3}
+    - {fileID: -649645934, guid: 41f1597667cb45548a69cf1f23e4fa0f, type: 3}
+    - {fileID: -537698429, guid: 41f1597667cb45548a69cf1f23e4fa0f, type: 3}
+    - {fileID: -49741257, guid: 41f1597667cb45548a69cf1f23e4fa0f, type: 3}
+    - {fileID: -1272419845, guid: 41f1597667cb45548a69cf1f23e4fa0f, type: 3}
+    - {fileID: 1798044694, guid: 41f1597667cb45548a69cf1f23e4fa0f, type: 3}
+    - {fileID: -703193109, guid: 41f1597667cb45548a69cf1f23e4fa0f, type: 3}

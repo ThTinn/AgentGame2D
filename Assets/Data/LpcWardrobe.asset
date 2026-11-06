@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a8f481f6333d342834a09a0a695e3e, type: 3}
+  m_Name: LpcWardrobe
+  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcWardrobeCatalog
+  Parts:
+  - {fileID: 11400000, guid: bf420c80fb8bf304cb2df8af5f549703, type: 2}
+  - {fileID: 11400000, guid: 7fefc2b007f282a49a2a3790a4642409, type: 2}
+  - {fileID: 11400000, guid: 1c6def355923cb44faa0033d36545ba8, type: 2}
+  - {fileID: 11400000, guid: d29b1cec59e47e042b05efca342a9636, type: 2}
+  - {fileID: 11400000, guid: 69aff2f2ede521d4297a9d07e755411c, type: 2}
+  - {fileID: 11400000, guid: 9d2ae8f2c47d0d14db78e697ce791efa, type: 2}
+  - {fileID: 11400000, guid: 52fdf159fc932ee41978a14805e03c34, type: 2}
+  - {fileID: 11400000, guid: 9cc213242e5529e4a9e6bbaac7eced7f, type: 2}
+  - {fileID: 11400000, guid: 4a81918bf23f8fb4c8e4a3f01c05f3b1, type: 2}
+  - {fileID: 11400000, guid: ff980b77af5c8f549936886adbe55847, type: 2}
+  - {fileID: 11400000, guid: c2cb31bd51acd0d4e90b0121d6cfd8f9, type: 2}
+  - {fileID: 11400000, guid: aa5de0d84b7abb94d952322745b4a8b1, type: 2}
+  - {fileID: 11400000, guid: 83a630f7c86ff3e449e7bfcd05c4c8aa, type: 2}
+  - {fileID: 11400000, guid: a5e516eaa07ed8745bcb073e6120ea1b, type: 2}
+  - {fileID: 11400000, guid: 2e2185f7fc15cab44a0b35846534506f, type: 2}
+  - {fileID: 11400000, guid: c354d223557a4934988ba540e88efa43, type: 2}
+  - {fileID: 11400000, guid: bd9ad1c9b29684948868eee167e532e7, type: 2}
+  OptionalSlots: 07000000

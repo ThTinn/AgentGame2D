@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2160787d7aa08742bf3c6887cc6c5bb, type: 3}
+  m_Name: BodyLight
+  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcPart
+  _slot: 0
+  _sortingOrder: 10
+  _displayName: Body Color (light)
+  _sheets:
+  - Name: idle
+    Frames:
+    - {fileID: 1469957441, guid: faf2a580fcf52734885bd2e0f1594c1c, type: 3}
+    - {fileID: 1666602908, guid: faf2a580fcf52734885bd2e0f1594c1c, type: 3}
+  - Name: jump
+    Frames:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1379813343, guid: a1b4f36dfd6f8364da3cd957f3330440, type: 3}
+    - {fileID: 732488780, guid: a1b4f36dfd6f8364da3cd957f3330440, type: 3}
+  - Name: run
+    Frames:
+    - {fileID: 501176032, guid: 7656cb16d983cde41b0ee0c778676979, type: 3}
+    - {fileID: 1782645883, guid: 7656cb16d983cde41b0ee0c778676979, type: 3}
+    - {fileID: -1955014942, guid: 7656cb16d983cde41b0ee0c778676979, type: 3}
+    - {fileID: 774088749, guid: 7656cb16d983cde41b0ee0c778676979, type: 3}
+    - {fileID: -1165048334, guid: 7656cb16d983cde41b0ee0c778676979, type: 3}
+    - {fileID: -1039438622, guid: 7656cb16d983cde41b0ee0c778676979, type: 3}
+    - {fileID: 642382988, guid: 7656cb16d983cde41b0ee0c778676979, type: 3}
+    - {fileID: 242296152, guid: 7656cb16d983cde41b0ee0c778676979, type: 3}
+  - Name: walk
+    Frames:
+    - {fileID: 0}
+    - {fileID: -712561442, guid: cbc476b674625d84d90f5b114934c27d, type: 3}
+    - {fileID: 837537300, guid: cbc476b674625d84d90f5b114934c27d, type: 3}
+    - {fileID: 107245533, guid: cbc476b674625d84d90f5b114934c27d, type: 3}
+    - {fileID: 6641441, guid: cbc476b674625d84d90f5b114934c27d, type: 3}
+    - {fileID: -31386350, guid: cbc476b674625d84d90f5b114934c27d, type: 3}
+    - {fileID: -1547008473, guid: cbc476b674625d84d90f5b114934c27d, type: 3}
+    - {fileID: 1399332789, guid: cbc476b674625d84d90f5b114934c27d, type: 3}
+    - {fileID: 1632084425, guid: cbc476b674625d84d90f5b114934c27d, type: 3}

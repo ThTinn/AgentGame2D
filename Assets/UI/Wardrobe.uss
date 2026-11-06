@@ -1,0 +1,50 @@
+.wardrobe {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    min-width: 320px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: rgba(20, 20, 28, 0.82);
+}
+
+.wardrobe__toggle {
+    margin: 0 0 6px 0;
+    font-size: 18px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+    color: rgb(255, 215, 64);
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.wardrobe__rows--hidden {
+    display: none;
+}
+
+.wardrobe__row {
+    flex-direction: row;
+    align-items: center;
+    margin: 2px 0;
+}
+
+.wardrobe__slot {
+    width: 64px;
+    font-size: 15px;
+    color: rgb(170, 170, 190);
+}
+
+.wardrobe__part {
+    flex-grow: 1;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+}
+
+.wardrobe__step {
+    width: 32px;
+    height: 28px;
+    margin: 0 4px;
+    font-size: 16px;
+    -unity-font-style: bold;
+}
