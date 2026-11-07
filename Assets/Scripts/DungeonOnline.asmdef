@@ -2,7 +2,12 @@
     "name": "DungeonOnline",
     "rootNamespace": "DungeonOnline",
     "references": [
-        "Unity.InputSystem"
+        "Unity.InputSystem",
+        "Core.Data",
+        "Core.UI",
+        "NetKit",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

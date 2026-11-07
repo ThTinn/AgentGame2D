@@ -1,10 +1,10 @@
 #!/bin/sh
 # Bien dich va chay server mau. Tham so: thu muc du lieu, cong.
 cd "$(dirname "$0")" || exit 1
-DATA="${1:-../Builds/ServerData}"
+DATA="${1:-data}"
 PORT="${2:-18888}"
 if [ ! -f "$DATA/manifest.csv" ]; then
-    echo "Khong thay $DATA/manifest.csv. Trong Unity chay Tools/Core/Export Server Package truoc."
+    echo "Khong thay $DATA/manifest.csv."
     exit 1
 fi
 mkdir -p bin

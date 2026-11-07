@@ -1,6 +1,7 @@
 package game.db;
 
 import java.sql.*;
+import java.util.*;
 import java.util.function.IntFunction;
 import game.account.Account;
 import static game.db.Database.*;
@@ -8,8 +9,44 @@ import static game.db.Database.*;
 /**
  * Tài khoản và hồ sơ người chơi trong MySQL. Không gọi {@link #find} / {@link #create} khi giữ World.LOCK: MySQL chậm chỉ
  * được làm chậm đăng nhập, không làm chậm người đang chơi.
+ *
+ * <p>Chế độ tạm không MySQL ({@link #useMemory}): tài khoản và hồ sơ giữ trong RAM, mất khi tắt server. Dùng để chạy thử
+ * luồng game khi chưa cài MySQL, không dùng khi có người chơi thật.
  */
 public class AccountStore {
+    // chế độ RAM: khóa là tên viết thường (không phân biệt hoa thường, vẫn phân biệt dấu như MySQL)
+    static boolean memory;
+    static final Map<String, Account> memoryAccounts = new HashMap<>();
+    static int memoryNextId = 1001;
+
+    /** Bật chế độ RAM, gọi trước mọi hàm khác. Sau đó không hàm nào đụng tới MySQL. */
+    public static void useMemory() {
+        memory = true;
+    }
+
+    /** Đang ở chế độ RAM (không MySQL) không. */
+    public static boolean inMemory() {
+        return memory;
+    }
+
+    /** Bản sao của tài khoản trong RAM: người gọi sửa Account không làm đổi bản lưu. */
+    static Account copy(Account a) {
+        Account c = new Account();
+        c.id = a.id;
+        c.name = a.name;
+        c.rounds = a.rounds;
+        c.salt = a.salt;
+        c.hash = a.hash;
+        c.profile = a.profile;
+        c.map = a.map;
+        c.x = a.x;
+        c.z = a.z;
+        return c;
+    }
+
+    static String memoryKey(String name) {
+        return name.toLowerCase(Locale.ROOT);
+    }
     // id người chơi bắt đầu từ 1001. Tên so không phân biệt hoa thường nhưng phân biệt dấu (Tín khác Tin).
     // profile để MEDIUMTEXT, không dùng kiểu JSON: MySQL sẽ sắp xếp lại khóa, client đọc lại nguyên văn
     static final String[] SCHEMA = {
@@ -43,6 +80,7 @@ public class AccountStore {
 
     /** Tạo bảng nếu chưa có. Lỗi thì ném ra: server không chạy khi không có database. */
     public static void createTables() throws Failure {
+        if (memory) return;
         call(() -> {
             try (Statement s = connection().createStatement()) {
                 for (String sql : SCHEMA) s.execute(sql);
@@ -53,6 +91,12 @@ public class AccountStore {
 
     /** Tài khoản theo tên kèm hồ sơ và vị trí cuối, null khi chưa có. */
     public static Account find(String name) throws Failure {
+        if (memory) {
+            synchronized (memoryAccounts) {
+                Account a = memoryAccounts.get(memoryKey(name));
+                return a == null ? null : copy(a);
+            }
+        }
         return call(() -> {
             try (PreparedStatement s = connection().prepareStatement(SELECT_ACCOUNT)) {
                 s.setString(1, name);
@@ -83,6 +127,7 @@ public class AccountStore {
      * bị kết nối khác lấy mất.
      */
     public static Account create(String name, int rounds, byte[] salt, byte[] hash, IntFunction<String> profileFor) throws Failure {
+        if (memory) return createInMemory(name, rounds, salt, hash, profileFor);
         return call(() -> {
             Connection c = connection();
             c.setAutoCommit(false);
@@ -117,6 +162,23 @@ public class AccountStore {
         });
     }
 
+    /** Như {@link #create} ở chế độ RAM. Tên đã có thì trả null. */
+    static Account createInMemory(String name, int rounds, byte[] salt, byte[] hash, IntFunction<String> profileFor) {
+        synchronized (memoryAccounts) {
+            if (memoryAccounts.containsKey(memoryKey(name))) return null;
+            Account a = new Account();
+            a.id = memoryNextId++;
+            a.name = name;
+            a.rounds = rounds;
+            a.salt = salt;
+            a.hash = hash;
+            a.map = -1;
+            a.profile = profileFor.apply(a.id);
+            memoryAccounts.put(memoryKey(name), a);
+            return copy(a);
+        }
+    }
+
     /** Thêm hàng accounts, trả id MySQL vừa cấp. */
     static int insertAccount(Connection c, Account a) throws SQLException {
         try (PreparedStatement s = c.prepareStatement(INSERT_ACCOUNT, Statement.RETURN_GENERATED_KEYS)) {
@@ -134,6 +196,7 @@ public class AccountStore {
 
     /** Ghi nền thời điểm đăng nhập cuối. */
     public static void touchLogin(int id) {
+        if (memory) return;
         later(() -> {
             try (PreparedStatement s = connection().prepareStatement(TOUCH_LOGIN)) {
                 s.setInt(1, id);
@@ -145,6 +208,18 @@ public class AccountStore {
 
     /** Ghi nền hồ sơ (JSON) và map, vị trí hiện tại của người chơi. */
     public static void savePlayer(int id, String profile, int map, int x, int z) {
+        if (memory) {
+            synchronized (memoryAccounts) {
+                for (Account a : memoryAccounts.values())
+                    if (a.id == id) {
+                        a.profile = profile;
+                        a.map = map;
+                        a.x = x;
+                        a.z = z;
+                    }
+            }
+            return;
+        }
         later(() -> {
             try (PreparedStatement s = connection().prepareStatement(SAVE_PLAYER)) {
                 s.setString(1, profile);

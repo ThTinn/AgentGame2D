@@ -68,7 +68,8 @@ public class Zones {
     /** MAP_TRAVEL: đi tới chỗ xuất hiện của map khác (bảng chọn map). */
     static void travel(Player p, int mapId) throws IOException {
         if (mapId == p.map) return;
-        if (mapIds.contains(mapId)) enterMap(p, mapId, spawnX, spawnZ);
+        int[] spawn = spawnOf(mapId);
+        if (mapIds.contains(mapId)) enterMap(p, mapId, spawn[0], spawn[1]);
         else p.conn.toast("Không có map " + mapId + ".");
     }
 
@@ -148,8 +149,8 @@ public class Zones {
         int mobId = 1;
         for (Camp c : list)
             for (int i = 0; i < c.count; i++) {
-                double angle = i * Math.PI * 2 / Math.max(1, c.count - 1);
-                double ring = i == 0 ? 0 : c.radius * 0.45;
+                // map 2D: rải đều theo trục x trong bãi, đứng cùng độ cao z của tâm bãi
+                double spread = c.count <= 1 ? 0 : (i / (double) (c.count - 1) * 2 - 1) * c.radius * 0.6;
                 Mob m = new Mob();
                 m.id = mobId++;
                 m.template = c.template;
@@ -159,8 +160,8 @@ public class Zones {
                 m.campX = c.x / 100.0;
                 m.campZ = c.z / 100.0;
                 m.radius = c.radius / 100.0;
-                m.x = m.homeX = (c.x + Math.cos(angle) * ring) / 100;
-                m.z = m.homeZ = (c.z + Math.sin(angle) * ring) / 100;
+                m.x = m.homeX = (c.x + spread) / 100;
+                m.z = m.homeZ = c.z / 100.0;
                 m.nextWander = World.now() + ThreadLocalRandom.current().nextDouble(3, 8);
                 map.mobs.add(m);
             }

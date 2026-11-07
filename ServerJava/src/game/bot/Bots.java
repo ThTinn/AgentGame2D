@@ -47,10 +47,10 @@ public class Bots {
             Account a = Accounts.findOrCreateBot(String.format("Bot%03d", i + 1));
             Bot b = new Bot();
             b.player = Accounts.newPlayer(a, null);
-            double angle = rand.nextDouble(Math.PI * 2), radius = BOT_SPAWN * Math.sqrt(rand.nextDouble());
-            b.homeX = spawnX + (int) (Math.cos(angle) * radius);
-            b.homeZ = spawnZ + (int) (Math.sin(angle) * radius);
             int map = i % 2 == 0 || others.isEmpty() ? startMap : others.get(i / 2 % others.size());
+            int[] spawn = spawnOf(map);
+            b.homeX = clampX(map, spawn[0] + rand.nextInt(-BOT_SPAWN, BOT_SPAWN + 1));  // map 2D: rải ngang, cao bằng chỗ xuất hiện
+            b.homeZ = spawn[1];
             Zones.enterMap(b.player, map, b.homeX, b.homeZ);
             online.put(b.player.id, b.player);
             bots.add(b);
@@ -106,9 +106,8 @@ public class Bots {
 
     /** Chọn điểm ngẫu nhiên trong bán kính BOT_WANDER quanh nhà rồi bắt đầu đi. */
     static void pickDestination(Bot b, ThreadLocalRandom rand) {
-        double angle = rand.nextDouble(Math.PI * 2), radius = BOT_WANDER * Math.sqrt(rand.nextDouble());
-        b.destX = b.homeX + (int) (Math.cos(angle) * radius);
-        b.destZ = b.homeZ + (int) (Math.sin(angle) * radius);
+        b.destX = clampX(b.player.map, b.homeX + rand.nextInt(-BOT_WANDER, BOT_WANDER + 1));   // map 2D: chỉ đi ngang, trong tường
+        b.destZ = b.homeZ;
         b.walking = true;
     }
 

@@ -85,7 +85,8 @@ public class MapObjects {
         }
         Placement to = from.targetUid > 0 ? placement(from.targetMap, from.targetUid) : null;
         if (to == null) {
-            Zones.enterMap(p, from.targetMap, spawnX, spawnZ);
+            int[] spawn = spawnOf(from.targetMap);
+            Zones.enterMap(p, from.targetMap, spawn[0], spawn[1]);
             return;
         }
         double rad = Math.toRadians(to.rotation);

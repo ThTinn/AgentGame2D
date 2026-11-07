@@ -55,7 +55,7 @@ public class MobAI {
             if (now < m.nextWander) return;
             double angle = World.rand().nextDouble(Math.PI * 2), radius = m.radius * 0.7 * Math.sqrt(World.rand().nextDouble());
             m.wanderX = m.campX + Math.cos(angle) * radius;
-            m.wanderZ = m.campZ + Math.sin(angle) * radius;
+            m.wanderZ = m.z;    // map 2D: chỉ đi ngang trên mặt đang đứng
             m.wandering = true;
             m.nextSend = 0;
         }
@@ -156,6 +156,7 @@ public class MobAI {
     static boolean moveMob(GameMap map, Mob m, double toX, double toZ, double stopAt, double speed, double now, double dt)
             throws IOException {
         speed = Math.max(0.3, speed);
+        toZ = m.z;      // map 2D: z là trục dọc, quái không bay; đuổi người trên bệ cao thì chỉ chạy tới ngay dưới
         double dx = toX - m.x, dz = toZ - m.z, dist = Math.hypot(dx, dz), left = dist - stopAt;
         if (left <= MOB_ARRIVE) return true;
         double ux = dx / dist, uz = dz / dist, step = Math.min(left, speed * dt);

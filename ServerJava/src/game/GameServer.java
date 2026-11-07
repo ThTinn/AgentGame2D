@@ -22,7 +22,8 @@ import game.world.WorldLoader;
  * Điểm vào của server game: nạp dữ liệu, tạo bot, chạy thread thế giới rồi nhận kết nối. Luật nằm ở các package con theo
  * chức năng, {@link GameConnection} chia lệnh về đó. Lệnh tải dữ liệu đi tiếp xuống game.data, tài khoản và hồ sơ ở MySQL
  * (game.db).
- * Chạy bằng run-game.bat / run-game.sh, hoặc: java game.GameServer <thư mục ServerData> [cổng] [db.properties] [số bot]
+ * Chạy bằng run-game.bat / run-game.sh, hoặc: java game.GameServer [thư mục dữ liệu, mặc định data] [cổng] [db.properties] [số bot]
+ * Không có file db.properties thì chạy tạm không MySQL (AccountStore.useMemory).
  */
 public class GameServer {
     static final int MAX_CLIENTS = 500;
@@ -30,10 +31,10 @@ public class GameServer {
 
     /** Khởi động: đọc ServerData và MySQL, tạo bot, chạy WorldLoop, rồi vòng nhận kết nối. */
     public static void main(String[] args) throws IOException, InterruptedException {
-        DataServer.root = Paths.get(args.length > 0 ? args[0] : "ServerData");
+        DataServer.root = Paths.get(args.length > 0 ? args[0] : "data");
         int port = args.length > 1 ? Integer.parseInt(args[1]) : 18889;
         Path config = Paths.get(args.length > 2 ? args[2] : "db.properties");
-        int botCount = args.length > 3 ? Integer.parseInt(args[3]) : 50;
+        int botCount = args.length > 3 ? Integer.parseInt(args[3]) : 6;
 
         loadData(config);
         Bots.spawnBots(botCount);
@@ -43,8 +44,8 @@ public class GameServer {
         Runtime.getRuntime().addShutdownHook(new Thread(GameServer::shutdown, "shutdown"));
 
         try (ServerSocket listener = new ServerSocket(port)) {
-            System.out.println("GameServer nghe cong " + port + ", " + World.mapIds.size() + " map, " + World.npcs.size() + " NPC, "
-                    + World.placements.size() + " cho dat, " + Bots.bots.size() + " bot");
+            System.out.println("GameServer nghe cong " + port + ", " + World.mapIds.size() + " map 2D, " + World.npcs.size()
+                    + " NPC, " + Bots.bots.size() + " bot");
             while (true) {
                 Socket socket = DataServer.accept(listener);
                 if (socket != null) accept(socket);
@@ -58,6 +59,13 @@ public class GameServer {
         Path core = DataServer.root.resolve("core");
         WorldLoader.load(core);
         Accounts.startProfile = new String(Files.readAllBytes(core.resolve("start_profile.json")), StandardCharsets.UTF_8);
+        if (!Files.exists(config)) {
+            // tạm thời: chưa cài MySQL vẫn chạy được luồng tải dữ liệu -> đăng nhập -> vào map
+            AccountStore.useMemory();
+            System.out.println("Khong thay " + config + ": chay KHONG MySQL, tai khoan va ho so chi o RAM, mat khi tat server,"
+                    + " chua co chien dau");
+            return;
+        }
         Database.open(config);
         AccountStore.createTables();
         loadTemplates();

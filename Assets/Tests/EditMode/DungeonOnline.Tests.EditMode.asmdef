@@ -3,6 +3,8 @@
     "rootNamespace": "DungeonOnline.Tests",
     "references": [
         "DungeonOnline",
+        "Core.Data",
+        "NetKit",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],

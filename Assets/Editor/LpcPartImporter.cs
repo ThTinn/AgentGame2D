@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using DungeonOnline.Characters;
+using DungeonOnline.Entities;
 using UnityEditor;
 using UnityEditor.U2D.Sprites;
 using UnityEngine;
@@ -442,11 +443,12 @@ namespace DungeonOnline.EditorTools
             outfitSerialized.FindProperty("_catalog").objectReferenceValue = wardrobe;
             outfitSerialized.ApplyModifiedPropertiesWithoutUndo();
 
-            var driver = root.GetComponent<PlayerAnimationDriver>();
-            if (driver == null) driver = root.AddComponent<PlayerAnimationDriver>();
-            var driverSerialized = new SerializedObject(driver);
-            driverSerialized.FindProperty("_character").objectReferenceValue = character;
-            driverSerialized.ApplyModifiedPropertiesWithoutUndo();
+            // the entity on the root (Player, OtherPlayer, Monster) plays its animations on this visual
+            var entity = root.GetComponent<Entity>();
+            if (entity == null) return;
+            var entitySerialized = new SerializedObject(entity);
+            entitySerialized.FindProperty("_visual").objectReferenceValue = character;
+            entitySerialized.ApplyModifiedPropertiesWithoutUndo();
         }
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
-using DungeonOnline.Gameplay;
+using DungeonOnline.Entities;
+using DungeonOnline.Net;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -31,6 +32,9 @@ namespace DungeonOnline.Tests
 
             _keyboard = InputSystem.AddDevice<Keyboard>();
             yield return SceneManager.LoadSceneAsync("Main");
+            yield return null;   // GameFlow.Start builds the panels and freezes the player
+            MapInfo town = TownMap();
+            Object.FindFirstObjectByType<GameFlow>().PlayOffline(town, town.spawn.ToVector());
             FindSceneObjects();
             yield return new WaitForSeconds(SettleSeconds);
         }
@@ -94,7 +98,28 @@ namespace DungeonOnline.Tests
 
         private void FindSceneObjects()
         {
-            _player = Object.FindFirstObjectByType<PlayerController>().GetComponent<Rigidbody2D>();
+            _player = Object.FindFirstObjectByType<Player>().GetComponent<Rigidbody2D>();
+        }
+
+        /// <summary>Fixture: the town map's ground and spawn as in ServerJava/data/templates/maps.json.</summary>
+        private static MapInfo TownMap()
+        {
+            return new MapInfo
+            {
+                id = 0,
+                name = "Town",
+                xMin = -8.6f,
+                xMax = 8.6f,
+                fallLimitY = -8f,
+                spawn = new Point { x = -7f, y = -3.5f },
+                solids = new[]
+                {
+                    new Solid { name = "Ground Left", x = -5f, y = -4.5f, w = 8f, h = 1f, visible = true },
+                    new Solid { name = "Ground Right", x = 5.5f, y = -4.5f, w = 7f, h = 1f, visible = true },
+                    new Solid { name = "Wall Left", x = -9.4f, y = 2f, w = 1f, h = 24f, visible = false },
+                    new Solid { name = "Wall Right", x = 9.4f, y = 2f, w = 1f, h = 24f, visible = false },
+                },
+            };
         }
 
         private IEnumerator Press(Key key)

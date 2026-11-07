@@ -65,6 +65,7 @@ public class DataServer {
     public static void loadManifest() throws IOException {
         List<String> lines = Files.readAllLines(root.resolve("manifest.csv"), StandardCharsets.UTF_8);
         for (String line : lines.subList(1, lines.size())) {
+            if (line.startsWith("#") || line.trim().isEmpty()) continue;   // chú thích, dòng trống
             String[] cols = line.split(",", -1);
             if (cols.length < 6) continue;
             String platform = cols[0];

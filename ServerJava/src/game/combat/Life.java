@@ -60,10 +60,10 @@ public class Life {
         pr.dead = false;
         pr.hp = pr.maxHp;
         pr.mp = pr.maxMp;
-        double angle = World.rand().nextDouble(Math.PI * 2), radius = REVIVE_SPREAD * Math.sqrt(World.rand().nextDouble());
-        p.x = World.spawnX + (int) (Math.cos(angle) * radius);
+        int[] spawn = World.spawnOf(p.map);     // map 2D: rải ngang quanh chỗ xuất hiện, z là độ cao
+        p.x = spawn[0] + World.rand().nextInt(-REVIVE_SPREAD, REVIVE_SPREAD + 1);
         p.y = World.GROUND_Y;
-        p.z = World.spawnZ + (int) (Math.sin(angle) * radius);
+        p.z = spawn[1];
         if (p.room != null) {
             Packet out = new Packet();
             out.w.writeByte(COMBAT_REVIVE);

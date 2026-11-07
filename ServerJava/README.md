@@ -1,15 +1,35 @@
 # ServerJava
 
-Server viết bằng Java 11 trở lên. Đọc gói `Game/Builds/ServerData` do `Tools/Core/Export Server Package` xuất ra. `GameServer` lưu tài khoản, hồ sơ và bảng Core ở MySQL 8 trở lên, driver ở `lib/` (`mysql-connector-j`, giấy phép GPLv2 kèm Universal FOSS Exception). `DataServer` không cần database.
+Server viết bằng Java 11 trở lên, chép từ GameB và chỉnh cho game 2D đi ngang (DungeonOnline). Đọc thư mục `data/`. `GameServer` lưu tài khoản, hồ sơ và bảng Core ở MySQL 8 trở lên, driver ở `lib/` (`mysql-connector-j`, giấy phép GPLv2 kèm Universal FOSS Exception); chưa có MySQL thì chạy tạm trong RAM (xem dưới). `DataServer` không cần database.
 
 | Lớp | Cổng mặc định | Làm gì | Chạy |
 |---|---|---|---|
 | `DataServer` | 18888 | Chỉ tải dữ liệu: `CLIENT_INFO`, `UPDATE_DATA`, `REQUEST_DATA`, `PING` | `run.bat`, `run.sh` |
 | `GameServer` | 18889 | Server game, gồm cả phần tải dữ liệu qua lớp kế thừa `DataConnection` | `run-game.bat`, `run-game.sh` |
 
-Tham số của `run-game`: thư mục dữ liệu, cổng, file cấu hình database (mặc định `db.properties`), số bot (mặc định 50, 0 là không có bot).
+Tham số của `run-game`: thư mục dữ liệu (mặc định `data`), cổng, file cấu hình database (mặc định `db.properties`), số bot (mặc định 6, 0 là không có bot).
 
-Client chọn mục `java_game` trong danh sách server, địa chỉ ở `ServerInfo.javaGameSv`. `ServerInfo.port` là `short` nên cổng phải từ 32767 trở xuống.
+Client (Unity, `Assets/Scripts/Net`): panel Loading chọn server trong `Assets/Data/ServerList.asset` (mặc định `127.0.0.1:18889`) hoặc gõ IP, tải dữ liệu, rồi panel Login gửi `LOGIN`. Cả hai panel nằm trong scene `Main`.
+
+## Dữ liệu và map 2D
+
+```
+data/
+  manifest.csv            platform,type,id,version,size,file; dòng bắt đầu bằng # là chú thích
+  templates/maps.json     template loại 5: các map 2D, client tải về để dựng map, server đọc cùng file
+  core/world.json         map xuất phát, thông số chiến đấu, NPC
+  core/start_profile.json hồ sơ của tài khoản mới
+```
+
+- Mỗi map trong `maps.json`: `id`, `name` ("vi|en"), `xMin` / `xMax` (khoảng đi được, bot không ra ngoài), `fallLimitY`, `spawn`, `solids` (hộp va chạm: tâm `x`, `y`, kích thước `w`, `h`, `visible` false là tường ẩn), `camps` (bãi quái: tâm `x`, `y`, nửa bề ngang `range`, máu, sát thương, cấp). Đơn vị mét.
+- Sửa `maps.json` thì tăng cột version của dòng template 5 trong `manifest.csv` (và cột size), không thì client đã có bản cũ sẽ không tải lại. Khởi động lại server.
+- Quy ước vị trí trên map 2D: gói vẫn ghi 3 số nguyên x100 (x, y, z). **x là trục ngang, z là trục dọc của map, y không dùng** (luôn `World.GROUND_Y`). Nhờ vậy khoảng cách (x, z) của chiến đấu, quái, nhiệm vụ giữ nguyên công thức. Client đổi ở `ServerCodec`.
+- Quái và bot chỉ đi ngang, giữ độ cao của bãi / chỗ xuất hiện. Server không mô phỏng va chạm: bot có thể đi qua hố giữa hai nền.
+- `world.json` thay `world.bin` / `mapobjects.bin` cũ của GameB (số chiến đấu lấy nguyên từ `world.bin`). Chưa có ghế, cổng (`placements` rỗng) và NPC.
+
+## Chạy không MySQL (tạm)
+
+Không có file `db.properties` thì `GameServer` in `chay KHONG MySQL` và dùng `AccountStore` trong RAM: tên chưa có thì tạo tài khoản ở lần đăng nhập đầu, mật khẩu vẫn kiểm, hồ sơ và vị trí giữ tới khi tắt server. Không có bảng `tpl_*` nên chưa có chiến đấu. Chỉ để chạy thử luồng Loading → Login → vào map; có người chơi thật thì phải cài MySQL.
 
 ## Cấu trúc code
 

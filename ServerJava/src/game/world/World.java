@@ -34,6 +34,20 @@ public class World {
     public static final Map<Integer, Integer> objectSeats = new HashMap<>();   // id loại object -> số chỗ ngồi
     public static final List<Placement> placements = new ArrayList<>();
     public static final Set<Integer> mapIds = new HashSet<>();
+    public static final Map<Integer, int[]> spawns = new HashMap<>();          // id map -> chỗ xuất hiện {x, z} x100
+    public static final Map<Integer, int[]> walkX = new HashMap<>();           // id map -> {xMin, xMax} x100 trong tường
+
+    /** x (x100) kẹp vào khoảng đi được của map; map không khai thì giữ nguyên. */
+    public static int clampX(int mapId, int x) {
+        int[] r = walkX.get(mapId);
+        return r == null ? x : Math.max(r[0], Math.min(r[1], x));
+    }
+
+    /** Chỗ xuất hiện {x, z} (x100) của map, map lạ thì chỗ xuất hiện của map xuất phát. Map 2D: z là trục dọc. */
+    public static int[] spawnOf(int mapId) {
+        int[] s = spawns.get(mapId);
+        return s != null ? s : new int[] { spawnX, spawnZ };
+    }
 
     // trạng thái khi chơi, chỉ đụng tới khi giữ LOCK
     public static final Object LOCK = new Object();

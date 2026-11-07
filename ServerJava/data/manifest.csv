@@ -1,0 +1,3 @@
+platform,type,id,version,size,file
+# map 2D cua game, client va server cung doc (WorldLoader); doi noi dung thi tang version
+template,5,,1,1988,templates/maps.json

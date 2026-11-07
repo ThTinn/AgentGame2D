@@ -1,0 +1,26 @@
+{
+    "startMap": 0,
+    "combat": {
+        "playerRespawn": 3.0,
+        "mobRespawn": 8.0,
+        "manaRegen": 1.0,
+        "aggroRange": 7.0,
+        "leashScale": 1.6,
+        "chaseSpeed": 3.2,
+        "wanderSpeed": 1.2,
+        "mobRange": 1.8,
+        "mobCooldown": 1.6,
+        "mobHitDelay": 0.4,
+        "baseDamage": 100,
+        "skillDamagePercent": 150,
+        "critChance": 0.15,
+        "basicCooldown": 0.5,
+        "bulletSpeed": 15.0,
+        "bulletHitRadius": 0.8,
+        "meleeHalfAngle": 70.0,
+        "hitDelay": 0.3,
+        "cellSize": 2.0
+    },
+    "npcMap": 0,
+    "npcs": []
+}

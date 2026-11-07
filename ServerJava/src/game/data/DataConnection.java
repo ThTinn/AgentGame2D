@@ -55,17 +55,13 @@ public class DataConnection extends PacketConnection {
 
     /**
      * CLIENT_INFO: ghi nhớ nền tảng, trả CHECK_DATA_VERSION gồm phiên bản các template rồi danh sách bundle của nền tảng đó.
-     * Thiết bị lạ hoặc không có bundle thì trả danh sách rỗng.
+     * Template dùng chung mọi nền tảng nên luôn gửi; thiết bị lạ hoặc nền tảng không có bundle thì danh sách bundle rỗng.
      */
     void clientInfo(int device) throws IOException {
         platform = device == DEVICE_ANDROID ? "Android" : device == DEVICE_PC ? "Windows" : null;
         List<Entry> files = platform == null ? null : bundles.get(platform);
+        if (files == null) files = Collections.emptyList();
         Packet p = new Packet();
-        if (files == null) {
-            p.w.writeByte(0);
-            send(Cmd.CHECK_DATA_VERSION, p);
-            return;
-        }
         p.w.writeByte(templates.size());
         for (Entry t : templates.values()) {
             p.w.writeByte(t.type);

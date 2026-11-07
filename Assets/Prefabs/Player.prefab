@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7439831618319030586}
   - component: {fileID: 5456108053069394443}
   - component: {fileID: 5532385751975674604}
-  - component: {fileID: 2954596934431607679}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -180,23 +179,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 012ad5e937a9c0b4fb8e6db1333bc087, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Gameplay.PlayerController
+  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Entities.Player
+  _visual: {fileID: 2392214021372566077}
+  _remoteMotion: {fileID: 0}
   _config: {fileID: 11400000, guid: ed5c3ca5a58a1fb47a691ebeab47a584, type: 2}
   _move: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   _jump: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
---- !u!114 &2954596934431607679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115796542684531875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f816f291d1969454aaf14d6b8ad48e97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Characters.PlayerAnimationDriver
-  _character: {fileID: 2392214021372566077}
 --- !u!1 &2852311477814861897
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,11 +2,11 @@
 rem Bien dich va chay server mau. Tham so: thu muc du lieu, cong.
 cd /d "%~dp0"
 set DATA=%~1
-if "%DATA%"=="" set DATA=..\Builds\ServerData
+if "%DATA%"=="" set DATA=data
 set PORT=%~2
 if "%PORT%"=="" set PORT=18888
 if not exist "%DATA%\manifest.csv" (
-    echo Khong thay %DATA%\manifest.csv. Trong Unity chay Tools/Core/Export Server Package truoc.
+    echo Khong thay %DATA%\manifest.csv.
     pause
     exit /b 1
 )

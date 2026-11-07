@@ -110,6 +110,17 @@ namespace Game.UI
             Collapse();
         }
 
+        // Start chứ không Awake: UIManager nạp Panel_Config ở Awake của nó, thứ tự Awake giữa hai object không chắc chắn
+        void Start()
+        {
+            // game không khai panel trong Panel_Config (Agen bỏ các panel cần code game 3D): ẩn nút mở nó
+            UIManager manager = UIManager.Instance;
+            if (manager == null) return;
+            foreach (Item item in items)
+                if (item.button && item.panel != UIID.None && !manager.Has(item.panel))
+                    item.button.gameObject.SetActive(false);
+        }
+
         void OnDestroy()
         {
             ExtrasChanged -= BuildExtras;

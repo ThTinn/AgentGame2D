@@ -1,0 +1,144 @@
+{
+    "id": 1,
+    "displayName": "Hero",
+    "maxHp": 100,
+    "maxMp": 50,
+    "level": 1,
+    "exp": 0,
+    "potentialPoints": 0,
+    "gold": 0,
+    "playerUpgrades": [],
+    "npcAffinity": [],
+    "quests": [],
+    "storyFlags": [],
+    "trackedQuest": "",
+    "startItems": [
+        {
+            "itemId": 11,
+            "amount": 1
+        },
+        {
+            "itemId": 12,
+            "amount": 1
+        },
+        {
+            "itemId": 13,
+            "amount": 1
+        },
+        {
+            "itemId": 14,
+            "amount": 1
+        },
+        {
+            "itemId": 15,
+            "amount": 1
+        },
+        {
+            "itemId": 16,
+            "amount": 1
+        },
+        {
+            "itemId": 17,
+            "amount": 1
+        },
+        {
+            "itemId": 18,
+            "amount": 1
+        },
+        {
+            "itemId": 19,
+            "amount": 1
+        },
+        {
+            "itemId": 20,
+            "amount": 1
+        },
+        {
+            "itemId": 21,
+            "amount": 1
+        },
+        {
+            "itemId": 22,
+            "amount": 1
+        },
+        {
+            "itemId": 23,
+            "amount": 1
+        },
+        {
+            "itemId": 24,
+            "amount": 1
+        },
+        {
+            "itemId": 25,
+            "amount": 1
+        },
+        {
+            "itemId": 26,
+            "amount": 1
+        },
+        {
+            "itemId": 27,
+            "amount": 1
+        },
+        {
+            "itemId": 28,
+            "amount": 5
+        },
+        {
+            "itemId": 31,
+            "amount": 5
+        }
+    ],
+    "equipped": [],
+    "equipGear": [],
+    "quickItems": [
+        28,
+        31
+    ],
+    "animSetId": 0,
+    "animVariants": [
+        10,
+        0,
+        0,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "weaponId": 1,
+    "weaponUpgrades": [],
+    "basicSkill": {
+        "templateId": 6,
+        "level": 1
+    },
+    "skillSlots": [
+        {
+            "templateId": 1,
+            "level": 1
+        },
+        {
+            "templateId": 2,
+            "level": 1
+        },
+        {
+            "templateId": 3,
+            "level": 1
+        },
+        {
+            "templateId": 4,
+            "level": 1
+        }
+    ],
+    "bag": [],
+    "bagSaved": false
+}
