@@ -31,9 +31,9 @@ naming:
   scenes: PascalCase
 
 commands:
-  build: '"D:/Unity/Install/6000.3.7f1/Editor/Unity.exe" -batchmode -quit -projectPath . -buildTarget Win64 -buildWindows64Player Builds/Win64/CoinHop.exe'
+  build: '"D:/Unity/Install/6000.3.7f1/Editor/Unity.exe" -batchmode -quit -projectPath . -buildTarget Win64 -buildWindows64Player Builds/Win64/DungeonOnline.exe'
   test: '"D:/Unity/Install/6000.3.7f1/Editor/Unity.exe" -batchmode -runTests -projectPath . -testPlatform EditMode -testResults test-results/editmode.xml'
-  run: "Builds/Win64/CoinHop.exe -screen-width 1280 -screen-height 720 -screen-fullscreen 0"
+  run: "Builds/Win64/DungeonOnline.exe -screen-width 1280 -screen-height 720 -screen-fullscreen 0"
   smoke: '"D:/Unity/Install/6000.3.7f1/Editor/Unity.exe" -batchmode -quit -projectPath . -logFile -'
 
 # NOTE: this template ships with no `modes:` block, and the six knobs below must

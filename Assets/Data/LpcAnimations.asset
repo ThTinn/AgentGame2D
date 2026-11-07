@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4741be6b14288e946aa6c89923ac9b62, type: 3}
   m_Name: LpcAnimations
-  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcAnimationSet
+  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Characters.LpcAnimationSet
   Entries:
   - Name: idle
     Sheet: idle

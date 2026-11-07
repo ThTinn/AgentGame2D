@@ -1,6 +1,6 @@
 ---
 name: lpc-import
-description: "Import LPC character parts into Coin Hop from a plain description: finds the items in the local LPC generator, exports them from the generator site, copies them into the wardrobe and rebuilds parts. Use when the user wants new clothes, hats, hair or a new outfit for the player character."
+description: "Import LPC character parts into DungeonOnline from a plain description: finds the items in the local LPC generator, exports them from the generator site, copies them into the wardrobe and rebuilds parts. Use when the user wants new clothes, hats, hair or a new outfit for the player character."
 argument-hint: "[description, e.g. \"purple wizard hat, leather boots, white shirt\"] [--default]"
 user-invocable: true
 allowed-tools: Read, Glob, Grep, Edit, AskUserQuestion, Bash(node */.claude/skills/lpc-import/scripts/find_items.mjs*), Bash(python -I */.claude/skills/lpc-import/scripts/import_export.py*), mcp__Claude_Browser__navigate, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__find, mcp__Claude_Browser__computer, mcp__Claude_Browser__javascript_tool
@@ -8,7 +8,7 @@ allowed-tools: Read, Glob, Grep, Edit, AskUserQuestion, Bash(node */.claude/skil
 
 # LPC Import
 
-Turns "a green cap and brown boots" into wearable parts in the Coin Hop wardrobe, the same way the
+Turns "a green cap and brown boots" into wearable parts in the DungeonOnline wardrobe, the same way the
 first outfit was built. Talk to the user in their language (Vietnamese so far).
 
 **Paths** (this machine):
@@ -137,7 +137,7 @@ Get-Process Unity -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowTi
   `%LOCALAPPDATA%/Unity/Editor/Editor.log` in the background for `LPC: built`, `LPC: cropped`,
   `error CS` or an exception, counting only lines after the request.
 - **Editor closed:** run it yourself:
-  `"D:/Unity/Install/6000.3.7f1/Editor/Unity.exe" -batchmode -quit -projectPath F:/WC/Agen -executeMethod CoinHop.EditorTools.LpcPartImporter.BuildParts -logFile Logs/lpc-build.log`
+  `"D:/Unity/Install/6000.3.7f1/Editor/Unity.exe" -batchmode -quit -projectPath F:/WC/Agen -executeMethod DungeonOnline.EditorTools.LpcPartImporter.BuildParts -logFile Logs/lpc-build.log`
   then read the same lines from that log.
 
 Done means the log shows `LPC: built <n> parts` with `n` = previous count + parts added, and

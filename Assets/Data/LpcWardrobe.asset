@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99a8f481f6333d342834a09a0a695e3e, type: 3}
   m_Name: LpcWardrobe
-  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LpcWardrobeCatalog
+  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Characters.LpcWardrobeCatalog
   Parts:
   - {fileID: 11400000, guid: bf420c80fb8bf304cb2df8af5f549703, type: 2}
   - {fileID: 11400000, guid: 7fefc2b007f282a49a2a3790a4642409, type: 2}

@@ -1,6 +1,6 @@
 {
-    "name": "CoinHop",
-    "rootNamespace": "CoinHop",
+    "name": "DungeonOnline",
+    "rootNamespace": "DungeonOnline",
     "references": [
         "Unity.InputSystem"
     ],

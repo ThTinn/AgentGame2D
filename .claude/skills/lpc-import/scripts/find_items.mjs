@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Search the local Universal LPC Spritesheet Character Generator catalog for parts Coin Hop can use.
+// Search the local Universal LPC Spritesheet Character Generator catalog for parts DungeonOnline can use.
 // Prints observations only (what exists, its licenses, its colors); the caller decides what to pick.
 //
 // usage:
@@ -15,7 +15,7 @@ const DEFAULT_REPO = "F:/WC/CharGen/Universal-LPC-Spritesheet-Character-Generato
 const NEED = ["walk", "idle", "jump", "run"];
 const OK_LICENSE = /OGA-BY|CC0/;
 
-// generator type_name -> Coin Hop LpcSlot
+// generator type_name -> DungeonOnline LpcSlot
 export const SLOT_BY_TYPE = {
   body: "Body", head: "Head", expression: "Face", hair: "Hair",
   clothes: "Torso", legs: "Legs", shoes: "Feet", hat: "Hat",

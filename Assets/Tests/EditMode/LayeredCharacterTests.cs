@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using CoinHop.Characters;
+using DungeonOnline.Characters;
 using NUnit.Framework;
 using UnityEngine;
 
-namespace CoinHop.Tests
+namespace DungeonOnline.Tests
 {
     public class LayeredCharacterTests
     {

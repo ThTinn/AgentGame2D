@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CoinHop.Characters
+namespace DungeonOnline.Characters
 {
     /// <summary>
     /// Owns what the character wears: takes outfit requests (step a slot to its next or previous

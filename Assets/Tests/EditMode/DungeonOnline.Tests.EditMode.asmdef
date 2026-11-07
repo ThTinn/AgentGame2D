@@ -1,12 +1,14 @@
 {
-    "name": "CoinHop.Tests.PlayMode",
-    "rootNamespace": "CoinHop.Tests",
+    "name": "DungeonOnline.Tests.EditMode",
+    "rootNamespace": "DungeonOnline.Tests",
     "references": [
-        "CoinHop",
-        "Unity.InputSystem",
-        "UnityEngine.TestRunner"
+        "DungeonOnline",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,

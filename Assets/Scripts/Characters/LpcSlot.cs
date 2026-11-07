@@ -1,4 +1,4 @@
-namespace CoinHop.Characters
+namespace DungeonOnline.Characters
 {
     /// <summary>
     /// An equipment slot on a layered LPC character. One part per slot is worn at a time;

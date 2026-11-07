@@ -1,9 +1,9 @@
 using UnityEngine;
 
-namespace CoinHop.Gameplay
+namespace DungeonOnline.Gameplay
 {
     /// <summary>Tuning values for the player. The asset lives in Assets/Data.</summary>
-    [CreateAssetMenu(fileName = "PlayerConfig", menuName = "Coin Hop/Player Config")]
+    [CreateAssetMenu(fileName = "PlayerConfig", menuName = "DungeonOnline/Player Config")]
     public sealed class PlayerConfig : ScriptableObject
     {
         /// <summary>Horizontal speed in units per second.</summary>

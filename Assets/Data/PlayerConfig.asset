@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4be04c1b09feacd47bd1b02e04696511, type: 3}
   m_Name: PlayerConfig
-  m_EditorClassIdentifier: CoinHop::CoinHop.Gameplay.PlayerConfig
+  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Gameplay.PlayerConfig
   MoveSpeed: 7
   JumpVelocity: 12
   GravityScale: 3

@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using CoinHop.Characters;
+using DungeonOnline.Characters;
 using UnityEditor;
 using UnityEditor.U2D.Sprites;
 using UnityEngine;
 
-namespace CoinHop.EditorTools
+namespace DungeonOnline.EditorTools
 {
     /// <summary>
     /// Imports LPC part sheets exported by the Universal LPC Spritesheet Character Generator
@@ -377,7 +377,7 @@ namespace CoinHop.EditorTools
                 return;
             }
 
-            var view = UnityEngine.Object.FindFirstObjectByType<CoinHop.UI.WardrobeView>();
+            var view = UnityEngine.Object.FindFirstObjectByType<DungeonOnline.UI.WardrobeView>();
             GameObject go;
             if (view != null) go = view.gameObject;
             else
@@ -392,7 +392,7 @@ namespace CoinHop.EditorTools
             document.visualTreeAsset = AssetDatabase.LoadAssetAtPath<UnityEngine.UIElements.VisualTreeAsset>(WARDROBE_UXML_PATH);
             document.sortingOrder = 1;
 
-            if (view == null) view = go.AddComponent<CoinHop.UI.WardrobeView>();
+            if (view == null) view = go.AddComponent<DungeonOnline.UI.WardrobeView>();
             var serialized = new SerializedObject(view);
             serialized.FindProperty("_outfit").objectReferenceValue = outfit;
             serialized.ApplyModifiedProperties();

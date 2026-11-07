@@ -1,0 +1,16 @@
+{
+    "name": "NetKit.Samples",
+    "rootNamespace": "NetKit.Samples",
+    "references": [
+        "NetKit"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

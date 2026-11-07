@@ -7,7 +7,7 @@ using UnityEditor.Animations;
 using UnityEditor.U2D.Sprites;
 using UnityEngine;
 
-namespace CoinHop.EditorTools
+namespace DungeonOnline.EditorTools
 {
     /// <summary>
     /// Imports sprite sheets exported by pixelfx (<c>node tools/render.mjs &lt;id&gt; --sheet</c>).

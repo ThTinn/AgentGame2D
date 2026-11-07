@@ -1,7 +1,7 @@
-using CoinHop.Gameplay;
+using DungeonOnline.Gameplay;
 using UnityEngine;
 
-namespace CoinHop.Characters
+namespace DungeonOnline.Characters
 {
     /// <summary>
     /// Picks the player's animation from movement and mirrors the character toward the direction

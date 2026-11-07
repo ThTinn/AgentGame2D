@@ -1,14 +1,13 @@
 using System.Collections;
-using CoinHop.Gameplay;
+using DungeonOnline.Gameplay;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
-using UnityEngine.UIElements;
 
-namespace CoinHop.Tests
+namespace DungeonOnline.Tests
 {
     public class MainSceneTests
     {
@@ -16,7 +15,6 @@ namespace CoinHop.Tests
         private const float InputSeconds = 0.2f;
 
         private Keyboard _keyboard;
-        private GameSession _session;
         private Rigidbody2D _player;
         private InputSettings.EditorInputBehaviorInPlayMode _editorInputBehavior;
         private InputSettings.BackgroundBehavior _backgroundBehavior;
@@ -51,16 +49,6 @@ namespace CoinHop.Tests
             // Assert
             Assert.That(_player.linearVelocity.y, Is.EqualTo(0f).Within(0.01f));
             Assert.That(_player.position.y, Is.EqualTo(-3.5f).Within(0.05f));
-        }
-
-        [Test]
-        public void Hud_IsAttachedToPanel()
-        {
-            // Act
-            var root = Object.FindFirstObjectByType<UIDocument>().rootVisualElement;
-
-            // Assert
-            Assert.IsNotNull(root.panel);
         }
 
         [UnityTest]
@@ -104,36 +92,8 @@ namespace CoinHop.Tests
             Assert.That(_player.position.y, Is.EqualTo(start.y).Within(0.05f));
         }
 
-        [UnityTest]
-        public IEnumerator CollectEveryCoin_ShowsWinThenJumpRestarts()
-        {
-            // Act
-            foreach (var coin in Object.FindObjectsByType<Coin>(FindObjectsSortMode.None))
-            {
-                _player.position = coin.transform.position;
-                yield return new WaitForFixedUpdate();
-                yield return new WaitForFixedUpdate();
-            }
-            yield return null;
-
-            // Assert
-            var root = Object.FindFirstObjectByType<UIDocument>().rootVisualElement;
-            Assert.IsTrue(_session.Counter.IsComplete);
-            Assert.AreEqual("5 / 5", root.Q<Label>("coin-count").text);
-            Assert.AreEqual(DisplayStyle.Flex, root.Q<Label>("win-message").resolvedStyle.display);
-
-            // Act
-            yield return Press(Key.Space);
-            yield return null;
-            FindSceneObjects();
-
-            // Assert
-            Assert.AreEqual(0, _session.Counter.Collected);
-        }
-
         private void FindSceneObjects()
         {
-            _session = Object.FindFirstObjectByType<GameSession>();
             _player = Object.FindFirstObjectByType<PlayerController>().GetComponent<Rigidbody2D>();
         }
 

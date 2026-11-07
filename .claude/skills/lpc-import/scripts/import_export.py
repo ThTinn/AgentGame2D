@@ -1,4 +1,4 @@
-"""Import one Universal LPC generator export ("ZIP: Split by animation and item") into Coin Hop.
+"""Import one Universal LPC generator export ("ZIP: Split by animation and item") into DungeonOnline.
 
 Extracts the ZIP into its own folder, checks it is one consistent outfit, works out each item's
 slot from the generator's sheet_definitions, copies new items into the Parts folder with an

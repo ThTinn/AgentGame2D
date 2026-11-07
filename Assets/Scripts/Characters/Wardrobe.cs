@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CoinHop.Characters
+namespace DungeonOnline.Characters
 {
     /// <summary>
     /// The choices for each equipment slot and how to step through them. Pure logic over a set of

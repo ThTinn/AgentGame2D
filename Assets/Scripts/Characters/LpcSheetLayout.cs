@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CoinHop.Characters
+namespace DungeonOnline.Characters
 {
     /// <summary>
     /// Geometry for trimming LPC sheets: an LPC sheet is a grid of 64 x 64 frames, four rows (up,

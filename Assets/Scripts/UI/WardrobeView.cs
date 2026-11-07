@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using CoinHop.Characters;
+using DungeonOnline.Characters;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace CoinHop.UI
+namespace DungeonOnline.UI
 {
     /// <summary>
     /// Temporary outfit panel: one row per slot with ‹ › buttons. Display only: a click sends a

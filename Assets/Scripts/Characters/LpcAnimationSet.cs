@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CoinHop.Characters
+namespace DungeonOnline.Characters
 {
     /// <summary>
     /// Playback data for LPC animations: which sheet each animation reads, which columns of that
     /// sheet it steps through, and how fast. The asset lives in Assets/Data.
     /// </summary>
-    [CreateAssetMenu(fileName = "LpcAnimations", menuName = "Coin Hop/LPC Animation Set")]
+    [CreateAssetMenu(fileName = "LpcAnimations", menuName = "DungeonOnline/LPC Animation Set")]
     public sealed class LpcAnimationSet : ScriptableObject
     {
         /// <summary>One named animation.</summary>

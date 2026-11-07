@@ -1,6 +1,6 @@
 using System;
 
-namespace CoinHop.Characters
+namespace DungeonOnline.Characters
 {
     /// <summary>
     /// Pure frame timing for sprite animations: which step of a frame sequence shows at a given time.

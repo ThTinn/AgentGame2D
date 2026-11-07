@@ -1,7 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements">
-    <ui:Style src="Hud.uss" />
-    <ui:VisualElement class="hud">
-        <ui:Label name="coin-count" class="hud__coins" text="0 / 0" />
-        <ui:Label name="win-message" class="hud__win" text="You win! Press Space to play again" />
-    </ui:VisualElement>
-</ui:UXML>

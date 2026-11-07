@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CoinHop.Characters
+namespace DungeonOnline.Characters
 {
     /// <summary>
     /// One wearable LPC layer (a body, a hat, a pair of shoes): the slot it fills, where it draws in
     /// the stack, and its right-facing frames for each sheet. Built by Tools &gt; LPC &gt; Build Parts.
     /// </summary>
-    [CreateAssetMenu(fileName = "LpcPart", menuName = "Coin Hop/LPC Part")]
+    [CreateAssetMenu(fileName = "LpcPart", menuName = "DungeonOnline/LPC Part")]
     public sealed class LpcPart : ScriptableObject
     {
         /// <summary>The frames cut from one sheet, indexed by sheet column.</summary>

@@ -1,13 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CoinHop.Characters
+namespace DungeonOnline.Characters
 {
     /// <summary>
     /// Every part the player may wear, and which slots may be left empty. The asset lives in
     /// Assets/Data; Tools &gt; LPC &gt; Build Parts refills <see cref="Parts"/> from the part folders.
     /// </summary>
-    [CreateAssetMenu(fileName = "LpcWardrobe", menuName = "Coin Hop/LPC Wardrobe Catalog")]
+    [CreateAssetMenu(fileName = "LpcWardrobe", menuName = "DungeonOnline/LPC Wardrobe Catalog")]
     public sealed class LpcWardrobeCatalog : ScriptableObject
     {
         /// <summary>All wearable parts.</summary>

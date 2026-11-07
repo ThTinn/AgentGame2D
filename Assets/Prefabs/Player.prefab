@@ -180,7 +180,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 012ad5e937a9c0b4fb8e6db1333bc087, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: CoinHop::CoinHop.Gameplay.PlayerController
+  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Gameplay.PlayerController
   _config: {fileID: 11400000, guid: ed5c3ca5a58a1fb47a691ebeab47a584, type: 2}
   _move: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   _jump: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f816f291d1969454aaf14d6b8ad48e97, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.PlayerAnimationDriver
+  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Characters.PlayerAnimationDriver
   _character: {fileID: 2392214021372566077}
 --- !u!1 &2852311477814861897
 GameObject:
@@ -886,7 +886,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87d93a826f63bdb4f9bc5fe1347cec94, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.LayeredCharacter
+  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Characters.LayeredCharacter
   _animations: {fileID: 11400000, guid: 5a4c7c183dcaf0446a628bc9924d6143, type: 2}
   _startingParts:
   - {fileID: 11400000, guid: bf420c80fb8bf304cb2df8af5f549703, type: 2}
@@ -911,7 +911,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce3d8aec12b424d4a94fd06201cb1875, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: CoinHop::CoinHop.Characters.OutfitController
+  m_EditorClassIdentifier: DungeonOnline::DungeonOnline.Characters.OutfitController
   _character: {fileID: 2392214021372566077}
   _catalog: {fileID: 11400000, guid: 268773d7bd9f5d245ac2ddbdf50201d8, type: 2}
 --- !u!1 &8761745336614340448

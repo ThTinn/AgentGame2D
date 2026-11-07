@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace CoinHop.Gameplay
+namespace DungeonOnline.Gameplay
 {
     /// <summary>
     /// Runs, jumps and returns the player to the start point after a fall.
