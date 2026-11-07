@@ -1,0 +1,872 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf24262eca58e324cb8dca5d4b9999cb, type: 3}
+  m_Name: DropDatabase
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  tables:
+  - name: slime_green
+    entries:
+    - item: gem_green
+      chance: 10
+      min: 1
+      max: 1
+    - item: gem_blue
+      chance: 5
+      min: 1
+      max: 1
+    - item: key_small
+      chance: 3
+      min: 1
+      max: 1
+    - item: armor_head
+      chance: 2
+      min: 1
+      max: 1
+    - item: armor_feet
+      chance: 2
+      min: 1
+      max: 1
+    - item: weapon_sword
+      chance: 1
+      min: 1
+      max: 1
+    - item: potion_hp_small
+      chance: 10
+      min: 1
+      max: 1
+    - item: potion_mp_small
+      chance: 12
+      min: 1
+      max: 1
+    - item: stone_upgrade
+      chance: 4
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 1.5
+      min: 1
+      max: 1
+    - item: jewel_ruby_1
+      chance: 1
+      min: 1
+      max: 1
+    - item: jewel_emerald_1
+      chance: 1
+      min: 1
+      max: 1
+  - name: slime_fire
+    entries:
+    - item: gem_red
+      chance: 12
+      min: 1
+      max: 2
+    - item: gem_orange
+      chance: 8
+      min: 1
+      max: 1
+    - item: key_small
+      chance: 4
+      min: 1
+      max: 1
+    - item: key_iron
+      chance: 2
+      min: 1
+      max: 1
+    - item: armor_body
+      chance: 2.5
+      min: 1
+      max: 1
+    - item: armor_hands
+      chance: 1.5
+      min: 1
+      max: 1
+    - item: weapon_hammer
+      chance: 1
+      min: 1
+      max: 1
+    - item: armor_ring
+      chance: 0.5
+      min: 1
+      max: 1
+    - item: potion_hp_small
+      chance: 10
+      min: 1
+      max: 2
+    - item: potion_mp_medium
+      chance: 5
+      min: 1
+      max: 1
+    - item: buff_attack_speed
+      chance: 2
+      min: 1
+      max: 1
+    - item: stone_upgrade
+      chance: 6
+      min: 1
+      max: 1
+    - item: stone_lucky
+      chance: 1
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 2.5
+      min: 1
+      max: 1
+    - item: jewel_ruby_1
+      chance: 1.5
+      min: 1
+      max: 1
+    - item: jewel_ruby_2
+      chance: 0.2
+      min: 1
+      max: 1
+    - item: jewel_topaz_1
+      chance: 1.5
+      min: 1
+      max: 1
+    - item: jewel_topaz_2
+      chance: 0.2
+      min: 1
+      max: 1
+  - name: chest_small
+    entries:
+    - item: gem_blue
+      chance: 100
+      min: 1
+      max: 2
+    - item: gem_green
+      chance: 60
+      min: 1
+      max: 2
+    - item: gem_yellow
+      chance: 40
+      min: 1
+      max: 1
+    - item: key_iron
+      chance: 10
+      min: 1
+      max: 1
+    - item: armor_head
+      chance: 10
+      min: 1
+      max: 1
+    - item: armor_legs
+      chance: 10
+      min: 1
+      max: 1
+    - item: armor_feet
+      chance: 10
+      min: 1
+      max: 1
+    - item: potion_hp_small
+      chance: 50
+      min: 1
+      max: 3
+    - item: potion_mp_small
+      chance: 50
+      min: 1
+      max: 3
+    - item: stone_upgrade
+      chance: 30
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 10
+      min: 1
+      max: 1
+    - item: jewel_ruby_1
+      chance: 8
+      min: 1
+      max: 1
+    - item: jewel_sapphire_1
+      chance: 8
+      min: 1
+      max: 1
+    - item: jewel_emerald_1
+      chance: 8
+      min: 1
+      max: 1
+    - item: jewel_topaz_1
+      chance: 8
+      min: 1
+      max: 1
+    - item: jewel_amethyst_1
+      chance: 8
+      min: 1
+      max: 1
+    - item: jewel_onyx_1
+      chance: 8
+      min: 1
+      max: 1
+  - name: chest_iron
+    entries:
+    - item: gem_red
+      chance: 100
+      min: 1
+      max: 2
+    - item: gem_orange
+      chance: 60
+      min: 1
+      max: 2
+    - item: gem_purple
+      chance: 40
+      min: 1
+      max: 1
+    - item: key_gold
+      chance: 10
+      min: 1
+      max: 1
+    - item: armor_body
+      chance: 15
+      min: 1
+      max: 1
+    - item: armor_hands
+      chance: 12
+      min: 1
+      max: 1
+    - item: weapon_hammer
+      chance: 6
+      min: 1
+      max: 1
+    - item: weapon_bow
+      chance: 6
+      min: 1
+      max: 1
+    - item: potion_hp_medium
+      chance: 40
+      min: 1
+      max: 2
+    - item: potion_mp_medium
+      chance: 40
+      min: 1
+      max: 2
+    - item: buff_move_speed
+      chance: 15
+      min: 1
+      max: 1
+    - item: stone_upgrade
+      chance: 50
+      min: 1
+      max: 2
+    - item: stone_lucky
+      chance: 10
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 25
+      min: 1
+      max: 1
+    - item: jewel_ruby_1
+      chance: 12
+      min: 1
+      max: 1
+    - item: jewel_ruby_2
+      chance: 3
+      min: 1
+      max: 1
+    - item: jewel_sapphire_1
+      chance: 12
+      min: 1
+      max: 1
+    - item: jewel_sapphire_2
+      chance: 3
+      min: 1
+      max: 1
+    - item: jewel_emerald_1
+      chance: 12
+      min: 1
+      max: 1
+    - item: jewel_emerald_2
+      chance: 3
+      min: 1
+      max: 1
+    - item: jewel_topaz_1
+      chance: 12
+      min: 1
+      max: 1
+    - item: jewel_topaz_2
+      chance: 3
+      min: 1
+      max: 1
+    - item: jewel_amethyst_1
+      chance: 12
+      min: 1
+      max: 1
+    - item: jewel_amethyst_2
+      chance: 3
+      min: 1
+      max: 1
+    - item: jewel_onyx_1
+      chance: 12
+      min: 1
+      max: 1
+    - item: jewel_onyx_2
+      chance: 3
+      min: 1
+      max: 1
+  - name: chest_gold
+    entries:
+    - item: gem_purple
+      chance: 100
+      min: 2
+      max: 3
+    - item: gem_yellow
+      chance: 80
+      min: 2
+      max: 3
+    - item: key_large
+      chance: 8
+      min: 1
+      max: 1
+    - item: armor_neck
+      chance: 15
+      min: 1
+      max: 1
+    - item: armor_ring
+      chance: 15
+      min: 1
+      max: 1
+    - item: weapon_scythe
+      chance: 8
+      min: 1
+      max: 1
+    - item: weapon_gun
+      chance: 8
+      min: 1
+      max: 1
+    - item: skin_b
+      chance: 4
+      min: 1
+      max: 1
+    - item: skin_c
+      chance: 4
+      min: 1
+      max: 1
+    - item: potion_hp_large
+      chance: 30
+      min: 1
+      max: 2
+    - item: potion_mp_large
+      chance: 30
+      min: 1
+      max: 2
+    - item: buff_attack_speed
+      chance: 20
+      min: 1
+      max: 1
+    - item: buff_power
+      chance: 15
+      min: 1
+      max: 1
+    - item: stone_upgrade
+      chance: 70
+      min: 2
+      max: 3
+    - item: stone_lucky
+      chance: 25
+      min: 1
+      max: 1
+    - item: stone_protect
+      chance: 10
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 40
+      min: 1
+      max: 2
+    - item: jewel_ruby_2
+      chance: 10
+      min: 1
+      max: 1
+    - item: jewel_ruby_3
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_sapphire_2
+      chance: 10
+      min: 1
+      max: 1
+    - item: jewel_sapphire_3
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_emerald_2
+      chance: 10
+      min: 1
+      max: 1
+    - item: jewel_emerald_3
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_topaz_2
+      chance: 10
+      min: 1
+      max: 1
+    - item: jewel_topaz_3
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_amethyst_2
+      chance: 10
+      min: 1
+      max: 1
+    - item: jewel_amethyst_3
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_onyx_2
+      chance: 10
+      min: 1
+      max: 1
+    - item: jewel_onyx_3
+      chance: 2
+      min: 1
+      max: 1
+  - name: chest_large
+    entries:
+    - item: gem_red
+      chance: 100
+      min: 2
+      max: 4
+    - item: gem_blue
+      chance: 100
+      min: 2
+      max: 4
+    - item: gem_purple
+      chance: 60
+      min: 1
+      max: 3
+    - item: armor_neck
+      chance: 25
+      min: 1
+      max: 1
+    - item: armor_ring
+      chance: 25
+      min: 1
+      max: 1
+    - item: weapon_rifle
+      chance: 10
+      min: 1
+      max: 1
+    - item: skin_d
+      chance: 6
+      min: 1
+      max: 1
+    - item: skin_e
+      chance: 3
+      min: 1
+      max: 1
+    - item: potion_hp_large
+      chance: 50
+      min: 2
+      max: 3
+    - item: potion_mp_large
+      chance: 50
+      min: 2
+      max: 3
+    - item: buff_power
+      chance: 30
+      min: 1
+      max: 2
+    - item: stone_upgrade
+      chance: 100
+      min: 3
+      max: 5
+    - item: stone_lucky
+      chance: 40
+      min: 1
+      max: 2
+    - item: stone_protect
+      chance: 25
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 60
+      min: 2
+      max: 3
+    - item: jewel_ruby_2
+      chance: 15
+      min: 1
+      max: 1
+    - item: jewel_ruby_3
+      chance: 5
+      min: 1
+      max: 1
+    - item: jewel_sapphire_2
+      chance: 15
+      min: 1
+      max: 1
+    - item: jewel_sapphire_3
+      chance: 5
+      min: 1
+      max: 1
+    - item: jewel_emerald_2
+      chance: 15
+      min: 1
+      max: 1
+    - item: jewel_emerald_3
+      chance: 5
+      min: 1
+      max: 1
+    - item: jewel_topaz_2
+      chance: 15
+      min: 1
+      max: 1
+    - item: jewel_topaz_3
+      chance: 5
+      min: 1
+      max: 1
+    - item: jewel_amethyst_2
+      chance: 15
+      min: 1
+      max: 1
+    - item: jewel_amethyst_3
+      chance: 5
+      min: 1
+      max: 1
+    - item: jewel_onyx_2
+      chance: 15
+      min: 1
+      max: 1
+    - item: jewel_onyx_3
+      chance: 5
+      min: 1
+      max: 1
+  - name: monster
+    entries:
+    - item: gem_blue
+      chance: 1
+      min: 1
+      max: 1
+    - item: gem_green
+      chance: 1
+      min: 1
+      max: 1
+    - item: gem_red
+      chance: 1
+      min: 1
+      max: 1
+    - item: gem_yellow
+      chance: 1
+      min: 1
+      max: 1
+    - item: potion_hp_small
+      chance: 12
+      min: 1
+      max: 2
+    - item: potion_hp_medium
+      chance: 4
+      min: 1
+      max: 1
+    - item: potion_hp_large
+      chance: 1
+      min: 1
+      max: 1
+    - item: potion_mp_small
+      chance: 15
+      min: 1
+      max: 2
+    - item: potion_mp_medium
+      chance: 5
+      min: 1
+      max: 1
+    - item: potion_mp_large
+      chance: 1.2
+      min: 1
+      max: 1
+    - item: buff_attack_speed
+      chance: 2
+      min: 1
+      max: 1
+    - item: buff_move_speed
+      chance: 2
+      min: 1
+      max: 1
+    - item: buff_power
+      chance: 1.5
+      min: 1
+      max: 1
+    - item: stone_upgrade
+      chance: 3
+      min: 1
+      max: 1
+    - item: stone_lucky
+      chance: 0.5
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 1.5
+      min: 1
+      max: 1
+    - item: jewel_ruby_1
+      chance: 0.4
+      min: 1
+      max: 1
+    - item: jewel_sapphire_1
+      chance: 0.4
+      min: 1
+      max: 1
+    - item: jewel_emerald_1
+      chance: 0.4
+      min: 1
+      max: 1
+    - item: jewel_topaz_1
+      chance: 0.4
+      min: 1
+      max: 1
+    - item: jewel_amethyst_1
+      chance: 0.4
+      min: 1
+      max: 1
+    - item: jewel_onyx_1
+      chance: 0.4
+      min: 1
+      max: 1
+  - name: mob_1
+    entries:
+    - item: potion_hp_small
+      chance: 15
+      min: 1
+      max: 2
+    - item: potion_mp_small
+      chance: 15
+      min: 1
+      max: 2
+    - item: gem_green
+      chance: 3
+      min: 1
+      max: 1
+    - item: gem_blue
+      chance: 2
+      min: 1
+      max: 1
+    - item: key_small
+      chance: 2
+      min: 1
+      max: 1
+    - item: armor_head
+      chance: 2
+      min: 1
+      max: 1
+    - item: armor_feet
+      chance: 2
+      min: 1
+      max: 1
+    - item: armor_hands
+      chance: 1.5
+      min: 1
+      max: 1
+    - item: weapon_sword
+      chance: 1
+      min: 1
+      max: 1
+    - item: stone_upgrade
+      chance: 5
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_ruby_1
+      chance: 1.5
+      min: 1
+      max: 1
+    - item: jewel_emerald_1
+      chance: 1.5
+      min: 1
+      max: 1
+  - name: mob_2
+    entries:
+    - item: potion_hp_small
+      chance: 10
+      min: 1
+      max: 2
+    - item: potion_hp_medium
+      chance: 10
+      min: 1
+      max: 1
+    - item: potion_mp_medium
+      chance: 8
+      min: 1
+      max: 1
+    - item: gem_blue
+      chance: 4
+      min: 1
+      max: 1
+    - item: gem_yellow
+      chance: 3
+      min: 1
+      max: 1
+    - item: key_iron
+      chance: 2
+      min: 1
+      max: 1
+    - item: buff_power
+      chance: 3
+      min: 1
+      max: 1
+    - item: armor_body
+      chance: 3
+      min: 1
+      max: 1
+    - item: armor_legs
+      chance: 2.5
+      min: 1
+      max: 1
+    - item: armor_head
+      chance: 2
+      min: 1
+      max: 1
+    - item: weapon_hammer
+      chance: 1.5
+      min: 1
+      max: 1
+    - item: weapon_bow
+      chance: 1
+      min: 1
+      max: 1
+    - item: stone_upgrade
+      chance: 8
+      min: 1
+      max: 1
+    - item: stone_lucky
+      chance: 1
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 3
+      min: 1
+      max: 1
+    - item: jewel_emerald_1
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_emerald_2
+      chance: 0.4
+      min: 1
+      max: 1
+    - item: jewel_onyx_1
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_onyx_2
+      chance: 0.4
+      min: 1
+      max: 1
+  - name: mob_5
+    entries:
+    - item: potion_hp_small
+      chance: 10
+      min: 1
+      max: 1
+    - item: potion_mp_small
+      chance: 15
+      min: 1
+      max: 2
+    - item: potion_mp_medium
+      chance: 8
+      min: 1
+      max: 1
+    - item: gem_purple
+      chance: 4
+      min: 1
+      max: 1
+    - item: gem_red
+      chance: 3
+      min: 1
+      max: 1
+    - item: key_small
+      chance: 3
+      min: 1
+      max: 1
+    - item: buff_attack_speed
+      chance: 3
+      min: 1
+      max: 1
+    - item: buff_move_speed
+      chance: 2
+      min: 1
+      max: 1
+    - item: armor_neck
+      chance: 2
+      min: 1
+      max: 1
+    - item: armor_ring
+      chance: 2
+      min: 1
+      max: 1
+    - item: armor_hands
+      chance: 2
+      min: 1
+      max: 1
+    - item: weapon_scythe
+      chance: 1
+      min: 1
+      max: 1
+    - item: weapon_gun
+      chance: 1
+      min: 1
+      max: 1
+    - item: stone_upgrade
+      chance: 8
+      min: 1
+      max: 2
+    - item: stone_lucky
+      chance: 2
+      min: 1
+      max: 1
+    - item: stone_protect
+      chance: 0.5
+      min: 1
+      max: 1
+    - item: stone_drill
+      chance: 4
+      min: 1
+      max: 1
+    - item: jewel_sapphire_1
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_sapphire_2
+      chance: 0.6
+      min: 1
+      max: 1
+    - item: jewel_sapphire_3
+      chance: 0.1
+      min: 1
+      max: 1
+    - item: jewel_topaz_1
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_topaz_2
+      chance: 0.6
+      min: 1
+      max: 1
+    - item: jewel_topaz_3
+      chance: 0.1
+      min: 1
+      max: 1
+    - item: jewel_amethyst_1
+      chance: 2
+      min: 1
+      max: 1
+    - item: jewel_amethyst_2
+      chance: 0.6
+      min: 1
+      max: 1
+    - item: jewel_amethyst_3
+      chance: 0.1
+      min: 1
+      max: 1

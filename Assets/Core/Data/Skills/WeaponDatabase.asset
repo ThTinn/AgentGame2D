@@ -1,0 +1,792 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630bd099185ace4289434c3c28f7a6d, type: 3}
+  m_Name: WeaponDatabase
+  m_EditorClassIdentifier: 
+  schemaVersion: 3
+  sprites: {fileID: 11400000, guid: 3d54fe5496b740345a3b6a8f3ae855c4, type: 2}
+  explosionFrames:
+  - {fileID: 21300000, guid: 9ec1dd629dd744afaae2f6fd65bfe1dd, type: 3}
+  - {fileID: 21300000, guid: 528985a90b824905a6c5a307479a2c7a, type: 3}
+  - {fileID: 21300000, guid: 6dcb598ac4ee496c87199dba4e89d379, type: 3}
+  - {fileID: 21300000, guid: dbe1f649a30643cea0e839a906dfedea, type: 3}
+  - {fileID: 21300000, guid: b971133b99b34a29a71694af257aa1f2, type: 3}
+  - {fileID: 21300000, guid: 3094a17e0a0a40b59ba28932f1c2a418, type: 3}
+  - {fileID: 21300000, guid: fe96686ba2784a7d844bb8a4ea503334, type: 3}
+  - {fileID: 21300000, guid: 5c4d611fd21143b9936659729d5b7b13, type: 3}
+  - {fileID: 21300000, guid: eb660be96f64441496af621c8f86fa18, type: 3}
+  - {fileID: 21300000, guid: 23cf1d4b18284f289fb53f76a70f7c2e, type: 3}
+  - {fileID: 21300000, guid: 8206c3eed3d042728d8653ab49661834, type: 3}
+  weapons:
+  - id: 1
+    name: sword
+    displayName: "Ki\u1EBFm"
+    description: "C\xE2n b\u1EB1ng: \u0111\xE1nh nhanh, ch\xE9m tr\xFAng m\u1ECDi
+      k\u1EBB \u0111\u1ECBch ph\xEDa tr\u01B0\u1EDBc."
+    idIcon: 605
+    basicSkill: 6
+    upgrades:
+    - id: 1
+      name: power
+      displayName: "L\u1EF1c \u0111\xE1nh"
+      description: "M\u1ED7i nh\xE1t m\u1EA1nh h\u01A1n."
+      parent: 0
+      maxRank: 5
+      cost: 0
+      column: 1
+      row: 0
+      effects:
+      - stat: 24
+        value: 8
+    - id: 2
+      name: wide
+      displayName: "Qu\xE9t r\u1ED9ng"
+      description: "Nh\xE1t \u0111\xE1nh qu\xE9t r\u1ED9ng sang hai b\xEAn."
+      parent: 1
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 1
+      effects:
+      - stat: 28
+        value: 20
+    - id: 3
+      name: reach
+      displayName: "T\u1EA7m v\u1EDBi"
+      description: "\u0110\xE1nh tr\xFAng xa h\u01A1n."
+      parent: 2
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 2
+      effects:
+      - stat: 22
+        value: 0.4
+    - id: 4
+      name: keen
+      displayName: "L\u01B0\u1EE1i s\u1EAFc"
+      description: "M\u1ED7i nh\xE1t m\u1EA1nh h\u01A1n n\u1EEFa."
+      parent: 3
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 3
+      effects:
+      - stat: 24
+        value: 12
+    - id: 5
+      name: shock
+      displayName: "Ch\u1EA5n \u0111\u1ED9ng"
+      description: "Nh\xE1t \u0111\xE1nh t\u1EA1o v\u1EE5 n\u1ED5 ch\u1EA5n \u0111\u1ED9ng
+        t\u1EA1i ch\u1ED7 tr\xFAng."
+      parent: 1
+      maxRank: 1
+      cost: 0
+      column: 1
+      row: 1
+      effects:
+      - stat: 26
+        value: 1
+    - id: 6
+      name: big_shock
+      displayName: "S\xF3ng ch\u1EA5n"
+      description: "V\xF9ng ch\u1EA5n \u0111\u1ED9ng to h\u01A1n."
+      parent: 5
+      maxRank: 3
+      cost: 0
+      column: 1
+      row: 2
+      effects:
+      - stat: 26
+        value: 0.4
+    - id: 7
+      name: heavy_shock
+      displayName: "\u0110\u1ECBa ch\u1EA5n"
+      description: "Ch\u1EA5n \u0111\u1ED9ng g\xE2y nhi\u1EC1u s\xE1t th\u01B0\u01A1ng
+        h\u01A1n."
+      parent: 6
+      maxRank: 2
+      cost: 0
+      column: 1
+      row: 3
+      effects:
+      - stat: 27
+        value: 25
+    - id: 8
+      name: swift
+      displayName: Nhanh tay
+      description: "\u0110\xE1nh nhanh h\u01A1n."
+      parent: 1
+      maxRank: 3
+      cost: 0
+      column: 2
+      row: 1
+      effects:
+      - stat: 11
+        value: 8
+    - id: 9
+      name: fury
+      displayName: "Cu\u1ED3ng n\u1ED9"
+      description: "Nhanh h\u01A1n v\xE0 m\u1EA1nh h\u01A1n."
+      parent: 8
+      maxRank: 2
+      cost: 0
+      column: 2
+      row: 2
+      effects:
+      - stat: 11
+        value: 6
+      - stat: 24
+        value: 6
+  - id: 2
+    name: hammer
+    displayName: "B\xFAa"
+    description: "Ch\u1EADm m\xE0 n\u1EB7ng: m\u1ED7i nh\xE1t n\u1EC7n m\u1ED9t k\u1EBB
+      \u0111\u1ECBch v\u1EDBi s\xE1t th\u01B0\u01A1ng l\u1EDBn."
+    idIcon: 606
+    basicSkill: 9
+    upgrades:
+    - id: 1
+      name: power
+      displayName: "L\u1EF1c \u0111\xE1nh"
+      description: "M\u1ED7i nh\xE1t m\u1EA1nh h\u01A1n."
+      parent: 0
+      maxRank: 5
+      cost: 0
+      column: 1
+      row: 0
+      effects:
+      - stat: 24
+        value: 8
+    - id: 2
+      name: wide
+      displayName: "Qu\xE9t r\u1ED9ng"
+      description: "Nh\xE1t \u0111\xE1nh qu\xE9t r\u1ED9ng sang hai b\xEAn."
+      parent: 1
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 1
+      effects:
+      - stat: 28
+        value: 20
+    - id: 3
+      name: reach
+      displayName: "T\u1EA7m v\u1EDBi"
+      description: "\u0110\xE1nh tr\xFAng xa h\u01A1n."
+      parent: 2
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 2
+      effects:
+      - stat: 22
+        value: 0.4
+    - id: 4
+      name: cleave
+      displayName: "\u0110\xE1nh lan"
+      description: "M\u1ED7i nh\xE1t tr\xFAng th\xEAm m\u1ED9t k\u1EBB \u0111\u1ECBch."
+      parent: 3
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 3
+      effects:
+      - stat: 23
+        value: 1
+    - id: 5
+      name: shock
+      displayName: "Ch\u1EA5n \u0111\u1ED9ng"
+      description: "Nh\xE1t \u0111\xE1nh t\u1EA1o v\u1EE5 n\u1ED5 ch\u1EA5n \u0111\u1ED9ng
+        t\u1EA1i ch\u1ED7 tr\xFAng."
+      parent: 1
+      maxRank: 1
+      cost: 0
+      column: 1
+      row: 1
+      effects:
+      - stat: 26
+        value: 1
+    - id: 6
+      name: big_shock
+      displayName: "S\xF3ng ch\u1EA5n"
+      description: "V\xF9ng ch\u1EA5n \u0111\u1ED9ng to h\u01A1n."
+      parent: 5
+      maxRank: 3
+      cost: 0
+      column: 1
+      row: 2
+      effects:
+      - stat: 26
+        value: 0.4
+    - id: 7
+      name: heavy_shock
+      displayName: "\u0110\u1ECBa ch\u1EA5n"
+      description: "Ch\u1EA5n \u0111\u1ED9ng g\xE2y nhi\u1EC1u s\xE1t th\u01B0\u01A1ng
+        h\u01A1n."
+      parent: 6
+      maxRank: 2
+      cost: 0
+      column: 1
+      row: 3
+      effects:
+      - stat: 27
+        value: 25
+    - id: 8
+      name: swift
+      displayName: Nhanh tay
+      description: "\u0110\xE1nh nhanh h\u01A1n."
+      parent: 1
+      maxRank: 3
+      cost: 0
+      column: 2
+      row: 1
+      effects:
+      - stat: 11
+        value: 8
+    - id: 9
+      name: fury
+      displayName: "Cu\u1ED3ng n\u1ED9"
+      description: "Nhanh h\u01A1n v\xE0 m\u1EA1nh h\u01A1n."
+      parent: 8
+      maxRank: 2
+      cost: 0
+      column: 2
+      row: 2
+      effects:
+      - stat: 11
+        value: 6
+      - stat: 24
+        value: 6
+  - id: 3
+    name: scythe
+    displayName: "L\u01B0\u1EE1i h\xE1i"
+    description: "Qu\xE9t r\u1ED9ng, t\u1EA7m xa h\u01A1n ki\u1EBFm nh\u01B0ng s\xE1t
+      th\u01B0\u01A1ng m\u1ED7i nh\xE1t th\u1EA5p h\u01A1n."
+    idIcon: 607
+    basicSkill: 10
+    upgrades:
+    - id: 1
+      name: power
+      displayName: "L\u1EF1c \u0111\xE1nh"
+      description: "M\u1ED7i nh\xE1t m\u1EA1nh h\u01A1n."
+      parent: 0
+      maxRank: 5
+      cost: 0
+      column: 1
+      row: 0
+      effects:
+      - stat: 24
+        value: 8
+    - id: 2
+      name: wide
+      displayName: "Qu\xE9t r\u1ED9ng"
+      description: "Nh\xE1t \u0111\xE1nh qu\xE9t r\u1ED9ng sang hai b\xEAn."
+      parent: 1
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 1
+      effects:
+      - stat: 28
+        value: 20
+    - id: 3
+      name: reach
+      displayName: "T\u1EA7m v\u1EDBi"
+      description: "\u0110\xE1nh tr\xFAng xa h\u01A1n."
+      parent: 2
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 2
+      effects:
+      - stat: 22
+        value: 0.4
+    - id: 4
+      name: keen
+      displayName: "L\u01B0\u1EE1i s\u1EAFc"
+      description: "M\u1ED7i nh\xE1t m\u1EA1nh h\u01A1n n\u1EEFa."
+      parent: 3
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 3
+      effects:
+      - stat: 24
+        value: 12
+    - id: 5
+      name: shock
+      displayName: "Ch\u1EA5n \u0111\u1ED9ng"
+      description: "Nh\xE1t \u0111\xE1nh t\u1EA1o v\u1EE5 n\u1ED5 ch\u1EA5n \u0111\u1ED9ng
+        t\u1EA1i ch\u1ED7 tr\xFAng."
+      parent: 1
+      maxRank: 1
+      cost: 0
+      column: 1
+      row: 1
+      effects:
+      - stat: 26
+        value: 1
+    - id: 6
+      name: big_shock
+      displayName: "S\xF3ng ch\u1EA5n"
+      description: "V\xF9ng ch\u1EA5n \u0111\u1ED9ng to h\u01A1n."
+      parent: 5
+      maxRank: 3
+      cost: 0
+      column: 1
+      row: 2
+      effects:
+      - stat: 26
+        value: 0.4
+    - id: 7
+      name: heavy_shock
+      displayName: "\u0110\u1ECBa ch\u1EA5n"
+      description: "Ch\u1EA5n \u0111\u1ED9ng g\xE2y nhi\u1EC1u s\xE1t th\u01B0\u01A1ng
+        h\u01A1n."
+      parent: 6
+      maxRank: 2
+      cost: 0
+      column: 1
+      row: 3
+      effects:
+      - stat: 27
+        value: 25
+    - id: 8
+      name: swift
+      displayName: Nhanh tay
+      description: "\u0110\xE1nh nhanh h\u01A1n."
+      parent: 1
+      maxRank: 3
+      cost: 0
+      column: 2
+      row: 1
+      effects:
+      - stat: 11
+        value: 8
+    - id: 9
+      name: fury
+      displayName: "Cu\u1ED3ng n\u1ED9"
+      description: "Nhanh h\u01A1n v\xE0 m\u1EA1nh h\u01A1n."
+      parent: 8
+      maxRank: 2
+      cost: 0
+      column: 2
+      row: 2
+      effects:
+      - stat: 11
+        value: 6
+      - stat: 24
+        value: 6
+  - id: 4
+    name: bow
+    displayName: Cung
+    description: "B\u1EAFn t\u1EEB xa: m\u0169i t\xEAn bay th\u1EB3ng, tr\xFAng k\u1EBB
+      \u0111\u1ECBch \u0111\u1EA7u ti\xEAn tr\xEAn \u0111\u01B0\u1EDDng."
+    idIcon: 608
+    basicSkill: 7
+    upgrades:
+    - id: 1
+      name: power
+      displayName: "L\u1EF1c b\u1EAFn"
+      description: "M\u1ED7i ph\xE1t m\u1EA1nh h\u01A1n."
+      parent: 0
+      maxRank: 5
+      cost: 0
+      column: 1
+      row: 0
+      effects:
+      - stat: 24
+        value: 8
+    - id: 2
+      name: multi_shot
+      displayName: "B\u1EAFn \u0111\xF4i"
+      description: "M\u1ED7i ph\xE1t b\u1EAFn th\xEAm m\u1ED9t t\xEAn, x\xF2e h\xECnh
+        qu\u1EA1t."
+      parent: 1
+      maxRank: 1
+      cost: 0
+      column: 0
+      row: 1
+      effects:
+      - stat: 25
+        value: 1
+    - id: 3
+      name: fan_shot
+      displayName: "B\u1EAFn ch\xF9m"
+      description: "Th\xEAm t\xEAn v\xE0o m\u1ED7i ph\xE1t, qu\u1EA1t r\u1ED9ng h\u01A1n."
+      parent: 2
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 2
+      effects:
+      - stat: 25
+        value: 1
+    - id: 4
+      name: barrage
+      displayName: "M\u01B0a t\xEAn"
+      description: "Th\xEAm m\u1ED9t t\xEAn n\u1EEFa v\xE0 m\u1ED7i vi\xEAn m\u1EA1nh
+        h\u01A1n."
+      parent: 3
+      maxRank: 1
+      cost: 0
+      column: 0
+      row: 3
+      effects:
+      - stat: 25
+        value: 1
+      - stat: 24
+        value: 10
+    - id: 5
+      name: blast
+      displayName: "T\xEAn n\u1ED5"
+      description: "Tr\xFAng l\xE0 n\u1ED5, g\xE2y s\xE1t th\u01B0\u01A1ng v\xF9ng
+        quanh ch\u1ED7 tr\xFAng."
+      parent: 1
+      maxRank: 1
+      cost: 0
+      column: 1
+      row: 1
+      effects:
+      - stat: 26
+        value: 0.8
+    - id: 6
+      name: big_blast
+      displayName: "N\u1ED5 l\u1EDBn"
+      description: "V\xF9ng n\u1ED5 to h\u01A1n."
+      parent: 5
+      maxRank: 3
+      cost: 0
+      column: 1
+      row: 2
+      effects:
+      - stat: 26
+        value: 0.35
+    - id: 7
+      name: heavy_blast
+      displayName: "Thu\u1ED1c n\u1ED5 m\u1EA1nh"
+      description: "V\u1EE5 n\u1ED5 g\xE2y nhi\u1EC1u s\xE1t th\u01B0\u01A1ng h\u01A1n."
+      parent: 6
+      maxRank: 3
+      cost: 0
+      column: 1
+      row: 3
+      effects:
+      - stat: 27
+        value: 20
+    - id: 8
+      name: pierce
+      displayName: "Xuy\xEAn gi\xE1p"
+      description: "M\u1ED7i t\xEAn xuy\xEAn qua th\xEAm m\u1ED9t k\u1EBB \u0111\u1ECBch."
+      parent: 1
+      maxRank: 2
+      cost: 0
+      column: 2
+      row: 1
+      effects:
+      - stat: 23
+        value: 1
+    - id: 9
+      name: rapid
+      displayName: "B\u1EAFn nhanh"
+      description: "B\u1EAFn nhanh h\u01A1n."
+      parent: 8
+      maxRank: 3
+      cost: 0
+      column: 2
+      row: 2
+      effects:
+      - stat: 11
+        value: 8
+    - id: 10
+      name: long_range
+      displayName: "T\u1EA7m xa"
+      description: "Bay xa h\u01A1n."
+      parent: 9
+      maxRank: 2
+      cost: 0
+      column: 2
+      row: 3
+      effects:
+      - stat: 22
+        value: 1.5
+  - id: 5
+    name: gun
+    displayName: "S\xFAng l\u1EE5c"
+    description: "B\u1EAFn nhanh, t\u1EA7m v\u1EEBa: h\u1EE3p \u0111\u1EC3 r\u1EC9a
+      m\xE1u t\u1EEB kho\u1EA3ng c\xE1ch an to\xE0n."
+    idIcon: 611
+    basicSkill: 11
+    upgrades:
+    - id: 1
+      name: power
+      displayName: "L\u1EF1c b\u1EAFn"
+      description: "M\u1ED7i ph\xE1t m\u1EA1nh h\u01A1n."
+      parent: 0
+      maxRank: 5
+      cost: 0
+      column: 1
+      row: 0
+      effects:
+      - stat: 24
+        value: 8
+    - id: 2
+      name: multi_shot
+      displayName: "B\u1EAFn \u0111\xF4i"
+      description: "M\u1ED7i ph\xE1t b\u1EAFn th\xEAm m\u1ED9t \u0111\u1EA1n, x\xF2e
+        h\xECnh qu\u1EA1t."
+      parent: 1
+      maxRank: 1
+      cost: 0
+      column: 0
+      row: 1
+      effects:
+      - stat: 25
+        value: 1
+    - id: 3
+      name: fan_shot
+      displayName: "B\u1EAFn ch\xF9m"
+      description: "Th\xEAm \u0111\u1EA1n v\xE0o m\u1ED7i ph\xE1t, qu\u1EA1t r\u1ED9ng
+        h\u01A1n."
+      parent: 2
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 2
+      effects:
+      - stat: 25
+        value: 1
+    - id: 4
+      name: barrage
+      displayName: "M\u01B0a \u0111\u1EA1n"
+      description: "Th\xEAm m\u1ED9t \u0111\u1EA1n n\u1EEFa v\xE0 m\u1ED7i vi\xEAn
+        m\u1EA1nh h\u01A1n."
+      parent: 3
+      maxRank: 1
+      cost: 0
+      column: 0
+      row: 3
+      effects:
+      - stat: 25
+        value: 1
+      - stat: 24
+        value: 10
+    - id: 5
+      name: blast
+      displayName: "\u0110\u1EA1n n\u1ED5"
+      description: "Tr\xFAng l\xE0 n\u1ED5, g\xE2y s\xE1t th\u01B0\u01A1ng v\xF9ng
+        quanh ch\u1ED7 tr\xFAng."
+      parent: 1
+      maxRank: 1
+      cost: 0
+      column: 1
+      row: 1
+      effects:
+      - stat: 26
+        value: 0.8
+    - id: 6
+      name: big_blast
+      displayName: "N\u1ED5 l\u1EDBn"
+      description: "V\xF9ng n\u1ED5 to h\u01A1n."
+      parent: 5
+      maxRank: 3
+      cost: 0
+      column: 1
+      row: 2
+      effects:
+      - stat: 26
+        value: 0.35
+    - id: 7
+      name: heavy_blast
+      displayName: "Thu\u1ED1c n\u1ED5 m\u1EA1nh"
+      description: "V\u1EE5 n\u1ED5 g\xE2y nhi\u1EC1u s\xE1t th\u01B0\u01A1ng h\u01A1n."
+      parent: 6
+      maxRank: 3
+      cost: 0
+      column: 1
+      row: 3
+      effects:
+      - stat: 27
+        value: 20
+    - id: 8
+      name: pierce
+      displayName: "Xuy\xEAn gi\xE1p"
+      description: "M\u1ED7i \u0111\u1EA1n xuy\xEAn qua th\xEAm m\u1ED9t k\u1EBB
+        \u0111\u1ECBch."
+      parent: 1
+      maxRank: 2
+      cost: 0
+      column: 2
+      row: 1
+      effects:
+      - stat: 23
+        value: 1
+    - id: 9
+      name: rapid
+      displayName: "B\u1EAFn nhanh"
+      description: "B\u1EAFn nhanh h\u01A1n."
+      parent: 8
+      maxRank: 3
+      cost: 0
+      column: 2
+      row: 2
+      effects:
+      - stat: 11
+        value: 8
+    - id: 10
+      name: long_range
+      displayName: "T\u1EA7m xa"
+      description: "Bay xa h\u01A1n."
+      parent: 9
+      maxRank: 2
+      cost: 0
+      column: 2
+      row: 3
+      effects:
+      - stat: 22
+        value: 1.5
+  - id: 6
+    name: rifle
+    displayName: "S\xFAng tr\u01B0\u1EDDng"
+    description: "B\u1EAFn ch\u1EADm nh\u01B0ng xa v\xE0 m\u1EA1nh, \u0111\u1EA1n
+      xuy\xEAn qua hai k\u1EBB \u0111\u1ECBch."
+    idIcon: 612
+    basicSkill: 12
+    upgrades:
+    - id: 1
+      name: power
+      displayName: "L\u1EF1c b\u1EAFn"
+      description: "M\u1ED7i ph\xE1t m\u1EA1nh h\u01A1n."
+      parent: 0
+      maxRank: 5
+      cost: 0
+      column: 1
+      row: 0
+      effects:
+      - stat: 24
+        value: 8
+    - id: 2
+      name: multi_shot
+      displayName: "B\u1EAFn \u0111\xF4i"
+      description: "M\u1ED7i ph\xE1t b\u1EAFn th\xEAm m\u1ED9t \u0111\u1EA1n, x\xF2e
+        h\xECnh qu\u1EA1t."
+      parent: 1
+      maxRank: 1
+      cost: 0
+      column: 0
+      row: 1
+      effects:
+      - stat: 25
+        value: 1
+    - id: 3
+      name: fan_shot
+      displayName: "B\u1EAFn ch\xF9m"
+      description: "Th\xEAm \u0111\u1EA1n v\xE0o m\u1ED7i ph\xE1t, qu\u1EA1t r\u1ED9ng
+        h\u01A1n."
+      parent: 2
+      maxRank: 2
+      cost: 0
+      column: 0
+      row: 2
+      effects:
+      - stat: 25
+        value: 1
+    - id: 4
+      name: barrage
+      displayName: "M\u01B0a \u0111\u1EA1n"
+      description: "Th\xEAm m\u1ED9t \u0111\u1EA1n n\u1EEFa v\xE0 m\u1ED7i vi\xEAn
+        m\u1EA1nh h\u01A1n."
+      parent: 3
+      maxRank: 1
+      cost: 0
+      column: 0
+      row: 3
+      effects:
+      - stat: 25
+        value: 1
+      - stat: 24
+        value: 10
+    - id: 5
+      name: blast
+      displayName: "\u0110\u1EA1n n\u1ED5"
+      description: "Tr\xFAng l\xE0 n\u1ED5, g\xE2y s\xE1t th\u01B0\u01A1ng v\xF9ng
+        quanh ch\u1ED7 tr\xFAng."
+      parent: 1
+      maxRank: 1
+      cost: 0
+      column: 1
+      row: 1
+      effects:
+      - stat: 26
+        value: 0.8
+    - id: 6
+      name: big_blast
+      displayName: "N\u1ED5 l\u1EDBn"
+      description: "V\xF9ng n\u1ED5 to h\u01A1n."
+      parent: 5
+      maxRank: 3
+      cost: 0
+      column: 1
+      row: 2
+      effects:
+      - stat: 26
+        value: 0.35
+    - id: 7
+      name: heavy_blast
+      displayName: "Thu\u1ED1c n\u1ED5 m\u1EA1nh"
+      description: "V\u1EE5 n\u1ED5 g\xE2y nhi\u1EC1u s\xE1t th\u01B0\u01A1ng h\u01A1n."
+      parent: 6
+      maxRank: 3
+      cost: 0
+      column: 1
+      row: 3
+      effects:
+      - stat: 27
+        value: 20
+    - id: 8
+      name: pierce
+      displayName: "Xuy\xEAn gi\xE1p"
+      description: "M\u1ED7i \u0111\u1EA1n xuy\xEAn qua th\xEAm m\u1ED9t k\u1EBB
+        \u0111\u1ECBch."
+      parent: 1
+      maxRank: 2
+      cost: 0
+      column: 2
+      row: 1
+      effects:
+      - stat: 23
+        value: 1
+    - id: 9
+      name: rapid
+      displayName: "B\u1EAFn nhanh"
+      description: "B\u1EAFn nhanh h\u01A1n."
+      parent: 8
+      maxRank: 3
+      cost: 0
+      column: 2
+      row: 2
+      effects:
+      - stat: 11
+        value: 8
+    - id: 10
+      name: long_range
+      displayName: "T\u1EA7m xa"
+      description: "Bay xa h\u01A1n."
+      parent: 9
+      maxRank: 2
+      cost: 0
+      column: 2
+      row: 3
+      effects:
+      - stat: 22
+        value: 1.5

@@ -1,0 +1,4 @@
+bin/
+db.properties
+# workspace Eclipse (mở thư mục này làm workspace thì Eclipse tạo ra)
+.metadata/

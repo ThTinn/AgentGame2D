@@ -1,0 +1,1813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c767e2514433fa429280d88d1be969b, type: 3}
+  m_Name: PlayerUpgradeTree
+  m_EditorClassIdentifier: Game.Gameplay:Game.Players:PlayerUpgradeTree
+  maxLevel: 50
+  expBase: 60
+  expGrowth: 1.35
+  pointsPerLevel: 3
+  milestoneEvery: 10
+  milestoneBonusPoints: 6
+  refillOnLevelUp: 1
+  branchNames:
+  - "S\u1EE9c m\u1EA1nh|Might"
+  - "T\u1ED1c \u0111\u1ED9|Speed"
+  - "Kinh nghi\u1EC7m|Wisdom"
+  - "T\xE0i l\u1ED9c|Fortune"
+  - "S\u1EE9c m\u1EA1nh \u0111\u1ED3|Gear"
+  nodes:
+  - id: 1
+    name: origin
+    displayName: "Kh\u1EDFi ngu\u1ED3n"
+    description: "\u0110i\u1EC3m b\u1EAFt \u0111\u1EA7u c\u1EE7a m\u1ECDi h\u01B0\u1EDBng."
+    group: 
+    kind: 0
+    parent: 0
+    maxRank: 1
+    cost: 1
+    requiredLevel: 1
+    branch: 0
+    ring: 0
+    lateral: 0
+    effects:
+    - stat: 2
+      value: 1.5
+    - stat: 0
+      value: 10
+  - id: 2
+    name: might
+    displayName: "S\u1EE9c m\u1EA1nh"
+    description: 
+    group: "S\u1EE9c m\u1EA1nh"
+    kind: 0
+    parent: 1
+    maxRank: 5
+    cost: 1
+    requiredLevel: 1
+    branch: 0
+    ring: 1
+    lateral: 0
+    effects:
+    - stat: 2
+      value: 1.5
+  - id: 3
+    name: constitution
+    displayName: "Th\u1EC3 ph\xE1ch"
+    description: 
+    group: "S\u1EE9c m\u1EA1nh"
+    kind: 0
+    parent: 2
+    maxRank: 5
+    cost: 1
+    requiredLevel: 3
+    branch: 0
+    ring: 2
+    lateral: 0
+    effects:
+    - stat: 0
+      value: 10
+  - id: 4
+    name: keen
+    displayName: "Tinh m\u1EAFt"
+    description: 
+    group: "Ch\xED m\u1EA1ng"
+    kind: 0
+    parent: 3
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 0
+    ring: 3
+    lateral: -1
+    effects:
+    - stat: 3
+      value: 2
+  - id: 5
+    name: lethal
+    displayName: "Ch\xED t\u1EED"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10."
+    group: "Ch\xED m\u1EA1ng"
+    kind: 1
+    parent: 4
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 0
+    ring: 4
+    lateral: -1.25
+    effects:
+    - stat: 14
+      value: 45
+  - id: 6
+    name: blade_master
+    displayName: "B\u1EADc th\u1EA7y binh kh\xED"
+    description: "Xen S\u1EE9c m\u1EA1nh \u0111\u1ED3."
+    group: "Ch\xED m\u1EA1ng"
+    kind: 0
+    parent: 5
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 0
+    ring: 5
+    lateral: -1.5
+    effects:
+    - stat: 3
+      value: 2
+    - stat: 10
+      value: 2
+  - id: 7
+    name: assassin
+    displayName: "S\xE1t th\u1EE7"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30."
+    group: "Ch\xED m\u1EA1ng"
+    kind: 1
+    parent: 6
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 0
+    ring: 6
+    lateral: -1.75
+    effects:
+    - stat: 14
+      value: 28
+    - stat: 3
+      value: 5.5
+  - id: 8
+    name: slayer
+    displayName: "S\xE1t th\u1EA7n"
+    description: "\u0110\u1EC9nh nh\xE1nh Ch\xED m\u1EA1ng. Xen S\u1EE9c m\u1EA1nh
+      \u0111\u1ED3."
+    group: "Ch\xED m\u1EA1ng"
+    kind: 2
+    parent: 7
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 0
+    ring: 7
+    lateral: -2
+    effects:
+    - stat: 3
+      value: 7
+    - stat: 14
+      value: 35
+    - stat: 10
+      value: 7.5
+  - id: 9
+    name: power
+    displayName: "C\u01B0\u1EDDng l\u1EF1c"
+    description: 
+    group: "C\xF4ng ph\xE1"
+    kind: 0
+    parent: 3
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 0
+    ring: 3
+    lateral: 0
+    effects:
+    - stat: 2
+      value: 3.5
+  - id: 10
+    name: vigor
+    displayName: "Kh\xED huy\u1EBFt"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10."
+    group: "C\xF4ng ph\xE1"
+    kind: 1
+    parent: 9
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 0
+    ring: 4
+    lateral: 0
+    effects:
+    - stat: 2
+      value: 9
+    - stat: 0
+      value: 30
+  - id: 11
+    name: fury
+    displayName: "Cu\u1ED3ng n\u1ED9"
+    description: 
+    group: "C\xF4ng ph\xE1"
+    kind: 0
+    parent: 10
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 0
+    ring: 5
+    lateral: 0
+    effects:
+    - stat: 2
+      value: 4
+  - id: 12
+    name: berserker
+    displayName: "Cu\u1ED3ng chi\u1EBFn"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30."
+    group: "C\xF4ng ph\xE1"
+    kind: 1
+    parent: 11
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 0
+    ring: 6
+    lateral: 0
+    effects:
+    - stat: 2
+      value: 17
+  - id: 13
+    name: titan
+    displayName: "B\xE1 v\u01B0\u01A1ng"
+    description: "\u0110\u1EC9nh nh\xE1nh C\xF4ng ph\xE1."
+    group: "C\xF4ng ph\xE1"
+    kind: 2
+    parent: 12
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 0
+    ring: 7
+    lateral: 0
+    effects:
+    - stat: 2
+      value: 20
+    - stat: 0
+      value: 44
+  - id: 14
+    name: iron_skin
+    displayName: "Da th\xE9p"
+    description: 
+    group: "Ph\xF2ng th\u1EE7"
+    kind: 0
+    parent: 3
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 0
+    ring: 3
+    lateral: 1
+    effects:
+    - stat: 4
+      value: 2
+  - id: 15
+    name: recovery
+    displayName: "H\u1ED3i ph\u1EE5c"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10."
+    group: "Ph\xF2ng th\u1EE7"
+    kind: 1
+    parent: 14
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 0
+    ring: 4
+    lateral: 1.25
+    effects:
+    - stat: 6
+      value: 1.1
+    - stat: 0
+      value: 45
+  - id: 16
+    name: steady_step
+    displayName: "B\u1ED9 ph\xE1p v\u1EEFng"
+    description: "Xen T\u1ED1c \u0111\u1ED9."
+    group: "Ph\xF2ng th\u1EE7"
+    kind: 0
+    parent: 15
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 0
+    ring: 5
+    lateral: 1.5
+    effects:
+    - stat: 4
+      value: 1.5
+    - stat: 5
+      value: 1.5
+  - id: 17
+    name: fortress
+    displayName: "Th\xE0nh l\u0169y"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30."
+    group: "Ph\xF2ng th\u1EE7"
+    kind: 1
+    parent: 16
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 0
+    ring: 6
+    lateral: 1.75
+    effects:
+    - stat: 0
+      value: 57
+    - stat: 4
+      value: 4.5
+  - id: 18
+    name: undying
+    displayName: "B\u1EA5t khu\u1EA5t"
+    description: "\u0110\u1EC9nh nh\xE1nh Ph\xF2ng th\u1EE7. Xen T\u1ED1c \u0111\u1ED9."
+    group: "Ph\xF2ng th\u1EE7"
+    kind: 2
+    parent: 17
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 0
+    ring: 7
+    lateral: 2
+    effects:
+    - stat: 4
+      value: 7
+    - stat: 6
+      value: 1.1
+    - stat: 5
+      value: 6.5
+  - id: 19
+    name: might_mastery
+    displayName: "Tinh th\xF4ng S\u1EE9c m\u1EA1nh"
+    description: "N\xE2ng \u0111\u01B0\u1EE3c nhi\u1EC1u l\u1EA7n, hi\u1EC7u qu\u1EA3
+      th\u1EA5p: ch\u1ED7 ti\xEAu \u0111i\u1EC3m gi\u1EEFa c\xE1c m\u1ED1c."
+    group: "S\u1EE9c m\u1EA1nh"
+    kind: 3
+    parent: 3
+    maxRank: 20
+    cost: 2
+    requiredLevel: 20
+    branch: 0
+    ring: 2
+    lateral: 1.35
+    effects:
+    - stat: 2
+      value: 1.5
+  - id: 20
+    name: swift
+    displayName: "Nhanh nh\u1EB9n"
+    description: 
+    group: "T\u1ED1c \u0111\u1ED9"
+    kind: 0
+    parent: 1
+    maxRank: 5
+    cost: 1
+    requiredLevel: 1
+    branch: 1
+    ring: 1
+    lateral: 0
+    effects:
+    - stat: 5
+      value: 1.5
+  - id: 21
+    name: quick_hands
+    displayName: Tay nhanh
+    description: 
+    group: "T\u1ED1c \u0111\u1ED9"
+    kind: 0
+    parent: 20
+    maxRank: 5
+    cost: 1
+    requiredLevel: 3
+    branch: 1
+    ring: 2
+    lateral: 0
+    effects:
+    - stat: 11
+      value: 1
+  - id: 22
+    name: quick_strike
+    displayName: "Ra \u0111\xF2n nhanh"
+    description: 
+    group: "\u0110\xF2n nhanh"
+    kind: 0
+    parent: 21
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 1
+    ring: 3
+    lateral: -1
+    effects:
+    - stat: 11
+      value: 2
+  - id: 23
+    name: flurry
+    displayName: "Li\xEAn ho\xE0n"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10."
+    group: "\u0110\xF2n nhanh"
+    kind: 1
+    parent: 22
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 1
+    ring: 4
+    lateral: -1.25
+    effects:
+    - stat: 11
+      value: 7
+  - id: 24
+    name: swift_blade
+    displayName: "Ki\u1EBFm t\u1ED1c"
+    description: "Xen S\u1EE9c m\u1EA1nh."
+    group: "\u0110\xF2n nhanh"
+    kind: 0
+    parent: 23
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 1
+    ring: 5
+    lateral: -1.5
+    effects:
+    - stat: 11
+      value: 1.5
+    - stat: 2
+      value: 1.5
+  - id: 25
+    name: frenzy
+    displayName: "Cu\u1ED3ng phong"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30."
+    group: "\u0110\xF2n nhanh"
+    kind: 1
+    parent: 24
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 1
+    ring: 6
+    lateral: -1.75
+    effects:
+    - stat: 11
+      value: 9
+  - id: 26
+    name: tempest
+    displayName: "B\xE3o t\u1ED1"
+    description: "\u0110\u1EC9nh nh\xE1nh \u0110\xF2n nhanh. Xen S\u1EE9c m\u1EA1nh."
+    group: "\u0110\xF2n nhanh"
+    kind: 2
+    parent: 25
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 1
+    ring: 7
+    lateral: -2
+    effects:
+    - stat: 11
+      value: 7
+    - stat: 2
+      value: 13
+  - id: 27
+    name: dash
+    displayName: "L\u01B0\u1EDBt nhanh"
+    description: 
+    group: "Th\xE2n ph\xE1p"
+    kind: 0
+    parent: 21
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 1
+    ring: 3
+    lateral: 0
+    effects:
+    - stat: 13
+      value: 4.5
+  - id: 28
+    name: sprinter
+    displayName: "N\u01B0\u1EDBc r\xFAt"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10. Xen sinh t\u1ED3n."
+    group: "Th\xE2n ph\xE1p"
+    kind: 1
+    parent: 27
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 1
+    ring: 4
+    lateral: 0
+    effects:
+    - stat: 5
+      value: 7
+    - stat: 0
+      value: 45
+  - id: 29
+    name: wind_step
+    displayName: "B\u01B0\u1EDBc gi\xF3"
+    description: 
+    group: "Th\xE2n ph\xE1p"
+    kind: 0
+    parent: 28
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 1
+    ring: 5
+    lateral: 0
+    effects:
+    - stat: 13
+      value: 2.5
+    - stat: 5
+      value: 2
+  - id: 30
+    name: blink
+    displayName: "Ch\u1EDBp nho\xE1ng"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30. Xen sinh t\u1ED3n."
+    group: "Th\xE2n ph\xE1p"
+    kind: 1
+    parent: 29
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 1
+    ring: 6
+    lateral: 0
+    effects:
+    - stat: 13
+      value: 11
+    - stat: 4
+      value: 4.5
+  - id: 31
+    name: phantom
+    displayName: "B\xF3ng ma"
+    description: "\u0110\u1EC9nh nh\xE1nh Th\xE2n ph\xE1p. Xen sinh t\u1ED3n."
+    group: "Th\xE2n ph\xE1p"
+    kind: 2
+    parent: 30
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 1
+    ring: 7
+    lateral: 0
+    effects:
+    - stat: 5
+      value: 9
+    - stat: 13
+      value: 12
+    - stat: 4
+      value: 4.5
+  - id: 32
+    name: focus
+    displayName: "T\u1EADp trung"
+    description: 
+    group: "T\xE2m t\u1ED1c"
+    kind: 0
+    parent: 21
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 1
+    ring: 3
+    lateral: 1
+    effects:
+    - stat: 12
+      value: 2
+  - id: 33
+    name: channel
+    displayName: "V\u1EADn kh\xED"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10."
+    group: "T\xE2m t\u1ED1c"
+    kind: 1
+    parent: 32
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 1
+    ring: 4
+    lateral: 1.25
+    effects:
+    - stat: 12
+      value: 9
+  - id: 34
+    name: quick_study
+    displayName: "H\u1ECDc nhanh"
+    description: "Xen Kinh nghi\u1EC7m."
+    group: "T\xE2m t\u1ED1c"
+    kind: 0
+    parent: 33
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 1
+    ring: 5
+    lateral: 1.5
+    effects:
+    - stat: 12
+      value: 2
+    - stat: 7
+      value: 2.5
+  - id: 35
+    name: zen
+    displayName: "Nh\u1EADp \u0111\u1ECBnh"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30. Xen S\u1EE9c m\u1EA1nh."
+    group: "T\xE2m t\u1ED1c"
+    kind: 1
+    parent: 34
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 1
+    ring: 6
+    lateral: 1.75
+    effects:
+    - stat: 12
+      value: 5.5
+    - stat: 2
+      value: 8.5
+  - id: 36
+    name: time_warp
+    displayName: "Ng\u01B0ng \u0111\u1ECDng"
+    description: "\u0110\u1EC9nh nh\xE1nh T\xE2m t\u1ED1c. Xen Kinh nghi\u1EC7m,
+      S\u1EE9c m\u1EA1nh."
+    group: "T\xE2m t\u1ED1c"
+    kind: 2
+    parent: 35
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 1
+    ring: 7
+    lateral: 2
+    effects:
+    - stat: 12
+      value: 6
+    - stat: 7
+      value: 18
+    - stat: 2
+      value: 9
+  - id: 37
+    name: speed_mastery
+    displayName: "Tinh th\xF4ng T\u1ED1c \u0111\u1ED9"
+    description: "N\xE2ng \u0111\u01B0\u1EE3c nhi\u1EC1u l\u1EA7n, hi\u1EC7u qu\u1EA3
+      th\u1EA5p: ch\u1ED7 ti\xEAu \u0111i\u1EC3m gi\u1EEFa c\xE1c m\u1ED1c. Xen S\u1EE9c
+      m\u1EA1nh."
+    group: "T\u1ED1c \u0111\u1ED9"
+    kind: 3
+    parent: 21
+    maxRank: 20
+    cost: 2
+    requiredLevel: 20
+    branch: 1
+    ring: 2
+    lateral: 1.35
+    effects:
+    - stat: 2
+      value: 1
+    - stat: 5
+      value: 1
+  - id: 38
+    name: study
+    displayName: "Ham h\u1ECDc"
+    description: 
+    group: "Kinh nghi\u1EC7m"
+    kind: 0
+    parent: 1
+    maxRank: 5
+    cost: 1
+    requiredLevel: 1
+    branch: 2
+    ring: 1
+    lateral: 0
+    effects:
+    - stat: 7
+      value: 3
+  - id: 39
+    name: training
+    displayName: "R\xE8n luy\u1EC7n"
+    description: 
+    group: "Kinh nghi\u1EC7m"
+    kind: 0
+    parent: 38
+    maxRank: 5
+    cost: 1
+    requiredLevel: 3
+    branch: 2
+    ring: 2
+    lateral: 0
+    effects:
+    - stat: 15
+      value: 1
+  - id: 40
+    name: practice
+    displayName: "Luy\u1EC7n t\u1EADp"
+    description: 
+    group: "Kh\u1ED5 luy\u1EC7n"
+    kind: 0
+    parent: 39
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 2
+    ring: 3
+    lateral: -1
+    effects:
+    - stat: 15
+      value: 2
+  - id: 41
+    name: sparring
+    displayName: "\u0110\u1ED1i luy\u1EC7n"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10. Xen S\u1EE9c m\u1EA1nh."
+    group: "Kh\u1ED5 luy\u1EC7n"
+    kind: 1
+    parent: 40
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 2
+    ring: 4
+    lateral: -1.25
+    effects:
+    - stat: 15
+      value: 4.5
+    - stat: 2
+      value: 7
+  - id: 42
+    name: agile_mind
+    displayName: "Linh ho\u1EA1t"
+    description: "Xen T\u1ED1c \u0111\u1ED9."
+    group: "Kh\u1ED5 luy\u1EC7n"
+    kind: 0
+    parent: 41
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 2
+    ring: 5
+    lateral: -1.5
+    effects:
+    - stat: 15
+      value: 2
+    - stat: 5
+      value: 1.5
+  - id: 43
+    name: discipline
+    displayName: "K\u1EF7 lu\u1EADt"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30. Xen S\u1EE9c m\u1EA1nh."
+    group: "Kh\u1ED5 luy\u1EC7n"
+    kind: 1
+    parent: 42
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 2
+    ring: 6
+    lateral: -1.75
+    effects:
+    - stat: 15
+      value: 5.5
+    - stat: 2
+      value: 8.5
+  - id: 44
+    name: grandmaster
+    displayName: "T\xF4ng s\u01B0"
+    description: "\u0110\u1EC9nh nh\xE1nh Kh\u1ED5 luy\u1EC7n. Xen T\u1ED1c \u0111\u1ED9."
+    group: "Kh\u1ED5 luy\u1EC7n"
+    kind: 2
+    parent: 43
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 2
+    ring: 7
+    lateral: -2
+    effects:
+    - stat: 15
+      value: 12
+    - stat: 11
+      value: 4.5
+  - id: 45
+    name: scholar
+    displayName: "H\u1ECDc gi\u1EA3"
+    description: 
+    group: "Uy\xEAn b\xE1c"
+    kind: 0
+    parent: 39
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 2
+    ring: 3
+    lateral: 0
+    effects:
+    - stat: 7
+      value: 6.5
+  - id: 46
+    name: meditation
+    displayName: "Thi\u1EC1n \u0111\u1ECBnh"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10. Xen sinh t\u1ED3n."
+    group: "Uy\xEAn b\xE1c"
+    kind: 1
+    parent: 45
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 2
+    ring: 4
+    lateral: 0
+    effects:
+    - stat: 7
+      value: 14
+    - stat: 6
+      value: 1.1
+  - id: 47
+    name: wisdom
+    displayName: "Th\xF4ng th\xE1i"
+    description: 
+    group: "Uy\xEAn b\xE1c"
+    kind: 0
+    parent: 46
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 2
+    ring: 5
+    lateral: 0
+    effects:
+    - stat: 7
+      value: 8
+  - id: 48
+    name: enlightened
+    displayName: "Gi\xE1c ng\u1ED9"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30."
+    group: "Uy\xEAn b\xE1c"
+    kind: 1
+    parent: 47
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 2
+    ring: 6
+    lateral: 0
+    effects:
+    - stat: 7
+      value: 34
+  - id: 49
+    name: sage
+    displayName: "Hi\u1EC1n tri\u1EBFt"
+    description: "\u0110\u1EC9nh nh\xE1nh Uy\xEAn b\xE1c. Xen sinh t\u1ED3n."
+    group: "Uy\xEAn b\xE1c"
+    kind: 2
+    parent: 48
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 2
+    ring: 7
+    lateral: 0
+    effects:
+    - stat: 7
+      value: 35
+    - stat: 6
+      value: 1.45
+  - id: 50
+    name: hunter
+    displayName: "Th\u1EE3 s\u0103n"
+    description: 
+    group: "S\u0103n th\u01B0\u1EDFng"
+    kind: 0
+    parent: 39
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 2
+    ring: 3
+    lateral: 1
+    effects:
+    - stat: 7
+      value: 6.5
+  - id: 51
+    name: tracker
+    displayName: "Truy d\u1EA5u"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10. Xen S\u1EE9c m\u1EA1nh."
+    group: "S\u0103n th\u01B0\u1EDFng"
+    kind: 1
+    parent: 50
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 2
+    ring: 4
+    lateral: 1.25
+    effects:
+    - stat: 7
+      value: 14
+    - stat: 2
+      value: 7
+  - id: 52
+    name: bounty
+    displayName: "Ti\u1EC1n th\u01B0\u1EDFng"
+    description: "Xen T\xE0i l\u1ED9c."
+    group: "S\u0103n th\u01B0\u1EDFng"
+    kind: 0
+    parent: 51
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 2
+    ring: 5
+    lateral: 1.5
+    effects:
+    - stat: 7
+      value: 5.5
+    - stat: 8
+      value: 5.5
+  - id: 53
+    name: veteran
+    displayName: "L\xE3o luy\u1EC7n"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30."
+    group: "S\u0103n th\u01B0\u1EDFng"
+    kind: 1
+    parent: 52
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 2
+    ring: 6
+    lateral: 1.75
+    effects:
+    - stat: 7
+      value: 34
+  - id: 54
+    name: legend
+    displayName: "Huy\u1EC1n tho\u1EA1i"
+    description: "\u0110\u1EC9nh nh\xE1nh S\u0103n th\u01B0\u1EDFng. Xen T\xE0i l\u1ED9c."
+    group: "S\u0103n th\u01B0\u1EDFng"
+    kind: 2
+    parent: 53
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 2
+    ring: 7
+    lateral: 2
+    effects:
+    - stat: 7
+      value: 26
+    - stat: 8
+      value: 53
+  - id: 55
+    name: wisdom_mastery
+    displayName: "Tinh th\xF4ng Kinh nghi\u1EC7m"
+    description: "N\xE2ng \u0111\u01B0\u1EE3c nhi\u1EC1u l\u1EA7n, hi\u1EC7u qu\u1EA3
+      th\u1EA5p: ch\u1ED7 ti\xEAu \u0111i\u1EC3m gi\u1EEFa c\xE1c m\u1ED1c."
+    group: "Kinh nghi\u1EC7m"
+    kind: 3
+    parent: 39
+    maxRank: 20
+    cost: 2
+    requiredLevel: 20
+    branch: 2
+    ring: 2
+    lateral: 1.35
+    effects:
+    - stat: 7
+      value: 3.5
+  - id: 56
+    name: greed
+    displayName: "H\xE1m l\u1EE3i"
+    description: 
+    group: "T\xE0i l\u1ED9c"
+    kind: 0
+    parent: 1
+    maxRank: 5
+    cost: 1
+    requiredLevel: 1
+    branch: 3
+    ring: 1
+    lateral: 0
+    effects:
+    - stat: 8
+      value: 6
+  - id: 57
+    name: lucky
+    displayName: "May m\u1EAFn"
+    description: 
+    group: "T\xE0i l\u1ED9c"
+    kind: 0
+    parent: 56
+    maxRank: 5
+    cost: 1
+    requiredLevel: 3
+    branch: 3
+    ring: 2
+    lateral: 0
+    effects:
+    - stat: 9
+      value: 12
+  - id: 58
+    name: coin
+    displayName: "Nh\u1EB7t xu"
+    description: 
+    group: "Th\u01B0\u01A1ng nh\xE2n"
+    kind: 0
+    parent: 57
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 3
+    ring: 3
+    lateral: -1
+    effects:
+    - stat: 8
+      value: 13
+  - id: 59
+    name: haggle
+    displayName: "M\u1EB7c c\u1EA3"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10. Xen sinh t\u1ED3n."
+    group: "Th\u01B0\u01A1ng nh\xE2n"
+    kind: 1
+    parent: 58
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 3
+    ring: 4
+    lateral: -1.25
+    effects:
+    - stat: 8
+      value: 27
+    - stat: 0
+      value: 45
+  - id: 60
+    name: wise_trade
+    displayName: "Bu\xF4n kh\xF4n"
+    description: "Xen Kinh nghi\u1EC7m."
+    group: "Th\u01B0\u01A1ng nh\xE2n"
+    kind: 0
+    parent: 59
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 3
+    ring: 5
+    lateral: -1.5
+    effects:
+    - stat: 8
+      value: 11
+    - stat: 7
+      value: 2.5
+  - id: 61
+    name: treasurer
+    displayName: "Th\u1EE7 qu\u1EF9"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30."
+    group: "Th\u01B0\u01A1ng nh\xE2n"
+    kind: 1
+    parent: 60
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 3
+    ring: 6
+    lateral: -1.75
+    effects:
+    - stat: 8
+      value: 68
+  - id: 62
+    name: tycoon
+    displayName: "Ph\xFA h\u1ED9"
+    description: "\u0110\u1EC9nh nh\xE1nh Th\u01B0\u01A1ng nh\xE2n. Xen Kinh nghi\u1EC7m."
+    group: "Th\u01B0\u01A1ng nh\xE2n"
+    kind: 2
+    parent: 61
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 3
+    ring: 7
+    lateral: -2
+    effects:
+    - stat: 8
+      value: 53
+    - stat: 7
+      value: 26
+  - id: 63
+    name: treasure
+    displayName: "S\u0103n b\xE1u"
+    description: 
+    group: "S\u0103n kho b\xE1u"
+    kind: 0
+    parent: 57
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 3
+    ring: 3
+    lateral: 0
+    effects:
+    - stat: 9
+      value: 26
+  - id: 64
+    name: lucky_charm
+    displayName: "B\xF9a may"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10. Xen sinh t\u1ED3n."
+    group: "S\u0103n kho b\xE1u"
+    kind: 1
+    parent: 63
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 3
+    ring: 4
+    lateral: 0
+    effects:
+    - stat: 9
+      value: 54
+    - stat: 0
+      value: 45
+  - id: 65
+    name: fortune
+    displayName: "V\u1EADn may"
+    description: 
+    group: "S\u0103n kho b\xE1u"
+    kind: 0
+    parent: 64
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 3
+    ring: 5
+    lateral: 0
+    effects:
+    - stat: 9
+      value: 32
+  - id: 66
+    name: jackpot
+    displayName: "Tr\xFAng m\xE1nh"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30. Xen S\u1EE9c m\u1EA1nh."
+    group: "S\u0103n kho b\xE1u"
+    kind: 1
+    parent: 65
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 3
+    ring: 6
+    lateral: 0
+    effects:
+    - stat: 9
+      value: 68
+    - stat: 2
+      value: 8.5
+  - id: 67
+    name: golden_touch
+    displayName: "B\xE0n tay v\xE0ng"
+    description: "\u0110\u1EC9nh nh\xE1nh S\u0103n kho b\xE1u."
+    group: "S\u0103n kho b\xE1u"
+    kind: 2
+    parent: 66
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 3
+    ring: 7
+    lateral: 0
+    effects:
+    - stat: 9
+      value: 106
+    - stat: 8
+      value: 53
+  - id: 68
+    name: plunder
+    displayName: "C\u01B0\u1EDBp b\xF3c"
+    description: 
+    group: "Chi\u1EBFn l\u1EE3i ph\u1EA9m"
+    kind: 0
+    parent: 57
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 3
+    ring: 3
+    lateral: 1
+    effects:
+    - stat: 8
+      value: 13
+  - id: 69
+    name: mercenary
+    displayName: "L\xEDnh \u0111\xE1nh thu\xEA"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10. Xen S\u1EE9c m\u1EA1nh."
+    group: "Chi\u1EBFn l\u1EE3i ph\u1EA9m"
+    kind: 1
+    parent: 68
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 3
+    ring: 4
+    lateral: 1.25
+    effects:
+    - stat: 8
+      value: 27
+    - stat: 2
+      value: 7
+  - id: 70
+    name: armory
+    displayName: "Kho v\u0169 kh\xED"
+    description: "Xen S\u1EE9c m\u1EA1nh \u0111\u1ED3."
+    group: "Chi\u1EBFn l\u1EE3i ph\u1EA9m"
+    kind: 0
+    parent: 69
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 3
+    ring: 5
+    lateral: 1.5
+    effects:
+    - stat: 8
+      value: 11
+    - stat: 10
+      value: 2
+  - id: 71
+    name: war_chest
+    displayName: "R\u01B0\u01A1ng chi\u1EBFn"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30. Xen S\u1EE9c m\u1EA1nh."
+    group: "Chi\u1EBFn l\u1EE3i ph\u1EA9m"
+    kind: 1
+    parent: 70
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 3
+    ring: 6
+    lateral: 1.75
+    effects:
+    - stat: 8
+      value: 34
+    - stat: 2
+      value: 8.5
+  - id: 72
+    name: royal_hoard
+    displayName: "Kho b\xE1u ho\xE0ng gia"
+    description: "\u0110\u1EC9nh nh\xE1nh Chi\u1EBFn l\u1EE3i ph\u1EA9m. Xen S\u1EE9c
+      m\u1EA1nh \u0111\u1ED3."
+    group: "Chi\u1EBFn l\u1EE3i ph\u1EA9m"
+    kind: 2
+    parent: 71
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 3
+    ring: 7
+    lateral: 2
+    effects:
+    - stat: 8
+      value: 53
+    - stat: 10
+      value: 19
+  - id: 73
+    name: fortune_mastery
+    displayName: "Tinh th\xF4ng T\xE0i l\u1ED9c"
+    description: "N\xE2ng \u0111\u01B0\u1EE3c nhi\u1EC1u l\u1EA7n, hi\u1EC7u qu\u1EA3
+      th\u1EA5p: ch\u1ED7 ti\xEAu \u0111i\u1EC3m gi\u1EEFa c\xE1c m\u1ED1c."
+    group: "T\xE0i l\u1ED9c"
+    kind: 3
+    parent: 57
+    maxRank: 20
+    cost: 2
+    requiredLevel: 20
+    branch: 3
+    ring: 2
+    lateral: 1.35
+    effects:
+    - stat: 8
+      value: 6.5
+  - id: 74
+    name: honing
+    displayName: "M\xE0i gi\u0169a"
+    description: 
+    group: "S\u1EE9c m\u1EA1nh \u0111\u1ED3"
+    kind: 0
+    parent: 1
+    maxRank: 5
+    cost: 1
+    requiredLevel: 1
+    branch: 4
+    ring: 1
+    lateral: 0
+    effects:
+    - stat: 10
+      value: 2
+  - id: 75
+    name: tempering
+    displayName: "T\xF4i luy\u1EC7n"
+    description: 
+    group: "S\u1EE9c m\u1EA1nh \u0111\u1ED3"
+    kind: 0
+    parent: 74
+    maxRank: 5
+    cost: 1
+    requiredLevel: 3
+    branch: 4
+    ring: 2
+    lateral: 0
+    effects:
+    - stat: 16
+      value: 7
+  - id: 76
+    name: forging
+    displayName: "R\xE8n \u0111\xFAc"
+    description: 
+    group: "R\xE8n \u0111\xFAc"
+    kind: 0
+    parent: 75
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 4
+    ring: 3
+    lateral: -1
+    effects:
+    - stat: 16
+      value: 15
+  - id: 77
+    name: refine
+    displayName: "Tinh luy\u1EC7n"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10."
+    group: "R\xE8n \u0111\xFAc"
+    kind: 1
+    parent: 76
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 4
+    ring: 4
+    lateral: -1.25
+    effects:
+    - stat: 16
+      value: 63
+  - id: 78
+    name: appraiser
+    displayName: "Th\u1EA9m \u0111\u1ECBnh"
+    description: "Xen T\xE0i l\u1ED9c."
+    group: "R\xE8n \u0111\xFAc"
+    kind: 0
+    parent: 77
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 4
+    ring: 5
+    lateral: -1.5
+    effects:
+    - stat: 16
+      value: 13
+    - stat: 8
+      value: 5.5
+  - id: 79
+    name: artisan
+    displayName: "Ngh\u1EC7 nh\xE2n"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30."
+    group: "R\xE8n \u0111\xFAc"
+    kind: 1
+    parent: 78
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 4
+    ring: 6
+    lateral: -1.75
+    effects:
+    - stat: 16
+      value: 80
+  - id: 80
+    name: masterwork
+    displayName: "Ki\u1EC7t t\xE1c"
+    description: "\u0110\u1EC9nh nh\xE1nh R\xE8n \u0111\xFAc. Xen T\xE0i l\u1ED9c."
+    group: "R\xE8n \u0111\xFAc"
+    kind: 2
+    parent: 79
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 4
+    ring: 7
+    lateral: -2
+    effects:
+    - stat: 16
+      value: 62
+    - stat: 8
+      value: 53
+  - id: 81
+    name: sharpen
+    displayName: "L\u01B0\u1EE1i b\xE9n"
+    description: 
+    group: "Binh kh\xED"
+    kind: 0
+    parent: 75
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 4
+    ring: 3
+    lateral: 0
+    effects:
+    - stat: 10
+      value: 5
+  - id: 82
+    name: grip
+    displayName: "Chu\xF4i ch\u1EAFc"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10. Xen sinh t\u1ED3n."
+    group: "Binh kh\xED"
+    kind: 1
+    parent: 81
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 4
+    ring: 4
+    lateral: 0
+    effects:
+    - stat: 10
+      value: 10
+    - stat: 4
+      value: 3.5
+  - id: 83
+    name: heavy
+    displayName: "Tr\u1ECDng binh"
+    description: 
+    group: "Binh kh\xED"
+    kind: 0
+    parent: 82
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 4
+    ring: 5
+    lateral: 0
+    effects:
+    - stat: 10
+      value: 6
+  - id: 84
+    name: divine_arms
+    displayName: "Th\u1EA7n binh"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30."
+    group: "Binh kh\xED"
+    kind: 1
+    parent: 83
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 4
+    ring: 6
+    lateral: 0
+    effects:
+    - stat: 10
+      value: 25
+  - id: 85
+    name: artifact
+    displayName: "Th\u1EA7n kh\xED"
+    description: "\u0110\u1EC9nh nh\xE1nh Binh kh\xED. Xen sinh t\u1ED3n."
+    group: "Binh kh\xED"
+    kind: 2
+    parent: 84
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 4
+    ring: 7
+    lateral: 0
+    effects:
+    - stat: 10
+      value: 26
+    - stat: 4
+      value: 4.5
+  - id: 86
+    name: reach
+    displayName: "T\u1EA7m v\u1EDBi"
+    description: 
+    group: "T\u1EA7m xa"
+    kind: 0
+    parent: 75
+    maxRank: 3
+    cost: 2
+    requiredLevel: 5
+    branch: 4
+    ring: 3
+    lateral: 1
+    effects:
+    - stat: 17
+      value: 3.5
+  - id: 87
+    name: long_arm
+    displayName: "V\u01B0\u01A1n xa"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 10."
+    group: "T\u1EA7m xa"
+    kind: 1
+    parent: 86
+    maxRank: 1
+    cost: 5
+    requiredLevel: 10
+    branch: 4
+    ring: 4
+    lateral: 1.25
+    effects:
+    - stat: 17
+      value: 7
+    - stat: 10
+      value: 10
+  - id: 88
+    name: piercing
+    displayName: "Xuy\xEAn ph\xE1"
+    description: "Xen S\u1EE9c m\u1EA1nh."
+    group: "T\u1EA7m xa"
+    kind: 0
+    parent: 87
+    maxRank: 3
+    cost: 2
+    requiredLevel: 20
+    branch: 4
+    ring: 5
+    lateral: 1.5
+    effects:
+    - stat: 17
+      value: 2
+    - stat: 3
+      value: 1.5
+  - id: 89
+    name: sniper
+    displayName: "Thi\u1EC7n x\u1EA1"
+    description: "\u0110\u1ED9t ph\xE1 m\u1ED1c c\u1EA5p 30. Xen S\u1EE9c m\u1EA1nh."
+    group: "T\u1EA7m xa"
+    kind: 1
+    parent: 88
+    maxRank: 1
+    cost: 6
+    requiredLevel: 30
+    branch: 4
+    ring: 6
+    lateral: 1.75
+    effects:
+    - stat: 17
+      value: 8.5
+    - stat: 14
+      value: 28
+  - id: 90
+    name: far_strike
+    displayName: "V\u1EA1n d\u1EB7m"
+    description: "\u0110\u1EC9nh nh\xE1nh T\u1EA7m xa. Xen S\u1EE9c m\u1EA1nh."
+    group: "T\u1EA7m xa"
+    kind: 2
+    parent: 89
+    maxRank: 1
+    cost: 8
+    requiredLevel: 40
+    branch: 4
+    ring: 7
+    lateral: 2
+    effects:
+    - stat: 17
+      value: 9
+    - stat: 3
+      value: 6
+    - stat: 14
+      value: 29
+  - id: 91
+    name: gear_mastery
+    displayName: "Tinh th\xF4ng S\u1EE9c m\u1EA1nh \u0111\u1ED3"
+    description: "N\xE2ng \u0111\u01B0\u1EE3c nhi\u1EC1u l\u1EA7n, hi\u1EC7u qu\u1EA3
+      th\u1EA5p: ch\u1ED7 ti\xEAu \u0111i\u1EC3m gi\u1EEFa c\xE1c m\u1ED1c."
+    group: "S\u1EE9c m\u1EA1nh \u0111\u1ED3"
+    kind: 3
+    parent: 75
+    maxRank: 20
+    cost: 2
+    requiredLevel: 20
+    branch: 4
+    ring: 2
+    lateral: 1.35
+    effects:
+    - stat: 10
+      value: 2.5
+  masteries:
+  - branch: 0
+    points: 15
+    effects:
+    - stat: 2
+      value: 4
+    - stat: 0
+      value: 13
+  - branch: 0
+    points: 35
+    effects:
+    - stat: 2
+      value: 8
+    - stat: 0
+      value: 27
+  - branch: 0
+    points: 60
+    effects:
+    - stat: 2
+      value: 14
+    - stat: 0
+      value: 47
+  - branch: 0
+    points: 90
+    effects:
+    - stat: 2
+      value: 22
+    - stat: 0
+      value: 73
+  - branch: 0
+    points: 120
+    effects:
+    - stat: 2
+      value: 46
+    - stat: 0
+      value: 153
+  - branch: 1
+    points: 15
+    effects:
+    - stat: 11
+      value: 1
+    - stat: 5
+      value: 2
+    - stat: 0
+      value: 13
+  - branch: 1
+    points: 35
+    effects:
+    - stat: 11
+      value: 2
+    - stat: 5
+      value: 4
+    - stat: 0
+      value: 27
+  - branch: 1
+    points: 60
+    effects:
+    - stat: 11
+      value: 3.5
+    - stat: 5
+      value: 7
+    - stat: 0
+      value: 47
+  - branch: 1
+    points: 90
+    effects:
+    - stat: 11
+      value: 6
+    - stat: 5
+      value: 11
+    - stat: 0
+      value: 73
+  - branch: 1
+    points: 120
+    effects:
+    - stat: 11
+      value: 12
+    - stat: 5
+      value: 23
+    - stat: 0
+      value: 153
+  - branch: 2
+    points: 15
+    effects:
+    - stat: 7
+      value: 4
+    - stat: 2
+      value: 2
+    - stat: 0
+      value: 13
+  - branch: 2
+    points: 35
+    effects:
+    - stat: 7
+      value: 8
+    - stat: 2
+      value: 4
+    - stat: 0
+      value: 27
+  - branch: 2
+    points: 60
+    effects:
+    - stat: 7
+      value: 14
+    - stat: 2
+      value: 7
+    - stat: 0
+      value: 47
+  - branch: 2
+    points: 90
+    effects:
+    - stat: 7
+      value: 22
+    - stat: 2
+      value: 11
+    - stat: 0
+      value: 73
+  - branch: 2
+    points: 120
+    effects:
+    - stat: 7
+      value: 46
+    - stat: 2
+      value: 23
+    - stat: 0
+      value: 153
+  - branch: 3
+    points: 15
+    effects:
+    - stat: 8
+      value: 8
+    - stat: 9
+      value: 16
+    - stat: 2
+      value: 2
+  - branch: 3
+    points: 35
+    effects:
+    - stat: 8
+      value: 16
+    - stat: 9
+      value: 32
+    - stat: 2
+      value: 4
+  - branch: 3
+    points: 60
+    effects:
+    - stat: 8
+      value: 28
+    - stat: 9
+      value: 56
+    - stat: 2
+      value: 7
+  - branch: 3
+    points: 90
+    effects:
+    - stat: 8
+      value: 44
+    - stat: 9
+      value: 88
+    - stat: 2
+      value: 11
+  - branch: 3
+    points: 120
+    effects:
+    - stat: 8
+      value: 92
+    - stat: 9
+      value: 184
+    - stat: 2
+      value: 23
+  - branch: 4
+    points: 15
+    effects:
+    - stat: 10
+      value: 3
+    - stat: 16
+      value: 9.5
+    - stat: 4
+      value: 1
+  - branch: 4
+    points: 35
+    effects:
+    - stat: 10
+      value: 6
+    - stat: 16
+      value: 19
+    - stat: 4
+      value: 2
+  - branch: 4
+    points: 60
+    effects:
+    - stat: 10
+      value: 10
+    - stat: 16
+      value: 33
+    - stat: 4
+      value: 3.5
+  - branch: 4
+    points: 90
+    effects:
+    - stat: 10
+      value: 16
+    - stat: 16
+      value: 51
+    - stat: 4
+      value: 6
+  - branch: 4
+    points: 120
+    effects:
+    - stat: 10
+      value: 34
+    - stat: 16
+      value: 107
+    - stat: 4
+      value: 12

@@ -78,6 +78,9 @@ export_presets.cfg
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+# ...but not ServerJava's `game.build` Java package (source code, not output).
+# Must stay after both `build/` rules above, or they re-ignore it.
+!ServerJava/src/game/build/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 *.csproj

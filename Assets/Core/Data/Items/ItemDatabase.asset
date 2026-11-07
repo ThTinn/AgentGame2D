@@ -1,0 +1,795 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c75e210afa10d48821942990b441a9, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  schemaVersion: 3
+  sprites: {fileID: 11400000, guid: 3d54fe5496b740345a3b6a8f3ae855c4, type: 2}
+  items:
+  - id: 1
+    name: gem_blue
+    displayName: "Ng\u1ECDc lam"
+    description: 
+    kind: 0
+    rarity: 0
+    iconId: 585
+    value: 1
+    maxStack: 0
+    options: []
+  - id: 2
+    name: gem_green
+    displayName: "Ng\u1ECDc l\u1EE5c"
+    description: 
+    kind: 0
+    rarity: 0
+    iconId: 586
+    value: 2
+    maxStack: 0
+    options: []
+  - id: 3
+    name: gem_orange
+    displayName: "Ng\u1ECDc cam"
+    description: 
+    kind: 0
+    rarity: 0
+    iconId: 587
+    value: 3
+    maxStack: 0
+    options: []
+  - id: 4
+    name: gem_purple
+    displayName: "Ng\u1ECDc t\xEDm"
+    description: 
+    kind: 0
+    rarity: 0
+    iconId: 588
+    value: 4
+    maxStack: 0
+    options: []
+  - id: 5
+    name: gem_red
+    displayName: "Ng\u1ECDc \u0111\u1ECF"
+    description: 
+    kind: 0
+    rarity: 0
+    iconId: 589
+    value: 5
+    maxStack: 0
+    options: []
+  - id: 6
+    name: gem_yellow
+    displayName: "Ng\u1ECDc v\xE0ng"
+    description: 
+    kind: 0
+    rarity: 0
+    iconId: 590
+    value: 6
+    maxStack: 0
+    options: []
+  - id: 7
+    name: key_small
+    displayName: "Ch\xECa r\u01B0\u01A1ng nh\u1ECF"
+    description: 
+    kind: 1
+    rarity: 1
+    iconId: 591
+    value: 1
+    maxStack: 99
+    options: []
+  - id: 8
+    name: key_iron
+    displayName: "Ch\xECa r\u01B0\u01A1ng s\u1EAFt"
+    description: 
+    kind: 1
+    rarity: 2
+    iconId: 592
+    value: 2
+    maxStack: 99
+    options: []
+  - id: 9
+    name: key_gold
+    displayName: "Ch\xECa r\u01B0\u01A1ng v\xE0ng"
+    description: 
+    kind: 1
+    rarity: 3
+    iconId: 593
+    value: 3
+    maxStack: 99
+    options: []
+  - id: 10
+    name: key_large
+    displayName: "Ch\xECa r\u01B0\u01A1ng l\u1EDBn"
+    description: 
+    kind: 1
+    rarity: 4
+    iconId: 594
+    value: 4
+    maxStack: 99
+    options: []
+  - id: 11
+    name: weapon_sword
+    displayName: "Ki\u1EBFm"
+    description: "C\xE2n b\u1EB1ng: \u0111\xE1nh nhanh, ch\xE9m tr\xFAng m\u1ECDi
+      k\u1EBB \u0111\u1ECBch ph\xEDa tr\u01B0\u1EDBc."
+    kind: 2
+    rarity: 0
+    iconId: 605
+    value: 1
+    maxStack: 1
+    options:
+    - stat: 20
+      value: 100
+    - stat: 21
+      value: 0.25
+    - stat: 22
+      value: 2
+  - id: 12
+    name: weapon_hammer
+    displayName: "B\xFAa"
+    description: "Ch\u1EADm m\xE0 n\u1EB7ng: m\u1ED7i nh\xE1t n\u1EC7n m\u1ED9t k\u1EBB
+      \u0111\u1ECBch v\u1EDBi s\xE1t th\u01B0\u01A1ng l\u1EDBn."
+    kind: 2
+    rarity: 1
+    iconId: 606
+    value: 2
+    maxStack: 1
+    options:
+    - stat: 20
+      value: 150
+    - stat: 21
+      value: 0.7
+    - stat: 22
+      value: 1.8
+    - stat: 23
+      value: 1
+  - id: 13
+    name: weapon_scythe
+    displayName: "L\u01B0\u1EE1i h\xE1i"
+    description: "Qu\xE9t r\u1ED9ng, t\u1EA7m xa h\u01A1n ki\u1EBFm nh\u01B0ng s\xE1t
+      th\u01B0\u01A1ng m\u1ED7i nh\xE1t th\u1EA5p h\u01A1n."
+    kind: 2
+    rarity: 2
+    iconId: 607
+    value: 3
+    maxStack: 1
+    options:
+    - stat: 20
+      value: 90
+    - stat: 21
+      value: 0.6
+    - stat: 22
+      value: 2.4
+  - id: 14
+    name: weapon_bow
+    displayName: Cung
+    description: "B\u1EAFn t\u1EEB xa: m\u0169i t\xEAn bay th\u1EB3ng, tr\xFAng k\u1EBB
+      \u0111\u1ECBch \u0111\u1EA7u ti\xEAn tr\xEAn \u0111\u01B0\u1EDDng."
+    kind: 2
+    rarity: 1
+    iconId: 608
+    value: 4
+    maxStack: 1
+    options:
+    - stat: 20
+      value: 80
+    - stat: 21
+      value: 0.5
+    - stat: 22
+      value: 6
+    - stat: 23
+      value: 1
+  - id: 15
+    name: weapon_gun
+    displayName: "S\xFAng l\u1EE5c"
+    description: "B\u1EAFn nhanh, t\u1EA7m v\u1EEBa: h\u1EE3p \u0111\u1EC3 r\u1EC9a
+      m\xE1u t\u1EEB kho\u1EA3ng c\xE1ch an to\xE0n."
+    kind: 2
+    rarity: 2
+    iconId: 611
+    value: 5
+    maxStack: 1
+    options:
+    - stat: 20
+      value: 70
+    - stat: 21
+      value: 0.35
+    - stat: 22
+      value: 7
+    - stat: 23
+      value: 1
+  - id: 16
+    name: weapon_rifle
+    displayName: "S\xFAng tr\u01B0\u1EDDng"
+    description: "B\u1EAFn ch\u1EADm nh\u01B0ng xa v\xE0 m\u1EA1nh, \u0111\u1EA1n
+      xuy\xEAn qua hai k\u1EBB \u0111\u1ECBch."
+    kind: 2
+    rarity: 3
+    iconId: 612
+    value: 6
+    maxStack: 1
+    options:
+    - stat: 20
+      value: 110
+    - stat: 21
+      value: 0.6
+    - stat: 22
+      value: 10
+    - stat: 23
+      value: 2
+  - id: 17
+    name: armor_head
+    displayName: "M\u0169 da"
+    description: "M\u0169 da m\u1EC1m, \u0111\u1ED9i cho \u1EA5m \u0111\u1EA7u."
+    kind: 3
+    rarity: 0
+    iconId: 613
+    value: 1
+    maxStack: 1
+    options:
+    - stat: 0
+      value: 15
+    - stat: 4
+      value: 2
+  - id: 18
+    name: armor_body
+    displayName: "\xC1o v\u1EA3i"
+    description: "\xC1o v\u1EA3i th\xF4 th\u1EAFt \u0111ai, \u0111\u1ED3 c\u1EE7a
+      ng\u01B0\u1EDDi m\u1EDBi l\xEAn \u0111\u01B0\u1EDDng."
+    kind: 3
+    rarity: 0
+    iconId: 614
+    value: 2
+    maxStack: 1
+    options:
+    - stat: 0
+      value: 35
+    - stat: 4
+      value: 5
+  - id: 19
+    name: armor_legs
+    displayName: "Qu\u1EA7n v\u1EA3i"
+    description: "Qu\u1EA7n v\u1EA3i d\xE0y, ch\u1EA1y nh\u1EA3y tho\u1EA3i m\xE1i."
+    kind: 3
+    rarity: 0
+    iconId: 615
+    value: 3
+    maxStack: 1
+    options:
+    - stat: 0
+      value: 25
+    - stat: 4
+      value: 3
+  - id: 20
+    name: armor_feet
+    displayName: "Gi\xE0y da"
+    description: "Gi\xE0y da c\u1ED5 cao, \u0111i \u0111\u01B0\u1EDDng d\xE0i kh\xF4ng
+      ph\u1ED3ng ch\xE2n."
+    kind: 3
+    rarity: 0
+    iconId: 616
+    value: 4
+    maxStack: 1
+    options:
+    - stat: 0
+      value: 10
+    - stat: 4
+      value: 2
+    - stat: 5
+      value: 5
+  - id: 21
+    name: armor_hands
+    displayName: "G\u0103ng tay da"
+    description: "G\u0103ng da gi\xFAp c\u1EA7m v\u0169 kh\xED ch\u1EAFc tay."
+    kind: 3
+    rarity: 1
+    iconId: 617
+    value: 6
+    maxStack: 1
+    options:
+    - stat: 0
+      value: 15
+    - stat: 4
+      value: 2
+    - stat: 10
+      value: 4
+  - id: 22
+    name: armor_neck
+    displayName: "D\xE2y chuy\u1EC1n h\u1ED3ng ng\u1ECDc"
+    description: "M\u1EB7t \u0111\xE1 \u0111\u1ECF l\u1EA5p l\xE1nh, nghe \u0111\u1ED3n
+      \u0111em l\u1EA1i may m\u1EAFn."
+    kind: 3
+    rarity: 2
+    iconId: 618
+    value: 7
+    maxStack: 1
+    options:
+    - stat: 0
+      value: 30
+    - stat: 6
+      value: 0.5
+  - id: 23
+    name: armor_ring
+    displayName: "Nh\u1EABn lam ng\u1ECDc"
+    description: "Chi\u1EBFc nh\u1EABn v\xE0ng g\u1EAFn vi\xEAn \u0111\xE1 xanh."
+    kind: 3
+    rarity: 2
+    iconId: 619
+    value: 8
+    maxStack: 1
+    options:
+    - stat: 0
+      value: 20
+    - stat: 4
+      value: 2
+    - stat: 3
+      value: 3
+  - id: 24
+    name: skin_b
+    displayName: "Phi h\xE0nh gia \u0110\u1ECF"
+    description: "B\u1ED9 \u0111\u1ED3 phi h\xE0nh gia m\xE0u \u0111\u1ECF. Ch\u1EC9
+      \u0111\u1ED5i ngo\u1EA1i h\xECnh, t\u01B0 th\u1EBF \u0111ang m\u1EB7c gi\u1EEF
+      nguy\xEAn."
+    kind: 4
+    rarity: 2
+    iconId: 620
+    value: 1
+    maxStack: 1
+    options: []
+  - id: 25
+    name: skin_c
+    displayName: "Phi h\xE0nh gia L\u1EE5c"
+    description: "B\u1ED9 \u0111\u1ED3 phi h\xE0nh gia m\xE0u xanh l\u1EE5c. Ch\u1EC9
+      \u0111\u1ED5i ngo\u1EA1i h\xECnh, t\u01B0 th\u1EBF \u0111ang m\u1EB7c gi\u1EEF
+      nguy\xEAn."
+    kind: 4
+    rarity: 2
+    iconId: 621
+    value: 2
+    maxStack: 1
+    options: []
+  - id: 26
+    name: skin_d
+    displayName: "Phi h\xE0nh gia V\xE0ng"
+    description: "B\u1ED9 \u0111\u1ED3 phi h\xE0nh gia m\xE0u v\xE0ng. Ch\u1EC9 \u0111\u1ED5i
+      ngo\u1EA1i h\xECnh, t\u01B0 th\u1EBF \u0111ang m\u1EB7c gi\u1EEF nguy\xEAn."
+    kind: 4
+    rarity: 3
+    iconId: 622
+    value: 3
+    maxStack: 1
+    options: []
+  - id: 27
+    name: skin_e
+    displayName: "Phi h\xE0nh gia H\u1ED3ng"
+    description: "B\u1ED9 \u0111\u1ED3 phi h\xE0nh gia m\xE0u h\u1ED3ng. Ch\u1EC9
+      \u0111\u1ED5i ngo\u1EA1i h\xECnh, t\u01B0 th\u1EBF \u0111ang m\u1EB7c gi\u1EEF
+      nguy\xEAn."
+    kind: 4
+    rarity: 4
+    iconId: 623
+    value: 4
+    maxStack: 1
+    options: []
+  - id: 28
+    name: potion_hp_small
+    displayName: "B\xECnh m\xE1u nh\u1ECF"
+    description: "U\u1ED1ng h\u1ED3i ngay 50 m\xE1u. G\xE1n v\xE0o \xF4 d\xF9ng nhanh
+      \u0111\u1EC3 d\xF9ng gi\u1EEFa tr\u1EADn."
+    kind: 5
+    rarity: 0
+    iconId: 624
+    value: 0
+    maxStack: 99
+    options:
+    - stat: 18
+      value: 50
+  - id: 29
+    name: potion_hp_medium
+    displayName: "B\xECnh m\xE1u v\u1EEBa"
+    description: "U\u1ED1ng h\u1ED3i ngay 150 m\xE1u. G\xE1n v\xE0o \xF4 d\xF9ng
+      nhanh \u0111\u1EC3 d\xF9ng gi\u1EEFa tr\u1EADn."
+    kind: 5
+    rarity: 1
+    iconId: 625
+    value: 0
+    maxStack: 99
+    options:
+    - stat: 18
+      value: 150
+  - id: 30
+    name: potion_hp_large
+    displayName: "B\xECnh m\xE1u l\u1EDBn"
+    description: "U\u1ED1ng h\u1ED3i ngay 400 m\xE1u. G\xE1n v\xE0o \xF4 d\xF9ng
+      nhanh \u0111\u1EC3 d\xF9ng gi\u1EEFa tr\u1EADn."
+    kind: 5
+    rarity: 2
+    iconId: 626
+    value: 0
+    maxStack: 99
+    options:
+    - stat: 18
+      value: 400
+  - id: 31
+    name: potion_mp_small
+    displayName: "B\xECnh mana nh\u1ECF"
+    description: "U\u1ED1ng h\u1ED3i ngay 30 mana. G\xE1n v\xE0o \xF4 d\xF9ng nhanh
+      \u0111\u1EC3 d\xF9ng gi\u1EEFa tr\u1EADn."
+    kind: 6
+    rarity: 0
+    iconId: 627
+    value: 0
+    maxStack: 99
+    options:
+    - stat: 19
+      value: 30
+  - id: 32
+    name: potion_mp_medium
+    displayName: "B\xECnh mana v\u1EEBa"
+    description: "U\u1ED1ng h\u1ED3i ngay 80 mana. G\xE1n v\xE0o \xF4 d\xF9ng nhanh
+      \u0111\u1EC3 d\xF9ng gi\u1EEFa tr\u1EADn."
+    kind: 6
+    rarity: 1
+    iconId: 628
+    value: 0
+    maxStack: 99
+    options:
+    - stat: 19
+      value: 80
+  - id: 33
+    name: potion_mp_large
+    displayName: "B\xECnh mana l\u1EDBn"
+    description: "U\u1ED1ng h\u1ED3i ngay 200 mana. G\xE1n v\xE0o \xF4 d\xF9ng nhanh
+      \u0111\u1EC3 d\xF9ng gi\u1EEFa tr\u1EADn."
+    kind: 6
+    rarity: 2
+    iconId: 629
+    value: 0
+    maxStack: 99
+    options:
+    - stat: 19
+      value: 200
+  - id: 34
+    name: buff_attack_speed
+    displayName: "Thu\u1ED1c cu\u1ED3ng n\u1ED9"
+    description: "T\u0103ng 25% t\u1ED1c \u0111\xE1nh trong 60 gi\xE2y. U\u1ED1ng
+      l\u1EA1i th\xEC t\xEDnh l\u1EA1i t\u1EEB \u0111\u1EA7u."
+    kind: 7
+    rarity: 2
+    iconId: 630
+    value: 60
+    maxStack: 20
+    options:
+    - stat: 11
+      value: 25
+  - id: 35
+    name: buff_move_speed
+    displayName: "Thu\u1ED1c gi\xF3"
+    description: "T\u0103ng 25% t\u1ED1c ch\u1EA1y trong 60 gi\xE2y. U\u1ED1ng l\u1EA1i
+      th\xEC t\xEDnh l\u1EA1i t\u1EEB \u0111\u1EA7u."
+    kind: 7
+    rarity: 1
+    iconId: 631
+    value: 60
+    maxStack: 20
+    options:
+    - stat: 5
+      value: 25
+  - id: 36
+    name: buff_power
+    displayName: "Thu\u1ED1c s\u1EE9c m\u1EA1nh"
+    description: "T\u0103ng 20% s\xE1t th\u01B0\u01A1ng trong 60 gi\xE2y. U\u1ED1ng
+      l\u1EA1i th\xEC t\xEDnh l\u1EA1i t\u1EEB \u0111\u1EA7u."
+    kind: 7
+    rarity: 2
+    iconId: 632
+    value: 60
+    maxStack: 20
+    options:
+    - stat: 2
+      value: 20
+  - id: 37
+    name: stone_upgrade
+    displayName: "\u0110\xE1 c\u01B0\u1EDDng h\xF3a"
+    description: "Nguy\xEAn li\u1EC7u c\u01B0\u1EDDng h\xF3a trang b\u1ECB. M\u1ED7i
+      l\u1EA7n th\u1EED m\u1EA5t s\u1ED1 vi\xEAn theo c\u1EA5p."
+    kind: 8
+    rarity: 1
+    iconId: 662
+    value: 1
+    maxStack: 99
+    options: []
+  - id: 38
+    name: stone_lucky
+    displayName: "\u0110\xE1 may m\u1EAFn"
+    description: "T\u0103ng t\u1EC9 l\u1EC7 th\xE0nh c\xF4ng c\u1EE7a m\u1ED9t l\u1EA7n
+      c\u01B0\u1EDDng h\xF3a."
+    kind: 8
+    rarity: 2
+    iconId: 663
+    value: 2
+    maxStack: 99
+    options: []
+  - id: 39
+    name: stone_protect
+    displayName: "\u0110\xE1 b\u1EA3o v\u1EC7"
+    description: "Tr\u01B0\u1EE3t \u1EDF c\u1EA5p cao th\xEC gi\u1EEF nguy\xEAn c\u1EA5p.
+      Ch\u1EC9 m\u1EA5t khi \u0111\xE3 c\u1EE9u m\xF3n \u0111\u1ED3."
+    kind: 8
+    rarity: 3
+    iconId: 664
+    value: 3
+    maxStack: 99
+    options: []
+  - id: 40
+    name: stone_drill
+    displayName: "\u0110\xE1 kho\xE9t l\u1ED7"
+    description: "Kho\xE9t th\xEAm l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c \u0111\u1EC3 kh\u1EA3m \u0111\xE1. M\u1ED7i l\u1EA7n th\u1EED m\u1EA5t
+      s\u1ED1 vi\xEAn theo l\u1ED7."
+    kind: 8
+    rarity: 2
+    iconId: 665
+    value: 4
+    maxStack: 99
+    options: []
+  - id: 41
+    name: jewel_ruby_1
+    displayName: "H\u1ED3ng th\u1EA1ch I"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 1
+    iconId: 666
+    value: 1
+    maxStack: 99
+    options:
+    - stat: 2
+      value: 1
+  - id: 42
+    name: jewel_ruby_2
+    displayName: "H\u1ED3ng th\u1EA1ch II"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 2
+    iconId: 667
+    value: 2
+    maxStack: 99
+    options:
+    - stat: 2
+      value: 2
+  - id: 43
+    name: jewel_ruby_3
+    displayName: "H\u1ED3ng th\u1EA1ch III"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 3
+    iconId: 668
+    value: 3
+    maxStack: 99
+    options:
+    - stat: 2
+      value: 3
+  - id: 44
+    name: jewel_sapphire_1
+    displayName: "Lam th\u1EA1ch I"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 1
+    iconId: 669
+    value: 1
+    maxStack: 99
+    options:
+    - stat: 1
+      value: 5
+  - id: 45
+    name: jewel_sapphire_2
+    displayName: "Lam th\u1EA1ch II"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 2
+    iconId: 670
+    value: 2
+    maxStack: 99
+    options:
+    - stat: 1
+      value: 10
+  - id: 46
+    name: jewel_sapphire_3
+    displayName: "Lam th\u1EA1ch III"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 3
+    iconId: 671
+    value: 3
+    maxStack: 99
+    options:
+    - stat: 1
+      value: 20
+  - id: 47
+    name: jewel_emerald_1
+    displayName: "L\u1EE5c th\u1EA1ch I"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 1
+    iconId: 672
+    value: 1
+    maxStack: 99
+    options:
+    - stat: 0
+      value: 8
+  - id: 48
+    name: jewel_emerald_2
+    displayName: "L\u1EE5c th\u1EA1ch II"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 2
+    iconId: 673
+    value: 2
+    maxStack: 99
+    options:
+    - stat: 0
+      value: 15
+  - id: 49
+    name: jewel_emerald_3
+    displayName: "L\u1EE5c th\u1EA1ch III"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 3
+    iconId: 674
+    value: 3
+    maxStack: 99
+    options:
+    - stat: 0
+      value: 25
+  - id: 50
+    name: jewel_topaz_1
+    displayName: "Ho\xE0ng th\u1EA1ch I"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 1
+    iconId: 675
+    value: 1
+    maxStack: 99
+    options:
+    - stat: 3
+      value: 0.5
+  - id: 51
+    name: jewel_topaz_2
+    displayName: "Ho\xE0ng th\u1EA1ch II"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 2
+    iconId: 676
+    value: 2
+    maxStack: 99
+    options:
+    - stat: 3
+      value: 1
+  - id: 52
+    name: jewel_topaz_3
+    displayName: "Ho\xE0ng th\u1EA1ch III"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 3
+    iconId: 677
+    value: 3
+    maxStack: 99
+    options:
+    - stat: 3
+      value: 2
+  - id: 53
+    name: jewel_amethyst_1
+    displayName: "T\u1EED th\u1EA1ch I"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 1
+    iconId: 678
+    value: 1
+    maxStack: 99
+    options:
+    - stat: 14
+      value: 3
+  - id: 54
+    name: jewel_amethyst_2
+    displayName: "T\u1EED th\u1EA1ch II"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 2
+    iconId: 679
+    value: 2
+    maxStack: 99
+    options:
+    - stat: 14
+      value: 5
+  - id: 55
+    name: jewel_amethyst_3
+    displayName: "T\u1EED th\u1EA1ch III"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 3
+    iconId: 680
+    value: 3
+    maxStack: 99
+    options:
+    - stat: 14
+      value: 8
+  - id: 56
+    name: jewel_onyx_1
+    displayName: "H\u1EAFc th\u1EA1ch I"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 1
+    iconId: 681
+    value: 1
+    maxStack: 99
+    options:
+    - stat: 4
+      value: 0.5
+  - id: 57
+    name: jewel_onyx_2
+    displayName: "H\u1EAFc th\u1EA1ch II"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 2
+    iconId: 682
+    value: 2
+    maxStack: 99
+    options:
+    - stat: 4
+      value: 1
+  - id: 58
+    name: jewel_onyx_3
+    displayName: "H\u1EAFc th\u1EA1ch III"
+    description: "Kh\u1EA3m v\xE0o l\u1ED7 tr\xEAn v\u0169 kh\xED ho\u1EB7c \u0111\u1ED3
+      m\u1EB7c, m\u1ED7i m\xF3n m\u1ED9t vi\xEAn m\u1ED7i lo\u1EA1i. G\u1EE1 ra \u0111\u01B0\u1EE3c,
+      \u0111\xE1 tr\u1EA3 v\u1EC1 t\xFAi."
+    kind: 9
+    rarity: 3
+    iconId: 683
+    value: 3
+    maxStack: 99
+    options:
+    - stat: 4
+      value: 1.5

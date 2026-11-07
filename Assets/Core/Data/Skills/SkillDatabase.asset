@@ -1,0 +1,1675 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e330a4ede03d84409cc236aae917e9e, type: 3}
+  m_Name: SkillDatabase
+  m_EditorClassIdentifier: 
+  schemaVersion: 4
+  sprites: {fileID: 11400000, guid: 3d54fe5496b740345a3b6a8f3ae855c4, type: 2}
+  skills:
+  - id: 13
+    name: energy_bolt
+    displayName: "\u0110\u1EA1n n\u0103ng l\u01B0\u1EE3ng"
+    description: "B\u1EAFn m\u1ED9t vi\xEAn \u0111\u1EA1n n\u0103ng l\u01B0\u1EE3ng
+      bay th\u1EB3ng, tr\xFAng k\u1EBB \u0111\u1ECBch \u0111\u1EA7u ti\xEAn tr\xEAn
+      \u0111\u01B0\u1EDDng."
+    kind: 0
+    type: 1
+    animSlot: 3
+    idAnim: 9
+    hitDelay: 0.8
+    canMoveWhileCasting: 1
+    idIcon: 645
+    model3D: 0
+    castSfx: 1
+    fireSfx: 2
+    hitSfx: 3
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 130
+      manaUse: 6
+      cooldown: 2
+      range: 4
+      radius: 1
+      speed: 14
+      maxTarget: 1
+      levelRequire: 1
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 145
+      manaUse: 7
+      cooldown: 2
+      range: 4
+      radius: 1
+      speed: 14
+      maxTarget: 1
+      levelRequire: 4
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 160
+      manaUse: 8
+      cooldown: 2
+      range: 4
+      radius: 1
+      speed: 14
+      maxTarget: 1
+      levelRequire: 7
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 175
+      manaUse: 9
+      cooldown: 2
+      range: 4
+      radius: 1
+      speed: 14
+      maxTarget: 1
+      levelRequire: 10
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 190
+      manaUse: 10
+      cooldown: 2
+      range: 4
+      radius: 1
+      speed: 14
+      maxTarget: 1
+      levelRequire: 13
+      moreInfo: 
+  - id: 8
+    name: green_crystal
+    displayName: "Pha l\xEA l\u1EE5c"
+    description: "Ph\xF3ng m\u0169i pha l\xEA xanh xuy\xEAn qua nhi\u1EC1u k\u1EBB
+      \u0111\u1ECBch tr\xEAn m\u1ED9t \u0111\u01B0\u1EDDng th\u1EB3ng."
+    kind: 0
+    type: 1
+    animSlot: 3
+    idAnim: 10
+    hitDelay: 0.5
+    canMoveWhileCasting: 1
+    idIcon: 646
+    model3D: 1
+    castSfx: 4
+    fireSfx: 5
+    hitSfx: 6
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 150
+      manaUse: 10
+      cooldown: 4
+      range: 4
+      radius: 1
+      speed: 12
+      maxTarget: 2
+      levelRequire: 4
+      moreInfo: "Xuy\xEAn 2 m\u1EE5c ti\xEAu"
+    - level: 2
+      idAtk: 0
+      damage: 165
+      manaUse: 11
+      cooldown: 4
+      range: 4
+      radius: 1
+      speed: 12
+      maxTarget: 3
+      levelRequire: 7
+      moreInfo: "Xuy\xEAn 3 m\u1EE5c ti\xEAu"
+    - level: 3
+      idAtk: 0
+      damage: 180
+      manaUse: 12
+      cooldown: 4
+      range: 4
+      radius: 1
+      speed: 12
+      maxTarget: 4
+      levelRequire: 10
+      moreInfo: "Xuy\xEAn 4 m\u1EE5c ti\xEAu"
+    - level: 4
+      idAtk: 0
+      damage: 195
+      manaUse: 13
+      cooldown: 4
+      range: 4
+      radius: 1
+      speed: 12
+      maxTarget: 5
+      levelRequire: 13
+      moreInfo: "Xuy\xEAn 5 m\u1EE5c ti\xEAu"
+    - level: 5
+      idAtk: 0
+      damage: 210
+      manaUse: 14
+      cooldown: 4
+      range: 4
+      radius: 1
+      speed: 12
+      maxTarget: 6
+      levelRequire: 16
+      moreInfo: "Xuy\xEAn 6 m\u1EE5c ti\xEAu"
+  - id: 14
+    name: red_crystal
+    displayName: "Pha l\xEA \u0111\u1ECF"
+    description: "Ph\xF3ng kh\u1ED1i pha l\xEA \u0111\u1ECF n\u1EB7ng, g\xE2y s\xE1t
+      th\u01B0\u01A1ng l\u1EDBn cho k\u1EBB \u0111\u1ECBch \u0111\u1EA7u ti\xEAn
+      tr\xFAng ph\u1EA3i."
+    kind: 0
+    type: 1
+    animSlot: 3
+    idAnim: 11
+    hitDelay: 0.8
+    canMoveWhileCasting: 1
+    idIcon: 647
+    model3D: 2
+    castSfx: 7
+    fireSfx: 8
+    hitSfx: 9
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 220
+      manaUse: 14
+      cooldown: 5
+      range: 4
+      radius: 1
+      speed: 10
+      maxTarget: 1
+      levelRequire: 8
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 240
+      manaUse: 15
+      cooldown: 5
+      range: 4
+      radius: 1
+      speed: 10
+      maxTarget: 1
+      levelRequire: 11
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 260
+      manaUse: 16
+      cooldown: 5
+      range: 4
+      radius: 1
+      speed: 10
+      maxTarget: 1
+      levelRequire: 14
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 280
+      manaUse: 17
+      cooldown: 5
+      range: 4
+      radius: 1
+      speed: 10
+      maxTarget: 1
+      levelRequire: 17
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 300
+      manaUse: 18
+      cooldown: 5
+      range: 4
+      radius: 1
+      speed: 10
+      maxTarget: 1
+      levelRequire: 20
+      moreInfo: 
+  - id: 1
+    name: electro_slash
+    displayName: "Ch\xE9m \u0111i\u1EC7n"
+    description: "Ch\xE9m m\u1ED9t nh\xE1t t\xEDch \u0111i\u1EC7n v\u1EC1 ph\xEDa
+      tr\u01B0\u1EDBc, tr\xFAng t\u1ED1i \u0111a ba k\u1EBB \u0111\u1ECBch."
+    kind: 0
+    type: 0
+    animSlot: 3
+    idAnim: 5
+    hitDelay: 1.23
+    canMoveWhileCasting: 0
+    idIcon: 648
+    model3D: 3
+    castSfx: 16
+    fireSfx: 17
+    hitSfx: 18
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 120
+      manaUse: 6
+      cooldown: 2
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 3
+      levelRequire: 1
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 130
+      manaUse: 7
+      cooldown: 2
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 3
+      levelRequire: 4
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 140
+      manaUse: 8
+      cooldown: 2
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 3
+      levelRequire: 7
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 150
+      manaUse: 9
+      cooldown: 2
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 3
+      levelRequire: 10
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 160
+      manaUse: 10
+      cooldown: 2
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 3
+      levelRequire: 13
+      moreInfo: 
+  - id: 4
+    name: frost_slash
+    displayName: "Ch\xE9m b\u0103ng"
+    description: "Vung l\u01B0\u1EE1i b\u0103ng r\u1ED9ng ph\xEDa tr\u01B0\u1EDBc,
+      tr\xFAng m\u1ECDi k\u1EBB \u0111\u1ECBch trong t\u1EA7m."
+    kind: 0
+    type: 0
+    animSlot: 3
+    idAnim: 6
+    hitDelay: 0.6
+    canMoveWhileCasting: 0
+    idIcon: 649
+    model3D: 4
+    castSfx: 19
+    fireSfx: 20
+    hitSfx: 21
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 110
+      manaUse: 9
+      cooldown: 3
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 3
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 120
+      manaUse: 10
+      cooldown: 3
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 6
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 130
+      manaUse: 11
+      cooldown: 3
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 140
+      manaUse: 12
+      cooldown: 3
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 12
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 150
+      manaUse: 13
+      cooldown: 3
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 15
+      moreInfo: 
+  - id: 3
+    name: stone_slash
+    displayName: "Ch\xE9m \u0111\xE1"
+    description: "B\u1ED5 m\u1ED9t nh\xE1t n\u1EB7ng nh\u01B0 \u0111\xE1, d\u1ED3n
+      s\xE1t th\u01B0\u01A1ng l\u1EDBn v\xE0o m\u1ED9t m\u1EE5c ti\xEAu."
+    kind: 0
+    type: 0
+    animSlot: 3
+    idAnim: 7
+    hitDelay: 0.77
+    canMoveWhileCasting: 0
+    idIcon: 650
+    model3D: 5
+    castSfx: 22
+    fireSfx: 23
+    hitSfx: 24
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 200
+      manaUse: 12
+      cooldown: 5
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 1
+      levelRequire: 5
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 220
+      manaUse: 13
+      cooldown: 5
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 1
+      levelRequire: 8
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 240
+      manaUse: 14
+      cooldown: 5
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 1
+      levelRequire: 11
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 260
+      manaUse: 15
+      cooldown: 5
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 1
+      levelRequire: 14
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 280
+      manaUse: 16
+      cooldown: 5
+      range: 1
+      radius: 0
+      speed: 0
+      maxTarget: 1
+      levelRequire: 17
+      moreInfo: 
+  - id: 15
+    name: snowstorm
+    displayName: "B\xE3o tuy\u1EBFt"
+    description: "G\u1ECDi b\xE3o tuy\u1EBFt xu\u1ED1ng v\xF9ng nh\u1EAFm, g\xE2y
+      s\xE1t th\u01B0\u01A1ng m\u1ECDi k\u1EBB \u0111\u1ECBch trong v\xF9ng."
+    kind: 0
+    type: 2
+    animSlot: 3
+    idAnim: 17
+    hitDelay: 1.27
+    canMoveWhileCasting: 0
+    idIcon: 651
+    model3D: 6
+    castSfx: 25
+    fireSfx: 26
+    hitSfx: 27
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 150
+      manaUse: 14
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 6
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 165
+      manaUse: 15
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 180
+      manaUse: 16
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 12
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 195
+      manaUse: 17
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 15
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 210
+      manaUse: 18
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 18
+      moreInfo: 
+  - id: 16
+    name: meteor_shower
+    displayName: "M\u01B0a thi\xEAn th\u1EA1ch"
+    description: "G\u1ECDi m\u01B0a thi\xEAn th\u1EA1ch tr\xFAt xu\u1ED1ng v\xF9ng
+      nh\u1EAFm, s\xE1t th\u01B0\u01A1ng r\u1EA5t l\u1EDBn."
+    kind: 0
+    type: 2
+    animSlot: 3
+    idAnim: 18
+    hitDelay: 1.8
+    canMoveWhileCasting: 0
+    idIcon: 652
+    model3D: 7
+    castSfx: 28
+    fireSfx: 29
+    hitSfx: 30
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 200
+      manaUse: 18
+      cooldown: 8
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 10
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 220
+      manaUse: 19
+      cooldown: 8
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 13
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 240
+      manaUse: 20
+      cooldown: 8
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 16
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 260
+      manaUse: 21
+      cooldown: 8
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 19
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 280
+      manaUse: 22
+      cooldown: 8
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 22
+      moreInfo: 
+  - id: 17
+    name: laser
+    displayName: Tia laser
+    description: "Chi\u1EBFu tia laser xu\u1ED1ng \u0111i\u1EC3m nh\u1EAFm, \u0111\u1ED1t
+      k\u1EBB \u0111\u1ECBch \u0111\u1EE9ng trong tia."
+    kind: 0
+    type: 2
+    animSlot: 3
+    idAnim: 12
+    hitDelay: 1.13
+    canMoveWhileCasting: 0
+    idIcon: 653
+    model3D: 8
+    castSfx: 31
+    fireSfx: 32
+    hitSfx: 33
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 170
+      manaUse: 14
+      cooldown: 5
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 185
+      manaUse: 15
+      cooldown: 5
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 12
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 200
+      manaUse: 16
+      cooldown: 5
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 15
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 215
+      manaUse: 17
+      cooldown: 5
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 18
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 230
+      manaUse: 18
+      cooldown: 5
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 21
+      moreInfo: 
+  - id: 18
+    name: freeze
+    displayName: "\u0110\xF3ng b\u0103ng"
+    description: "\u0110\xF3ng b\u0103ng m\u1ED9t v\xF9ng t\u1EA1i \u0111i\u1EC3m
+      nh\u1EAFm, g\xE2y s\xE1t th\u01B0\u01A1ng k\u1EBB \u0111\u1ECBch trong v\xF9ng."
+    kind: 0
+    type: 2
+    animSlot: 3
+    idAnim: 13
+    hitDelay: 1.3
+    canMoveWhileCasting: 0
+    idIcon: 654
+    model3D: 9
+    castSfx: 34
+    fireSfx: 35
+    hitSfx: 36
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 140
+      manaUse: 12
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 7
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 155
+      manaUse: 13
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 10
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 170
+      manaUse: 14
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 13
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 185
+      manaUse: 15
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 16
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 200
+      manaUse: 16
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 19
+      moreInfo: 
+  - id: 19
+    name: holy_light
+    displayName: "V\u1EA7ng s\xE1ng"
+    description: "V\u1EA7ng s\xE1ng b\xF9ng l\xEAn t\u1EA1i \u0111i\u1EC3m nh\u1EAFm,
+      g\xE2y s\xE1t th\u01B0\u01A1ng k\u1EBB \u0111\u1ECBch trong v\xF9ng."
+    kind: 0
+    type: 2
+    animSlot: 3
+    idAnim: 19
+    hitDelay: 0.6
+    canMoveWhileCasting: 0
+    idIcon: 655
+    model3D: 10
+    castSfx: 37
+    fireSfx: 38
+    hitSfx: 39
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 130
+      manaUse: 12
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 5
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 145
+      manaUse: 13
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 8
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 160
+      manaUse: 14
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 11
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 175
+      manaUse: 15
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 14
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 190
+      manaUse: 16
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 17
+      moreInfo: 
+  - id: 2
+    name: energy_blast
+    displayName: "N\u1ED5 n\u0103ng l\u01B0\u1EE3ng"
+    description: "K\xEDch n\u1ED5 m\u1ED9t kh\u1ED1i n\u0103ng l\u01B0\u1EE3ng t\u1EA1i
+      \u0111i\u1EC3m nh\u1EAFm, s\xE1t th\u01B0\u01A1ng lan ra xung quanh."
+    kind: 0
+    type: 2
+    animSlot: 3
+    idAnim: 14
+    hitDelay: 1
+    canMoveWhileCasting: 0
+    idIcon: 656
+    model3D: 11
+    castSfx: 40
+    fireSfx: 41
+    hitSfx: 42
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 150
+      manaUse: 14
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 3
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 165
+      manaUse: 15
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 6
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 180
+      manaUse: 16
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 195
+      manaUse: 17
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 12
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 210
+      manaUse: 18
+      cooldown: 6
+      range: 5
+      radius: 1
+      speed: 0
+      maxTarget: 0
+      levelRequire: 15
+      moreInfo: 
+  - id: 5
+    name: charge_slash
+    displayName: "L\u01B0\u1EDBt ch\xE9m"
+    description: "Ph\xF3ng m\u1ED9t v\u1EC7t ch\xE9m bay th\u1EB3ng theo h\u01B0\u1EDBng
+      nh\u1EAFm, xuy\xEAn qua m\u1ECDi k\u1EBB \u0111\u1ECBch tr\xEAn \u0111\u01B0\u1EDDng."
+    kind: 0
+    type: 1
+    animSlot: 3
+    idAnim: 8
+    hitDelay: 0.43
+    canMoveWhileCasting: 0
+    idIcon: 657
+    model3D: 12
+    castSfx: 10
+    fireSfx: 11
+    hitSfx: 12
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 110
+      manaUse: 8
+      cooldown: 3
+      range: 5
+      radius: 1
+      speed: 16
+      maxTarget: 0
+      levelRequire: 2
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 120
+      manaUse: 9
+      cooldown: 3
+      range: 5
+      radius: 1
+      speed: 16
+      maxTarget: 0
+      levelRequire: 5
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 130
+      manaUse: 10
+      cooldown: 3
+      range: 5
+      radius: 1
+      speed: 16
+      maxTarget: 0
+      levelRequire: 8
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 140
+      manaUse: 11
+      cooldown: 3
+      range: 5
+      radius: 1
+      speed: 16
+      maxTarget: 0
+      levelRequire: 11
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 150
+      manaUse: 12
+      cooldown: 3
+      range: 5
+      radius: 1
+      speed: 16
+      maxTarget: 0
+      levelRequire: 14
+      moreInfo: 
+  - id: 20
+    name: blast_zone
+    displayName: "V\xF9ng n\u1ED5"
+    description: "T\u1EA1o v\xF9ng n\u1ED5 l\u1EDBn t\u1EA1i \u0111i\u1EC3m nh\u1EAFm,
+      tr\xFAng m\u1ECDi k\u1EBB \u0111\u1ECBch trong v\xF9ng r\u1ED9ng."
+    kind: 0
+    type: 2
+    animSlot: 3
+    idAnim: 20
+    hitDelay: 0.63
+    canMoveWhileCasting: 0
+    idIcon: 658
+    model3D: 13
+    castSfx: 43
+    fireSfx: 44
+    hitSfx: 45
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 170
+      manaUse: 18
+      cooldown: 8
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 12
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 185
+      manaUse: 19
+      cooldown: 8
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 15
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 200
+      manaUse: 20
+      cooldown: 8
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 18
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 215
+      manaUse: 21
+      cooldown: 8
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 21
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 230
+      manaUse: 22
+      cooldown: 8
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 24
+      moreInfo: 
+  - id: 21
+    name: stone_throw
+    displayName: "N\xE9m \u0111\xE1"
+    description: "N\xE9m t\u1EA3ng \u0111\xE1 l\u1EDBn bay th\u1EB3ng, \u0111\xE8
+      l\xEAn m\u1ECDi k\u1EBB \u0111\u1ECBch tr\xEAn \u0111\u01B0\u1EDDng r\u01A1i."
+    kind: 0
+    type: 1
+    animSlot: 3
+    idAnim: 15
+    hitDelay: 0.93
+    canMoveWhileCasting: 1
+    idIcon: 659
+    model3D: 14
+    castSfx: 13
+    fireSfx: 14
+    hitSfx: 15
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 180
+      manaUse: 16
+      cooldown: 6
+      range: 5
+      radius: 2
+      speed: 10
+      maxTarget: 0
+      levelRequire: 11
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 200
+      manaUse: 17
+      cooldown: 6
+      range: 5
+      radius: 2
+      speed: 10
+      maxTarget: 0
+      levelRequire: 14
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 220
+      manaUse: 18
+      cooldown: 6
+      range: 5
+      radius: 2
+      speed: 10
+      maxTarget: 0
+      levelRequire: 17
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 240
+      manaUse: 19
+      cooldown: 6
+      range: 5
+      radius: 2
+      speed: 10
+      maxTarget: 0
+      levelRequire: 20
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 260
+      manaUse: 20
+      cooldown: 6
+      range: 5
+      radius: 2
+      speed: 10
+      maxTarget: 0
+      levelRequire: 23
+      moreInfo: 
+  - id: 22
+    name: bullet_hell
+    displayName: "M\u01B0a \u0111\u1EA1n"
+    description: "X\u1EA3 m\u01B0a \u0111\u1EA1n quanh ng\u01B0\u1EDDi, g\xE2y s\xE1t
+      th\u01B0\u01A1ng m\u1ECDi k\u1EBB \u0111\u1ECBch \u0111\u1EE9ng g\u1EA7n."
+    kind: 0
+    type: 2
+    animSlot: 3
+    idAnim: 16
+    hitDelay: 2.03
+    canMoveWhileCasting: 0
+    idIcon: 660
+    model3D: 15
+    castSfx: 46
+    fireSfx: 47
+    hitSfx: 48
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 200
+      manaUse: 20
+      cooldown: 10
+      range: 0
+      radius: 1.5
+      speed: 0
+      maxTarget: 0
+      levelRequire: 15
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 220
+      manaUse: 21
+      cooldown: 10
+      range: 0
+      radius: 1.5
+      speed: 0
+      maxTarget: 0
+      levelRequire: 18
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 240
+      manaUse: 22
+      cooldown: 10
+      range: 0
+      radius: 1.5
+      speed: 0
+      maxTarget: 0
+      levelRequire: 21
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 260
+      manaUse: 23
+      cooldown: 10
+      range: 0
+      radius: 1.5
+      speed: 0
+      maxTarget: 0
+      levelRequire: 24
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 280
+      manaUse: 24
+      cooldown: 10
+      range: 0
+      radius: 1.5
+      speed: 0
+      maxTarget: 0
+      levelRequire: 27
+      moreInfo: 
+  - id: 23
+    name: frost_nova
+    displayName: "B\u0103ng gi\xE1"
+    description: "B\xF9ng ph\xE1t b\u0103ng gi\xE1 r\u1ED9ng t\u1EA1i \u0111i\u1EC3m
+      nh\u1EAFm, tr\xFAng m\u1ECDi k\u1EBB \u0111\u1ECBch trong v\xF9ng."
+    kind: 0
+    type: 2
+    animSlot: 3
+    idAnim: 17
+    hitDelay: 1.27
+    canMoveWhileCasting: 0
+    idIcon: 661
+    model3D: 16
+    castSfx: 49
+    fireSfx: 50
+    hitSfx: 51
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 190
+      manaUse: 18
+      cooldown: 9
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 14
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 210
+      manaUse: 19
+      cooldown: 9
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 17
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 230
+      manaUse: 20
+      cooldown: 9
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 20
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 250
+      manaUse: 21
+      cooldown: 9
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 23
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 270
+      manaUse: 22
+      cooldown: 9
+      range: 5
+      radius: 2
+      speed: 0
+      maxTarget: 0
+      levelRequire: 26
+      moreInfo: 
+  - id: 6
+    name: basic_sword
+    displayName: "\u0110\xE1nh th\u01B0\u1EDDng: Ki\u1EBFm"
+    description: "Ch\xE9m c\u1EADn chi\u1EBFn, tr\xFAng m\u1ECDi k\u1EBB \u0111\u1ECBch
+      ph\xEDa tr\u01B0\u1EDBc trong t\u1EA7m."
+    kind: 1
+    type: 0
+    animSlot: 3
+    idAnim: 0
+    hitDelay: 0.2
+    canMoveWhileCasting: 0
+    idIcon: 638
+    model3D: 3
+    castSfx: 0
+    fireSfx: 0
+    hitSfx: 0
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 0
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 1
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 10
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 5
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 20
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 30
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 13
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 40
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 17
+      moreInfo: 
+  - id: 7
+    name: basic_bow
+    displayName: "\u0110\xE1nh th\u01B0\u1EDDng: Cung"
+    description: "B\u1EAFn m\u1ED9t m\u0169i t\xEAn bay th\u1EB3ng theo h\u01B0\u1EDBng
+      nh\u1EAFm, tr\xFAng k\u1EBB \u0111\u1ECBch \u0111\u1EA7u ti\xEAn tr\xEAn \u0111\u01B0\u1EDDng."
+    kind: 1
+    type: 1
+    animSlot: 3
+    idAnim: 4
+    hitDelay: 0.27
+    canMoveWhileCasting: 1
+    idIcon: 639
+    model3D: 1
+    castSfx: 0
+    fireSfx: 0
+    hitSfx: 0
+    levels:
+    - level: 1
+      idAtk: 604
+      damage: 0
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.4
+      speed: 12
+      maxTarget: 0
+      levelRequire: 1
+      moreInfo: 
+    - level: 2
+      idAtk: 604
+      damage: 10
+      manaUse: 0
+      cooldown: 0
+      range: 0.5
+      radius: 0.4
+      speed: 12
+      maxTarget: 0
+      levelRequire: 5
+      moreInfo: 
+    - level: 3
+      idAtk: 604
+      damage: 20
+      manaUse: 0
+      cooldown: 0
+      range: 1
+      radius: 0.4
+      speed: 12
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 4
+      idAtk: 604
+      damage: 30
+      manaUse: 0
+      cooldown: 0
+      range: 1.5
+      radius: 0.4
+      speed: 12
+      maxTarget: 0
+      levelRequire: 13
+      moreInfo: 
+    - level: 5
+      idAtk: 604
+      damage: 40
+      manaUse: 0
+      cooldown: 0
+      range: 2
+      radius: 0.4
+      speed: 12
+      maxTarget: 0
+      levelRequire: 17
+      moreInfo: 
+  - id: 9
+    name: basic_hammer
+    displayName: "\u0110\xE1nh th\u01B0\u1EDDng: B\xFAa"
+    description: "N\u1EC7n b\xFAa ch\u1EADm nh\u01B0ng n\u1EB7ng v\xE0o m\u1ED9t
+      k\u1EBB \u0111\u1ECBch ph\xEDa tr\u01B0\u1EDBc."
+    kind: 1
+    type: 0
+    animSlot: 3
+    idAnim: 2
+    hitDelay: 0.17
+    canMoveWhileCasting: 0
+    idIcon: 641
+    model3D: 5
+    castSfx: 0
+    fireSfx: 0
+    hitSfx: 0
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 0
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 1
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 15
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 5
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 30
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 45
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 13
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 60
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 17
+      moreInfo: 
+  - id: 10
+    name: basic_scythe
+    displayName: "\u0110\xE1nh th\u01B0\u1EDDng: L\u01B0\u1EE1i h\xE1i"
+    description: "Qu\xE9t l\u01B0\u1EE1i h\xE1i r\u1ED9ng, tr\xFAng m\u1ECDi k\u1EBB
+      \u0111\u1ECBch ph\xEDa tr\u01B0\u1EDBc v\u1EDBi t\u1EA7m xa h\u01A1n ki\u1EBFm."
+    kind: 1
+    type: 0
+    animSlot: 3
+    idAnim: 3
+    hitDelay: 0.2
+    canMoveWhileCasting: 0
+    idIcon: 642
+    model3D: 4
+    castSfx: 0
+    fireSfx: 0
+    hitSfx: 0
+    levels:
+    - level: 1
+      idAtk: 0
+      damage: 0
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 1
+      moreInfo: 
+    - level: 2
+      idAtk: 0
+      damage: 10
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 5
+      moreInfo: 
+    - level: 3
+      idAtk: 0
+      damage: 20
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 4
+      idAtk: 0
+      damage: 30
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 13
+      moreInfo: 
+    - level: 5
+      idAtk: 0
+      damage: 40
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0
+      speed: 0
+      maxTarget: 0
+      levelRequire: 17
+      moreInfo: 
+  - id: 11
+    name: basic_gun
+    displayName: "\u0110\xE1nh th\u01B0\u1EDDng: S\xFAng l\u1EE5c"
+    description: "B\u1EAFn nhanh m\u1ED9t vi\xEAn \u0111\u1EA1n bay th\u1EB3ng, tr\xFAng
+      k\u1EBB \u0111\u1ECBch \u0111\u1EA7u ti\xEAn tr\xEAn \u0111\u01B0\u1EDDng."
+    kind: 1
+    type: 1
+    animSlot: 3
+    idAnim: 4
+    hitDelay: 0.27
+    canMoveWhileCasting: 1
+    idIcon: 643
+    model3D: 0
+    castSfx: 0
+    fireSfx: 0
+    hitSfx: 0
+    levels:
+    - level: 1
+      idAtk: 609
+      damage: 0
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 20
+      maxTarget: 0
+      levelRequire: 1
+      moreInfo: 
+    - level: 2
+      idAtk: 609
+      damage: 8
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 20
+      maxTarget: 0
+      levelRequire: 5
+      moreInfo: 
+    - level: 3
+      idAtk: 609
+      damage: 16
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 20
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 4
+      idAtk: 609
+      damage: 24
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 20
+      maxTarget: 0
+      levelRequire: 13
+      moreInfo: 
+    - level: 5
+      idAtk: 609
+      damage: 32
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 20
+      maxTarget: 0
+      levelRequire: 17
+      moreInfo: 
+  - id: 12
+    name: basic_rifle
+    displayName: "\u0110\xE1nh th\u01B0\u1EDDng: S\xFAng tr\u01B0\u1EDDng"
+    description: "B\u1EAFn ch\u1EADm nh\u01B0ng m\u1EA1nh v\xE0 xa, vi\xEAn \u0111\u1EA1n
+      xuy\xEAn qua hai k\u1EBB \u0111\u1ECBch."
+    kind: 1
+    type: 1
+    animSlot: 3
+    idAnim: 4
+    hitDelay: 0.27
+    canMoveWhileCasting: 1
+    idIcon: 644
+    model3D: 0
+    castSfx: 0
+    fireSfx: 0
+    hitSfx: 0
+    levels:
+    - level: 1
+      idAtk: 610
+      damage: 0
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 26
+      maxTarget: 0
+      levelRequire: 1
+      moreInfo: 
+    - level: 2
+      idAtk: 610
+      damage: 12
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 26
+      maxTarget: 0
+      levelRequire: 5
+      moreInfo: 
+    - level: 3
+      idAtk: 610
+      damage: 24
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 26
+      maxTarget: 0
+      levelRequire: 9
+      moreInfo: 
+    - level: 4
+      idAtk: 610
+      damage: 36
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 26
+      maxTarget: 0
+      levelRequire: 13
+      moreInfo: 
+    - level: 5
+      idAtk: 610
+      damage: 48
+      manaUse: 0
+      cooldown: 0
+      range: 0
+      radius: 0.35
+      speed: 26
+      maxTarget: 0
+      levelRequire: 17
+      moreInfo: 

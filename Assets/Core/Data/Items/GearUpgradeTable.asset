@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cc6579568abe64cb2e0f21b5472be4, type: 3}
+  m_Name: GearUpgradeTable
+  m_EditorClassIdentifier: Core.Data:Game.Items:GearUpgradeTable
+  steps:
+  - chance: 100
+    stones: 1
+    gold: 100
+    dropOnFail: 0
+    protectStones: 1
+  - chance: 95
+    stones: 1
+    gold: 200
+    dropOnFail: 0
+    protectStones: 1
+  - chance: 90
+    stones: 1
+    gold: 300
+    dropOnFail: 0
+    protectStones: 1
+  - chance: 80
+    stones: 2
+    gold: 500
+    dropOnFail: 0
+    protectStones: 1
+  - chance: 70
+    stones: 2
+    gold: 800
+    dropOnFail: 0
+    protectStones: 1
+  - chance: 60
+    stones: 3
+    gold: 1200
+    dropOnFail: 1
+    protectStones: 1
+  - chance: 50
+    stones: 3
+    gold: 1800
+    dropOnFail: 1
+    protectStones: 2
+  - chance: 40
+    stones: 4
+    gold: 3000
+    dropOnFail: 1
+    protectStones: 4
+  - chance: 30
+    stones: 5
+    gold: 5000
+    dropOnFail: 1
+    protectStones: 8
+  - chance: 20
+    stones: 6
+    gold: 8000
+    dropOnFail: 1
+    protectStones: 16
+  optionPerLevel: 8
+  weaponPowerPerLevel: 3
+  luckyBonus: 10
+  sockets:
+  - chance: 100
+    stones: 1
+    gold: 500
+  - chance: 70
+    stones: 2
+    gold: 1500
+  - chance: 40
+    stones: 3
+    gold: 4000
+  removeGemGold: 200

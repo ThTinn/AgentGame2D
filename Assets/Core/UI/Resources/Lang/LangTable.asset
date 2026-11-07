@@ -1,0 +1,1717 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04fba016e2d9964aa70976eb2114be3, type: 3}
+  m_Name: LangTable
+  m_EditorClassIdentifier: 
+  languages:
+  - code: vi
+    name: "Ti\u1EBFng Vi\u1EC7t"
+  - code: en
+    name: English
+  fields:
+  - key: TheWholeMap
+    values:
+    - "To\xE0n b\u1EA3n \u0111\u1ED3"
+    - The whole map
+  - key: Ok
+    values:
+    - Ok
+    - Ok
+  - key: Close
+    values:
+    - "\u0110\xF3ng"
+    - Close
+  - key: Chon
+    values:
+    - "Ch\u1ECDn"
+    - Sellect
+  - key: Xin_cho
+    values:
+    - "Xin ch\u1EDD"
+    - Waiting
+  - key: Han_su_dung
+    values:
+    - "H\u1EA1n s\u1EED d\u1EE5ng"
+    - Exp date
+  - key: ngay
+    values:
+    - "ng\xE0y"
+    - d
+  - key: gio
+    values:
+    - "gi\u1EDD"
+    - h
+  - key: phut
+    values:
+    - "ph\xFAt"
+    - m
+  - key: giay
+    values:
+    - "gi\xE2y"
+    - s
+  - key: Het_han
+    values:
+    - "H\u1EBFt h\u1EA1n"
+    - Expired
+  - key: Nhap_so_luong
+    values:
+    - "Nh\u1EADp s\u1ED1 l\u01B0\u1EE3ng"
+    - Enter amount
+  - key: So_luong_khong_hop_le
+    values:
+    - "S\u1ED1 l\u01B0\u1EE3ng kh\xF4ng h\u1EE3p l\u1EC7"
+    - Invalid quantity
+  - key: Huy_bo
+    values:
+    - "H\u1EE7y b\u1ECF"
+    - Cancel
+  - key: Xac_nhan
+    values:
+    - "X\xE1c nh\u1EADn"
+    - Confirm
+  - key: Dich_chuyen
+    values:
+    - "D\u1ECBch chuy\u1EC3n"
+    - Teleport
+  - key: GoBack
+    values:
+    - "Tr\u1EDF v\u1EC1"
+    - Go Back
+  - key: Revive
+    values:
+    - "S\u1ED1ng l\u1EA1i"
+    - Revive
+  - key: Wait
+    values:
+    - "Ch\u1EDD"
+    - Wait
+  - key: Create
+    values:
+    - "T\u1EA1o"
+    - Create
+  - key: SummonDragon
+    values:
+    - "Tri\u1EC7u h\u1ED3i"
+    - Summon
+  - key: DelRms
+    values:
+    - "B\u1EA1n c\xF3 mu\u1ED1n x\xF3a to\xE0n b\u1ED9 d\u1EEF li\u1EC7u!"
+    - ReOpen
+  - key: ThongBao
+    values:
+    - "Th\xF4ng b\xE1o"
+    - Notification
+  - key: MayChuBaoTri
+    values:
+    - "M\xE1y ch\u1EE7 \u0111ang b\u1EA3o tr\xEC. Vui l\xF2ng th\u1EED l\u1EA1i sau!"
+    - Server is under Maintenance. Please try again later!
+  - key: CheckAsset
+    values:
+    - "Ki\u1EC3m tra asset!"
+    - Check Asset!
+  - key: CheckData
+    values:
+    - "Ki\u1EC3m tra d\u1EEF li\u1EC7u!"
+    - Check Data!
+  - key: BackToLogin
+    values:
+    - "Tr\u1EDF v\u1EC1 m\xE0n h\xECnh \u0111\u0103ng nh\u1EADp"
+    - Back to login
+  - key: Connecting
+    values:
+    - "\u0110ang k\u1EBFt n\u1ED1i v\u1EDBi m\xE1y ch\u1EE7"
+    - Connecting
+  - key: Disconnect
+    values:
+    - "M\u1EA5t k\u1EBFt n\u1ED1i v\u1EDBi m\xE1y ch\u1EE7"
+    - Disconnect
+  - key: Gioi_han
+    values:
+    - "Gi\u1EDBi h\u1EA1n"
+    - Limit
+  - key: Yes
+    values:
+    - Yes
+    - Yes
+  - key: No
+    values:
+    - No
+    - No
+  - key: Done
+    values:
+    - "Ho\xE0n th\xE0nh"
+    - Done
+  - key: HP
+    values:
+    - HP
+    - HP
+  - key: KI
+    values:
+    - KI
+    - KI
+  - key: Email
+    values:
+    - Email
+    - Email
+  - key: Code
+    values:
+    - Code
+    - Code
+  - key: Thanh_cong
+    values:
+    - "Th\xE0nh c\xF4ng!"
+    - Successfully!
+  - key: That_bai
+    values:
+    - "Th\u1EA5t b\u1EA1i!"
+    - failed!
+  - key: Tu
+    values:
+    - "T\u1EEB"
+    - From
+  - key: Nhan
+    values:
+    - "Nh\u1EADn"
+    - Receive
+  - key: so_luong
+    values:
+    - "S\u1ED1 l\u01B0\u1EE3ng"
+    - Amount
+  - key: Hop_Thu
+    values:
+    - "H\u1ED9p Th\u01B0"
+    - MailBox
+  - key: Doc_tat_ca
+    values:
+    - "\u0110\u1ECDc t\u1EA5t c\u1EA3"
+    - Read all
+  - key: Chon_tat_ca
+    values:
+    - "Ch\u1ECDn t\u1EA5t c\u1EA3"
+    - Sellect all
+  - key: Nhan_tat_ca
+    values:
+    - "Nh\u1EADn t\u1EA5t c\u1EA3"
+    - Claim all
+  - key: Hanh_trang
+    values:
+    - "H\xE0nh trang"
+    - Inventory
+  - key: Cua_hang
+    values:
+    - "C\u1EEDa h\xE0ng"
+    - Shop
+  - key: Thay_the
+    values:
+    - "Thay th\u1EBF"
+    - Replace
+  - key: Mua
+    values:
+    - Mua
+    - Buy
+  - key: Ban
+    values:
+    - "B\xE1n"
+    - Sell
+  - key: Nang_cap
+    values:
+    - "N\xE2ng c\u1EA5p"
+    - Upgrade
+  - key: Mac
+    values:
+    - "M\u1EB7c"
+    - Equip
+  - key: Thao
+    values:
+    - "Th\xE1o"
+    - Unequip
+  - key: Thuoc_tinh_se_mat
+    values:
+    - "Thu\u1ED9c t\xEDnh s\u1EBD m\u1EA5t"
+    - The properties will be disabled
+  - key: Thuoc_tinh
+    values:
+    - "Thu\u1ED9c t\xEDnh"
+    - Attribute
+  - key: Yeu_cau
+    values:
+    - "Y\xEAu c\u1EA7u"
+    - Require
+  - key: Cap
+    values:
+    - "C\u1EA5p"
+    - Level
+  - key: Cap_ke_tiep
+    values:
+    - "C\u1EA5p k\u1EBF ti\u1EBFp"
+    - Next level
+  - key: nam
+    values:
+    - "n\u0103m"
+    - Y
+  - key: thang
+    values:
+    - "th\xE1ng"
+    - M
+  - key: tuan
+    values:
+    - "tu\u1EA7n"
+    - w
+  - key: Ban_muon_mo_rong_hanh_trang
+    values:
+    - "B\u1EA1n mu\u1ED1n m\u1EDF r\u1ED9ng h\xE0nh trang?"
+    - Do you want to expand your inventory?
+  - key: Chi_so
+    values:
+    - "Ch\u1EC9 s\u1ED1"
+    - Parameters
+  - key: Xac_nhan_nang_cap_trang_bi
+    values:
+    - "X\xE1c nh\u1EADn n\xE2ng c\u1EA5p trang b\u1ECB !"
+    - Confirm to upgrade item!
+  - key: Thieu_da_bao_ve
+    values:
+    - "Thi\u1EBFu \u0111\xE1 b\u1EA3o v\u1EC7, v\u1EADt ph\u1EA9m c\xF3 th\u1EC3
+      b\u1ECB r\u1EDBt c\u1EA5p \u0111\u1ED9 !!"
+    - Without protection stone, item may drop level!!
+  - key: Ban_muon_dung_loai_tien_nao_de_mua
+    values:
+    - "B\u1EA1n mu\u1ED1n s\u1EED d\u1EE5ng lo\u1EA1i ti\u1EC1n t\u1EC7 n\xE0o \u0111\u1EC3
+      mua "
+    - What currency would you like to use to buy
+  - key: Hay_go_vat_pham_trong_o_nang_cap
+    values:
+    - "H\xE3y g\u1EE1 v\u1EADt ph\u1EA9m trong \xF4 n\xE2ng c\u1EA5p ra tr\u01B0\u1EDBc!"
+    - Please remove the item in the upgrade slot first!
+  - key: Nhap_gia_bat_dau
+    values:
+    - "Nh\u1EADp gi\xE1 b\u1EAFt \u0111\u1EA7u"
+    - Enter starting price
+  - key: Nhap_gia_mua_ngay
+    values:
+    - "Nh\u1EADp gi\xE1 mua ngay"
+    - Enter buy now price
+  - key: Dau_gia
+    values:
+    - "\u0110\u1EA5u gi\xE1"
+    - Auction
+  - key: Nhap_gia
+    values:
+    - "Nh\u1EADp gi\xE1"
+    - Enter price
+  - key: Mua_ngay
+    values:
+    - Mua ngay
+    - Buy now
+  - key: Chu_so_huu
+    values:
+    - "Ch\u1EE7 s\u1EDF h\u1EEFu"
+    - Owner
+  - key: Gia_hien_tai
+    values:
+    - "Gi\xE1 hi\u1EC7n t\u1EA1i"
+    - Current price
+  - key: Gia_mua_ngay
+    values:
+    - "Gi\xE1 mua ngay"
+    - Buy now price
+  - key: Gia_khong_hop_le
+    values:
+    - "Gi\xE1 kh\xF4ng h\u1EE3p l\u1EC7"
+    - Invalid price
+  - key: Xac_nhan_dau_gia
+    values:
+    - "X\xE1c nh\u1EADn \u0111\u1EA5u gi\xE1"
+    - Confirm auction
+  - key: Gia_bat_dau_khong_hop_le
+    values:
+    - "Gi\xE1 b\u1EAFt \u0111\u1EA7u kh\xF4ng h\u1EE3p l\u1EC7"
+    - Invalid starting price
+  - key: Gia_mua_ngay_khong_hop_le
+    values:
+    - "Gi\xE1 mua ngay kh\xF4ng h\u1EE3p l\u1EC7"
+    - Invalid buy now price
+  - key: Gia_bat_dau
+    values:
+    - "Gi\xE1 b\u1EAFt \u0111\u1EA7u"
+    - Starting price
+  - key: Xac_nhan_huy_theo_doi
+    values:
+    - "X\xE1c nh\u1EADn h\u1EE7y theo d\xF5i"
+    - Confirm unfollow
+  - key: Xac_nhan_mua_ngay
+    values:
+    - "X\xE1c nh\u1EADn mua ngay"
+    - Confirm buy now
+  - key: Chua_kham
+    values:
+    - "Ch\u01B0a kh\u1EA3m"
+    - Empty
+  - key: Kham_ngoc
+    values:
+    - "Kh\u1EA3m ng\u1ECDc"
+    - Socket
+  - key: Go_ngoc
+    values:
+    - "G\u1EE1 ng\u1ECDc"
+    - Unsocket
+  - key: Xac_nhan_go_ngoc
+    values:
+    - "X\xE1c nh\u1EADn g\u1EE1 ng\u1ECDc!"
+    - Confirm empty this socket !
+  - key: Xac_nhan_duc_lo
+    values:
+    - "X\xE1c nh\u1EADn \u0111\u1EE5c l\u1ED7 item !"
+    - Confirm to create socket !
+  - key: Da_trang_bi
+    values:
+    - "\u0110\xE3 trang b\u1ECB"
+    - Equipped
+  - key: Thong_tin
+    values:
+    - "Th\xF4ng tin"
+    - Infomation
+  - key: Tai_khoan
+    values:
+    - "T\xE0i kho\u1EA3n"
+    - Account
+  - key: Dang_nhap_bang_Apple
+    values:
+    - "\u0110\u0103ng nh\u1EADp b\u1EB1ng Apple"
+    - Sign in with Apple
+  - key: Dang_nhap_bang_Google
+    values:
+    - "\u0110\u0103ng nh\u1EADp b\u1EB1ng Google"
+    - Sign in with Google
+  - key: Toi_dong_y_voi_thoa_thuan
+    values:
+    - "T\xF4i \u0111\u1ED3ng \xFD v\u1EDBi \"Th\u1ECFa thu\u1EADn ng\u01B0\u1EDDi
+      d\xF9ng\" v\xE0 \"Quy\u1EC1n ri\xEAng t\u01B0\""
+    - I agree "User Agreement" and "Privacy"
+  - key: Dang_nhap
+    values:
+    - "\u0110\u0103ng nh\u1EADp"
+    - Sign in
+  - key: Dang_ki
+    values:
+    - "\u0110\u0103ng k\xED"
+    - Sign up
+  - key: Ten_dang_nhap
+    values:
+    - "T\xEAn \u0111\u0103ng nh\u1EADp"
+    - Username
+  - key: Mat_khau
+    values:
+    - "M\u1EADt kh\u1EA9u"
+    - Password
+  - key: Nhap_lai_mat_khau
+    values:
+    - "Nh\u1EADp l\u1EA1i m\u1EADt kh\u1EA9u"
+    - re-enter the password
+  - key: Goi_code
+    values:
+    - "G\u1EDFi code"
+    - Send code
+  - key: Xac_nhan_dang_xuat
+    values:
+    - "x\xE1c nh\u1EADn \u0111\u0103ng xu\u1EA5t"
+    - Comfirm to log out
+  - key: Phong_thu
+    values:
+    - "Ph\xF2ng th\u1EE7"
+    - Defend
+  - key: Tan_cong
+    values:
+    - "T\u1EA5n c\xF4ng"
+    - Attack
+  - key: Email_khong_hop_le
+    values:
+    - "Email kh\xF4ng h\u1EE3p l\u1EC7"
+    - The email is invalid
+  - key: Hay_nhap_dung_dinh_dang_email
+    values:
+    - "Vui l\xF2ng nh\u1EADp \u0111\xFAng \u0111\u1ECBnh d\u1EA1ng email. v\xED d\u1EE5:
+      abc@gmail.com"
+    - 'Please enter correct email format. eg: abc@gmail.com'
+  - key: Hay_nhap_ten_dang_nhap
+    values:
+    - "H\xE3y nh\u1EADp t\xEAn ng\u01B0\u1EDDi d\xF9ng!"
+    - Please enter the user name!
+  - key: Hay_nhap_ma_code
+    values:
+    - "H\xE3y nh\u1EADp m\xE3 code, m\xE3 ph\u1EA3i c\xF3 6 k\xFD t\u1EF1 trong h\u1ED9p
+      th\u01B0 c\u1EE7a b\u1EA1n!!"
+    - Please enter the code, code must be 6 character in your mailbox!
+  - key: Hay_kiem_tra_lai_mat_khau
+    values:
+    - "H\xE3y ki\u1EC3m tra l\u1EA1i m\u1EADt kh\u1EA9u, m\u1EADt kh\u1EA9u kh\xF4ng
+      tr\xF9ng nhau"
+    - Please check your password, the passwords do not match.
+  - key: Hay_nhap_mat_khau
+    values:
+    - "H\xE3y nh\u1EADp m\u1EADt kh\u1EA9u!"
+    - Please enter the password
+  - key: Quay_lai
+    values:
+    - "Quay l\u1EA1i"
+    - Back
+  - key: Lien_ket
+    values:
+    - "Li\xEAn k\u1EBFt"
+    - Link
+  - key: Nhat
+    values:
+    - "Nh\u1EB7t"
+    - Collect
+  - key: Do_hiem
+    values:
+    - "\u0110\u1ED9 hi\u1EBFm"
+    - Rare
+  - key: Vat_pham
+    values:
+    - "V\u1EADt ph\u1EA9m"
+    - Item
+  - key: Ke_dich
+    values:
+    - "K\u1EBB \u0111\u1ECBch"
+    - Monsters
+  - key: Pham_vi
+    values:
+    - "Ph\u1EA1m vi"
+    - Range
+  - key: Toc
+    values:
+    - "T\xF3c"
+    - Hair
+  - key: Nhiemvu
+    values:
+    - "Nhi\u1EC7m v\u1EE5"
+    - Quest
+  - key: HienNhacNho
+    values:
+    - "Hi\u1EC7n nh\u1EAFc nh\u1EDF"
+    - Show reminder
+  - key: Nhan_Thuong
+    values:
+    - "Nh\u1EADn Th\u01B0\u1EDFng"
+    - Received
+  - key: Dahoanthanh
+    values:
+    - "\u0110\xE3 ho\xE0n th\xE0nh"
+    - Completed
+  - key: CHUCNANG
+    values:
+    - "CH\u1EE8C N\u0102NG"
+    - FUNTION
+  - key: CHUNG
+    values:
+    - CHUNG
+    - GENERAL
+  - key: KETGIAO
+    values:
+    - "K\u1EBET GIAO"
+    - COMMUNITY
+  - key: HOATDONG
+    values:
+    - "HO\u1EA0T \u0110\u1ED8NG"
+    - ACTIVITY
+  - key: DaNhan
+    values:
+    - "\u0110\xE3 nh\u1EADn"
+    - Claimed
+  - key: HOANTHANHNHIEMVU
+    values:
+    - "HO\xC0N TH\xC0NH NHI\u1EC6M V\u1EE4"
+    - QUEST COMPLETED
+  - key: Hiennhacnho
+    values:
+    - "Hi\u1EC7n nh\u1EAFc nh\u1EDF"
+    - Show reminder
+  - key: Tin_nhan
+    values:
+    - "Tin nh\u1EAFn"
+    - Messages
+  - key: Cai_dat
+    values:
+    - "C\xE0i \u0111\u1EB7t"
+    - Setting
+  - key: Tu_dong
+    values:
+    - "T\u1EF1 \u0111\u1ED9ng"
+    - Auto
+  - key: Ban_be
+    values:
+    - "B\u1EA1n b\xE8"
+    - Friend
+  - key: Tat_nhac_nho_nhiem_vu
+    values:
+    - "T\u1EAFt nh\u1EAFc nh\u1EDF nhi\u1EC7m v\u1EE5. C\xF3 th\u1EC3 v\xE0o giao
+      di\u1EC7n ch\xEDnh c\u1EE7a ch\u1EE9c n\u0103ng nhi\u1EC7m v\u1EE5 \u0111\u1EC3
+      b\u1EADt l\u1EA1i."
+    - Turn off task reminders. You can go to the main interface of the task function
+      to turn it back on.
+  - key: Lien_he_gan_day
+    values:
+    - "Li\xEAn h\u1EC7 g\u1EA7n \u0111\xE2y"
+    - Recent contact
+  - key: Chan
+    values:
+    - "Ch\u1EB7n"
+    - Block
+  - key: Tuong_tac
+    values:
+    - "T\u01B0\u01A1ng t\xE1c"
+    - Interact
+  - key: Suc_danh
+    values:
+    - "S\u1EE9c \u0111\xE1nh"
+    - Damage
+  - key: Hoi_chieu
+    values:
+    - "H\u1ED3i chi\xEAu"
+    - Duration
+  - key: Diem_tiem_nang
+    values:
+    - "\u0110i\u1EC3m ti\u1EC1m n\u0103ng"
+    - Potential points
+  - key: Kich_hoat
+    values:
+    - "K\xEDch ho\u1EA1t"
+    - Active
+  - key: TANG_CAP_KY_NANG
+    values:
+    - "T\u0102NG C\u1EA4P K\u1EF8 N\u0102NG"
+    - UPGRADE SKILL
+  - key: Dung_diem_tiem_nang
+    values:
+    - "D\xF9ng \u0111i\u1EC3m ti\u1EC1m n\u0103ng \u0111\u1EC3 n\xE2ng c\u1EA5p thu\u1ED9c
+      t\xEDnh"
+    - Use potential points to upgrade attributes
+  - key: hien_tai
+    values:
+    - "hi\u1EC7n t\u1EA1i"
+    - current
+  - key: Tong_cap_hien_tai
+    values:
+    - "T\u1ED5ng c\u1EA5p hi\u1EC7n t\u1EA1i"
+    - Total current level
+  - key: Tong_cap_hien_tai_DESC
+    values:
+    - "T\u1ED5ng c\u1EA5p c\u1EE7a c\xE1c thu\u1ED9c t\xEDnh kh\xF4ng \u0111\u01B0\u1EE3c
+      v\u01B0\u1EE3t qu\xE1 gi\u1EDBi h\u1EA1n t\u1ED1i \u0111a"
+    - The total level of the attributes cannot exceed the maximum limit
+  - key: TAO_NHAN_VAT
+    values:
+    - "T\u1EA0O NH\xC2N V\u1EACT"
+    - CREATE CHARACTER
+  - key: Ten_nhan_vat
+    values:
+    - "T\xEAn nh\xE2n v\u1EADt"
+    - Character name
+  - key: Tao_nhan_vat
+    values:
+    - "T\u1EA1o nh\xE2n v\u1EADt"
+    - Create character
+  - key: Tao_bang
+    values:
+    - "T\u1EA1o bang"
+    - Create Clan
+  - key: Tim_bang
+    values:
+    - "T\xECm bang"
+    - Search Clan
+  - key: Doi_ten
+    values:
+    - "\u0110\u1ED5i t\xEAn"
+    - Change name
+  - key: Hay_nhap_ten_moi_cho_bang_hoi
+    values:
+    - "H\xE3y nh\u1EADp t\xEAn m\u1EDBi cho bang h\u1ED9i"
+    - Please enter a new name for the clan
+  - key: Hay_nhap_ten_bang
+    values:
+    - "H\xE3y nh\u1EADp t\xEAn bang h\u1ED9i"
+    - Please enter name of the clan
+  - key: Xac_nhan_tao_bang
+    values:
+    - "X\xE1c nh\u1EADn t\u1EA1o bang h\u1ED9i"
+    - Confirm to create clan
+  - key: Nhap_ten_bang
+    values:
+    - "Nh\u1EADp t\xEAn bang"
+    - Enter name of the clan
+  - key: Nhap_mo_ta
+    values:
+    - "Nh\u1EADp m\xF4 t\u1EA3"
+    - Enter description
+  - key: Thanh_vien_s
+    values:
+    - "Th\xE0nh vi\xEAn"
+    - Members
+  - key: Yeu_cau2
+    values:
+    - "Y\xEAu c\u1EA7u"
+    - Requests
+  - key: Roi_khoi
+    values:
+    - "R\u1EDDi kh\u1ECFi"
+    - Leave
+  - key: Gia_nhap
+    values:
+    - "Gia nh\u1EADp"
+    - Join
+  - key: Lanh_dia
+    values:
+    - "L\xE3nh \u0111\u1ECBa"
+    - Area
+  - key: truoc
+    values:
+    - "tr\u01B0\u1EDBc"
+    - ago
+  - key: truc_tuyen
+    values:
+    - "tr\u1EF1c tuy\u1EBFn"
+    - online
+  - key: Khong_co_ket_qua
+    values:
+    - "Kh\xF4ng c\xF3 k\u1EBFt qu\u1EA3"
+    - No result
+  - key: Nhan_de_xem_chi_tiet
+    values:
+    - "Nh\u1EA5n \u0111\u1EC3 xem chi ti\u1EBFt"
+    - Tap to view detail
+  - key: Doi_huy_hieu
+    values:
+    - "\u0110\u1ED5i huy hi\u1EC7u"
+    - Change the badge
+  - key: Xac_nhan_cap_nhat_bang
+    values:
+    - "X\xE1c nh\u1EADn c\u1EADp nh\u1EADt bang"
+    - Confirm to edit clan
+  - key: Xac_nhan_giai_tan_bang
+    values:
+    - "X\xE1c nh\u1EADn gi\u1EA3i t\xE1n bang"
+    - Confirm to disband clan
+  - key: Nhap_cap_toi_thieu
+    values:
+    - "Nh\u1EADp c\u1EA5p t\u1ED1i thi\u1EC3u"
+    - Enter min level
+  - key: Bao_mat
+    values:
+    - "B\u1EA3o m\u1EADt"
+    - Sercurity
+  - key: Chung_toc
+    values:
+    - "Ch\u1EE7ng t\u1ED9c"
+    - Race
+  - key: Cap_yeu_cau
+    values:
+    - "C\u1EA5p y\xEAu c\u1EA7u"
+    - Level require
+  - key: Huy_hieu
+    values:
+    - "Huy hi\u1EC7u"
+    - Badge
+  - key: Mo
+    values:
+    - "M\u1EDF"
+    - Open
+  - key: Trai_dat
+    values:
+    - "Tr\xE1i \u0111\u1EA5t"
+    - Earth
+  - key: Namec
+    values:
+    - Namec
+    - Namec
+  - key: Xayda
+    values:
+    - Xayda
+    - Xayda
+  - key: Giai_tan
+    values:
+    - "Gi\u1EA3i t\xE1n"
+    - Disband
+  - key: Nhuong_chuc
+    values:
+    - "Nh\u01B0\u1EDDng ch\u1EE9c"
+    - Cede
+  - key: Phong_pho_bang
+    values:
+    - "Phong ph\xF3 bang"
+    - Promoted Elder
+  - key: Giang_chuc
+    values:
+    - "Gi\xE1ng ch\u1EE9c"
+    - Demoted
+  - key: Duoi
+    values:
+    - "\u0110u\u1ED5i"
+    - Kick out
+  - key: moi_ban_gia_nhap_bang
+    values:
+    - "m\u1EDDi b\u1EA1n gia nh\u1EADp bang"
+    - invite you to join clan
+  - key: Xac_nhan_gia_nhap_bang
+    values:
+    - "X\xE1c nh\u1EADn gia nh\u1EADp bang h\u1ED9i!"
+    - Confirm to join this clan!
+  - key: Xac_nhan_roi_bang
+    values:
+    - "X\xE1c nh\u1EADn r\u1EDDi bang!"
+    - Confirm to leave clan!
+  - key: Ban_duoc_gia_nhap_bang_hoi
+    values:
+    - "B\u1EA1n v\u1EEBa gia nh\u1EADp bang h\u1ED9i!"
+    - You are joined the guild!
+  - key: Xac_nhan_mua_mau_voi_gia
+    values:
+    - "X\xE1c nh\u1EADn mua m\xE0u v\u1EDBi gi\xE1 "
+    - 'Confirmed to buy this color for '
+  - key: Hay_chon_huy_hieu
+    values:
+    - "H\xE3y ch\u1ECDn huy hi\u1EC7u!"
+    - Please choose badge!
+  - key: Tro_chuyen
+    values:
+    - "Tr\xF2 chuy\u1EC7n"
+    - Messages
+  - key: The_gioi
+    values:
+    - "Th\u1EBF gi\u1EDBi"
+    - World
+  - key: Bang_hoi
+    values:
+    - "Bang h\u1ED9i"
+    - Clan
+  - key: To_doi
+    values:
+    - "T\u1ED5 \u0111\u1ED9i"
+    - Party
+  - key: Lan_can
+    values:
+    - "L\xE2n c\u1EADn"
+    - Nearby
+  - key: Chat_rieng
+    values:
+    - "Chat ri\xEAng"
+    - Private chat
+  - key: Nhap_tin_nhan
+    values:
+    - "Nh\u1EADp tin nh\u1EAFn..."
+    - Enter a message...
+  - key: Nguoi_nhan
+    values:
+    - "Ng\u01B0\u1EDDi nh\u1EADn"
+    - Receiver
+  - key: Tao_phong
+    values:
+    - "T\u1EA1o ph\xF2ng"
+    - Create
+  - key: Nhap_ten_hoac_ID
+    values:
+    - "Nh\u1EADp t\xEAn ho\u1EB7c ID..."
+    - Enter a name or ID...
+  - key: Them_vao_ds_den
+    values:
+    - "Th\xEAm v\xE0o danh s\xE1ch \u0111en"
+    - Add to blacklist
+  - key: Cac_nhan_vat_trong_ds_den
+    values:
+    - " C\xE1c nh\xE2n v\u1EADt trong danh s\xE1ch \u0111en s\u1EBD kh\xF4ng th\u1EC3
+      tr\xF2 chuy\u1EC7n ri\xEAng v\u1EDBi b\u1EA1n. B\u1EA1n c\u0169ng kh\xF4ng
+      th\u1EA5y n\u1ED9i dung c\u1EE7a h\u1ECD tr\xEAn c\xE1c k\xEAnh chung."
+    - Blacklisted characters will not be able to chat with you privately. You also
+      don't see their content on public channels
+  - key: se_duoc_them_vao_ds_den
+    values:
+    - "s\u1EBD \u0111\u01B0\u1EE3c th\xEAm v\xE0o danh s\xE1ch \u0111en."
+    - will be added to the blacklist.
+  - key: se_duoc_xoa_khoi_ds_den
+    values:
+    - "s\u1EBD \u0111\u01B0\u1EE3c x\xF3a kh\u1ECFi danh s\xE1ch \u0111en."
+    - will be removed from the blacklist.
+  - key: Gan
+    values:
+    - "G\xE1n"
+    - Assign
+  - key: Tim_ban
+    values:
+    - "T\xECm b\u1EA1n"
+    - Search Friend
+  - key: Danh_sach_yeu_cau
+    values:
+    - "Danh s\xE1ch y\xEAu c\u1EA7u"
+    - Request list
+  - key: Bat_dau
+    values:
+    - "B\u1EAFt \u0111\u1EA7u"
+    - Start
+  - key: Chien_thang
+    values:
+    - "Chi\u1EBFn th\u1EAFng"
+    - Victory
+  - key: Thua_cuoc
+    values:
+    - "Th\u1EA5t b\u1EA1i"
+    - Defeated
+  - key: Cham_khoang_trong_de_dong
+    values:
+    - "Ch\u1EA1m kho\u1EA3ng tr\u1ED1ng \u0111\u1EC3 \u0111\xF3ng"
+    - Tap any where to close
+  - key: Su_kien
+    values:
+    - "S\u1EF1 ki\u1EC7n"
+    - Events
+  - key: Bo_qua_xac_nhan
+    values:
+    - "B\u1ECF qua x\xE1c nh\u1EADn"
+    - Skip confirm
+  - key: Xac_nhan_khoi_dong_lai_su_kien
+    values:
+    - "X\xE1c nh\u1EADn kh\u1EDFi \u0111\u1ED9ng l\u1EA1i s\u1EF1 ki\u1EC7n, m\u1ECDi
+      ti\u1EBFn \u0111\u1ED9 tr\u01B0\u1EDBc \u0111\xF3 s\u1EBD b\u1ECB m\u1EA5t"
+    - Confirm to restart this event, current progress will be lost
+  - key: Xac_nhan_mo_o_voi_gia
+    values:
+    - "X\xE1c nh\u1EADn m\u1EDF \xF4 v\u1EDBi gi\xE1"
+    - Confirm to open slot by
+  - key: Goi_rong
+    values:
+    - "G\u1ECDi r\u1ED3ng"
+    - Summon dragon
+  - key: Suc_manh
+    values:
+    - "S\u1EE9c m\u1EA1nh"
+    - Power
+  - key: Xoa
+    values:
+    - "X\xF3a"
+    - Delete
+  - key: Khong_co_noi_dung
+    values:
+    - "Kh\xF4ng c\xF3 n\u1ED9i dung"
+    - No content
+  - key: Toi_da
+    values:
+    - "T\u1ED1i \u0111a"
+    - Max
+  - key: Cao
+    values:
+    - Cao
+    - High
+  - key: Trung
+    values:
+    - Trung
+    - Normal
+  - key: Thap
+    values:
+    - "Th\u1EA5p"
+    - Low
+  - key: Bat
+    values:
+    - "B\u1EADt"
+    - On
+  - key: Tat
+    values:
+    - "T\u1EAFt"
+    - Off
+  - key: Nhac_nen
+    values:
+    - "Nh\u1EA1c n\u1EC1n"
+    - Music
+  - key: Am_thanh
+    values:
+    - "\xC2m thanh"
+    - Sound
+  - key: Che_do_FPS_cao
+    values:
+    - "Khung h\xECnh cao"
+    - high FPS
+  - key: Chat_luong_ban_do
+    values:
+    - "Ch\u1EA5t l\u01B0\u1EE3ng b\u1EA3n \u0111\u1ED3"
+    - Map's quality
+  - key: Nhap_Giftcode
+    values:
+    - "Nh\u1EADp Giftcode"
+    - Enter Giftcode
+  - key: content18
+    values:
+    - "Ch\u01A1i qu\xE1 180 ph\xFAt m\u1ED9t ng\xE0y s\u1EBD \u1EA3nh h\u01B0\u1EDFng
+      x\u1EA5u \u0111\u1EBFn s\u1EE9c kh\u1ECFe"
+    - Playing more than 180 minutes a day will adversely affect health
+  - key: Nhap_ten_hien_thi
+    values:
+    - "Nh\u1EADp t\xEAn hi\u1EC3n th\u1ECB"
+    - Enter the display name
+  - key: Ten_bang_hoi
+    values:
+    - "T\xEAn bang h\u1ED9i"
+    - The clan's name
+  - key: Ten_hien_thi
+    values:
+    - "T\xEAn hi\u1EC3n th\u1ECB"
+    - Display name
+  - key: Mo_ta
+    values:
+    - "M\xF4 t\u1EA3"
+    - Descriptions
+  - key: GiftCode
+    values:
+    - GiftCode
+    - GiftCode
+  texts:
+  - key: "\u0110\u1EE9ng y\xEAn|Idle"
+    values:
+    - "\u0110\u1EE9ng y\xEAn"
+    - Idle
+  - key: "Di chuy\u1EC3n|Move"
+    values:
+    - "Di chuy\u1EC3n"
+    - Move
+  - key: "L\u01B0\u1EDBt|Dash"
+    values:
+    - "L\u01B0\u1EDBt"
+    - Dash
+  - key: "T\u1EA5n c\xF4ng|Attack"
+    values:
+    - "T\u1EA5n c\xF4ng"
+    - Attack
+  - key: "Tr\xFAng \u0111\xF2n|Hurt"
+    values:
+    - "Tr\xFAng \u0111\xF2n"
+    - Hurt
+  - key: "G\u1EE5c ng\xE3|Die"
+    values:
+    - "G\u1EE5c ng\xE3"
+    - Die
+  - key: "Nh\u1EA3y|Jump"
+    values:
+    - "Nh\u1EA3y"
+    - Jump
+  - key: "Ch\xEDnh|Main"
+    values:
+    - "Ch\xEDnh"
+    - Main
+  - key: "Ph\u1EE5 {0}|Extra {0}"
+    values:
+    - "Ph\u1EE5 {0}"
+    - Extra {0}
+  - key: "\u0110i b\u1ED9|Walk"
+    values:
+    - "\u0110i b\u1ED9"
+    - Walk
+  - key: "Ch\u1EA1y|Run"
+    values:
+    - "Ch\u1EA1y"
+    - Run
+  - key: "\u0110\xF2n {0}|Hit {0}"
+    values:
+    - "\u0110\xF2n {0}"
+    - Hit {0}
+  - key: "Trang b\u1ECB anim|Anim loadout"
+    values:
+    - "Trang b\u1ECB anim"
+    - Anim loadout
+  - key: "Trang b\u1ECB|Equip"
+    values:
+    - "Trang b\u1ECB"
+    - Equip
+  - key: "Kh\xF4ng t\xECm th\u1EA5y nh\xE2n v\u1EADt trong scene|No character in
+      the scene"
+    values:
+    - "Kh\xF4ng t\xECm th\u1EA5y nh\xE2n v\u1EADt trong scene"
+    - No character in the scene
+  - key: "H\xE0nh \u0111\u1ED9ng n\xE0y ch\u01B0a c\xF3 t\u01B0 th\u1EBF n\xE0o|No
+      poses for this action"
+    values:
+    - "H\xE0nh \u0111\u1ED9ng n\xE0y ch\u01B0a c\xF3 t\u01B0 th\u1EBF n\xE0o"
+    - No poses for this action
+  - key: "(\u0111ang m\u1EB7c)|(equipped)"
+    values:
+    - "(\u0111ang m\u1EB7c)"
+    - (equipped)
+  - key: Menu|Menu
+    values:
+    - Menu
+    - Menu
+  - key: "B\u1EA3n \u0111\u1ED3|Map"
+    values:
+    - "B\u1EA3n \u0111\u1ED3"
+    - Map
+  - key: "H\xE0nh trang|Inventory"
+    values:
+    - "H\xE0nh trang"
+    - Inventory
+  - key: "K\u1EF9 n\u0103ng|Skills"
+    values:
+    - "K\u1EF9 n\u0103ng"
+    - Skills
+  - key: "N\xE2ng c\u1EA5p|Upgrade"
+    values:
+    - "N\xE2ng c\u1EA5p"
+    - Upgrade
+  - key: "T\u01B0 th\u1EBF|Poses"
+    values:
+    - "T\u01B0 th\u1EBF"
+    - Poses
+  - key: "C\xE0i \u0111\u1EB7t|Settings"
+    values:
+    - "C\xE0i \u0111\u1EB7t"
+    - Settings
+  - key: "Tay kh\xF4ng|Unarmed"
+    values:
+    - "Tay kh\xF4ng"
+    - Unarmed
+  - key: "Ch\u1EC9 s\u1ED1|Stats"
+    values:
+    - "Ch\u1EC9 s\u1ED1"
+    - Stats
+  - key: "C\xE2y n\xE2ng c\u1EA5p|Upgrade tree"
+    values:
+    - "C\xE2y n\xE2ng c\u1EA5p"
+    - Upgrade tree
+  - key: "C\u1EA5p|Level"
+    values:
+    - "C\u1EA5p"
+    - Level
+  - key: "ch\u01B0a c\xF3 c\xE2y n\xE2ng c\u1EA5p|no upgrade tree"
+    values:
+    - "ch\u01B0a c\xF3 c\xE2y n\xE2ng c\u1EA5p"
+    - no upgrade tree
+  - key: "t\u1ED1i \u0111a|max"
+    values:
+    - "t\u1ED1i \u0111a"
+    - max
+  - key: "\u0110i\u1EC3m ti\u1EC1m n\u0103ng|Potential"
+    values:
+    - "\u0110i\u1EC3m ti\u1EC1m n\u0103ng"
+    - Potential
+  - key: "\u0111\xE3 ti\xEAu|spent"
+    values:
+    - "\u0111\xE3 ti\xEAu"
+    - spent
+  - key: "V\xE0ng|Gold"
+    values:
+    - "V\xE0ng"
+    - Gold
+  - key: "M\xE1u t\u1ED1i \u0111a|Max HP"
+    values:
+    - "M\xE1u t\u1ED1i \u0111a"
+    - Max HP
+  - key: "Ch\u01B0a c\xF3 ch\u1EC9 s\u1ED1 c\u1ED9ng th\xEAm (c\xE2y, \u0111\u1ED3
+      m\u1EB7c)|No bonuses yet"
+    values:
+    - "Ch\u01B0a c\xF3 ch\u1EC9 s\u1ED1 c\u1ED9ng th\xEAm (c\xE2y, \u0111\u1ED3 m\u1EB7c)"
+    - No bonuses yet
+  - key: "H\u1EA1 qu\xE1i \u0111\u1EC3 nh\u1EADn EXP. M\u1ED7i c\u1EA5p|Defeat monsters
+      for EXP. Each level:"
+    values:
+    - "H\u1EA1 qu\xE1i \u0111\u1EC3 nh\u1EADn EXP. M\u1ED7i c\u1EA5p"
+    - 'Defeat monsters for EXP. Each level:'
+  - key: " \u0111i\u1EC3m ti\u1EC1m n\u0103ng| potential points"
+    values:
+    - " \u0111i\u1EC3m ti\u1EC1m n\u0103ng"
+    - ' potential points'
+  - key: ", m\u1ED1c c\u1EA5p |, milestones at Lv "
+    values:
+    - ", m\u1ED1c c\u1EA5p "
+    - ', milestones at Lv '
+  - key: "... th\xEAm +|... add +"
+    values:
+    - "... th\xEAm +"
+    - ... add +
+  - key: " \u0111i\u1EC3m \u0111\u1ED9t ph\xE1| breakthrough points"
+    values:
+    - " \u0111i\u1EC3m \u0111\u1ED9t ph\xE1"
+    - ' breakthrough points'
+  - key: "S\u1EAFp x\u1EBFp|Sort"
+    values:
+    - "S\u1EAFp x\u1EBFp"
+    - Sort
+  - key: "Ng\u1ECDc|Gems"
+    values:
+    - "Ng\u1ECDc"
+    - Gems
+  - key: "Ch\xECa kh\xF3a|Keys"
+    values:
+    - "Ch\xECa kh\xF3a"
+    - Keys
+  - key: "V\u0169 kh\xED|Weapons"
+    values:
+    - "V\u0169 kh\xED"
+    - Weapons
+  - key: "\u0110\u1ED3 m\u1EB7c|Gear"
+    values:
+    - "\u0110\u1ED3 m\u1EB7c"
+    - Gear
+  - key: Skin|Skins
+    values:
+    - Skin
+    - Skins
+  - key: "N\xF3n|Head"
+    values:
+    - "N\xF3n"
+    - Head
+  - key: "\xC1o|Body"
+    values:
+    - "\xC1o"
+    - Body
+  - key: "Qu\u1EA7n|Legs"
+    values:
+    - "Qu\u1EA7n"
+    - Legs
+  - key: "Gi\xE0y d\xE9p|Feet"
+    values:
+    - "Gi\xE0y d\xE9p"
+    - Feet
+  - key: "V\u0169 kh\xED|Weapon"
+    values:
+    - "V\u0169 kh\xED"
+    - Weapon
+  - key: "G\u0103ng tay|Hands"
+    values:
+    - "G\u0103ng tay"
+    - Hands
+  - key: "D\xE2y chuy\u1EC1n|Neck"
+    values:
+    - "D\xE2y chuy\u1EC1n"
+    - Neck
+  - key: "Nh\u1EABn|Ring"
+    values:
+    - "Nh\u1EABn"
+    - Ring
+  - key: Skin|Skin
+    values:
+    - Skin
+    - Skin
+  - key: "T\u1EA5t c\u1EA3|All"
+    values:
+    - "T\u1EA5t c\u1EA3"
+    - All
+  - key: "\xD4|Slots"
+    values:
+    - "\xD4"
+    - Slots
+  - key: "Ch\u01B0a c\xF3 v\u1EADt ph\u1EA9m lo\u1EA1i n\xE0y|No items of this kind"
+    values:
+    - "Ch\u01B0a c\xF3 v\u1EADt ph\u1EA9m lo\u1EA1i n\xE0y"
+    - No items of this kind
+  - key: "tay kh\xF4ng|bare hands"
+    values:
+    - "tay kh\xF4ng"
+    - bare hands
+  - key: "\u0110ang m\u1EB7c|Equipped"
+    values:
+    - "\u0110ang m\u1EB7c"
+    - Equipped
+  - key: "Th\xE1o|Unequip"
+    values:
+    - "Th\xE1o"
+    - Unequip
+  - key: "B\u1ECF|Discard"
+    values:
+    - "B\u1ECF"
+    - Discard
+  - key: "S\u1ED1 l\u01B0\u1EE3ng|Amount"
+    values:
+    - "S\u1ED1 l\u01B0\u1EE3ng"
+    - Amount
+  - key: "M\xE0u|Color"
+    values:
+    - "M\xE0u"
+    - Color
+  - key: "M\u1EDF \u0111\u01B0\u1EE3c|Opens"
+    values:
+    - "M\u1EDF \u0111\u01B0\u1EE3c"
+    - Opens
+  - key: "\xD4 trang b\u1ECB|Slot"
+    values:
+    - "\xD4 trang b\u1ECB"
+    - Slot
+  - key: "Kh\xF4ng c\xF3 trong b\u1EA3ng v\u0169 kh\xED|Not in the weapon table"
+    values:
+    - "Kh\xF4ng c\xF3 trong b\u1EA3ng v\u0169 kh\xED"
+    - Not in the weapon table
+  - key: "Hi\u1EBFm|Uncommon"
+    values:
+    - "Hi\u1EBFm"
+    - Uncommon
+  - key: "Qu\xFD|Rare"
+    values:
+    - "Qu\xFD"
+    - Rare
+  - key: "S\u1EED thi|Epic"
+    values:
+    - "S\u1EED thi"
+    - Epic
+  - key: "Huy\u1EC1n tho\u1EA1i|Legendary"
+    values:
+    - "Huy\u1EC1n tho\u1EA1i"
+    - Legendary
+  - key: "Th\u01B0\u1EDDng|Common"
+    values:
+    - "Th\u01B0\u1EDDng"
+    - Common
+  - key: "B\u1ECF bao nhi\xEAu {0}?|Discard how many {0}?"
+    values:
+    - "B\u1ECF bao nhi\xEAu {0}?"
+    - Discard how many {0}?
+  - key: "B\u1ECF {0}?|Discard {0}?"
+    values:
+    - "B\u1ECF {0}?"
+    - Discard {0}?
+  - key: "V\u1EC1 g\u1ED1c|Center"
+    values:
+    - "V\u1EC1 g\u1ED1c"
+    - Center
+  - key: "\u0110\u1EB7t l\u1EA1i|Reset"
+    values:
+    - "\u0110\u1EB7t l\u1EA1i"
+    - Reset
+  - key: "MAX c\u1EA5p (test)|MAX level (test)"
+    values:
+    - "MAX c\u1EA5p (test)"
+    - MAX level (test)
+  - key: "\u0110\u1ED9t ph\xE1|Breakthrough"
+    values:
+    - "\u0110\u1ED9t ph\xE1"
+    - Breakthrough
+  - key: "\u0110\u1EC9nh nh\xE1nh|Capstone"
+    values:
+    - "\u0110\u1EC9nh nh\xE1nh"
+    - Capstone
+  - key: "Tinh th\xF4ng|Mastery"
+    values:
+    - "Tinh th\xF4ng"
+    - Mastery
+  - key: "M\u1ED1c: c\u1EA5p|Next: Lv"
+    values:
+    - "M\u1ED1c: c\u1EA5p"
+    - 'Next: Lv'
+  - key: "Chuy\xEAn tinh|Mastery"
+    values:
+    - "Chuy\xEAn tinh"
+    - Mastery
+  - key: "Ch\u01B0a c\xF3 c\xE2y n\xE2ng c\u1EA5p (Tools/Core/Player/Build Upgrade
+      Tree)|No upgrade tree"
+    values:
+    - "Ch\u01B0a c\xF3 c\xE2y n\xE2ng c\u1EA5p (Tools/Core/Player/Build Upgrade
+      Tree)"
+    - No upgrade tree
+  - key: "Ch\u1ECDn m\u1ED9t n\xFAt tr\xEAn c\xE2y|Select a node"
+    values:
+    - "Ch\u1ECDn m\u1ED9t n\xFAt tr\xEAn c\xE2y"
+    - Select a node
+  - key: "v\xF2ng|ring"
+    values:
+    - "v\xF2ng"
+    - ring
+  - key: "C\u1EA5p|Rank"
+    values:
+    - "C\u1EA5p"
+    - Rank
+  - key: "Gi\xE1|Cost"
+    values:
+    - "Gi\xE1"
+    - Cost
+  - key: " \u0111i\u1EC3m / c\u1EA5p| pt / rank"
+    values:
+    - " \u0111i\u1EC3m / c\u1EA5p"
+    - ' pt / rank'
+  - key: "C\u1EA7n c\u1EA5p|Requires level"
+    values:
+    - "C\u1EA7n c\u1EA5p"
+    - Requires level
+  - key: "M\u1ED7i c\u1EA5p|Per rank"
+    values:
+    - "M\u1ED7i c\u1EA5p"
+    - Per rank
+  - key: " \u0111i\u1EC3m trong h\u01B0\u1EDBng| pt in this direction"
+    values:
+    - " \u0111i\u1EC3m trong h\u01B0\u1EDBng"
+    - ' pt in this direction'
+  - key: "B\u1EADc ti\u1EBFp \u1EDF|Next at"
+    values:
+    - "B\u1EADc ti\u1EBFp \u1EDF"
+    - Next at
+  - key: " \u0111i\u1EC3m:| pt:"
+    values:
+    - " \u0111i\u1EC3m:"
+    - ' pt:'
+  - key: "\u0110ang c\u1ED9ng (c\xE2y + \u0111\u1ED3)|Total bonus (tree + gear)"
+    values:
+    - "\u0110ang c\u1ED9ng (c\xE2y + \u0111\u1ED3)"
+    - Total bonus (tree + gear)
+  - key: "Ch\u01B0a c\xF3 ch\u1EC9 s\u1ED1 c\u1ED9ng th\xEAm|Nothing yet"
+    values:
+    - "Ch\u01B0a c\xF3 ch\u1EC9 s\u1ED1 c\u1ED9ng th\xEAm"
+    - Nothing yet
+  - key: "\u0110\xE3 t\u1ED1i \u0111a|Maxed"
+    values:
+    - "\u0110\xE3 t\u1ED1i \u0111a"
+    - Maxed
+  - key: "C\u1EA7n m\u1EDF tr\u01B0\u1EDBc|Requires"
+    values:
+    - "C\u1EA7n m\u1EDF tr\u01B0\u1EDBc"
+    - Requires
+  - key: "Kh\xF4ng \u0111\u1EE7 \u0111i\u1EC3m ti\u1EC1m n\u0103ng|Not enough points"
+    values:
+    - "Kh\xF4ng \u0111\u1EE7 \u0111i\u1EC3m ti\u1EC1m n\u0103ng"
+    - Not enough points
+  - key: "Ng\xF4n ng\u1EEF|Language"
+    values:
+    - "Ng\xF4n ng\u1EEF"
+    - Language
+  - key: "K\u1EF9 n\u0103ng {0}|Skill {0}"
+    values:
+    - "K\u1EF9 n\u0103ng {0}"
+    - Skill {0}
+  - key: "Tr\u1ED1ng|Empty"
+    values:
+    - "Tr\u1ED1ng"
+    - Empty
+  - key: "Ch\u01B0a c\xF3 b\u1EA3ng skill|No skill table"
+    values:
+    - "Ch\u01B0a c\xF3 b\u1EA3ng skill"
+    - No skill table
+  - key: "(\u0111ang g\u1EAFn)|(equipped)"
+    values:
+    - "(\u0111ang g\u1EAFn)"
+    - (equipped)
+  - key: "Ki\u1EC3u \u0111\xF2n|Type"
+    values:
+    - "Ki\u1EC3u \u0111\xF2n"
+    - Type
+  - key: "S\xE1t th\u01B0\u01A1ng|Damage"
+    values:
+    - "S\xE1t th\u01B0\u01A1ng"
+    - Damage
+  - key: Mana|Mana
+    values:
+    - Mana
+    - Mana
+  - key: "T\u1EA7m|Range"
+    values:
+    - "T\u1EA7m"
+    - Range
+  - key: " \xF4| cells"
+    values:
+    - " \xF4"
+    - ' cells'
+  - key: "H\u1ED3i|Cooldown"
+    values:
+    - "H\u1ED3i"
+    - Cooldown
+  - key: "M\u1EE5c ti\xEAu|Targets"
+    values:
+    - "M\u1EE5c ti\xEAu"
+    - Targets
+  - key: "m\u1ECDi k\u1EBB trong t\u1EA7m|all in range"
+    values:
+    - "m\u1ECDi k\u1EBB trong t\u1EA7m"
+    - all in range
+  - key: "C\u1EADn chi\u1EBFn|Melee"
+    values:
+    - "C\u1EADn chi\u1EBFn"
+    - Melee
+  - key: "B\u1EAFn xa|Ranged"
+    values:
+    - "B\u1EAFn xa"
+    - Ranged
+  - key: "V\xF9ng|Area"
+    values:
+    - "V\xF9ng"
+    - Area
+  - key: "H\u1ED7 tr\u1EE3|Buff"
+    values:
+    - "H\u1ED7 tr\u1EE3"
+    - Buff
+  - key: "/gi\xE2y|/s"
+    values:
+    - "/gi\xE2y"
+    - /s
+  - key: "t\u1ED5ng t\u1ED1i \u0111a|total max"
+    values:
+    - "t\u1ED5ng t\u1ED1i \u0111a"
+    - total max
+  - key: "chung tr\u1EA7n|shared cap"
+    values:
+    - "chung tr\u1EA7n"
+    - shared cap
+  - key: "v\u1EDBi v\u0169 kh\xED|with weapon"
+    values:
+    - "v\u1EDBi v\u0169 kh\xED"
+    - with weapon
+  - key: "\u0111\u1ED3|gear"
+    values:
+    - "\u0111\u1ED3"
+    - gear
+  - key: "V\u0169 kh\xED n\xE0y ch\u01B0a c\xF3 c\xE2y n\xE2ng c\u1EA5p|This weapon
+      has no upgrades"
+    values:
+    - "V\u0169 kh\xED n\xE0y ch\u01B0a c\xF3 c\xE2y n\xE2ng c\u1EA5p"
+    - This weapon has no upgrades
+  - key: "+{0:0}% s\xE1t th\u01B0\u01A1ng|+{0:0}% damage"
+    values:
+    - "+{0:0}% s\xE1t th\u01B0\u01A1ng"
+    - +{0:0}% damage
+  - key: "+{0:0} vi\xEAn m\u1ED7i ph\xE1t|+{0:0} projectile per shot"
+    values:
+    - "+{0:0} vi\xEAn m\u1ED7i ph\xE1t"
+    - +{0:0} projectile per shot
+  - key: "+{0:0} m\u1EE5c ti\xEAu / xuy\xEAn|+{0:0} target / pierce"
+    values:
+    - "+{0:0} m\u1EE5c ti\xEAu / xuy\xEAn"
+    - +{0:0} target / pierce
+  - key: "+{0:0.##} \xF4 b\xE1n k\xEDnh n\u1ED5|+{0:0.##} cells blast radius"
+    values:
+    - "+{0:0.##} \xF4 b\xE1n k\xEDnh n\u1ED5"
+    - +{0:0.##} cells blast radius
+  - key: "+{0:0}% s\xE1t th\u01B0\u01A1ng n\u1ED5|+{0:0}% blast damage"
+    values:
+    - "+{0:0}% s\xE1t th\u01B0\u01A1ng n\u1ED5"
+    - +{0:0}% blast damage
+  - key: "+{0:0.#} \xF4 t\u1EA7m|+{0:0.#} cells range"
+    values:
+    - "+{0:0.#} \xF4 t\u1EA7m"
+    - +{0:0.#} cells range
+  - key: "-{0:0}% h\u1ED3i chi\xEAu|-{0:0}% cooldown"
+    values:
+    - "-{0:0}% h\u1ED3i chi\xEAu"
+    - -{0:0}% cooldown
+  - key: "+{0:0}\xB0 g\xF3c \u0111\xE1nh|+{0:0}\xB0 swing arc"
+    values:
+    - "+{0:0}\xB0 g\xF3c \u0111\xE1nh"
+    - "+{0:0}\xB0 swing arc"
+  - key: "\u0110\xE3 n\xE2ng|Upgraded"
+    values:
+    - "\u0110\xE3 n\xE2ng"
+    - Upgraded
+  - key: "S\u1ED1 vi\xEAn m\u1ED7i ph\xE1t|Projectiles"
+    values:
+    - "S\u1ED1 vi\xEAn m\u1ED7i ph\xE1t"
+    - Projectiles
+  - key: "M\u1EE5c ti\xEAu / xuy\xEAn|Targets / pierce"
+    values:
+    - "M\u1EE5c ti\xEAu / xuy\xEAn"
+    - Targets / pierce
+  - key: "N\u1ED5|Blast"
+    values:
+    - "N\u1ED5"
+    - Blast
+  - key: " \xF4, | cells, "
+    values:
+    - " \xF4, "
+    - ' cells, '
+  - key: "H\u1ED3i chi\xEAu|Cooldown"
+    values:
+    - "H\u1ED3i chi\xEAu"
+    - Cooldown
+  - key: "G\xF3c \u0111\xE1nh|Swing arc"
+    values:
+    - "G\xF3c \u0111\xE1nh"
+    - Swing arc
+  - key: " v\xE0ng| gold"
+    values:
+    - " v\xE0ng"
+    - ' gold'
+  - key: "\u0110\u1ED8T PH\xC1!|BREAKTHROUGH!"
+    values:
+    - "\u0110\u1ED8T PH\xC1!"
+    - BREAKTHROUGH!
+  - key: " \u0111i\u1EC3m| pts"
+    values:
+    - " \u0111i\u1EC3m"
+    - ' pts'
+  - key: "T\u0103ng % s\xE1t th\u01B0\u01A1ng m\u1ECDi \u0111\xF2n (\u0111\xE1nh
+      th\u01B0\u1EDDng l\u1EABn skill).|+% damage of every hit (basic attacks and
+      skills)."
+    values:
+    - "T\u0103ng % s\xE1t th\u01B0\u01A1ng m\u1ECDi \u0111\xF2n (\u0111\xE1nh th\u01B0\u1EDDng
+      l\u1EABn skill)."
+    - +% damage of every hit (basic attacks and skills).
+  - key: "Ch\xED m\u1EA1ng|Crit chance"
+    values:
+    - "Ch\xED m\u1EA1ng"
+    - Crit chance
+  - key: "C\u1ED9ng v\xE0o t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng g\u1ED1c.|Added to the
+      base critical chance."
+    values:
+    - "C\u1ED9ng v\xE0o t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng g\u1ED1c."
+    - Added to the base critical chance.
+  - key: "ST ch\xED m\u1EA1ng|Crit damage"
+    values:
+    - "ST ch\xED m\u1EA1ng"
+    - Crit damage
+  - key: "\u0110\xF2n ch\xED m\u1EA1ng g\u1ED1c g\xE2y x2; m\u1ED7i 100% c\u1ED9ng
+      th\xEAm l\xE0 th\xEAm x1.|Crits deal x2 base; every +100% adds x1."
+    values:
+    - "\u0110\xF2n ch\xED m\u1EA1ng g\u1ED1c g\xE2y x2; m\u1ED7i 100% c\u1ED9ng th\xEAm
+      l\xE0 th\xEAm x1."
+    - Crits deal x2 base; every +100% adds x1.
+  - key: "C\u1ED9ng th\u1EB3ng v\xE0o m\xE1u t\u1ED1i \u0111a.|Added to maximum HP."
+    values:
+    - "C\u1ED9ng th\u1EB3ng v\xE0o m\xE1u t\u1ED1i \u0111a."
+    - Added to maximum HP.
+  - key: "Gi\xE1p|Armor"
+    values:
+    - "Gi\xE1p"
+    - Armor
+  - key: "Gi\u1EA3m % s\xE1t th\u01B0\u01A1ng m\u1ED7i \u0111\xF2n ph\u1EA3i nh\u1EADn
+      (lu\xF4n m\u1EA5t \xEDt nh\u1EA5t 1 m\xE1u).|Cuts % of every hit taken (always
+      at least 1)."
+    values:
+    - "Gi\u1EA3m % s\xE1t th\u01B0\u01A1ng m\u1ED7i \u0111\xF2n ph\u1EA3i nh\u1EADn
+      (lu\xF4n m\u1EA5t \xEDt nh\u1EA5t 1 m\xE1u)."
+    - Cuts % of every hit taken (always at least 1).
+  - key: "H\u1ED3i m\xE1u|HP regen"
+    values:
+    - "H\u1ED3i m\xE1u"
+    - HP regen
+  - key: "M\xE1u h\u1ED3i m\u1ED7i gi\xE2y khi c\xF2n s\u1ED1ng v\xE0 ch\u01B0a \u0111\u1EA7y.|HP
+      regenerated per second while alive and not full."
+    values:
+    - "M\xE1u h\u1ED3i m\u1ED7i gi\xE2y khi c\xF2n s\u1ED1ng v\xE0 ch\u01B0a \u0111\u1EA7y."
+    - HP regenerated per second while alive and not full.
+  - key: "T\u1ED1c ch\u1EA1y|Move speed"
+    values:
+    - "T\u1ED1c ch\u1EA1y"
+    - Move speed
+  - key: "T\u0103ng % t\u1ED1c \u0111\u1ED9 ch\u1EA1y.|+% running speed."
+    values:
+    - "T\u0103ng % t\u1ED1c \u0111\u1ED9 ch\u1EA1y."
+    - +% running speed.
+  - key: "H\u1ED3i \u0111\xF2n th\u01B0\u1EDDng|Attack cooldown"
+    values:
+    - "H\u1ED3i \u0111\xF2n th\u01B0\u1EDDng"
+    - Attack cooldown
+  - key: "Gi\u1EA3m % h\u1ED3i chi\xEAu \u0111\xE1nh th\u01B0\u1EDDng, c\u1ED9ng
+      chung tr\u1EA7n v\u1EDBi n\xE2ng c\u1EA5p t\u1ED1c \u0111\xE1nh c\u1EE7a v\u0169
+      kh\xED.|Cuts basic attack cooldown; shares its cap with the weapon's attack
+      speed upgrades."
+    values:
+    - "Gi\u1EA3m % h\u1ED3i chi\xEAu \u0111\xE1nh th\u01B0\u1EDDng, c\u1ED9ng chung
+      tr\u1EA7n v\u1EDBi n\xE2ng c\u1EA5p t\u1ED1c \u0111\xE1nh c\u1EE7a v\u0169
+      kh\xED."
+    - Cuts basic attack cooldown; shares its cap with the weapon's attack speed upgrades.
+  - key: "H\u1ED3i chi\xEAu skill|Skill cooldown"
+    values:
+    - "H\u1ED3i chi\xEAu skill"
+    - Skill cooldown
+  - key: "Gi\u1EA3m % h\u1ED3i chi\xEAu c\u1EE7a skill \xF4 1-4.|Cuts cooldown of
+      skills 1-4."
+    values:
+    - "Gi\u1EA3m % h\u1ED3i chi\xEAu c\u1EE7a skill \xF4 1-4."
+    - Cuts cooldown of skills 1-4.
+  - key: "H\u1ED3i chi\xEAu l\u01B0\u1EDBt|Dash cooldown"
+    values:
+    - "H\u1ED3i chi\xEAu l\u01B0\u1EDBt"
+    - Dash cooldown
+  - key: "Gi\u1EA3m % h\u1ED3i chi\xEAu l\u01B0\u1EDBt.|Cuts dash cooldown."
+    values:
+    - "Gi\u1EA3m % h\u1ED3i chi\xEAu l\u01B0\u1EDBt."
+    - Cuts dash cooldown.
+  - key: "ST \u0111\xF2n th\u01B0\u1EDDng|Basic attack damage"
+    values:
+    - "ST \u0111\xF2n th\u01B0\u1EDDng"
+    - Basic attack damage
+  - key: "T\u0103ng % s\xE1t th\u01B0\u01A1ng \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng
+      (\u0111\xF2n c\u1EE7a v\u0169 kh\xED).|+% damage of basic (weapon) attacks."
+    values:
+    - "T\u0103ng % s\xE1t th\u01B0\u01A1ng \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng
+      (\u0111\xF2n c\u1EE7a v\u0169 kh\xED)."
+    - +% damage of basic (weapon) attacks.
+  - key: "Hi\u1EC7u qu\u1EA3 n\xE2ng c\u1EA5p VK|Weapon upgrade effect"
+    values:
+    - "Hi\u1EC7u qu\u1EA3 n\xE2ng c\u1EA5p VK"
+    - Weapon upgrade effect
+  - key: "Ph\xF3ng to c\xE1c n\xFAt n\xE2ng c\u1EA5p v\u0169 kh\xED: s\xE1t th\u01B0\u01A1ng,
+      n\u1ED5, t\u1EA7m, g\xF3c ch\xE9m.|Scales weapon upgrades: damage, blast, range,
+      arc."
+    values:
+    - "Ph\xF3ng to c\xE1c n\xFAt n\xE2ng c\u1EA5p v\u0169 kh\xED: s\xE1t th\u01B0\u01A1ng,
+      n\u1ED5, t\u1EA7m, g\xF3c ch\xE9m."
+    - 'Scales weapon upgrades: damage, blast, range, arc.'
+  - key: "T\u1EA7m \u0111\xF2n th\u01B0\u1EDDng|Basic attack range"
+    values:
+    - "T\u1EA7m \u0111\xF2n th\u01B0\u1EDDng"
+    - Basic attack range
+  - key: "T\u0103ng % t\u1EA7m \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng.|+% basic
+      attack range."
+    values:
+    - "T\u0103ng % t\u1EA7m \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng."
+    - +% basic attack range.
+  - key: "EXP h\u1EA1 qu\xE1i|Kill EXP"
+    values:
+    - "EXP h\u1EA1 qu\xE1i"
+    - Kill EXP
+  - key: "T\u0103ng % EXP nh\u1EADn khi h\u1EA1 qu\xE1i.|+% EXP from kills."
+    values:
+    - "T\u0103ng % EXP nh\u1EADn khi h\u1EA1 qu\xE1i."
+    - +% EXP from kills.
+  - key: "EXP theo \u0111\xF2n (% ST)|EXP per hit (% dmg)"
+    values:
+    - "EXP theo \u0111\xF2n (% ST)"
+    - EXP per hit (% dmg)
+  - key: "\u0110\u1ED5i % s\xE1t th\u01B0\u01A1ng g\xE2y ra th\xE0nh EXP.|Turns %
+      of damage dealt into EXP."
+    values:
+    - "\u0110\u1ED5i % s\xE1t th\u01B0\u01A1ng g\xE2y ra th\xE0nh EXP."
+    - Turns % of damage dealt into EXP.
+  - key: "V\xE0ng nh\u1EB7t \u0111\u01B0\u1EE3c|Gold find"
+    values:
+    - "V\xE0ng nh\u1EB7t \u0111\u01B0\u1EE3c"
+    - Gold find
+  - key: "T\u0103ng % v\xE0ng r\u01A1i ra khi h\u1EA1 qu\xE1i.|+% gold dropped by
+      monsters."
+    values:
+    - "T\u0103ng % v\xE0ng r\u01A1i ra khi h\u1EA1 qu\xE1i."
+    - +% gold dropped by monsters.
+  - key: "C\u01A1 h\u1ED9i r\u01A1i ng\u1ECDc|Gem drop chance"
+    values:
+    - "C\u01A1 h\u1ED9i r\u01A1i ng\u1ECDc"
+    - Gem drop chance
+  - key: "Nh\xE2n th\xEAm % v\xE0o t\u1EC9 l\u1EC7 qu\xE1i r\u01A1i ng\u1ECDc.|Multiplies
+      the monster gem drop chance."
+    values:
+    - "Nh\xE2n th\xEAm % v\xE0o t\u1EC9 l\u1EC7 qu\xE1i r\u01A1i ng\u1ECDc."
+    - Multiplies the monster gem drop chance.
+  - key: "Mana t\u1ED1i \u0111a|Max MP"
+    values:
+    - "Mana t\u1ED1i \u0111a"
+    - Max MP
+  - key: "C\u1ED9ng th\u1EB3ng v\xE0o mana t\u1ED1i \u0111a.|Added to maximum MP."
+    values:
+    - "C\u1ED9ng th\u1EB3ng v\xE0o mana t\u1ED1i \u0111a."
+    - Added to maximum MP.
+  - key: "S\u1EE9c m\u1EA1nh|Might"
+    values:
+    - "S\u1EE9c m\u1EA1nh"
+    - Might
+  - key: "T\u1ED1c \u0111\u1ED9|Speed"
+    values:
+    - "T\u1ED1c \u0111\u1ED9"
+    - Speed
+  - key: "Kinh nghi\u1EC7m|Wisdom"
+    values:
+    - "Kinh nghi\u1EC7m"
+    - Wisdom
+  - key: "T\xE0i l\u1ED9c|Fortune"
+    values:
+    - "T\xE0i l\u1ED9c"
+    - Fortune
+  - key: "S\u1EE9c m\u1EA1nh \u0111\u1ED3|Gear"
+    values:
+    - "S\u1EE9c m\u1EA1nh \u0111\u1ED3"
+    - Gear

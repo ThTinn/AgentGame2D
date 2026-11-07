@@ -1,0 +1,724 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52c5b81e4b544b948b4df600840f93c4, type: 3}
+  m_Name: AnimData
+  m_EditorClassIdentifier: Core.Data::Game.Anim.AnimData
+  schemaVersion: 8
+  defaultId: 0
+  sets:
+  - id: 0
+    name: "M\u1EB7c \u0111\u1ECBnh"
+    entries:
+    - slot: 0
+      variants:
+      - id: 0
+        name: "M\u1EB7c \u0111\u1ECBnh"
+        motions:
+        - animId: 0
+          clip: {fileID: 0}
+          name: idle
+          preview:
+          - {fileID: 21300000, guid: 5a1a4f3b44a06df49b1524ac5577519e, type: 3}
+        - animId: 20
+          clip: {fileID: 0}
+          name: idle_looking
+          preview:
+          - {fileID: 21300000, guid: 20924734503e72449806653727a2da50, type: 3}
+        - animId: 21
+          clip: {fileID: 0}
+          name: idle_examine
+          preview:
+          - {fileID: 21300000, guid: 68d487fd053afa44a9efef1222596716, type: 3}
+      - id: 1
+        name: Idle
+        motions:
+        - animId: 0
+          clip: {fileID: 0}
+          name: idle
+          preview:
+          - {fileID: 21300000, guid: 5a1a4f3b44a06df49b1524ac5577519e, type: 3}
+      - id: 2
+        name: Idle 1
+        motions:
+        - animId: 13
+          clip: {fileID: 0}
+          name: idle_1
+          preview:
+          - {fileID: 21300000, guid: d676022171b2e49418bc014ac5e2a764, type: 3}
+      - id: 3
+        name: Idle 3
+        motions:
+        - animId: 14
+          clip: {fileID: 0}
+          name: idle_3
+          preview:
+          - {fileID: 21300000, guid: 65af40cea54c84244be66de8d69e9c4d, type: 3}
+      - id: 4
+        name: Idle 4
+        motions:
+        - animId: 15
+          clip: {fileID: 0}
+          name: idle_4
+          preview:
+          - {fileID: 21300000, guid: 140a80c60723ee042ac05a338bac04a9, type: 3}
+      - id: 5
+        name: Idle sword shield
+        motions:
+        - animId: 16
+          clip: {fileID: 0}
+          name: idle_sword_shield
+          preview:
+          - {fileID: 21300000, guid: 057aa59450aaebc45b0c0e2e8b3ed9a7, type: 3}
+      - id: 6
+        name: Idle block
+        motions:
+        - animId: 17
+          clip: {fileID: 0}
+          name: idle_block
+          preview:
+          - {fileID: 21300000, guid: 7f74a86451aaf524687041fb07448019, type: 3}
+      - id: 7
+        name: Idle magic
+        motions:
+        - animId: 18
+          clip: {fileID: 0}
+          name: idle_magic
+          preview:
+          - {fileID: 21300000, guid: 5bc5861a03bac3f46a33a01ee141cf63, type: 3}
+      - id: 8
+        name: Idle bow
+        motions:
+        - animId: 19
+          clip: {fileID: 0}
+          name: idle_bow
+          preview:
+          - {fileID: 21300000, guid: 990144fda80904b4ab100a453fe329d2, type: 3}
+      - id: 9
+        name: Idle looking
+        motions:
+        - animId: 20
+          clip: {fileID: 0}
+          name: idle_looking
+          preview:
+          - {fileID: 21300000, guid: 20924734503e72449806653727a2da50, type: 3}
+      - id: 10
+        name: Idle examine
+        motions:
+        - animId: 21
+          clip: {fileID: 0}
+          name: idle_examine
+          preview:
+          - {fileID: 21300000, guid: 68d487fd053afa44a9efef1222596716, type: 3}
+      - id: 11
+        name: Idle unarmed
+        motions:
+        - animId: 22
+          clip: {fileID: 0}
+          name: idle_unarmed
+          preview:
+          - {fileID: 21300000, guid: db2af9957a9460c4796d5401c898f0cd, type: 3}
+      - id: 12
+        name: Idle mutant
+        motions:
+        - animId: 23
+          clip: {fileID: 0}
+          name: idle_mutant
+          preview:
+          - {fileID: 21300000, guid: d6c22d77dc570cb4d94ca7396667b9dc, type: 3}
+      - id: 13
+        name: Idle breathing
+        motions:
+        - animId: 24
+          clip: {fileID: 0}
+          name: idle_breathing
+          preview:
+          - {fileID: 21300000, guid: 1d7350eefbc9cf74693e4d29e84d99c7, type: 3}
+      - id: 14
+        name: Idle flex
+        motions:
+        - animId: 25
+          clip: {fileID: 0}
+          name: idle_flex
+          preview:
+          - {fileID: 21300000, guid: d978d811153e0c44db93cdd0eb59521f, type: 3}
+    - slot: 1
+      variants:
+      - id: 0
+        name: "M\u1EB7c \u0111\u1ECBnh"
+        motions:
+        - animId: 2
+          clip: {fileID: 0}
+          name: run
+          preview:
+          - {fileID: 21300000, guid: e8f4d56dd616ddc49adca931606c1e3a, type: 3}
+      - id: 10
+        name: Run 1
+        motions:
+        - animId: 33
+          clip: {fileID: 0}
+          name: run_1
+          preview:
+          - {fileID: 21300000, guid: beed63cd15524494a90594f5535bcfd8, type: 3}
+      - id: 11
+        name: Run 2
+        motions:
+        - animId: 34
+          clip: {fileID: 0}
+          name: run_2
+          preview:
+          - {fileID: 21300000, guid: d94ca3a1a988d10469626df553423ae0, type: 3}
+      - id: 12
+        name: Run 3
+        motions:
+        - animId: 35
+          clip: {fileID: 0}
+          name: run_3
+          preview:
+          - {fileID: 21300000, guid: a59f1aeeb745e9342ba147fd52b6798e, type: 3}
+      - id: 13
+        name: Run 4
+        motions:
+        - animId: 36
+          clip: {fileID: 0}
+          name: run_4
+          preview:
+          - {fileID: 21300000, guid: 18b5df98b83955d48a011a228595a97c, type: 3}
+      - id: 14
+        name: Run sword shield
+        motions:
+        - animId: 37
+          clip: {fileID: 0}
+          name: run_sword_shield
+          preview:
+          - {fileID: 21300000, guid: 5cb2eab9ff95c8d459239376657a37d1, type: 3}
+      - id: 15
+        name: Run sword shield 2
+        motions:
+        - animId: 38
+          clip: {fileID: 0}
+          name: run_sword_shield_2
+          preview:
+          - {fileID: 21300000, guid: cea8429b7217ba14fb3281197805ae82, type: 3}
+      - id: 16
+        name: Run bow
+        motions:
+        - animId: 39
+          clip: {fileID: 0}
+          name: run_bow
+          preview:
+          - {fileID: 21300000, guid: 69dc849ef3b3ae543b30cc22d338ba0c, type: 3}
+      - id: 17
+        name: Run mutant
+        motions:
+        - animId: 40
+          clip: {fileID: 0}
+          name: run_mutant
+          preview:
+          - {fileID: 21300000, guid: 0e007383586dcdf469be9e5bbc8bd9b7, type: 3}
+    - slot: 2
+      variants:
+      - id: 0
+        name: "M\u1EB7c \u0111\u1ECBnh"
+        motions:
+        - animId: 7
+          clip: {fileID: 0}
+          name: dash
+          preview:
+          - {fileID: 21300000, guid: 6d272f88a8affa34792e7511d75d5d85, type: 3}
+      - id: 1
+        name: Dash 1
+        motions:
+        - animId: 41
+          clip: {fileID: 0}
+          name: dash_1
+          preview:
+          - {fileID: 21300000, guid: e48b0f7652d95384ca028606746fb140, type: 3}
+      - id: 2
+        name: Dash 2
+        motions:
+        - animId: 42
+          clip: {fileID: 0}
+          name: dash_2
+          preview:
+          - {fileID: 21300000, guid: 3d3bc8ba6661d4e4a83b3ae6b325d360, type: 3}
+      - id: 3
+        name: Dodge 1
+        motions:
+        - animId: 43
+          clip: {fileID: 0}
+          name: dodge_1
+          preview:
+          - {fileID: 21300000, guid: 055450ac5c3b4fa41a82018f101fc82a, type: 3}
+      - id: 4
+        name: Dodge 2
+        motions:
+        - animId: 44
+          clip: {fileID: 0}
+          name: dodge_2
+          preview:
+          - {fileID: 21300000, guid: 05bdf06b5a9c9804fbb5110f64b86d5a, type: 3}
+      - id: 5
+        name: Dodge forward
+        motions:
+        - animId: 45
+          clip: {fileID: 0}
+          name: dodge_forward
+          preview:
+          - {fileID: 21300000, guid: 75374ebc3c0c1ac46b7c989bf99d2ac8, type: 3}
+      - id: 6
+        name: Dodge backward
+        motions:
+        - animId: 46
+          clip: {fileID: 0}
+          name: dodge_backward
+          preview:
+          - {fileID: 21300000, guid: 55cb466c7b02e5d4887ec50b820ac146, type: 3}
+      - id: 7
+        name: Dodge left
+        motions:
+        - animId: 47
+          clip: {fileID: 0}
+          name: dodge_left
+          preview:
+          - {fileID: 21300000, guid: be5822407c24f06438ca0b2f6762b965, type: 3}
+      - id: 8
+        name: Dodge right
+        motions:
+        - animId: 48
+          clip: {fileID: 0}
+          name: dodge_right
+          preview:
+          - {fileID: 21300000, guid: dbf6aab3fd0b73f4ca39ef7a21b7f3ac, type: 3}
+      - id: 9
+        name: Dodge dive
+        motions:
+        - animId: 49
+          clip: {fileID: 0}
+          name: dodge_dive
+          preview:
+          - {fileID: 21300000, guid: 9521a355962a4db43bbbe1587798c4af, type: 3}
+    - slot: 3
+      variants:
+      - id: 0
+        name: "M\u1EB7c \u0111\u1ECBnh"
+        motions:
+        - animId: 9
+          clip: {fileID: 0}
+          name: attack1
+          preview:
+          - {fileID: 21300000, guid: 792d154f0d0dff44c95ced735189113b, type: 3}
+        - animId: 10
+          clip: {fileID: 0}
+          name: attack2
+          preview:
+          - {fileID: 21300000, guid: 3fce3fdbd531be34ebf05f5331ed8cf4, type: 3}
+        - animId: 11
+          clip: {fileID: 0}
+          name: attack3
+          preview:
+          - {fileID: 21300000, guid: 589e366dab8920d4e8a403bce76f2b5c, type: 3}
+        - animId: 12
+          clip: {fileID: 0}
+          name: finalAttack
+          preview:
+          - {fileID: 21300000, guid: ef66e16cac54fda49a7814a58bdc4dc9, type: 3}
+      - id: 1
+        name: Attack1
+        motions:
+        - animId: 9
+          clip: {fileID: 0}
+          name: attack1
+          preview:
+          - {fileID: 21300000, guid: 792d154f0d0dff44c95ced735189113b, type: 3}
+      - id: 2
+        name: Attack2
+        motions:
+        - animId: 10
+          clip: {fileID: 0}
+          name: attack2
+          preview:
+          - {fileID: 21300000, guid: 3fce3fdbd531be34ebf05f5331ed8cf4, type: 3}
+      - id: 3
+        name: Attack3
+        motions:
+        - animId: 11
+          clip: {fileID: 0}
+          name: attack3
+          preview:
+          - {fileID: 21300000, guid: 589e366dab8920d4e8a403bce76f2b5c, type: 3}
+      - id: 4
+        name: FinalAttack
+        motions:
+        - animId: 12
+          clip: {fileID: 0}
+          name: finalAttack
+          preview:
+          - {fileID: 21300000, guid: ef66e16cac54fda49a7814a58bdc4dc9, type: 3}
+      - id: 5
+        name: Attack sword 1
+        motions:
+        - animId: 50
+          clip: {fileID: 0}
+          name: attack_sword_1
+          preview:
+          - {fileID: 21300000, guid: f398c7de35dee9448bdc676d68129c0c, type: 3}
+      - id: 6
+        name: Attack sword 2
+        motions:
+        - animId: 51
+          clip: {fileID: 0}
+          name: attack_sword_2
+          preview:
+          - {fileID: 21300000, guid: fd3583668b2bfb84b90413afdfc480ca, type: 3}
+      - id: 7
+        name: Attack sword 3
+        motions:
+        - animId: 52
+          clip: {fileID: 0}
+          name: attack_sword_3
+          preview:
+          - {fileID: 21300000, guid: e99ec607dc53a4d45976cfb43a1a65ef, type: 3}
+      - id: 8
+        name: Attack sword 4
+        motions:
+        - animId: 53
+          clip: {fileID: 0}
+          name: attack_sword_4
+          preview:
+          - {fileID: 21300000, guid: 829e71bca4387394197ef6e9c7bc2fb8, type: 3}
+      - id: 9
+        name: Attack magic 1h 1
+        motions:
+        - animId: 54
+          clip: {fileID: 0}
+          name: attack_magic_1h_1
+          preview:
+          - {fileID: 21300000, guid: 1dc10fb54639e6844b930b9b9125ce5c, type: 3}
+      - id: 10
+        name: Attack magic 1h 2
+        motions:
+        - animId: 55
+          clip: {fileID: 0}
+          name: attack_magic_1h_2
+          preview:
+          - {fileID: 21300000, guid: 1574b9aad8fe0cd40aefcdbda9cdea59, type: 3}
+      - id: 11
+        name: Attack magic 1h 3
+        motions:
+        - animId: 56
+          clip: {fileID: 0}
+          name: attack_magic_1h_3
+          preview:
+          - {fileID: 21300000, guid: 5ac459c09835ff148be770c680dd3a64, type: 3}
+      - id: 12
+        name: Attack magic 2h 1
+        motions:
+        - animId: 57
+          clip: {fileID: 0}
+          name: attack_magic_2h_1
+          preview:
+          - {fileID: 21300000, guid: 2584755d4fa2b234b992caea15d91dd6, type: 3}
+      - id: 13
+        name: Attack magic 2h 2
+        motions:
+        - animId: 58
+          clip: {fileID: 0}
+          name: attack_magic_2h_2
+          preview:
+          - {fileID: 21300000, guid: 1ea5004ab5aaaef42bd79f86ec11a75b, type: 3}
+      - id: 14
+        name: Attack magic 2h 3
+        motions:
+        - animId: 59
+          clip: {fileID: 0}
+          name: attack_magic_2h_3
+          preview:
+          - {fileID: 21300000, guid: c19835138d66f434c8ad8bb6af10762f, type: 3}
+      - id: 15
+        name: Attack magic 2h 4
+        motions:
+        - animId: 60
+          clip: {fileID: 0}
+          name: attack_magic_2h_4
+          preview:
+          - {fileID: 21300000, guid: 5fc808ff57e16a3419a1c30aeea79ef4, type: 3}
+      - id: 16
+        name: Attack magic 2h 5
+        motions:
+        - animId: 61
+          clip: {fileID: 0}
+          name: attack_magic_2h_5
+          preview:
+          - {fileID: 21300000, guid: 08f1be2be07b24441931c7b023370671, type: 3}
+      - id: 17
+        name: Attack magic area 1
+        motions:
+        - animId: 62
+          clip: {fileID: 0}
+          name: attack_magic_area_1
+          preview:
+          - {fileID: 21300000, guid: 367b9d687e19c314790d285ca9cac760, type: 3}
+      - id: 18
+        name: Attack magic area 2
+        motions:
+        - animId: 63
+          clip: {fileID: 0}
+          name: attack_magic_area_2
+          preview:
+          - {fileID: 21300000, guid: bae6770a2b264b94a88e3defcb7e3ebb, type: 3}
+      - id: 19
+        name: Attack cast 1h
+        motions:
+        - animId: 64
+          clip: {fileID: 0}
+          name: attack_cast_1h
+          preview:
+          - {fileID: 21300000, guid: 7ebbeacdc3c1e5342a8e3339fd5fe33f, type: 3}
+      - id: 20
+        name: Attack cast 2h
+        motions:
+        - animId: 65
+          clip: {fileID: 0}
+          name: attack_cast_2h
+          preview:
+          - {fileID: 21300000, guid: 9de063d136bce594ba63a6db274e665a, type: 3}
+      - id: 21
+        name: Attack bow shot
+        motions:
+        - animId: 66
+          clip: {fileID: 0}
+          name: attack_bow_shot
+          preview:
+          - {fileID: 21300000, guid: 14fe4821abd7f9c44a67437b96ba0cf0, type: 3}
+      - id: 22
+        name: Attack kick
+        motions:
+        - animId: 67
+          clip: {fileID: 0}
+          name: attack_kick
+          preview:
+          - {fileID: 21300000, guid: f575628e22134314fa5303abe2c61cfe, type: 3}
+      - id: 23
+        name: Attack punch
+        motions:
+        - animId: 68
+          clip: {fileID: 0}
+          name: attack_punch
+          preview:
+          - {fileID: 21300000, guid: c3a805f753003cf47a48ab1f1affb6ef, type: 3}
+      - id: 24
+        name: Attack mutant
+        motions:
+        - animId: 69
+          clip: {fileID: 0}
+          name: attack_mutant
+          preview:
+          - {fileID: 21300000, guid: d94d20d37a7dfdb41ad1da9bf0b0f0c4, type: 3}
+    - slot: 4
+      variants:
+      - id: 0
+        name: "M\u1EB7c \u0111\u1ECBnh"
+        motions:
+        - animId: 70
+          clip: {fileID: 0}
+          name: hurt
+          preview:
+          - {fileID: 21300000, guid: 1b6bdda5b785ee540a926b5e1a5b77fe, type: 3}
+      - id: 1
+        name: Hurt head
+        motions:
+        - animId: 71
+          clip: {fileID: 0}
+          name: hurt_head
+          preview:
+          - {fileID: 21300000, guid: 1ab0685b82c0eb44fbecb0d1183ecffe, type: 3}
+      - id: 2
+        name: Hurt block
+        motions:
+        - animId: 72
+          clip: {fileID: 0}
+          name: hurt_block
+          preview:
+          - {fileID: 21300000, guid: 4daf7e3dba1a4b64684fe047148f7575, type: 3}
+      - id: 3
+        name: Hurt block 2
+        motions:
+        - animId: 73
+          clip: {fileID: 0}
+          name: hurt_block_2
+          preview:
+          - {fileID: 21300000, guid: 3da85f0556ed227419d4820cdb4a2e84, type: 3}
+      - id: 4
+        name: Hurt block bow
+        motions:
+        - animId: 74
+          clip: {fileID: 0}
+          name: hurt_block_bow
+          preview:
+          - {fileID: 21300000, guid: 9de9ccfe23f709c48a96f00e6dec49cd, type: 3}
+    - slot: 5
+      variants:
+      - id: 0
+        name: "M\u1EB7c \u0111\u1ECBnh"
+        motions:
+        - animId: 75
+          clip: {fileID: 0}
+          name: die
+          preview:
+          - {fileID: 21300000, guid: fa7421c73c5495e4190b0b2e836db5b4, type: 3}
+      - id: 1
+        name: Die backward
+        motions:
+        - animId: 76
+          clip: {fileID: 0}
+          name: die_backward
+          preview:
+          - {fileID: 21300000, guid: 87ab939ae92722b4cbdc491ff6822bc2, type: 3}
+      - id: 2
+        name: Die forward
+        motions:
+        - animId: 77
+          clip: {fileID: 0}
+          name: die_forward
+          preview:
+          - {fileID: 21300000, guid: 09bba8806ca39ba4d8d3887d3ac666e0, type: 3}
+      - id: 3
+        name: Die mutant
+        motions:
+        - animId: 78
+          clip: {fileID: 0}
+          name: die_mutant
+          preview:
+          - {fileID: 21300000, guid: 4a15998e4bae2994ca66832fc79ded3e, type: 3}
+    - slot: 6
+      variants:
+      - id: 0
+        name: "M\u1EB7c \u0111\u1ECBnh"
+        motions:
+        - animId: 3
+          clip: {fileID: 0}
+          name: in_air_up
+          preview:
+          - {fileID: 21300000, guid: 23d7cfb78279b5541966149fe5295b7c, type: 3}
+        - animId: 5
+          clip: {fileID: 0}
+          name: in_air_fall
+          preview:
+          - {fileID: 21300000, guid: d12a571a915f3f446b87a18eacca008a, type: 3}
+      - id: 1
+        name: In air up
+        motions:
+        - animId: 3
+          clip: {fileID: 0}
+          name: in_air_up
+          preview:
+          - {fileID: 21300000, guid: 23d7cfb78279b5541966149fe5295b7c, type: 3}
+      - id: 2
+        name: In air idle
+        motions:
+        - animId: 4
+          clip: {fileID: 0}
+          name: in_air_idle
+          preview:
+          - {fileID: 21300000, guid: b5e0a48cdeb154f4d84de6778238b419, type: 3}
+      - id: 3
+        name: In air fall
+        motions:
+        - animId: 5
+          clip: {fileID: 0}
+          name: in_air_fall
+          preview:
+          - {fileID: 21300000, guid: d12a571a915f3f446b87a18eacca008a, type: 3}
+      - id: 4
+        name: Jump 1
+        motions:
+        - animId: 79
+          clip: {fileID: 0}
+          name: jump_1
+          preview:
+          - {fileID: 21300000, guid: c53f4fc6fd0238f4f99ab5fd4c17ea9c, type: 3}
+      - id: 5
+        name: Jump 2
+        motions:
+        - animId: 80
+          clip: {fileID: 0}
+          name: jump_2
+          preview:
+          - {fileID: 21300000, guid: 60b729aad78291e4dbbdca0a0a584bd5, type: 3}
+      - id: 6
+        name: Jump 3
+        motions:
+        - animId: 81
+          clip: {fileID: 0}
+          name: jump_3
+          preview:
+          - {fileID: 21300000, guid: a7c761258b8d9054da3a735d643835d1, type: 3}
+      - id: 7
+        name: Jump 4
+        motions:
+        - animId: 82
+          clip: {fileID: 0}
+          name: jump_4
+          preview:
+          - {fileID: 21300000, guid: 5bfbfd3234ba1964bbb1122cd525c910, type: 3}
+      - id: 8
+        name: Jump mutant
+        motions:
+        - animId: 83
+          clip: {fileID: 0}
+          name: jump_mutant
+          preview:
+          - {fileID: 21300000, guid: 7ed203c1838b51c4b9c6be765fbfecae, type: 3}
+      - id: 9
+        name: In air fall loop
+        motions:
+        - animId: 84
+          clip: {fileID: 0}
+          name: in_air_fall_loop
+          preview:
+          - {fileID: 21300000, guid: d0b396da1fba7d84bb3fd25f9aaa6d8e, type: 3}
+      - id: 10
+        name: Land idle
+        motions:
+        - animId: 85
+          clip: {fileID: 0}
+          name: land_idle
+          preview:
+          - {fileID: 21300000, guid: d4bf67c98d755724e823400a5e30a429, type: 3}
+      - id: 11
+        name: Land run
+        motions:
+        - animId: 86
+          clip: {fileID: 0}
+          name: land_run
+          preview:
+          - {fileID: 21300000, guid: 6997ecb8a468bea4e9304f443ed32149, type: 3}
+    - slot: 7
+      variants:
+      - id: 0
+        name: "M\u1EB7c \u0111\u1ECBnh"
+        motions:
+        - animId: 72
+          clip: {fileID: 0}
+          name: hurt_block
+          preview:
+          - {fileID: 21300000, guid: 4daf7e3dba1a4b64684fe047148f7575, type: 3}
+        - animId: 17
+          clip: {fileID: 0}
+          name: idle_block
+          preview:
+          - {fileID: 21300000, guid: 7f74a86451aaf524687041fb07448019, type: 3}
+        - animId: 72
+          clip: {fileID: 0}
+          name: hurt_block
+          preview:
+          - {fileID: 21300000, guid: 4daf7e3dba1a4b64684fe047148f7575, type: 3}

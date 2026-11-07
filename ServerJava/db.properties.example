@@ -1,0 +1,4 @@
+# Chép thành db.properties (không commit) rồi điền mật khẩu.
+url=jdbc:mysql://127.0.0.1:3306/gameb?characterEncoding=UTF-8&connectionTimeZone=UTC
+user=gameb
+password=

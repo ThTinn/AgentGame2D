@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97464d0c85c1f5a499e20cbfc11d2a0f, type: 3}
+  m_Name: SoundData
+  m_EditorClassIdentifier: Core.Data::Game.Audio.SoundData
+  sounds:
+  - id: 1
+    name: energy_bolt_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: d34cadd3fd1c6ba40ae89c8a6bf89edc, type: 3}
+  - id: 2
+    name: energy_bolt_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 945054527efc42141b6b818bebdb7c56, type: 3}
+  - id: 3
+    name: energy_bolt_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 3e09f21eca3862a4c93782dd775f3bd0, type: 3}
+  - id: 4
+    name: green_crystal_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 0d898021649d6ff41b440c7ecf8e06fe, type: 3}
+  - id: 5
+    name: green_crystal_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: dac5cb82702dc844bb92c10aeba13151, type: 3}
+  - id: 6
+    name: green_crystal_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 7cabf364a77d3254298061dc46adec83, type: 3}
+  - id: 7
+    name: red_crystal_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 00ef3a45a342d54479c2cea431cf2f27, type: 3}
+  - id: 8
+    name: red_crystal_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 04682358a9b32f44890abb4d4c2604b1, type: 3}
+  - id: 9
+    name: red_crystal_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: a4e49711b1f659c46b83af541fd4071b, type: 3}
+  - id: 10
+    name: charge_slash_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 2cd2c0e6b22a95f44814fefd3fd57218, type: 3}
+  - id: 11
+    name: charge_slash_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: d34a4a00dc5328744ae9f6211b81dfdb, type: 3}
+  - id: 12
+    name: charge_slash_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 6badc4e19fc9ca4489ba8ac93f44aea9, type: 3}
+  - id: 13
+    name: stone_throw_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: c652baab6666f784e8bd1295b33c6ab4, type: 3}
+  - id: 14
+    name: stone_throw_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 0c0d8fe4168dd6141a818472a3dfbd82, type: 3}
+  - id: 15
+    name: stone_throw_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 406ec5e0c4dcb4f488f7a85fc6db7010, type: 3}
+  - id: 16
+    name: electro_slash_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 43fbef5ea12e42f47bd8af46de32a0d4, type: 3}
+  - id: 17
+    name: electro_slash_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 201dfd6eb36852c4a8f362a48e45695d, type: 3}
+  - id: 18
+    name: electro_slash_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: fef60b1874857a045bd2a8c1ea700dc0, type: 3}
+  - id: 19
+    name: frost_slash_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: c2bd5862e39cb51419ca2a21c3f30d1a, type: 3}
+  - id: 20
+    name: frost_slash_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 5aece97815795434986a922c93877753, type: 3}
+  - id: 21
+    name: frost_slash_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 123fc585fc502054a87cc12b579d4c1c, type: 3}
+  - id: 22
+    name: stone_slash_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 564b182733eabf44e80dbd2c81b5baaa, type: 3}
+  - id: 23
+    name: stone_slash_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 1b0a74424e720a244870ba30360410d6, type: 3}
+  - id: 24
+    name: stone_slash_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 8693775b11021864ab771258c21839a9, type: 3}
+  - id: 25
+    name: snowstorm_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 750cc30c7b083144d9defde6164483e0, type: 3}
+  - id: 26
+    name: snowstorm_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 5d8a591d37469f5448bf522cb677dbda, type: 3}
+  - id: 27
+    name: snowstorm_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: caa3c50d1783f7a438a7656120b75e0e, type: 3}
+  - id: 28
+    name: meteor_shower_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 77f4c7e8b4cdfe0478c72395ca3da50d, type: 3}
+  - id: 29
+    name: meteor_shower_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 0866010c8a60a1243902bd9477a69b2d, type: 3}
+  - id: 30
+    name: meteor_shower_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 147c9e53c93ea9347aec2c1e0cb37da1, type: 3}
+  - id: 31
+    name: laser_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 9c11b78c59173ba40b1ae042d1d33260, type: 3}
+  - id: 32
+    name: laser_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: ba76b2583c22f1b4181dfce98bf28d52, type: 3}
+  - id: 33
+    name: laser_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: aacb7598d5a7b5849af1e3c83503c869, type: 3}
+  - id: 34
+    name: freeze_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 4ccd3f5359523aa43800b252284024e6, type: 3}
+  - id: 35
+    name: freeze_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 4e25d03a78b76ee45bde02bd728c3874, type: 3}
+  - id: 36
+    name: freeze_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: c9a849a3cf6ca9f428917b75e6a04cc3, type: 3}
+  - id: 37
+    name: holy_light_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: cd5ddd2805ee7b842b9ed0efd2a97642, type: 3}
+  - id: 38
+    name: holy_light_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 31f07cc9e57fc9f4cb9a5b545fe00476, type: 3}
+  - id: 39
+    name: holy_light_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 380d44ec55904ab47ad25ec3ad364ced, type: 3}
+  - id: 40
+    name: energy_blast_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 143cbe38fe4a7e7459821a7c44009160, type: 3}
+  - id: 41
+    name: energy_blast_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 1c358e43ba609be4d84c4a889f29756e, type: 3}
+  - id: 42
+    name: energy_blast_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 41a5d698e3b9b084897a6987646dcb5c, type: 3}
+  - id: 43
+    name: blast_zone_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: e5100663e464b104f9af97389ceb4e87, type: 3}
+  - id: 44
+    name: blast_zone_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 039e97e4820056841b02f4c4b0154fc5, type: 3}
+  - id: 45
+    name: blast_zone_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 96b95d9b6fb9ef54cb235cb9d49dfa89, type: 3}
+  - id: 46
+    name: bullet_hell_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: f094aff47ddd28b40a4c62bd42ad7a8d, type: 3}
+  - id: 47
+    name: bullet_hell_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 2a174e7a655b0fd4cbe76e508f0615a6, type: 3}
+  - id: 48
+    name: bullet_hell_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: e144afae5e231ba46a24b0cc7f198110, type: 3}
+  - id: 49
+    name: frost_nova_cast
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 49db107973375d748999626c09f25aef, type: 3}
+  - id: 50
+    name: frost_nova_fire
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 2a0825552fdb7024e891c1555a544ff2, type: 3}
+  - id: 51
+    name: frost_nova_hit
+    type: 0
+    version: 1
+    clip: {fileID: 8300000, guid: 44464c8e0e28aa44bb09aac443f6598d, type: 3}

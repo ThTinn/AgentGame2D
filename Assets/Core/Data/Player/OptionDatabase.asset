@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a586247dc62604443ac24c0a5f7d36c3, type: 3}
+  m_Name: OptionDatabase
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  options:
+  - id: 2
+    name: damage
+    displayName: "S\xE1t th\u01B0\u01A1ng|Damage"
+    description: "T\u0103ng % s\xE1t th\u01B0\u01A1ng m\u1ECDi \u0111\xF2n (\u0111\xE1nh
+      th\u01B0\u1EDDng l\u1EABn skill).|+% damage of every hit (basic attacks and
+      skills)."
+    order: 10
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 3
+    name: crit
+    displayName: "Ch\xED m\u1EA1ng|Crit chance"
+    description: "C\u1ED9ng v\xE0o t\u1EC9 l\u1EC7 ch\xED m\u1EA1ng g\u1ED1c.|Added
+      to the base critical chance."
+    order: 20
+    format: 0
+    capKind: 2
+    cap: 60
+  - id: 14
+    name: crit_damage
+    displayName: "ST ch\xED m\u1EA1ng|Crit damage"
+    description: "\u0110\xF2n ch\xED m\u1EA1ng g\u1ED1c g\xE2y x2; m\u1ED7i 100%
+      c\u1ED9ng th\xEAm l\xE0 th\xEAm x1.|Crits deal x2 base; every +100% adds x1."
+    order: 30
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 0
+    name: max_hp
+    displayName: "M\xE1u t\u1ED1i \u0111a|Max HP"
+    description: "C\u1ED9ng th\u1EB3ng v\xE0o m\xE1u t\u1ED1i \u0111a.|Added to maximum
+      HP."
+    order: 40
+    format: 1
+    capKind: 0
+    cap: 0
+  - id: 4
+    name: defense
+    displayName: "Gi\xE1p|Armor"
+    description: "Gi\u1EA3m % s\xE1t th\u01B0\u01A1ng m\u1ED7i \u0111\xF2n ph\u1EA3i
+      nh\u1EADn (lu\xF4n m\u1EA5t \xEDt nh\u1EA5t 1 m\xE1u).|Cuts % of every hit
+      taken (always at least 1)."
+    order: 50
+    format: 0
+    capKind: 1
+    cap: 50
+  - id: 6
+    name: hp_regen
+    displayName: "H\u1ED3i m\xE1u|HP regen"
+    description: "M\xE1u h\u1ED3i m\u1ED7i gi\xE2y khi c\xF2n s\u1ED1ng v\xE0 ch\u01B0a
+      \u0111\u1EA7y.|HP regenerated per second while alive and not full."
+    order: 60
+    format: 2
+    capKind: 0
+    cap: 0
+  - id: 5
+    name: move_speed
+    displayName: "T\u1ED1c ch\u1EA1y|Move speed"
+    description: "T\u0103ng % t\u1ED1c \u0111\u1ED9 ch\u1EA1y.|+% running speed."
+    order: 70
+    format: 0
+    capKind: 1
+    cap: 40
+  - id: 11
+    name: attack_speed
+    displayName: "H\u1ED3i \u0111\xF2n th\u01B0\u1EDDng|Attack cooldown"
+    description: "Gi\u1EA3m % h\u1ED3i chi\xEAu \u0111\xE1nh th\u01B0\u1EDDng, c\u1ED9ng
+      chung tr\u1EA7n v\u1EDBi n\xE2ng c\u1EA5p t\u1ED1c \u0111\xE1nh c\u1EE7a v\u0169
+      kh\xED.|Cuts basic attack cooldown; shares its cap with the weapon's attack
+      speed upgrades."
+    order: 80
+    format: 3
+    capKind: 3
+    cap: 50
+  - id: 12
+    name: skill_haste
+    displayName: "H\u1ED3i chi\xEAu skill|Skill cooldown"
+    description: "Gi\u1EA3m % h\u1ED3i chi\xEAu c\u1EE7a skill \xF4 1-4.|Cuts cooldown
+      of skills 1-4."
+    order: 90
+    format: 3
+    capKind: 1
+    cap: 40
+  - id: 13
+    name: dash_haste
+    displayName: "H\u1ED3i chi\xEAu l\u01B0\u1EDBt|Dash cooldown"
+    description: "Gi\u1EA3m % h\u1ED3i chi\xEAu l\u01B0\u1EDBt.|Cuts dash cooldown."
+    order: 100
+    format: 3
+    capKind: 1
+    cap: 50
+  - id: 10
+    name: weapon_power
+    displayName: "ST \u0111\xF2n th\u01B0\u1EDDng|Basic attack damage"
+    description: "T\u0103ng % s\xE1t th\u01B0\u01A1ng \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng
+      (\u0111\xF2n c\u1EE7a v\u0169 kh\xED).|+% damage of basic (weapon) attacks."
+    order: 110
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 16
+    name: upgrade_boost
+    displayName: "Hi\u1EC7u qu\u1EA3 n\xE2ng c\u1EA5p VK|Weapon upgrade effect"
+    description: "Ph\xF3ng to c\xE1c n\xFAt n\xE2ng c\u1EA5p v\u0169 kh\xED: s\xE1t
+      th\u01B0\u01A1ng, n\u1ED5, t\u1EA7m, g\xF3c ch\xE9m.|Scales weapon upgrades:
+      damage, blast, range, arc."
+    order: 120
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 17
+    name: range
+    displayName: "T\u1EA7m \u0111\xF2n th\u01B0\u1EDDng|Basic attack range"
+    description: "T\u0103ng % t\u1EA7m \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng.|+%
+      basic attack range."
+    order: 130
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 7
+    name: exp_bonus
+    displayName: "EXP h\u1EA1 qu\xE1i|Kill EXP"
+    description: "T\u0103ng % EXP nh\u1EADn khi h\u1EA1 qu\xE1i.|+% EXP from kills."
+    order: 140
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 15
+    name: hit_exp
+    displayName: "EXP theo \u0111\xF2n (% ST)|EXP per hit (% dmg)"
+    description: "\u0110\u1ED5i % s\xE1t th\u01B0\u01A1ng g\xE2y ra th\xE0nh EXP.|Turns
+      % of damage dealt into EXP."
+    order: 150
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 8
+    name: gold_find
+    displayName: "V\xE0ng nh\u1EB7t \u0111\u01B0\u1EE3c|Gold find"
+    description: "T\u0103ng % v\xE0ng r\u01A1i ra khi h\u1EA1 qu\xE1i.|+% gold dropped
+      by monsters."
+    order: 160
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 9
+    name: item_find
+    displayName: "C\u01A1 h\u1ED9i r\u01A1i ng\u1ECDc|Gem drop chance"
+    description: "Nh\xE2n th\xEAm % v\xE0o t\u1EC9 l\u1EC7 qu\xE1i r\u01A1i ng\u1ECDc.|Multiplies
+      the monster gem drop chance."
+    order: 170
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 1
+    name: max_mp
+    displayName: "Mana t\u1ED1i \u0111a|Max MP"
+    description: "C\u1ED9ng th\u1EB3ng v\xE0o mana t\u1ED1i \u0111a.|Added to maximum
+      MP."
+    order: 180
+    format: 1
+    capKind: 0
+    cap: 0
+  - id: 18
+    name: restore_hp
+    displayName: "H\u1ED3i m\xE1u khi d\xF9ng|Restores HP"
+    description: "M\xE1u h\u1ED3i ngay khi u\u1ED1ng.|HP restored on use."
+    order: 190
+    format: 1
+    capKind: 0
+    cap: 0
+  - id: 19
+    name: restore_mp
+    displayName: "H\u1ED3i mana khi d\xF9ng|Restores MP"
+    description: "Mana h\u1ED3i ngay khi u\u1ED1ng.|MP restored on use."
+    order: 200
+    format: 1
+    capKind: 0
+    cap: 0
+  - id: 20
+    name: attack_damage
+    displayName: "S\xE1t th\u01B0\u01A1ng \u0111\xF2n|Attack damage"
+    description: "S\xE1t th\u01B0\u01A1ng g\u1ED1c c\u1EE7a \u0111\xF2n \u0111\xE1nh
+      th\u01B0\u1EDDng, t\xEDnh theo % s\xE1t th\u01B0\u01A1ng c\u01A1 b\u1EA3n.
+      Ghi \u1EDF item v\u0169 kh\xED.|Base damage of the basic attack, as % of base
+      damage. Set on the weapon item."
+    order: 210
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 21
+    name: attack_cooldown
+    displayName: "H\u1ED3i \u0111\xF2n|Attack cooldown"
+    description: "Gi\xE2y h\u1ED3i g\u1ED1c c\u1EE7a \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng.
+      Ghi \u1EDF item v\u0169 kh\xED.|Base cooldown of the basic attack. Set on the
+      weapon item."
+    order: 220
+    format: 5
+    capKind: 0
+    cap: 0
+  - id: 22
+    name: attack_range
+    displayName: "T\u1EA7m \u0111\xF2n|Attack range"
+    description: "T\u1EA7m \u0111\xF2n \u0111\xE1nh th\u01B0\u1EDDng. Item v\u0169
+      kh\xED ghi g\u1ED1c, n\xFAt n\xE2ng c\u1EA5p c\u1ED9ng th\xEAm.|Basic attack
+      range. The weapon item sets the base, upgrades add to it."
+    order: 230
+    format: 4
+    capKind: 0
+    cap: 0
+  - id: 23
+    name: attack_targets
+    displayName: "M\u1EE5c ti\xEAu|Targets"
+    description: "S\u1ED1 m\u1EE5c ti\xEAu ho\u1EB7c s\u1ED1 k\u1EBB \u0111\u1EA1n
+      xuy\xEAn. Item v\u0169 kh\xED kh\xF4ng ghi th\xEC tr\xFAng m\u1ECDi k\u1EBB
+      trong t\u1EA7m.|Targets hit or pierced. A weapon item without this line hits
+      everyone in range."
+    order: 240
+    format: 1
+    capKind: 0
+    cap: 0
+  - id: 24
+    name: weapon_damage
+    displayName: "S\xE1t th\u01B0\u01A1ng v\u0169 kh\xED|Weapon damage"
+    description: "N\xFAt n\xE2ng c\u1EA5p v\u0169 kh\xED: t\u0103ng % s\xE1t th\u01B0\u01A1ng
+      m\u1ECDi \u0111\xF2n.|Weapon upgrade: +% damage of every hit."
+    order: 250
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 25
+    name: projectiles
+    displayName: "S\u1ED1 \u0111\u1EA1n|Projectiles"
+    description: "N\xFAt n\xE2ng c\u1EA5p v\u0169 kh\xED: th\xEAm \u0111\u1EA1n m\u1ED7i
+      ph\xE1t.|Weapon upgrade: extra projectiles per shot."
+    order: 260
+    format: 1
+    capKind: 0
+    cap: 0
+  - id: 26
+    name: explosion_radius
+    displayName: "B\xE1n k\xEDnh n\u1ED5|Blast radius"
+    description: "N\xFAt n\xE2ng c\u1EA5p v\u0169 kh\xED: \u0111\xF2n tr\xFAng th\xEC
+      n\u1ED5 trong b\xE1n k\xEDnh n\xE0y.|Weapon upgrade: hits explode within this
+      radius."
+    order: 270
+    format: 4
+    capKind: 0
+    cap: 0
+  - id: 27
+    name: explosion_damage
+    displayName: "S\xE1t th\u01B0\u01A1ng n\u1ED5|Blast damage"
+    description: "N\xFAt n\xE2ng c\u1EA5p v\u0169 kh\xED: t\u0103ng % s\xE1t th\u01B0\u01A1ng
+      v\u1EE5 n\u1ED5.|Weapon upgrade: +% blast damage."
+    order: 280
+    format: 0
+    capKind: 0
+    cap: 0
+  - id: 28
+    name: arc
+    displayName: "G\xF3c ch\xE9m|Swing arc"
+    description: "N\xFAt n\xE2ng c\u1EA5p v\u0169 kh\xED: t\u0103ng n\u1EEDa g\xF3c
+      ch\xE9m.|Weapon upgrade: widens half of the swing arc."
+    order: 290
+    format: 6
+    capKind: 0
+    cap: 0

@@ -1,0 +1,478 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7c39e3a795e4b9419899b9fdc6de0d7, type: 3}
+  m_Name: MapObjectDatabase
+  m_EditorClassIdentifier: Core.Data::Game.Map.MapObjectDatabase
+  schemaVersion: 2
+  objects:
+  - id: 1
+    name: chair_wood
+    displayName: "Gh\u1EBF g\u1ED7"
+    kind: 1
+    prefab: {fileID: 502219372852836135, guid: 3e23e291174133243bfcdfddb72eddf8, type: 3}
+    seats: 1
+  - id: 2
+    name: bench_wood
+    displayName: "Gh\u1EBF d\xE0i"
+    kind: 1
+    prefab: {fileID: 4038211084834154006, guid: 4c23d6c34e23f4d4a92d4153986953de,
+      type: 3}
+    seats: 2
+  - id: 3
+    name: table_wood
+    displayName: "B\xE0n g\u1ED7"
+    kind: 0
+    prefab: {fileID: 5658851762202102042, guid: 37552d36435424643a234b8b8dd5ea62,
+      type: 3}
+    seats: 0
+  - id: 4
+    name: portal_blue
+    displayName: "C\u1ED5ng d\u1ECBch chuy\u1EC3n (\u0111i ti\u1EBFp)"
+    kind: 2
+    prefab: {fileID: 3904251883922305040, guid: 22b7ef895a3631545b66e4a2bc9d61e1,
+      type: 3}
+    seats: 0
+  - id: 5
+    name: portal_yellow
+    displayName: "C\u1ED5ng d\u1ECBch chuy\u1EC3n (quay v\u1EC1)"
+    kind: 2
+    prefab: {fileID: 8766210076819073185, guid: d746ea9a966d1c24fbf3e8bb5a22cbd2,
+      type: 3}
+    seats: 0
+  - id: 6
+    name: portal_red
+    displayName: "C\u1ED5ng v\u1EC1 l\xE0ng"
+    kind: 2
+    prefab: {fileID: 4515644568701155508, guid: 6776414db766087498ac871898d9c8e3,
+      type: 3}
+    seats: 0
+  - id: 7
+    name: home_pad
+    displayName: "B\u1EC7 d\u1ECBch chuy\u1EC3n"
+    kind: 0
+    prefab: {fileID: 1634151443744853245, guid: db1643ef54908364cb01ebbe97b4037b,
+      type: 3}
+    seats: 0
+  - id: 8
+    name: zone_board
+    displayName: "M\u1ED1c chuy\u1EC3n khu"
+    kind: 3
+    prefab: {fileID: 7736325551916613080, guid: 1ddf5ce0c5197684080e08c052631e45,
+      type: 3}
+    seats: 0
+  placements:
+  - uid: 1
+    mapId: 0
+    objectId: 3
+    position: {x: 8, y: -36}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 2
+    mapId: 0
+    objectId: 1
+    position: {x: 8, y: -36.8}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 3
+    mapId: 0
+    objectId: 1
+    position: {x: 8, y: -35.2}
+    rotationY: 180
+    targetMapId: -1
+    targetUid: 0
+  - uid: 4
+    mapId: 0
+    objectId: 2
+    position: {x: -8, y: -36}
+    rotationY: 90
+    targetMapId: -1
+    targetUid: 0
+  - uid: 1
+    mapId: 1
+    objectId: 3
+    position: {x: 8, y: -36}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 2
+    mapId: 1
+    objectId: 1
+    position: {x: 8, y: -36.8}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 3
+    mapId: 1
+    objectId: 1
+    position: {x: 8, y: -35.2}
+    rotationY: 180
+    targetMapId: -1
+    targetUid: 0
+  - uid: 4
+    mapId: 1
+    objectId: 2
+    position: {x: -8, y: -36}
+    rotationY: 90
+    targetMapId: -1
+    targetUid: 0
+  - uid: 1
+    mapId: 2
+    objectId: 3
+    position: {x: 8, y: -36}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 2
+    mapId: 2
+    objectId: 1
+    position: {x: 8, y: -36.8}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 3
+    mapId: 2
+    objectId: 1
+    position: {x: 8, y: -35.2}
+    rotationY: 180
+    targetMapId: -1
+    targetUid: 0
+  - uid: 4
+    mapId: 2
+    objectId: 2
+    position: {x: -8, y: -36}
+    rotationY: 90
+    targetMapId: -1
+    targetUid: 0
+  - uid: 1
+    mapId: 3
+    objectId: 3
+    position: {x: 8, y: -36}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 2
+    mapId: 3
+    objectId: 1
+    position: {x: 8, y: -36.8}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 3
+    mapId: 3
+    objectId: 1
+    position: {x: 8, y: -35.2}
+    rotationY: 180
+    targetMapId: -1
+    targetUid: 0
+  - uid: 4
+    mapId: 3
+    objectId: 2
+    position: {x: -8, y: -36}
+    rotationY: 90
+    targetMapId: -1
+    targetUid: 0
+  - uid: 1
+    mapId: 4
+    objectId: 3
+    position: {x: 8, y: -36}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 2
+    mapId: 4
+    objectId: 1
+    position: {x: 8, y: -36.8}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 3
+    mapId: 4
+    objectId: 1
+    position: {x: 8, y: -35.2}
+    rotationY: 180
+    targetMapId: -1
+    targetUid: 0
+  - uid: 4
+    mapId: 4
+    objectId: 2
+    position: {x: -8, y: -36}
+    rotationY: 90
+    targetMapId: -1
+    targetUid: 0
+  - uid: 1
+    mapId: 5
+    objectId: 3
+    position: {x: 8, y: -36}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 2
+    mapId: 5
+    objectId: 1
+    position: {x: 8, y: -36.8}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 3
+    mapId: 5
+    objectId: 1
+    position: {x: 8, y: -35.2}
+    rotationY: 180
+    targetMapId: -1
+    targetUid: 0
+  - uid: 4
+    mapId: 5
+    objectId: 2
+    position: {x: -8, y: -36}
+    rotationY: 90
+    targetMapId: -1
+    targetUid: 0
+  - uid: 1
+    mapId: 6
+    objectId: 3
+    position: {x: 8, y: -36}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 2
+    mapId: 6
+    objectId: 1
+    position: {x: 8, y: -36.8}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 3
+    mapId: 6
+    objectId: 1
+    position: {x: 8, y: -35.2}
+    rotationY: 180
+    targetMapId: -1
+    targetUid: 0
+  - uid: 4
+    mapId: 6
+    objectId: 2
+    position: {x: -8, y: -36}
+    rotationY: 90
+    targetMapId: -1
+    targetUid: 0
+  - uid: 5
+    mapId: 0
+    objectId: 4
+    position: {x: 40, y: -45}
+    rotationY: 0
+    targetMapId: 2
+    targetUid: 5
+  - uid: 5
+    mapId: 2
+    objectId: 5
+    position: {x: -40, y: -45}
+    rotationY: 0
+    targetMapId: 0
+    targetUid: 5
+  - uid: 6
+    mapId: 2
+    objectId: 4
+    position: {x: 40, y: -45}
+    rotationY: 0
+    targetMapId: 3
+    targetUid: 5
+  - uid: 5
+    mapId: 3
+    objectId: 5
+    position: {x: -40, y: -45}
+    rotationY: 0
+    targetMapId: 2
+    targetUid: 6
+  - uid: 6
+    mapId: 3
+    objectId: 4
+    position: {x: 40, y: -45}
+    rotationY: 0
+    targetMapId: 4
+    targetUid: 5
+  - uid: 5
+    mapId: 4
+    objectId: 5
+    position: {x: -40, y: -45}
+    rotationY: 0
+    targetMapId: 3
+    targetUid: 6
+  - uid: 6
+    mapId: 4
+    objectId: 4
+    position: {x: 40, y: -45}
+    rotationY: 0
+    targetMapId: 5
+    targetUid: 5
+  - uid: 5
+    mapId: 5
+    objectId: 5
+    position: {x: -40, y: -45}
+    rotationY: 0
+    targetMapId: 4
+    targetUid: 6
+  - uid: 6
+    mapId: 5
+    objectId: 4
+    position: {x: 40, y: -45}
+    rotationY: 0
+    targetMapId: 6
+    targetUid: 5
+  - uid: 5
+    mapId: 6
+    objectId: 5
+    position: {x: -40, y: -45}
+    rotationY: 0
+    targetMapId: 5
+    targetUid: 6
+  - uid: 1
+    mapId: 7
+    objectId: 3
+    position: {x: 8, y: -36}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 2
+    mapId: 7
+    objectId: 1
+    position: {x: 8, y: -36.8}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 3
+    mapId: 7
+    objectId: 1
+    position: {x: 8, y: -35.2}
+    rotationY: 180
+    targetMapId: -1
+    targetUid: 0
+  - uid: 4
+    mapId: 7
+    objectId: 2
+    position: {x: -8, y: -36}
+    rotationY: 90
+    targetMapId: -1
+    targetUid: 0
+  - uid: 6
+    mapId: 6
+    objectId: 4
+    position: {x: 40, y: -45}
+    rotationY: 0
+    targetMapId: 7
+    targetUid: 5
+  - uid: 5
+    mapId: 7
+    objectId: 5
+    position: {x: -40, y: -45}
+    rotationY: 0
+    targetMapId: 6
+    targetUid: 6
+  - uid: 6
+    mapId: 0
+    objectId: 7
+    position: {x: -40, y: -45}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 7
+    mapId: 3
+    objectId: 6
+    position: {x: -20, y: -45}
+    rotationY: 0
+    targetMapId: 0
+    targetUid: 6
+  - uid: 7
+    mapId: 4
+    objectId: 6
+    position: {x: -20, y: -45}
+    rotationY: 0
+    targetMapId: 0
+    targetUid: 6
+  - uid: 7
+    mapId: 5
+    objectId: 6
+    position: {x: -20, y: -45}
+    rotationY: 0
+    targetMapId: 0
+    targetUid: 6
+  - uid: 7
+    mapId: 6
+    objectId: 6
+    position: {x: -20, y: -45}
+    rotationY: 0
+    targetMapId: 0
+    targetUid: 6
+  - uid: 6
+    mapId: 7
+    objectId: 6
+    position: {x: -20, y: -45}
+    rotationY: 0
+    targetMapId: 0
+    targetUid: 6
+  - uid: 7
+    mapId: 0
+    objectId: 8
+    position: {x: 0, y: -30}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 5
+    mapId: 1
+    objectId: 8
+    position: {x: 0, y: -30}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 7
+    mapId: 2
+    objectId: 8
+    position: {x: 0, y: -30}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 8
+    mapId: 3
+    objectId: 8
+    position: {x: 0, y: -30}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 8
+    mapId: 4
+    objectId: 8
+    position: {x: 0, y: -30}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 8
+    mapId: 5
+    objectId: 8
+    position: {x: 0, y: -30}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 8
+    mapId: 6
+    objectId: 8
+    position: {x: 0, y: -30}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0
+  - uid: 7
+    mapId: 7
+    objectId: 8
+    position: {x: 0, y: -30}
+    rotationY: 0
+    targetMapId: -1
+    targetUid: 0

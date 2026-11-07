@@ -1,0 +1,1718 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000a20e5a43cf774db72bda65a3b4bee, type: 3}
+  m_Name: QuestDatabase
+  m_EditorClassIdentifier: Core.Data::Game.Story.QuestDatabase
+  schemaVersion: 2
+  quests:
+  - id: 1
+    name: main_01_arrival
+    title: "Ng\u01B0\u1EDDi l\u1EA1 tr\u01B0\u1EDBc c\u1ED5ng"
+    category: 0
+    chapter: 1
+    giver: gatekeeper
+    turnIn: healer
+    minTier: 0
+    requires: 
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "\u0110\u1EE9ng l\u1EA1i! M\u1EB7t m\u0169i x\xE2y x\u01B0\u1EDBc th\u1EBF
+      kia... ng\u01B0\u01A1i ng\xE3 t\u1EEB \u0111\xE2u xu\u1ED1ng v\u1EADy?"
+    - "Th\xF4i \u0111\u01B0\u1EE3c. Ta kh\xF4ng \u0111\u1EC3 k\u1EBB b\u1ECB th\u01B0\u01A1ng
+      \u0111\u1EE9ng ch\u1EAFn c\u1ED5ng. T\u1EDBi nh\xE0 thu\u1ED1c c\u1EE7a B\xE0
+      Di\u1EC7p, b\xE0 \u1EA5y s\u1EBD xem cho."
+    inProgress: "Nh\xE0 thu\u1ED1c c\u1EE7a B\xE0 Di\u1EC7p \u1EDF gi\u1EEFa l\xE0ng.
+      \u0110i \u0111i, \u0111\u1EEBng \u0111\u1EC3 ta nh\u1EAFc l\u1EA7n hai."
+    complete:
+    - "L\xE3o Th\u1EA1ch g\u1EEDi con t\u1EDBi h\u1EA3? Ng\u1ED3i xu\u1ED1ng \u0111\xE2y
+      b\xE0 xem n\xE0o."
+    - "V\u1EBFt th\u01B0\u01A1ng kh\xF4ng s\xE2u, nh\u01B0ng d\xEDnh nh\u1EA7y Slime.
+      Con \u0111i qua b\xE3i c\u1ECF ph\xEDa t\xE2y l\xE0ng ph\u1EA3i kh\xF4ng?"
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives: []
+    gold: 50
+    exp: 100
+    item: potion_hp_small
+    itemCount: 3
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: healer
+      amount: 5
+    - npc: gatekeeper
+      amount: 3
+  - id: 2
+    name: main_02_slime_plague
+    title: "D\u1ECBch nh\u1EA7y"
+    category: 0
+    chapter: 1
+    giver: healer
+    turnIn: 
+    minTier: 0
+    requires: main_01_arrival
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "M\u1EA5y th\xE1ng nay l\u0169 Slime xanh tr\xE0n t\u1EDBi s\xE1t l\xE0ng.
+      Nh\u1EA7y c\u1EE7a ch\xFAng d\xEDnh v\xE0o ai l\xE0 ng\u01B0\u1EDDi \u0111\xF3
+      ng\u1EE9a r\xE1t c\u1EA3 tu\u1EA7n."
+    - "B\xE0 c\u1EA7n ng\u01B0\u1EDDi d\u1ECDn b\u1EDBt b\u1EA7y \u1EDF b\xE3i ph\xEDa
+      t\xE2y l\xE0ng. Con gi\xFAp b\xE0 \u0111\u01B0\u1EE3c kh\xF4ng?"
+    inProgress: "B\xE3i Slime \u1EDF ph\xEDa t\xE2y l\xE0ng. C\u1EA9n th\u1EADn \u0111\u1EEBng
+      \u0111\u1EC3 nh\u1EA7y d\xEDnh v\xE0o m\u1EAFt."
+    complete:
+    - "Gi\u1ECFi l\u1EAFm con. Nh\u01B0ng b\xE0 th\u1EA5y l\u1EA1... Slime ch\u1EC9
+      \u0111\xF4ng th\u1EBF n\xE0y khi \u0111\u1EA5t m\u1EA5t linh kh\xED."
+    - "M\xE0 khoan, m\u1EA3nh ng\u1ECDc tr\xEAn c\u1ED5 con... con c\xF3 n\xF3 t\u1EEB
+      \u0111\xE2u v\u1EADy?"
+    offerChoices:
+    - name: eager
+      label: "C\u1EE9 giao cho con."
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: 
+        itemCount: 1
+      reply:
+      - "Ngoan l\u1EAFm. Nh\u1EDB c\u1EA9n th\u1EADn \u0111\u1EA5y con."
+      effects:
+      - kind: 0
+        target: healer
+        amount: 3
+      flag: story_healer_eager
+    - name: pay
+      label: "C\xF3 th\u01B0\u1EDFng th\xEC con l\xE0m."
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: 
+        itemCount: 1
+      reply:
+      - "\u1EEA... b\xE0 c\u0169ng kh\xF4ng \u0111\u1EC3 con thi\u1EC7t \u0111\xE2u."
+      effects:
+      - kind: 0
+        target: healer
+        amount: -2
+      flag: story_healer_eager
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 0
+      target: 1
+      count: 5
+      label: "H\u1EA1 Slime xanh"
+      where:
+        mapId: 0
+        point: {x: -34, y: 6}
+        radius: 9
+      lines: []
+    gold: 300
+    exp: 1500
+    item: potion_hp_small
+    itemCount: 2
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: healer
+      amount: 8
+  - id: 3
+    name: main_03_pendant
+    title: "N\u1EEDa m\u1EA3nh ng\u1ECDc b\u1ED9i"
+    category: 0
+    chapter: 1
+    giver: healer
+    turnIn: scholar
+    minTier: 0
+    requires: main_02_slime_plague
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Ng\u1ECDc n\xE0y c\xF3 v\xE2n nh\u01B0 m\xE2y cu\u1ED9n... b\xE0 t\u1EEBng
+      th\u1EA5y h\xECnh n\xE0y trong s\xE1ch c\u1ED5."
+    - "C\xF4 Ng\xE2n xem qu\u1EBB gi\u1ECFi, c\xF3 khi c\xF4 \u1EA5y bi\u1EBFt \u0111i\u1EC1u
+      g\xEC. Con qua h\u1ECFi c\xF4 \u1EA5y, r\u1ED3i mang chuy\u1EC7n t\u1EDBi Th\u1EA7y
+      Uy\xEAn. Th\u1EA7y \u0111\u1ECDc nhi\u1EC1u s\xE1ch nh\u1EA5t l\xE0ng."
+    inProgress: "G\u1EB7p C\xF4 Ng\xE2n tr\u01B0\u1EDBc, r\u1ED3i t\u1EDBi ch\u1ED7
+      Th\u1EA7y Uy\xEAn."
+    complete:
+    - "\u0110\u01B0a ta xem... V\xE2n m\xE2y cu\u1ED9n, kh\u1EAFc ch\u1EEF \"Huy\u1EC1n\".
+      \u0110\xE2y l\xE0 ng\u1ECDc b\u1ED9i c\u1EE7a Huy\u1EC1n \u1EA8n!"
+    - "Ba tr\u0103m n\u0103m tr\u01B0\u1EDBc, Huy\u1EC1n \u1EA8n l\u1EADp \u1EA4n
+      Ng\u0169 H\xE0nh \u0111\u1EC3 giam m\u1ED9t th\u1EE9 d\u01B0\u1EDBi n\xFAi
+      Linh S\u01A1n. Ch\xECa c\u1EE7a \u1EA5n ch\xEDnh l\xE0 mi\u1EBFng ng\u1ECDc
+      n\xE0y, chia l\xE0m \u0111\xF4i."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 3
+      target: fortune
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "...Ba \u0111\u1ED3ng xu c\xF9ng \u0111\u1EE9ng. Ta ch\u01B0a t\u1EEBng th\u1EA5y
+        qu\u1EBB n\xE0y."
+      - "M\u1EA3nh ng\u1ECDc c\u1EE7a ng\u01B0\u01A1i ch\u1EC9 l\xE0 m\u1ED9t n\u1EEDa.
+        N\u1EEDa kia \u0111ang n\u1EB1m d\u01B0\u1EDBi l\xF2ng \u0111\u1EA5t, trong
+        tay th\u1EE9 \u0111ang h\xFAt linh kh\xED c\u1EE7a v\xF9ng n\xE0y."
+      - "\u0110i g\u1EB7p Th\u1EA7y Uy\xEAn \u0111i. Qu\u1EBB n\xF3i th\u1EA7y \u1EA5y
+        gi\u1EEF ch\xECa kh\xF3a c\u1EE7a c\xE2u chuy\u1EC7n."
+    gold: 200
+    exp: 800
+    item: 
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: scholar
+      amount: 6
+    - npc: fortune
+      amount: 6
+  - id: 4
+    name: main_04_stele
+    title: "Bia \u0111\xE1 c\u1ED5"
+    category: 0
+    chapter: 1
+    giver: scholar
+    turnIn: 
+    minTier: 0
+    requires: main_03_pendant
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Ph\xEDa b\u1EAFc l\xE0ng c\xF3 m\u1ED9t t\u1EA5m bia \u0111\xE1 c\u1ED5 kh\u1EAFc
+      l\u1EDDi c\u1EE7a Huy\u1EC1n \u1EA8n. Ta gi\xE0 r\u1ED3i, kh\xF4ng \u0111i
+      n\u1ED5i t\u1EDBi \u0111\xF3 n\u1EEFa."
+    - "Ng\u01B0\u01A1i t\u1EDBi \u0111\u1ECDc bia gi\xFAp ta. G\u1EA7n \u0111\xF3
+      c\xF3 l\u0169 Nh\xE3n qu\u1EF7 r\xECnh r\u1EADp, h\u1EA1 v\xE0i con cho ch\xFAng
+      bi\u1EBFt s\u1EE3."
+    inProgress: "Bia \u0111\xE1 \u1EDF kho\u1EA3ng \u0111\u1EA5t tr\u1ED1ng ph\xEDa
+      b\u1EAFc l\xE0ng, Nh\xE3n qu\u1EF7 th\xEC \u1EDF xa h\u01A1n ch\xFAt n\u1EEFa."
+    complete:
+    - "\"N\u0103m tr\u1EE5 n\u0103m h\u1ECD, m\u1ED9t \u1EA5n m\u1ED9t l\xF2ng\"...
+      Ra v\u1EADy."
+    - "N\u0103m tr\u1EE5 c\u1EE7a \u1EA5n do n\u0103m d\xF2ng h\u1ECD gi\u1EEF: Th\u1EA1ch,
+      H\u1ECFa, Di\u1EC7p, Uy\xEAn, Ng\xE2n. Ng\u01B0\u01A1i nh\u1EADn ra ch\u01B0a?
+      \u0110\xF3 ch\xEDnh l\xE0 n\u0103m ng\u01B0\u1EDDi trong l\xE0ng n\xE0y."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "Bia \u0111\xE1 c\u1ED5"
+      count: 1
+      label: 
+      where:
+        mapId: 0
+        point: {x: -18, y: 22}
+        radius: 5
+      lines: []
+    - kind: 0
+      target: 5
+      count: 2
+      label: "H\u1EA1 Nh\xE3n qu\u1EF7"
+      where:
+        mapId: 0
+        point: {x: 0, y: 38}
+        radius: 10
+      lines: []
+    gold: 400
+    exp: 2500
+    item: potion_mp_small
+    itemCount: 3
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: scholar
+      amount: 8
+  - id: 5
+    name: main_05_gate_night
+    title: "\u0110\xEAm canh c\u1ED5ng"
+    category: 0
+    chapter: 1
+    giver: gatekeeper
+    turnIn: 
+    minTier: 0
+    requires: main_04_stele
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Th\u1EA7y Uy\xEAn k\u1EC3 cho ta r\u1ED3i. H\u1EEB... ta c\u1EE9 t\u01B0\u1EDFng
+      chuy\u1EC7n h\u1ECD Th\u1EA1ch gi\u1EEF tr\u1EE5 ch\u1EC9 l\xE0 chuy\u1EC7n
+      \xF4ng n\u1ED9i k\u1EC3 cho vui."
+    - "\u0110\xEAm qua l\u0169 R\xF9a mai b\xF2 t\u1EDBi t\u1EADn ch\xE2n t\u01B0\u1EDDng
+      ph\xEDa \u0111\xF4ng. D\u1EB9p ch\xFAng \u0111i, r\u1ED3i ta s\u1EBD tin ng\u01B0\u01A1i
+      l\xE0 ng\u01B0\u1EDDi c\u1EE7a Huy\u1EC1n \u1EA8n."
+    inProgress: "B\xE3i R\xF9a mai \u1EDF ph\xEDa \u0111\xF4ng l\xE0ng. Mai ch\xFAng
+      c\u1EE9ng, \u0111\xE1nh v\xE0o ch\xE2n."
+    complete:
+    - "\u0110\u01B0\u1EE3c l\u1EAFm. Ba m\u01B0\u01A1i n\u0103m canh c\u1ED5ng, gi\u1EDD
+      ta m\u1EDBi hi\u1EC3u m\xECnh canh c\xE1i g\xEC."
+    - "C\xE1c tr\u1EE5 ph\u1EA3i \u0111\u01B0\u1EE3c ki\u1EC3m t\u1EEB g\u1EA7n t\u1EDBi
+      xa. Tr\u1EE5 g\u1EA7n nh\u1EA5t l\xE0 tr\u1EE5 M\u1ED9c c\u1EE7a h\u1ECD Di\u1EC7p.
+      \u0110i g\u1EB7p B\xE0 Di\u1EC7p \u0111i."
+    offerChoices:
+    - name: trust
+      label: "L\xE3o c\u1EE9 tin con."
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: 
+        itemCount: 1
+      reply:
+      - "L\u1EDDi n\xF3i th\xEC ai ch\u1EA3 n\xF3i \u0111\u01B0\u1EE3c. L\xE0m \u0111i
+        r\u1ED3i t\xEDnh."
+      effects:
+      - kind: 0
+        target: gatekeeper
+        amount: 2
+      flag: story_gate_night
+    - name: nobody
+      label: "Con kh\xF4ng ph\u1EA3i ng\u01B0\u1EDDi c\u1EE7a ai c\u1EA3."
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: 
+        itemCount: 1
+      reply:
+      - "H\u1EEB, c\u1EE9ng \u0111\u1EA7u. Ta th\xEDch th\u1EBF."
+      effects:
+      - kind: 0
+        target: gatekeeper
+        amount: 4
+      flag: story_gate_night
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 0
+      target: 2
+      count: 4
+      label: "H\u1EA1 R\xF9a mai"
+      where:
+        mapId: 0
+        point: {x: 34, y: 6}
+        radius: 9
+      lines: []
+    gold: 500
+    exp: 3000
+    item: key_small
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: gatekeeper
+      amount: 10
+  - id: 6
+    name: main_06_wood_pillar
+    title: "Tr\u1EE5 M\u1ED9c"
+    category: 0
+    chapter: 2
+    giver: healer
+    turnIn: 
+    minTier: 0
+    requires: main_05_gate_night
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "H\u1ECD Di\u1EC7p gi\u1EEF tr\u1EE5 M\u1ED9c \u1EDF \u0110\u1ED3ng C\u1ECF,
+      qua c\u1ED5ng d\u1ECBch chuy\u1EC3n ph\xEDa \u0111\xF4ng nam l\xE0ng."
+    - "B\xE0 nghe n\xF3i r\u1EC5 c\xE2y quanh tr\u1EE5 kh\xF4 h\u1EBFt r\u1ED3i.
+      Con t\u1EDBi xem tr\u1EE5, r\u1ED3i d\u1EB9p b\u1EA7y Slime ng\u1ECDc \u0111ang
+      h\xFAt nh\u1EF1a c\xE2y \u1EDF \u0111\xF3."
+    inProgress: "C\u1ED5ng t\u1EDBi \u0110\u1ED3ng C\u1ECF \u1EDF g\xF3c \u0111\xF4ng
+      nam l\xE0ng. Tr\u1EE5 n\u1EB1m gi\u1EEFa \u0111\u1ED3ng."
+    complete:
+    - "Tr\u1EE5 n\u1EE9t r\u1ED3i sao... B\xE0 \u0111\xE3 \u0111o\xE1n th\u1EBF m\xE0
+      v\u1EABn th\u1EA5y \u0111au l\xF2ng."
+    - "Con gi\u1EEF cho n\xF3 \u0111\u1EE9ng th\xEAm \u0111\u01B0\u1EE3c m\u1ED9t
+      th\u1EDDi gian. B\xE0 s\u1EBD \u0111\u1EAFp thu\u1ED1c cho \u0111\u1EA5t, ph\u1EA7n
+      c\xF2n l\u1EA1i tr\xF4ng c\u1EA3 v\xE0o con."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "Tr\u1EE5 M\u1ED9c"
+      count: 1
+      label: 
+      where:
+        mapId: 2
+        point: {x: 0, y: 12}
+        radius: 6
+      lines: []
+    - kind: 0
+      target: 3
+      count: 6
+      label: "H\u1EA1 Slime ng\u1ECDc"
+      where:
+        mapId: 2
+        point: {x: 34, y: 4}
+        radius: 10
+      lines: []
+    gold: 600
+    exp: 4000
+    item: potion_hp_medium
+    itemCount: 3
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: healer
+      amount: 10
+  - id: 7
+    name: main_07_earth_pillar
+    title: "Tr\u1EE5 Th\u1ED5"
+    category: 0
+    chapter: 2
+    giver: gatekeeper
+    turnIn: 
+    minTier: 0
+    requires: main_06_wood_pillar
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Tr\u1EE5 Th\u1ED5 \u1EDF sa m\u1EA1c, \u0111i qua \u0110\u1ED3ng C\u1ECF r\u1ED3i
+      qua th\xEAm m\u1ED9t c\u1ED5ng n\u1EEFa. Cha ta n\xF3i tr\u1EE5 \u1EA5y c\u1EE9ng
+      nh\u01B0 ch\xEDnh \u0111\xE1 n\xFAi."
+    - "Nh\u01B0ng n\u1EBFu c\xE1t \u0111\xE3 nu\u1ED1t m\u1EA5t ch\xE2n tr\u1EE5
+      th\xEC... Ng\u01B0\u01A1i t\u1EDBi xem gi\xFAp ta, v\xE0 d\u1ECDn b\u1EA7y
+      R\xF9a \u0111\xE1 l\xE0m t\u1ED5 quanh \u0111\xF3."
+    inProgress: "Sa m\u1EA1c n\u1EB1m sau \u0110\u1ED3ng C\u1ECF. R\xF9a \u0111\xE1
+      \u1EDF ph\xEDa \u0111\xF4ng tr\u1EE5."
+    complete:
+    - "Tr\u1EE5 c\xF2n \u0111\u1EE9ng, nh\u01B0ng ch\xE2n \u0111\xE3 l\xFAn. H\u1EEB,
+      \u0111\xE1 c\u0169ng c\xF3 l\xFAc m\u1EC7t."
+    - "Ng\u01B0\u01A1i l\xE0m t\u1ED1t l\u1EAFm. T\u1EEB h\xF4m nay c\u1ED5ng l\xE0ng
+      n\xE0y m\u1EDF cho ng\u01B0\u01A1i b\u1EA5t c\u1EE9 l\xFAc n\xE0o."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "Tr\u1EE5 Th\u1ED5"
+      count: 1
+      label: 
+      where:
+        mapId: 3
+        point: {x: 0, y: 14}
+        radius: 6
+      lines: []
+    - kind: 0
+      target: 4
+      count: 5
+      label: "H\u1EA1 R\xF9a \u0111\xE1"
+      where:
+        mapId: 3
+        point: {x: 36, y: 10}
+        radius: 10
+      lines: []
+    gold: 800
+    exp: 5000
+    item: key_iron
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: gatekeeper
+      amount: 10
+  - id: 8
+    name: main_08_water_pillar
+    title: "Tr\u1EE5 Th\u1EE7y"
+    category: 0
+    chapter: 2
+    giver: scholar
+    turnIn: 
+    minTier: 0
+    requires: main_07_earth_pillar
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Tr\u1EE5 Th\u1EE7y c\u1EE7a h\u1ECD Uy\xEAn n\u1EB1m \u1EDF x\u1EE9 tuy\u1EBFt.
+      N\u01B0\u1EDBc \u0111\xF3ng b\u0103ng th\xEC kh\xF4ng c\xF2n ch\u1EA3y, m\xE0
+      Th\u1EE7y kh\xF4ng ch\u1EA3y th\xEC kh\xF4ng sinh \u0111\u01B0\u1EE3c M\u1ED9c."
+    - "Ta \u0111o\xE1n l\u0169 Huy\u1EBFt nh\xE3n \u0111\xE3 \u0111\xF3ng b\u0103ng
+      m\u1EA1ch n\u01B0\u1EDBc quanh tr\u1EE5. \u0110i \u0111i, v\xE0 nh\u1EDB: \u0111\u1EEBng
+      nh\xECn th\u1EB3ng v\xE0o m\u1EAFt ch\xFAng."
+    inProgress: "X\u1EE9 tuy\u1EBFt \u1EDF sau sa m\u1EA1c. Huy\u1EBFt nh\xE3n \u0111\u1EADu
+      \u1EDF ph\xEDa b\u1EAFc tr\u1EE5."
+    complete:
+    - "B\u0103ng tan r\u1ED3i \u01B0? T\u1ED1t, t\u1ED1t l\u1EAFm. M\u1EA1ch n\u01B0\u1EDBc
+      ch\u1EA3y l\u1EA1i th\xEC c\u1EA3 \u1EA5n s\u1EBD v\u1EEFng th\xEAm."
+    - "Ng\u01B0\u01A1i \u0111\u1EC3 \xFD kh\xF4ng, tr\u1EE5 n\xE0o c\u0169ng b\u1ECB
+      \u0111\xE1nh c\xF9ng m\u1ED9t ki\u1EC3u. C\xF3 k\u1EBB \u0111\u1EE9ng sau t\u1EA5t
+      c\u1EA3."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "Tr\u1EE5 Th\u1EE7y"
+      count: 1
+      label: 
+      where:
+        mapId: 4
+        point: {x: 0, y: 14}
+        radius: 6
+      lines: []
+    - kind: 0
+      target: 6
+      count: 2
+      label: "H\u1EA1 Huy\u1EBFt nh\xE3n"
+      where:
+        mapId: 4
+        point: {x: 0, y: 40}
+        radius: 10
+      lines: []
+    gold: 1000
+    exp: 7000
+    item: potion_mp_medium
+    itemCount: 3
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: scholar
+      amount: 10
+  - id: 9
+    name: main_09_fire_pillar
+    title: "Tr\u1EE5 H\u1ECFa"
+    category: 0
+    chapter: 2
+    giver: blacksmith
+    turnIn: 
+    minTier: 0
+    requires: main_08_water_pillar
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "H\u1EEB, Th\u1EA7y Uy\xEAn k\u1EC3 c\u1EA3 r\u1ED3i. Tr\u1EE5 H\u1ECFa c\u1EE7a
+      h\u1ECD H\u1ECFa \u1EDF hang dung nham. L\u1EEDa \u1EDF \u0111\xF3 c\u0169ng
+      l\xE0 l\u1EEDa trong l\xF2 ta \u0111\xE2y."
+    - "G\u1EA7n \u0111\xE2y l\xF2 ta c\u1EE9 t\u1EAFt l\xFAc n\u1EEDa \u0111\xEAm.
+      L\u1EEDa tr\u1EE5 \u0111ang y\u1EBFu \u0111i. T\u1EDBi \u0111\xF3 d\u1EB9p
+      l\u0169 Nh\xE3n qu\u1EF7 \u0111ang u\u1ED1ng l\u1EEDa c\u1EE7a n\xF3."
+    inProgress: "Hang dung nham \u1EDF sau x\u1EE9 tuy\u1EBFt. Nh\xE3n qu\u1EF7 \u1EDF
+      ph\xEDa t\xE2y tr\u1EE5."
+    complete:
+    - "L\xF2 ta ch\xE1y l\u1EA1i r\u1ED3i! \u0110\u01B0\u1EE3m nh\u01B0 h\u1ED3i
+      ta c\xF2n tr\u1EBB."
+    - "Nh\xF3c, ng\u01B0\u01A1i kh\xE1 \u0111\u1EA5y. C\u1EA7m c\xE2y b\xFAa n\xE0y,
+      ta r\xE8n n\xF3 t\u1EEB l\u1EEDa c\u1EE7a tr\u1EE5."
+    offerChoices:
+    - name: ask_clan
+      label: "\xD4ng c\u0169ng l\xE0 ng\u01B0\u1EDDi gi\u1EEF tr\u1EE5 sao?"
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: 
+        itemCount: 1
+      reply:
+      - "Kh\xF4ng gi\u1EEF tr\u1EE5 th\xEC ta r\xE8n b\xFAa \u1EDF c\xE1i l\xE0ng
+        heo h\xFAt n\xE0y l\xE0m g\xEC? H\u1ECFi l\u1EAFm."
+      effects:
+      - kind: 0
+        target: blacksmith
+        amount: 3
+      flag: story_smith_clan
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "Tr\u1EE5 H\u1ECFa"
+      count: 1
+      label: 
+      where:
+        mapId: 5
+        point: {x: 0, y: 14}
+        radius: 6
+      lines: []
+    - kind: 0
+      target: 5
+      count: 6
+      label: "H\u1EA1 Nh\xE3n qu\u1EF7"
+      where:
+        mapId: 5
+        point: {x: -34, y: 10}
+        radius: 10
+      lines: []
+    gold: 1200
+    exp: 9000
+    item: weapon_hammer
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: blacksmith
+      amount: 12
+  - id: 10
+    name: main_10_metal_pillar
+    title: "Tr\u1EE5 Kim"
+    category: 0
+    chapter: 2
+    giver: fortune
+    turnIn: 
+    minTier: 0
+    requires: main_09_fire_pillar
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Tr\u1EE5 cu\u1ED1i c\xF9ng, tr\u1EE5 Kim c\u1EE7a h\u1ECD Ng\xE2n, \u1EDF
+      v\xF9ng \u0111\u1ED3i xa nh\u1EA5t, qua c\u1EA3 hang dung nham."
+    - "Ba \u0111\u1ED3ng xu c\u1EE7a ta h\xF4m nay \u0111\u1EC1u s\u1EA5p. C\xF3
+      th\u1EE9 g\xEC \u0111\xF3 \u0111ang \u0111\u1EE3i ng\u01B0\u01A1i \u1EDF \u0111\xF3.
+      \u0110i c\u1EA9n th\u1EADn."
+    inProgress: "V\xF9ng \u0111\u1ED3i \u1EDF sau hang dung nham. Huy\u1EBFt nh\xE3n
+      \u0111\u1EADu tr\xEAn cao nguy\xEAn ph\xEDa \u0111\xF4ng b\u1EAFc."
+    complete:
+    - "Ng\u01B0\u01A1i v\u1EC1 r\u1ED3i... qu\u1EBB \u0111\xE3 ng\u1EEDa l\u1EA1i."
+    - "N\u0103m tr\u1EE5 ng\u01B0\u01A1i \u0111\u1EC1u \u0111\xE3 \u0111i qua. Nh\u01B0ng
+      \u1EA5n ch\u1EC9 v\u1EEFng khi n\u0103m h\u1ECD c\xF9ng m\u1ED9t l\xF2ng. T\u1EDBi
+      g\u1EB7p Th\u1EA7y Uy\xEAn \u0111i."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "Tr\u1EE5 Kim"
+      count: 1
+      label: 
+      where:
+        mapId: 6
+        point: {x: 0, y: 24}
+        radius: 6
+      lines: []
+    - kind: 0
+      target: 6
+      count: 3
+      label: "H\u1EA1 Huy\u1EBFt nh\xE3n"
+      where:
+        mapId: 6
+        point: {x: 22, y: 44}
+        radius: 9
+      lines: []
+    gold: 1500
+    exp: 11000
+    item: armor_neck
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: fortune
+      amount: 12
+  - id: 11
+    name: main_11_five_hearts
+    title: "N\u0103m h\u1ECD m\u1ED9t l\xF2ng"
+    category: 0
+    chapter: 3
+    giver: scholar
+    turnIn: 
+    minTier: 0
+    requires: main_10_metal_pillar
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "\u1EA4n Ng\u0169 H\xE0nh kh\xF4ng ph\u1EA3i n\u0103m c\u1ED9t \u0111\xE1,
+      m\xE0 l\xE0 n\u0103m t\u1EA5m l\xF2ng. Tr\u1EE5 n\xE0o c\u0169ng n\u1EE9t khi
+      ng\u01B0\u1EDDi gi\u1EEF n\xF3 qu\xEAn m\u1EA5t m\xECnh l\xE0 ai."
+    - "\u0110i g\u1EB7p t\u1EEBng ng\u01B0\u1EDDi: L\xE3o Th\u1EA1ch, \xD4ng H\u1ECFa,
+      B\xE0 Di\u1EC7p, C\xF4 Ng\xE2n. Nh\u1EAFc h\u1ECD nh\u1EDB d\xF2ng h\u1ECD
+      m\xECnh. R\u1ED3i quay v\u1EC1 \u0111\xE2y."
+    inProgress: "C\xF2n ng\u01B0\u1EDDi n\xE0o ch\u01B0a g\u1EB7p th\xEC \u0111i
+      g\u1EB7p n\u1ED1t. Ta \u0111\u1EE3i \u1EDF th\u01B0 ph\xF2ng."
+    complete:
+    - "N\u0103m h\u1ECD \u0111\xE3 nh\u1EDB l\u1EA1i. Gi\u1EDD ch\u1EC9 c\xF2n m\u1ED9t
+      vi\u1EC7c."
+    - "Th\u1EE9 d\u01B0\u1EDBi l\xF2ng \u0111\u1EA5t \u1EA5y, Huy\u1EC1n \u1EA8n
+      g\u1ECDi n\xF3 l\xE0 Th\u1EF1c Linh, k\u1EBB \u0103n linh kh\xED. N\xF3 gi\u1EEF
+      n\u1EEDa m\u1EA3nh ng\u1ECDc c\xF2n l\u1EA1i, \u1EDF \u0111\xE1y hang dung
+      nham."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 3
+      target: gatekeeper
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "H\u1ECD Th\u1EA1ch... cha ta, \xF4ng ta, r\u1ED3i t\u1EDBi ta. Ba m\u01B0\u01A1i
+        n\u0103m \u0111\u1EE9ng c\u1ED5ng, h\xF3a ra l\xE0 ba tr\u0103m n\u0103m."
+      - "\u0110\u01B0\u1EE3c. Khi \u1EA5n c\u1EA7n, c\xE2y gi\xE1o n\xE0y s\u1EBD
+        \u1EDF \u0111\xF3."
+    - kind: 3
+      target: blacksmith
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "L\u1EEDa h\u1ECD H\u1ECFa ch\u01B0a bao gi\u1EDD t\u1EAFt. Ng\u01B0\u01A1i
+        c\u1EE9 n\xF3i v\u1EDBi Th\u1EA7y Uy\xEAn: l\xF2 ta s\u1EB5n s\xE0ng."
+    - kind: 3
+      target: healer
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "H\u1ECD Di\u1EC7p ch\u1EEFa cho ng\u01B0\u1EDDi, c\u0169ng ch\u1EEFa cho
+        \u0111\u1EA5t. B\xE0 s\u1EBD \u0111i c\xF9ng con t\u1EDBi cu\u1ED1i."
+    - kind: 3
+      target: fortune
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "Qu\u1EBB cu\u1ED1i c\xF9ng ta xem cho ng\u01B0\u01A1i... kh\xF4ng c\xF3
+        m\u1EB7t s\u1EA5p."
+      - "H\u1ECD Ng\xE2n theo ng\u01B0\u01A1i."
+    gold: 800
+    exp: 6000
+    item: 
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: gatekeeper
+      amount: 5
+    - npc: blacksmith
+      amount: 5
+    - npc: healer
+      amount: 5
+    - npc: scholar
+      amount: 5
+    - npc: fortune
+      amount: 5
+  - id: 12
+    name: main_12_spirit_eater
+    title: "Th\u1EF1c Linh"
+    category: 0
+    chapter: 3
+    giver: scholar
+    turnIn: 
+    minTier: 0
+    requires: main_11_five_hearts
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "\u1EDE \u0111\xE1y hang dung nham, Th\u1EF1c Linh m\u1EDF m\u1EAFt nh\xECn
+      qua l\u0169 Huy\u1EBFt nh\xE3n. H\u1EA1 ch\xFAng, l\u1EA5y l\u1EA1i n\u1EEDa
+      m\u1EA3nh ng\u1ECDc."
+    - "Khi hai n\u1EEDa ng\u1ECDc li\u1EC1n nhau, ng\u01B0\u01A1i s\u1EBD ph\u1EA3i
+      ch\u1ECDn: phong \u1EA5n n\xF3 l\u1EA1i, hay... Th\xF4i, ta tin ng\u01B0\u01A1i."
+    inProgress: "\u0110\xE1y hang dung nham \u1EDF ph\xEDa b\u1EAFc tr\u1EE5 H\u1ECFa.
+      N\u0103m h\u1ECD \u0111ang \u0111\u1EE3i ng\u01B0\u01A1i."
+    complete:
+    - "Xong r\u1ED3i. V\xE2n Kh\xEA s\u1EBD th\u1EDF l\u1EA1i."
+    offerChoices: []
+    turnInPrompt: "Hai n\u1EEDa ng\u1ECDc \u0111\xE3 li\u1EC1n. Linh kh\xED c\u1EE7a
+      Th\u1EF1c Linh \u0111ang ch\u1EA3y qua tay ng\u01B0\u01A1i. Ng\u01B0\u01A1i
+      \u0111\u1ECBnh l\xE0m g\xEC?"
+    outcomes:
+    - name: seal_together
+      label: "G\u1ECDi n\u0103m h\u1ECD c\xF9ng phong \u1EA5n"
+      ending: "Ng\u0169 H\xE0nh H\u1EE3p Nh\u1EA5t"
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 4
+        allyTier: 2
+        item: 
+        itemCount: 1
+      complete:
+      - "N\u0103m ng\u01B0\u1EDDi \u0111\u1EB7t tay l\xEAn ng\u1ECDc. \u0110\u1EA5t
+        rung l\xEAn m\u1ED9t h\u1ED3i, r\u1ED3i im l\u1EB7ng."
+      - "Linh kh\xED tr\u1EDF v\u1EC1 v\u1EDBi c\xE2y c\u1ECF. T\u1EEB nay ng\u01B0\u01A1i
+        l\xE0 ng\u01B0\u1EDDi th\u1EE9 s\xE1u c\u1EE7a \u1EA5n: ng\u01B0\u1EDDi gi\u1EEF
+        ch\xECa."
+      gold: 3000
+      exp: 20000
+      item: armor_ring
+      itemCount: 1
+      effects:
+      - kind: 0
+        target: gatekeeper
+        amount: 10
+      - kind: 0
+        target: blacksmith
+        amount: 10
+      - kind: 0
+        target: healer
+        amount: 10
+      - kind: 0
+        target: scholar
+        amount: 10
+      - kind: 0
+        target: fortune
+        amount: 10
+      - kind: 1
+        target: ending_together
+        amount: 0
+    - name: seal_alone
+      label: "T\u1EF1 m\xECnh phong \u1EA5n"
+      ending: "Ng\u01B0\u1EDDi Gi\u1EEF \u1EA4n C\xF4 \u0110\u1ED9c"
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: 
+        itemCount: 1
+      complete:
+      - "Ng\u01B0\u01A1i m\u1ED9t m\xECnh \xE9p ng\u1ECDc xu\u1ED1ng \u0111\xE1.
+        \u1EA4n \u0111\xF3ng l\u1EA1i, nh\u01B0ng tay ng\u01B0\u01A1i l\u1EA1nh bu\u1ED1t."
+      - "V\xE2n Kh\xEA b\xECnh y\xEAn. Ch\u1EC9 l\xE0... \u1EA5n m\u1ED9t ng\u01B0\u1EDDi
+        gi\u1EEF th\xEC s\u1EBD c\xF3 ng\xE0y l\u1EA1i n\u1EE9t."
+      gold: 1500
+      exp: 15000
+      item: 
+      itemCount: 1
+      effects:
+      - kind: 1
+        target: ending_alone
+        amount: 0
+    - name: take_power
+      label: "Gi\u1EEF linh kh\xED cho ri\xEAng m\xECnh"
+      ending: "K\u1EBB \u0110o\u1EA1t \u1EA4n"
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: 
+        itemCount: 1
+      complete:
+      - "Ng\u01B0\u01A1i si\u1EBFt ch\u1EB7t ng\u1ECDc. Linh kh\xED cu\u1ED9n v\xE0o
+        ng\u01B0\u1EDDi ng\u01B0\u01A1i, n\xF3ng nh\u01B0 dung nham."
+      - "Th\u1EA7y Uy\xEAn nh\xECn ng\u01B0\u01A1i r\u1EA5t l\xE2u, r\u1ED3i quay
+        \u0111i. T\u1EEB nay c\u1EEDa th\u01B0 ph\xF2ng \u0111\xF3ng l\u1EA1i v\u1EDBi
+        ng\u01B0\u01A1i."
+      gold: 8000
+      exp: 30000
+      item: weapon_scythe
+      itemCount: 1
+      effects:
+      - kind: 3
+        target: scholar
+        amount: 0
+      - kind: 0
+        target: gatekeeper
+        amount: -30
+      - kind: 0
+        target: healer
+        amount: -20
+      - kind: 1
+        target: ending_power
+        amount: 0
+    objectives:
+    - kind: 2
+      target: "\u0110\xE1y hang dung nham"
+      count: 1
+      label: 
+      where:
+        mapId: 5
+        point: {x: 0, y: 30}
+        radius: 6
+      lines: []
+    - kind: 0
+      target: 6
+      count: 3
+      label: "H\u1EA1 Huy\u1EBFt nh\xE3n c\u1EE7a Th\u1EF1c Linh"
+      where:
+        mapId: 5
+        point: {x: 0, y: 42}
+        radius: 9
+      lines: []
+    gold: 1000
+    exp: 5000
+    item: 
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity: []
+  - id: 13
+    name: side_forge_shells
+    title: "Mai r\xF9a cho l\xF2 r\xE8n"
+    category: 1
+    chapter: 0
+    giver: blacksmith
+    turnIn: 
+    minTier: 0
+    requires: main_02_slime_plague
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Mu\u1ED1n ta b\u1EDBt kh\xF3 ch\u1ECBu th\xEC l\xE0m vi\u1EC7c c\xF3 \xEDch."
+    - "Mai R\xF9a mai nghi\u1EC1n ra tr\u1ED9n v\xE0o c\xE1t l\xE0m khu\xF4n th\xEC
+      \u0111\xFAc kh\xF4ng n\u1EE9t. H\u1EA1 n\u0103m con \u1EDF b\xE3i ph\xEDa \u0111\xF4ng
+      l\xE0ng, mai \u0111\u1EC3 \u0111\xF3 ta t\u1EF1 \u0111i nh\u1EB7t."
+    inProgress: "N\u0103m con. Kh\xF4ng ph\u1EA3i b\u1ED1n, kh\xF4ng ph\u1EA3i s\xE1u."
+    complete:
+    - "\u1EEAm, mai c\xF2n nguy\xEAn. Kh\xF4ng t\u1EC7."
+    - "C\u1EA7m l\u1EA5y, ch\xECa n\xE0y m\u1EDF \u0111\u01B0\u1EE3c r\u01B0\u01A1ng
+      nh\u1ECF quanh \u0111\xE2y."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 0
+      target: 2
+      count: 5
+      label: "H\u1EA1 R\xF9a mai"
+      where:
+        mapId: 0
+        point: {x: 34, y: 6}
+        radius: 9
+      lines: []
+    gold: 250
+    exp: 1800
+    item: key_small
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: blacksmith
+      amount: 8
+  - id: 14
+    name: side_red_gem
+    title: "Ng\u1ECDc \u0111\u1ECF cho \u0111e"
+    category: 1
+    chapter: 0
+    giver: blacksmith
+    turnIn: 
+    minTier: 1
+    requires: side_forge_shells
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Ta c\u1EA7n m\u1ED9t vi\xEAn Ng\u1ECDc \u0111\u1ECF g\u1EAFn l\xEAn \u0111e.
+      Ng\u01B0\u1EDDi x\u01B0a n\xF3i \u0111e c\xF3 ng\u1ECDc th\xEC b\xFAa kh\xF4ng
+      l\u1EC7ch."
+    - "Qu\xE1i quanh \u0111\xE2y th\u1EC9nh tho\u1EA3ng r\u01A1i ra m\u1ED9t vi\xEAn.
+      Ki\u1EBFm \u0111\u01B0\u1EE3c th\xEC mang t\u1EDBi."
+    inProgress: "Ch\u01B0a c\xF3 ng\u1ECDc th\xEC \u0111\u1EEBng \u0111\u1EE9ng ch\u1EAFn
+      l\u1EEDa c\u1EE7a ta."
+    complete:
+    - "\u0110\u1EB9p. M\xE0u n\xE0y \u0111\xFAng l\xE0 m\xE0u l\u1EEDa."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 1
+      target: gem_red
+      count: 1
+      label: "Mang Ng\u1ECDc \u0111\u1ECF"
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines: []
+    gold: 400
+    exp: 1000
+    item: 
+    itemCount: 1
+    bonusItem: weapon_sword
+    bonusTier: 2
+    affinity:
+    - npc: blacksmith
+      amount: 10
+  - id: 15
+    name: side_herbs
+    title: "Th\u1EA3o d\u01B0\u1EE3c \u0110\u1ED3ng C\u1ECF"
+    category: 1
+    chapter: 0
+    giver: healer
+    turnIn: 
+    minTier: 0
+    requires: main_06_wood_pillar
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Thu\u1ED1c trong nh\xE0 h\u1EBFt s\u1EA1ch r\u1ED3i. \u1EDE \u0110\u1ED3ng
+      C\u1ECF c\xF3 m\u1ED9t b\xE3i l\xE1 kim ti\u1EC1n m\u1ECDc d\xE0y, b\xE0 c\u1EA7n
+      con t\u1EDBi xem c\xF2n kh\xF4ng."
+    - "Nh\u1EDB d\u1EB9p l\u0169 Slime xanh quanh \u0111\xF3, ch\xFAng hay \u0111\xE8
+      n\xE1t l\xE1."
+    inProgress: "B\xE3i th\u1EA3o d\u01B0\u1EE3c \u1EDF g\u1EA7n c\u1ED5ng v\xE0o
+      \u0110\u1ED3ng C\u1ECF, Slime xanh \u1EDF ph\xEDa t\xE2y."
+    complete:
+    - "L\xE1 v\u1EABn c\xF2n! B\xE0 s\u1EBD s\u1EAFc thu\u1ED1c ngay. Ph\u1EA7n c\u1EE7a
+      con \u0111\xE2y."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "B\xE3i th\u1EA3o d\u01B0\u1EE3c"
+      count: 1
+      label: 
+      where:
+        mapId: 2
+        point: {x: -12, y: -22}
+        radius: 6
+      lines: []
+    - kind: 0
+      target: 1
+      count: 4
+      label: "H\u1EA1 Slime xanh"
+      where:
+        mapId: 2
+        point: {x: -34, y: 4}
+        radius: 10
+      lines: []
+    gold: 300
+    exp: 2000
+    item: potion_hp_medium
+    itemCount: 3
+    bonusItem: buff_power
+    bonusTier: 2
+    affinity:
+    - npc: healer
+      amount: 8
+  - id: 16
+    name: side_lost_books
+    title: "S\xE1ch th\u1EA5t l\u1EA1c"
+    category: 1
+    chapter: 0
+    giver: scholar
+    turnIn: 
+    minTier: 0
+    requires: main_03_pendant
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Gi\xF3 \u0111\xEAm qua th\u1ED5i tung m\u1EA5y cu\u1ED1n s\xE1ch ta ph\u01A1i
+      ngo\xE0i s\xE2n. L\u0169 tr\u1EBB b\u1EA3o th\u1EA5y gi\u1EA5y bay v\u1EC1
+      ph\xEDa t\xE2y v\xE0 ph\xEDa \u0111\xF4ng l\xE0ng."
+    - "Ng\u01B0\u01A1i nh\u1EB7t gi\xFAp ta. S\xE1ch qu\xFD l\u1EAFm, \u0111\u1EEBng
+      \u0111\u1EC3 \u01B0\u1EDBt."
+    inProgress: "M\u1ED9t ch\u1ED3ng \u1EDF g\u1ED1c c\xE2y ph\xEDa t\xE2y, m\u1ED9t
+      ch\u1ED3ng \u1EDF t\u1EA3ng \u0111\xE1 ph\xEDa \u0111\xF4ng."
+    complete:
+    - "\u0110\u1EE7 c\u1EA3 r\u1ED3i! Ng\u01B0\u01A1i bi\u1EBFt qu\xFD ch\u1EEF,
+      ta kh\xF4ng nh\xECn l\u1EA7m ng\u01B0\u1EDDi."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "G\u1ED1c c\xE2y ph\xEDa t\xE2y"
+      count: 1
+      label: 
+      where:
+        mapId: 0
+        point: {x: -44, y: -10}
+        radius: 5
+      lines: []
+    - kind: 2
+      target: "T\u1EA3ng \u0111\xE1 ph\xEDa \u0111\xF4ng"
+      count: 1
+      label: 
+      where:
+        mapId: 0
+        point: {x: 44, y: -10}
+        radius: 5
+      lines: []
+    gold: 250
+    exp: 1200
+    item: potion_mp_medium
+    itemCount: 2
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: scholar
+      amount: 8
+  - id: 17
+    name: side_three_coins
+    title: "Ba \u0111\u1ED3ng xu"
+    category: 1
+    chapter: 0
+    giver: fortune
+    turnIn: 
+    minTier: 0
+    requires: main_03_pendant
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Ta c\xF3 ba \u0111\u1ED3ng xu xem qu\u1EBB. M\u1ED9t \u0111\u1ED3ng ta cho
+      L\xE3o Th\u1EA1ch m\u01B0\u1EE3n \u0111\xE1nh c\u01B0\u1EE3c, m\u1ED9t \u0111\u1ED3ng
+      \xD4ng H\u1ECFa gi\u1EEF \u0111\u1EC3 \u0111\xFAc l\u1EA1i."
+    - "Ng\u01B0\u01A1i \u0111i \u0111\xF2i gi\xFAp ta. Nh\u1EDB n\xF3i kh\xE9o, hai
+      l\xE3o \u1EA5y s\u0129 di\u1EC7n l\u1EAFm."
+    inProgress: "M\u1ED9t \u0111\u1ED3ng \u1EDF ch\u1ED7 L\xE3o Th\u1EA1ch, m\u1ED9t
+      \u0111\u1ED3ng \u1EDF l\xF2 r\xE8n."
+    complete:
+    - "\u0110\u1EE7 ba \u0111\u1ED3ng r\u1ED3i. Qu\u1EBB h\xF4m nay s\u1EBD s\xE1ng
+      l\u1EAFm."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 3
+      target: gatekeeper
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "\u0110\u1ED3ng xu \xE0? H\u1EEBm... thua c\u01B0\u1EE3c th\xEC ph\u1EA3i
+        tr\u1EA3. C\u1EA7m l\u1EA5y, \u0111\u1EEBng k\u1EC3 v\u1EDBi ai."
+    - kind: 3
+      target: blacksmith
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "\u0110\xFAc l\u1EA1i r\u1ED3i \u0111\xE2y, s\xE1ng h\u01A1n c\u1EA3 l\xFAc
+        m\u1EDBi. B\u1EA3o c\xF4 \u1EA5y l\u1EA7n sau \u0111\u1EEBng \u0111em xu
+        \u0111i c\u01B0\u1EE3c v\u1EDBi l\xE3o g\xE1c c\u1ED5ng."
+    gold: 200
+    exp: 800
+    item: 
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: fortune
+      amount: 8
+    - npc: gatekeeper
+      amount: 3
+    - npc: blacksmith
+      amount: 3
+  - id: 18
+    name: side_forge_smoke
+    title: "Kh\xF3i l\xF2 r\xE8n"
+    category: 1
+    chapter: 0
+    giver: gatekeeper
+    turnIn: 
+    minTier: 1
+    requires: main_05_gate_night
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Hai ng\u01B0\u1EDDi kia l\u1EA1i c\xE3i nhau. B\xE0 Di\u1EC7p b\u1EA3o kh\xF3i
+      l\xF2 c\u1EE7a \xD4ng H\u1ECFa l\xE0m h\xE9o v\u01B0\u1EDDn thu\u1ED1c, \xD4ng
+      H\u1ECFa b\u1EA3o b\xE0 \u1EA5y l\u1EAFm chuy\u1EC7n."
+    - "Ta canh c\u1ED5ng ch\u1EE9 kh\xF4ng x\u1EED ki\u1EC7n. Ng\u01B0\u01A1i \u0111i
+      nghe c\u1EA3 hai b\xEAn, r\u1ED3i v\u1EC1 \u0111\xE2y n\xF3i ta n\xEAn x\u1EED
+      th\u1EBF n\xE0o."
+    inProgress: "Nghe c\u1EA3 \xD4ng H\u1ECFa l\u1EABn B\xE0 Di\u1EC7p r\u1ED3i h\u1EB5ng
+      v\u1EC1."
+    complete:
+    - "\u0110\u01B0\u1EE3c, c\u1EE9 th\u1EBF m\xE0 l\xE0m."
+    offerChoices: []
+    turnInPrompt: "Ng\u01B0\u01A1i nghe c\u1EA3 r\u1ED3i \u0111\u1EA5y. Ta n\xEAn
+      x\u1EED th\u1EBF n\xE0o?"
+    outcomes:
+    - name: favor_forge
+      label: "B\xEAnh \xD4ng H\u1ECFa: l\xF2 r\xE8n c\u1EA7n cho c\u1EA3 l\xE0ng"
+      ending: 
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: 
+        itemCount: 1
+      complete:
+      - "\u0110\u01B0\u1EE3c, ta s\u1EBD b\u1EA3o B\xE0 Di\u1EC7p d\u1EDDi v\u01B0\u1EDDn
+        thu\u1ED1c. B\xE0 \u1EA5y s\u1EBD bu\u1ED3n l\u1EAFm \u0111\u1EA5y."
+      gold: 0
+      exp: 0
+      item: 
+      itemCount: 1
+      effects:
+      - kind: 0
+        target: blacksmith
+        amount: 12
+      - kind: 0
+        target: healer
+        amount: -10
+    - name: favor_herbs
+      label: "B\xEAnh B\xE0 Di\u1EC7p: ph\u1EA3i d\u1EDDi kh\xF3i \u0111i"
+      ending: 
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: 
+        itemCount: 1
+      complete:
+      - "Ta s\u1EBD b\u1EAFt l\xE3o H\u1ECFa d\u1EF1ng \u1ED1ng kh\xF3i. L\xE3o s\u1EBD
+        c\xE0u nh\xE0u c\u1EA3 th\xE1ng."
+      gold: 0
+      exp: 0
+      item: 
+      itemCount: 1
+      effects:
+      - kind: 0
+        target: healer
+        amount: 12
+      - kind: 0
+        target: blacksmith
+        amount: -10
+    - name: compromise
+      label: "D\u1EF1ng \u1ED1ng kh\xF3i, g\xF3p Ng\u1ECDc l\u1EE5c l\xE0m b\xF9a
+        l\u1ECDc kh\xF3i"
+      ending: 
+      condition:
+        requiresFlag: 
+        forbidsFlag: 
+        tierNpc: 
+        minTier: 0
+        minAllies: 0
+        allyTier: 3
+        item: gem_green
+        itemCount: 1
+      complete:
+      - "\u1ED0ng kh\xF3i cao, b\xF9a l\u1ECDc kh\xF3i... sao ta kh\xF4ng ngh\u0129
+        ra nh\u1EC9. C\u1EA3 hai \u0111\u1EC1u vui."
+      gold: 0
+      exp: 500
+      item: 
+      itemCount: 1
+      effects:
+      - kind: 0
+        target: healer
+        amount: 8
+      - kind: 0
+        target: blacksmith
+        amount: 8
+      - kind: 0
+        target: gatekeeper
+        amount: 5
+    objectives:
+    - kind: 3
+      target: blacksmith
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "L\xF2 ta ch\xE1y t\u1EEB th\u1EDDi \xF4ng n\u1ED9i ta! Kh\xF3i th\xEC sao?
+        Kh\xF4ng c\xF3 l\xF2 th\xEC c\u1EA3 l\xE0ng l\u1EA5y g\xEC m\xE0 c\xE0y cu\u1ED1c?"
+    - kind: 3
+      target: healer
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "B\xE0 kh\xF4ng mu\u1ED1n \xF4ng \u1EA5y t\u1EAFt l\xF2. Ch\u1EC9 c\u1EA7n
+        \xF4ng \u1EA5y d\u1EF1ng \u1ED1ng kh\xF3i cao h\u01A1n, \u0111\u1EEBng \u0111\u1EC3
+        kh\xF3i t\u1EA1t v\xE0o v\u01B0\u1EDDn thu\u1ED1c."
+    gold: 300
+    exp: 1500
+    item: 
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity: []
+  - id: 19
+    name: side_patrol
+    title: "Tu\u1EA7n tra quanh l\xE0ng"
+    category: 1
+    chapter: 0
+    giver: gatekeeper
+    turnIn: 
+    minTier: 0
+    requires: main_05_gate_night
+    repeatable: 1
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "R\u1EA3nh tay th\xEC \u0111i m\u1ED9t v\xF2ng quanh l\xE0ng. Slime xanh l\xFAc
+      n\xE0o c\u0169ng c\xF3."
+    inProgress: "S\xE1u con. Quanh l\xE0ng hay \u1EDF \u0111\xE2u c\u0169ng \u0111\u01B0\u1EE3c."
+    complete:
+    - "T\u1ED1t. C\u1ED5ng l\xE0ng y\xEAn \u0111\u01B0\u1EE3c th\xEAm m\u1ED9t h\xF4m."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 0
+      target: 1
+      count: 6
+      label: "H\u1EA1 Slime xanh"
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines: []
+    gold: 150
+    exp: 1200
+    item: 
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: gatekeeper
+      amount: 2
+  - id: 20
+    name: daily_gate_watch
+    title: "Canh l\xE0ng m\u1ED7i ng\xE0y"
+    category: 2
+    chapter: 0
+    giver: gatekeeper
+    turnIn: 
+    minTier: 0
+    requires: main_02_slime_plague
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "M\u1ED7i s\xE1ng l\u0169 Slime l\u1EA1i b\xF2 t\u1EDBi. D\u1ECDn t\xE1m con
+      cho ta."
+    inProgress: "T\xE1m con Slime xanh. B\xE3i ph\xEDa t\xE2y l\xE0ng."
+    complete:
+    - "Xong r\u1ED3i \xE0? Mai l\u1EA1i th\u1EBF nh\xE9."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 0
+      target: 1
+      count: 8
+      label: "H\u1EA1 Slime xanh"
+      where:
+        mapId: 0
+        point: {x: -34, y: 6}
+        radius: 9
+      lines: []
+    gold: 300
+    exp: 2500
+    item: potion_hp_small
+    itemCount: 2
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: gatekeeper
+      amount: 3
+  - id: 21
+    name: daily_forge_ore
+    title: "L\u1EEDa l\xF2 m\u1ED7i ng\xE0y"
+    category: 2
+    chapter: 0
+    giver: blacksmith
+    turnIn: 
+    minTier: 0
+    requires: main_05_gate_night
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "L\xF2 h\xF4m nay c\u1EA7n mai r\xF9a m\u1EDBi. N\u0103m con, nh\u01B0 m\u1ECDi
+      khi."
+    inProgress: "R\xF9a mai \u1EDF ph\xEDa \u0111\xF4ng l\xE0ng."
+    complete:
+    - "\u0110\u1EE7 d\xF9ng cho h\xF4m nay. C\u1EA7m l\u1EA5y."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 0
+      target: 2
+      count: 5
+      label: "H\u1EA1 R\xF9a mai"
+      where:
+        mapId: 0
+        point: {x: 34, y: 6}
+        radius: 9
+      lines: []
+    gold: 350
+    exp: 2500
+    item: key_small
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: blacksmith
+      amount: 3
+  - id: 22
+    name: daily_herb_round
+    title: "H\xE1i thu\u1ED1c m\u1ED7i ng\xE0y"
+    category: 2
+    chapter: 0
+    giver: healer
+    turnIn: 
+    minTier: 0
+    requires: main_06_wood_pillar
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Con gh\xE9 b\xE3i th\u1EA3o d\u01B0\u1EE3c \u1EDF \u0110\u1ED3ng C\u1ECF gi\xFAp
+      b\xE0, ti\u1EC7n tay d\u1EB9p m\u1EA5y con Slime ng\u1ECDc ph\xE1 l\xE1."
+    inProgress: "B\xE3i th\u1EA3o d\u01B0\u1EE3c g\u1EA7n c\u1ED5ng v\xE0o \u0110\u1ED3ng
+      C\u1ECF, Slime ng\u1ECDc \u1EDF ph\xEDa \u0111\xF4ng \u0111\u1ED3ng."
+    complete:
+    - "L\xE1 t\u01B0\u01A1i l\u1EAFm. Ph\u1EA7n thu\u1ED1c h\xF4m nay c\u1EE7a con
+      \u0111\xE2y."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "B\xE3i th\u1EA3o d\u01B0\u1EE3c"
+      count: 1
+      label: 
+      where:
+        mapId: 2
+        point: {x: -12, y: -22}
+        radius: 6
+      lines: []
+    - kind: 0
+      target: 3
+      count: 3
+      label: "H\u1EA1 Slime ng\u1ECDc"
+      where:
+        mapId: 2
+        point: {x: 34, y: 4}
+        radius: 10
+      lines: []
+    gold: 300
+    exp: 2800
+    item: potion_hp_medium
+    itemCount: 2
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: healer
+      amount: 3
+  - id: 23
+    name: daily_stele_lesson
+    title: "Ch\xE9p bia m\u1ED7i ng\xE0y"
+    category: 2
+    chapter: 0
+    giver: scholar
+    turnIn: 
+    minTier: 0
+    requires: main_04_stele
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "M\u1ED7i ng\xE0y ch\xE9p m\u1ED9t \u0111o\u1EA1n bia, m\u01B0\u1EDDi n\u0103m
+      sau ng\u01B0\u01A1i s\u1EBD thu\u1ED9c l\u1EDDi Huy\u1EC1n \u1EA8n."
+    inProgress: "Bia \u0111\xE1 \u1EDF ph\xEDa b\u1EAFc l\xE0ng."
+    complete:
+    - "Ch\u1EEF c\xF2n x\u1EA5u, nh\u01B0ng c\xF3 ti\u1EBFn b\u1ED9."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 2
+      target: "Bia \u0111\xE1 c\u1ED5"
+      count: 1
+      label: 
+      where:
+        mapId: 0
+        point: {x: -18, y: 22}
+        radius: 5
+      lines: []
+    gold: 150
+    exp: 1500
+    item: potion_mp_small
+    itemCount: 2
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: scholar
+      amount: 3
+  - id: 24
+    name: daily_fortune_word
+    title: "Qu\u1EBB s\xE1ng cho ng\u01B0\u1EDDi g\xE1c c\u1ED5ng"
+    category: 2
+    chapter: 0
+    giver: fortune
+    turnIn: 
+    minTier: 0
+    requires: main_03_pendant
+    repeatable: 0
+    condition:
+      requiresFlag: 
+      forbidsFlag: 
+      tierNpc: 
+      minTier: 0
+      minAllies: 0
+      allyTier: 3
+      item: 
+      itemCount: 1
+    offer:
+    - "Qu\u1EBB h\xF4m nay c\u1EE7a L\xE3o Th\u1EA1ch s\xE1ng l\u1EAFm. Ng\u01B0\u01A1i
+      mang l\u1EDDi qu\u1EBB t\u1EDBi cho l\xE3o gi\xFAp ta."
+    inProgress: "L\xE3o Th\u1EA1ch \u1EDF c\u1ED5ng l\xE0ng."
+    complete:
+    - "L\xE3o c\u01B0\u1EDDi \xE0? V\u1EADy l\xE0 qu\u1EBB linh r\u1ED3i."
+    offerChoices: []
+    turnInPrompt: 
+    outcomes: []
+    objectives:
+    - kind: 3
+      target: gatekeeper
+      count: 1
+      label: 
+      where:
+        mapId: -1
+        point: {x: 0, y: 0}
+        radius: 5
+      lines:
+      - "Qu\u1EBB c\u1EE7a c\xF4 \u1EA5y \xE0? ...\"Gi\u1EEF c\u1ED5ng h\xF4m nay
+        s\u1EBD g\u1EB7p ng\u01B0\u1EDDi t\u1ED1t\". H\u1EEB, ta \u0111ang g\u1EB7p
+        \u0111\xE2y th\xF4i."
+    gold: 100
+    exp: 800
+    item: 
+    itemCount: 1
+    bonusItem: 
+    bonusTier: 3
+    affinity:
+    - npc: fortune
+      amount: 3
+    - npc: gatekeeper
+      amount: 2

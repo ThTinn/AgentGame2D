@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c99886ac4336da645ab1961b55e37e98, type: 3}
+  m_Name: UITheme
+  m_EditorClassIdentifier: Core.UI::Game.UI.UITheme
+  font: {fileID: 11400000, guid: ce6157cf71bf52b48989d3bb0dd10040, type: 2}
+  panel: {fileID: 1212110974002199137, guid: 48aed9bc271d1c14ca69be6a657ae50e, type: 3}
+  panelSmall: {fileID: -6647105266656077085, guid: b9c3d390e696aa14d9c0d77410a27d12,
+    type: 3}
+  inset: {fileID: -6676194269714066838, guid: c6664ca8edfb4bd48981f496e3f7ebd5, type: 3}
+  slot: {fileID: 8799648043127482069, guid: 7188ecd56566e3846a9803c1c0409e7a, type: 3}
+  button: {fileID: 1820434636002459011, guid: acd8ec70f378a7243ab1fe6127c27ce5, type: 3}
+  buttonDark: {fileID: -1291295049717682667, guid: 62879c24ef353ed4483e712647e1ce1a,
+    type: 3}
+  input: {fileID: 1429175443619690759, guid: 7c1e00033010130429d8d75d697840a4, type: 3}
+  circle: {fileID: 1473171779247187627, guid: b9e5d091cc0a1f04f94745a3e553240e, type: 3}
